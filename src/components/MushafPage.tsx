@@ -2,9 +2,24 @@ import { useLayoutEffect, useRef } from "react";
 import type { AyahData, Glyph } from "../types.ts";
 import type { PageSection } from "../data.ts";
 import { fitRow } from "./fitRow.ts";
-import { hyphenate } from "./hyphenate.ts";
 
 const LANG = "id";
+
+/**
+ * A translation wraps only between words. Words with a hyphen ("Al-Qur’an",
+ * "kekuning-kuningan") are kept on one line, so no line ends in a dash.
+ */
+function wholeWords(text: string) {
+  return text.split(/(\s+)/).map((t, i) =>
+    t.includes("-") ? (
+      <span key={i} className="nw">
+        {t}
+      </span>
+    ) : (
+      t
+    ),
+  );
+}
 
 /**
  * Width of a full printed line, in artwork units of a regular page (pages
@@ -119,7 +134,7 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
                         </span>
                       ) : (
                         <span key={s.x1} className="seg" style={style} {...slot} lang={LANG} dir="ltr">
-                          {hyphenate(s.text)}
+                          <span>{wholeWords(s.text)}</span>
                         </span>
                       );
                     })}

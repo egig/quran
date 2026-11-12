@@ -8,9 +8,9 @@
  * is then too wide, it frees room in this order, each step only as far as
  * needed:
  *   1. empty space in slots wider than their text (no visible change);
- *   2. more line wrapping in the widest translations;
- *   3. breaking the widest words at syllables (soft hyphens, hyphenate.ts);
- *   4. smaller text, never below MIN_FONT_PX; a row that still does not fit
+ *   2. more line wrapping in the widest translations (whole words only:
+ *      words are never broken, not even after their own hyphen);
+ *   3. smaller text, never below MIN_FONT_PX; a row that still does not fit
  *      is reported in the console.
  * Then it moves the translations as little as possible (least squares from
  * their slot centres), keeping their order, without overlap and inside the
@@ -20,32 +20,22 @@
  * data-l (left edge) and data-w (width), in visual order right to left.
  */
 
-const MIN_FONT_PX = 6.5;
+const MIN_FONT_PX = 6;
 const SCALE_STEP = 0.02;
 /** Horizontal padding of a .seg (1px each side) plus rounding slack. */
 const PAD = 3;
-const SHY = "­";
 
 let ctx: CanvasRenderingContext2D | null = null;
 
-/** Single-line width, widest whole word and widest syllable piece (with its hyphen) of `text`. */
-function measure(text: string, font: string): { line: number; word: number; piece: number } {
+/** Single-line width and widest whole word of `text`. */
+function measure(text: string, font: string): { line: number; word: number } {
   ctx ??= document.createElement("canvas").getContext("2d");
-  if (!ctx) return { line: 0, word: 0, piece: 0 };
+  if (!ctx) return { line: 0, word: 0 };
   ctx.font = font;
-  const line = ctx.measureText(text.replaceAll(SHY, "")).width;
-  const hyphen = ctx.measureText("-").width;
+  const line = ctx.measureText(text).width;
   let word = 0;
-  let piece = 0;
-  for (const w of text.split(/\s+|(?<=-)/)) {
-    if (!w) continue;
-    word = Math.max(word, ctx.measureText(w.replaceAll(SHY, "")).width);
-    const parts = w.split(SHY);
-    parts.forEach((p, i) => {
-      piece = Math.max(piece, ctx!.measureText(p).width + (i < parts.length - 1 ? hyphen : 0));
-    });
-  }
-  return { line: line + PAD, word: word + PAD, piece: piece + PAD };
+  for (const w of text.split(/\s+/)) if (w) word = Math.max(word, ctx.measureText(w).width);
+  return { line: line + PAD, word: word + PAD };
 }
 
 /** Pool-adjacent-violators: the non-decreasing sequence closest (least squares) to `target`. */
@@ -101,13 +91,10 @@ export function fitRow(row: HTMLElement): void {
     const base = items.map((it) => Math.max(it.word, Math.min(it.slot, it.line)));
     // 2. Cap every box at c: wider translations wrap onto more lines.
     const wrapped = (c: number) => items.map((it, i) => Math.max(it.word, Math.min(base[i], c)));
-    // 3. Let words break at syllables: boxes down to their widest piece.
-    const broken = (c: number) => items.map((it, i) => Math.max(it.piece, Math.min(base[i], c)));
-    // 4. Smaller text (scale k), with words broken.
-    const scaled = (k: number) => items.map((it, i) => Math.max(it.piece * k, Math.min(base[i], 0)));
+    // 3. Smaller text (scale k), wrapped as far as whole words allow.
+    const scaled = (k: number) => items.map((it) => it.word * k);
     if (sum(base) <= W) widths = base;
     else if (sum(wrapped(0)) <= W) widths = largest(wrapped, 0, widest);
-    else if (sum(broken(0)) <= W) widths = largest(broken, 0, widest);
     else {
       const minScale = Math.min(1, MIN_FONT_PX / parseFloat(getComputedStyle(spans[0]).fontSize));
       k = 1;
