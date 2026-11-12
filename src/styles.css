@@ -341,9 +341,14 @@ a {
   font-weight: 500;
   line-height: 1.2;
   color: var(--ink);
-  /* Only at the soft hyphens from hyphenate.ts, where fitRow needs a break. */
-  hyphens: manual;
+  /* Wrap between whole words only (see fitRow). */
+  hyphens: none;
+  overflow-wrap: normal;
   padding: 0 1px;
+}
+
+.seg .nw {
+  white-space: nowrap;
 }
 
 .seg.cont {

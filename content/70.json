@@ -1,0 +1,393 @@
+{
+  "surah": 70,
+  "name": { "ar": "المعارج", "latin": "Al-Maʿārij" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Seseorang (dengan nada mengejek) meminta" },
+        { "words": [3, 4], "id": "(didatangkan) azab yang pasti akan terjadi" }
+      ],
+      "full": { "id": "Seseorang (dengan nada mengejek) meminta (didatangkan) azab yang pasti akan terjadi" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 1], "id": "bagi orang-orang kafir" },
+        { "words": [2, 4], "id": "Tidak seorang pun yang dapat menolaknya (azab)" }
+      ],
+      "full": { "id": "bagi orang-orang kafir. Tidak seorang pun yang dapat menolaknya (azab)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "dari Allah" },
+        { "words": [3, 4], "id": "Pemilik tempat-tempat (untuk) naik" }
+      ],
+      "full": { "id": "dari Allah, Pemilik tempat-tempat (untuk) naik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 4], "id": "Para malaikat dan Rūḥ (Jibril) naik (menghadap) kepada-Nya" },
+        { "words": [5, 11], "id": ["dalam", "sehari yang kadarnya lima puluh ribu tahun"] }
+      ],
+      "full": { "id": "Para malaikat dan Rūḥ (Jibril) naik (menghadap) kepada-Nya dalam sehari yang kadarnya lima puluh ribu tahun." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, bersabarlah" },
+        { "words": [2, 3], "id": "dengan kesabaran yang baik" }
+      ],
+      "full": { "id": "Maka, bersabarlah dengan kesabaran yang baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya mereka memandangnya (siksaan itu)" },
+        { "words": [3, 3], "id": "jauh (mustahil terjadi)" }
+      ],
+      "full": { "id": "Sesungguhnya mereka memandangnya (siksaan itu) jauh (mustahil terjadi)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 1], "id": "sedangkan Kami memandangnya" },
+        { "words": [2, 2], "id": "dekat (pasti terjadi)" }
+      ],
+      "full": { "id": "sedangkan Kami memandangnya dekat (pasti terjadi)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 4], "id": ["(Siksaan itu datang) pada hari (ketika) langit menjadi", "seperti luluhan perak"] }
+      ],
+      "full": { "id": "(Siksaan itu datang) pada hari (ketika) langit menjadi seperti luluhan perak," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "gunung-gunung menjadi" },
+        { "words": [3, 3], "id": "seperti bulu (yang beterbangan)" }
+      ],
+      "full": { "id": "gunung-gunung menjadi seperti bulu (yang beterbangan)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 4], "id": "dan tidak ada seorang pun teman setia yang menanyakan temannya" }
+      ],
+      "full": { "id": "dan tidak ada seorang pun teman setia yang menanyakan temannya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 1], "id": "(padahal) mereka saling melihat" },
+        { "words": [2, 3], "id": "Orang yang berbuat durhaka itu menginginkan" },
+        { "words": [4, 8], "id": "sekiranya dia dapat menebus (dirinya) dari azab hari itu" },
+        { "words": [9, 9], "id": "dengan anak-anaknya" }
+      ],
+      "full": { "id": "(padahal) mereka saling melihat. Orang yang berbuat durhaka itu menginginkan sekiranya dia dapat menebus (dirinya) dari azab hari itu dengan anak-anaknya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 1], "id": "istrinya" },
+        { "words": [2, 2], "id": "saudaranya" }
+      ],
+      "full": { "id": "istrinya, saudaranya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": "keluarga yang melindunginya (di dunia)" }
+      ],
+      "full": { "id": "keluarga yang melindunginya (di dunia)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 4], "id": "dan seluruh orang di bumi" },
+        { "words": [5, 6], "id": "Kemudian, (dia mengharapkan) tebusan itu dapat menyelamatkannya" }
+      ],
+      "full": { "id": "dan seluruh orang di bumi. Kemudian, (dia mengharapkan) tebusan itu dapat menyelamatkannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 3], "id": "Sesungguhnya ia (neraka) itu adalah api yang bergejolak" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Sesungguhnya ia (neraka) itu adalah api yang bergejolak" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang mengelupaskan kulit kepala" }
+      ],
+      "full": { "id": "yang mengelupaskan kulit kepala," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 4], "id": ["yang memanggil orang yang berpaling", "dan menjauh (dari agama)"] }
+      ],
+      "full": { "id": "yang memanggil orang yang berpaling dan menjauh (dari agama)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 1], "id": "serta mengumpulkan (harta benda)" },
+        { "words": [2, 2], "id": "lalu menyimpannya" }
+      ],
+      "full": { "id": "serta mengumpulkan (harta benda), lalu menyimpannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya manusia diciptakan" },
+        { "words": [4, 4], "id": "dengan sifat keluh kesah lagi kikir" }
+      ],
+      "full": { "id": "Sesungguhnya manusia diciptakan dengan sifat keluh kesah lagi kikir." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila ditimpa keburukan (kesusahan)" },
+        { "words": [4, 4], "id": "ia berkeluh kesah" }
+      ],
+      "full": { "id": "Apabila ditimpa keburukan (kesusahan), ia berkeluh kesah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila mendapat kebaikan (harta)" },
+        { "words": [4, 4], "id": "ia amat kikir" }
+      ],
+      "full": { "id": "Apabila mendapat kebaikan (harta), ia amat kikir," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 2], "id": "kecuali orang-orang yang mengerjakan salat" }
+      ],
+      "full": { "id": "kecuali orang-orang yang mengerjakan salat," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 5], "id": ["yang", "selalu setia mengerjakan salatnya"] }
+      ],
+      "full": { "id": "yang selalu setia mengerjakan salatnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang di dalam hartanya" },
+        { "words": [4, 5], "id": "ada bagian tertentu" }
+      ],
+      "full": { "id": "yang di dalam hartanya ada bagian tertentu" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 2], "id": ["untuk orang (miskin) yang meminta-minta", "dan orang (miskin) yang menahan diri dari meminta-minta"] }
+      ],
+      "full": { "id": "untuk orang (miskin) yang meminta-minta dan orang (miskin) yang menahan diri dari meminta-minta," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang memercayai" },
+        { "words": [3, 4], "id": "hari Pembalasan" }
+      ],
+      "full": { "id": "yang memercayai hari Pembalasan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 6], "id": "dan yang takut terhadap azab Tuhannya" }
+      ],
+      "full": { "id": "dan yang takut terhadap azab Tuhannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 5], "id": "Sesungguhnya tidak ada orang yang merasa aman dari azab Tuhan mereka" }
+      ],
+      "full": { "id": "Sesungguhnya tidak ada orang yang merasa aman dari azab Tuhan mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 4], "id": ["(Termasuk orang yang selamat dari azab adalah) orang-orang yang", "menjaga kemaluannya"] }
+      ],
+      "full": { "id": "(Termasuk orang yang selamat dari azab adalah) orang-orang yang menjaga kemaluannya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "30": {
+      "phrases": [
+        { "words": [1, 3], "id": "kecuali terhadap istri-istri mereka" },
+        { "words": [4, 7], "id": "atau hamba sahaya yang mereka miliki" },
+        { "words": [8, 10], "id": ["Sesungguhnya mereka", "tidak tercela (karena menggaulinya)"] }
+      ],
+      "full": { "id": "kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki. Sesungguhnya mereka tidak tercela (karena menggaulinya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "31": {
+      "phrases": [
+        { "words": [1, 4], "id": "Maka, siapa yang mencari (pelampiasan syahwat) selain itu" },
+        { "words": [5, 7], "id": "mereka itulah orang-orang yang melampaui batas" }
+      ],
+      "full": { "id": "Maka, siapa yang mencari (pelampiasan syahwat) selain itu, mereka itulah orang-orang yang melampaui batas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "32": {
+      "phrases": [
+        { "words": [1, 5], "id": ["(Termasuk orang yang selamat dari azab adalah) orang-orang yang", "memelihara amanat dan janji mereka"] }
+      ],
+      "full": { "id": "(Termasuk orang yang selamat dari azab adalah) orang-orang yang memelihara amanat dan janji mereka," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "33": {
+      "phrases": [
+        { "words": [1, 4], "id": "yang memberikan kesaksiannya (secara benar)" }
+      ],
+      "full": { "id": "yang memberikan kesaksiannya (secara benar)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "34": {
+      "phrases": [
+        { "words": [1, 5], "id": "dan yang memelihara salatnya" }
+      ],
+      "full": { "id": "dan yang memelihara salatnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "35": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka itu" },
+        { "words": [2, 3], "id": "(berada) di surga" },
+        { "words": [4, 4], "id": "dimuliakan" }
+      ],
+      "full": { "id": "Mereka itu (berada) di surga lagi dimuliakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "36": {
+      "phrases": [
+        { "words": [1, 3], "id": "Mengapa orang-orang kafir itu" },
+        { "words": [4, 5], "id": "bersegera datang ke arahmu (Nabi Muhammad)" }
+      ],
+      "full": { "id": "Mengapa orang-orang kafir itu bersegera datang ke arahmu (Nabi Muhammad)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "37": {
+      "phrases": [
+        { "words": [1, 5], "id": ["dari kanan dan dari kiri", "dengan berkelompok-kelompok"] }
+      ],
+      "full": { "id": "dari kanan dan dari kiri dengan berkelompok-kelompok?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "38": {
+      "phrases": [
+        { "words": [1, 4], "id": "Apakah setiap orang dari mereka (orang-orang kafir itu) ingin" },
+        { "words": [5, 8], "id": "dimasukkan ke dalam surga yang penuh kenikmatan" }
+      ],
+      "full": { "id": "Apakah setiap orang dari mereka (orang-orang kafir itu) ingin dimasukkan ke dalam surga yang penuh kenikmatan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "39": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 5], "id": ["Sesungguhnya Kami menciptakan mereka", "dari apa yang mereka ketahui (air mani)"] }
+      ],
+      "full": { "id": "Sekali-kali tidak! Sesungguhnya Kami menciptakan mereka dari apa yang mereka ketahui (air mani)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "40": {
+      "phrases": [
+        { "words": [1, 2], "id": "Maka, Aku bersumpah" },
+        { "words": [3, 5], "id": "dengan Tuhan yang mengatur tempat-tempat terbit dan terbenamnya (matahari, bulan, dan bintang)" },
+        { "words": [6, 7], "id": "sesungguhnya Kami benar-benar Maha Kuasa" }
+      ],
+      "full": { "id": "Maka, Aku bersumpah dengan Tuhan yang mengatur tempat-tempat terbit dan terbenamnya (matahari, bulan, dan bintang), sesungguhnya Kami benar-benar Maha Kuasa" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "41": {
+      "phrases": [
+        { "words": [1, 5], "id": "untuk mengganti (mereka) dengan (kaum) yang lebih baik daripada mereka" },
+        { "words": [6, 8], "id": "Kami sekali-kali tidak dapat dikalahkan" }
+      ],
+      "full": { "id": "untuk mengganti (mereka) dengan (kaum) yang lebih baik daripada mereka. Kami sekali-kali tidak dapat dikalahkan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "42": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Maka, biarkanlah mereka", "tenggelam (dalam kesesatan) dan bermain-main (di dunia)"] },
+        { "words": [4, 8], "id": "sampai mereka menjumpai hari yang dijanjikan kepada mereka" }
+      ],
+      "full": { "id": "Maka, biarkanlah mereka tenggelam (dalam kesesatan) dan bermain-main (di dunia) sampai mereka menjumpai hari yang dijanjikan kepada mereka," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "43": {
+      "phrases": [
+        { "words": [1, 5], "id": ["(yaitu) pada hari", "ketika mereka keluar dari kubur dengan cepat"] },
+        { "words": [6, 9], "id": "seperti ketika mereka pergi dengan segera menuju berhala-berhala (sewaktu di dunia)" }
+      ],
+      "full": { "id": "(yaitu) pada hari ketika mereka keluar dari kubur dengan cepat seperti ketika mereka pergi dengan segera menuju berhala-berhala (sewaktu di dunia)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "44": {
+      "phrases": [
+        { "words": [1, 2], "id": "Pandangan mereka tertunduk" },
+        { "words": [3, 4], "id": "(serta) diliputi kehinaan" },
+        { "words": [5, 9], "id": "Itulah hari yang diancamkan kepada mereka" }
+      ],
+      "full": { "id": "Pandangan mereka tertunduk (serta) diliputi kehinaan. Itulah hari yang diancamkan kepada mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

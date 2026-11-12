@@ -175,8 +175,7 @@
     },
     "21": {
       "phrases": [
-        { "words": [1, 2], "id": "Kemudian, Dia mematikannya" },
-        { "words": [3, 3], "id": "lalu menguburkannya" }
+        { "words": [1, 3], "id": "Kemudian, Dia mematikannya lalu menguburkannya" }
       ],
       "full": { "id": "Kemudian, Dia mematikannya lalu menguburkannya." },
       "source": "kemenag-2019-adapted",
@@ -184,8 +183,7 @@
     },
     "22": {
       "phrases": [
-        { "words": [1, 3], "id": "Kemudian, jika menghendaki" },
-        { "words": [4, 4], "id": "Dia membangkitkannya kembali" }
+        { "words": [1, 4], "id": "Kemudian, jika menghendaki, Dia membangkitkannya kembali" }
       ],
       "full": { "id": "Kemudian, jika menghendaki, Dia membangkitkannya kembali." },
       "source": "kemenag-2019-adapted",

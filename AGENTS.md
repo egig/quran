@@ -47,9 +47,10 @@ Madinah mushaf prints it, with an Indonesian translation under each
   out again (`src/components/fitRow.ts`): the translation gets the room, and
   its neighbours move as little as possible, in order, without overlap and on
   screen. If the row is then too wide, it frees room in this order: empty
-  space in slots, more wrapping, syllable breaks (soft hyphens from
-  `hyphenate.ts`, shown only where a word actually breaks), smaller text
-  (never below 6.5px). Translations never overlap: check new pages at 300,
+  space in slots, more wrapping, smaller text (never below 6px). A
+  translation wraps only between whole words: no syllable breaks, and a
+  hyphenated word ("kekuning-kuningan", "Al-Qur’an") is never split at its
+  hyphen. Translations never overlap: check new pages at 300,
   360 and desktop width.
 - A phrase that continues onto the next printed line gives its translation
   as a list, one part per printed line (`"id": ["sampai", "datang kepada
@@ -87,7 +88,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 78–114 come from the `quran-pack` npm package
+- The full sentences for surahs 67–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed. It matches the reviewed Al-Fātiḥah word for word.
   Do not write Kemenag wording from memory: take it from a source.

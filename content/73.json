@@ -1,0 +1,213 @@
+{
+  "surah": 73,
+  "name": { "ar": "المزمل", "latin": "Al-Muzzammil" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai orang yang berkelumun (Nabi Muhammad)" }
+      ],
+      "full": { "id": "Wahai orang yang berkelumun (Nabi Muhammad)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "bangunlah (untuk salat) pada malam hari" },
+        { "words": [3, 4], "id": "kecuali sebagian kecil" }
+      ],
+      "full": { "id": "bangunlah (untuk salat) pada malam hari, kecuali sebagian kecil," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "(yaitu) seperduanya" },
+        { "words": [2, 5], "id": "kurang sedikit dari itu" }
+      ],
+      "full": { "id": "(yaitu) seperduanya, kurang sedikit dari itu," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "atau lebih dari (seperdua) itu" },
+        { "words": [4, 6], "id": "Bacalah Al-Qur’an itu dengan perlahan-lahan" }
+      ],
+      "full": { "id": "atau lebih dari (seperdua) itu. Bacalah Al-Qur’an itu dengan perlahan-lahan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Sesungguhnya Kami akan menurunkan kepadamu perkataan", "yang berat"] }
+      ],
+      "full": { "id": "Sesungguhnya Kami akan menurunkan perkataan yang berat kepadamu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 4], "id": "Sesungguhnya bangun malam itu" },
+        { "words": [5, 6], "id": "lebih kuat (pengaruhnya terhadap jiwa)" },
+        { "words": [7, 8], "id": "dan lebih mantap ucapannya" }
+      ],
+      "full": { "id": "Sesungguhnya bangun malam itu lebih kuat (pengaruhnya terhadap jiwa) dan lebih mantap ucapannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya engkau memiliki" },
+        { "words": [3, 4], "id": ["pada", "siang hari"] },
+        { "words": [5, 6], "id": "kesibukan yang panjang" }
+      ],
+      "full": { "id": "Sesungguhnya pada siang hari engkau memiliki kesibukan yang panjang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sebutlah nama Tuhanmu" },
+        { "words": [4, 6], "id": "dan beribadahlah kepada-Nya dengan sepenuh hati" }
+      ],
+      "full": { "id": "Sebutlah nama Tuhanmu dan beribadahlah kepada-Nya dengan sepenuh hati." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Allah) adalah Tuhan timur dan barat" },
+        { "words": [4, 7], "id": "Tidak ada tuhan selain Dia" },
+        { "words": [8, 9], "id": "Maka, jadikanlah Dia sebagai pelindung" }
+      ],
+      "full": { "id": "(Allah) adalah Tuhan timur dan barat. Tidak ada tuhan selain Dia. Maka, jadikanlah Dia sebagai pelindung." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Bersabarlah (Nabi Muhammad)", "terhadap apa yang mereka katakan"] },
+        { "words": [5, 7], "id": "dan tinggalkanlah mereka dengan cara yang baik" }
+      ],
+      "full": { "id": "Bersabarlah (Nabi Muhammad) terhadap apa yang mereka katakan dan tinggalkanlah mereka dengan cara yang baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 1], "id": "Biarkanlah Aku (yang bertindak)" },
+        { "words": [2, 4], "id": ["terhadap para pendusta", "yang memiliki segala kenikmatan hidup"] },
+        { "words": [5, 6], "id": "dan berilah mereka penangguhan sementara" }
+      ],
+      "full": { "id": "Biarkanlah Aku (yang bertindak) terhadap para pendusta yang memiliki segala kenikmatan hidup dan berilah mereka penangguhan sementara." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya di sisi Kami ada belenggu-belenggu (yang berat)" },
+        { "words": [4, 4], "id": "(neraka) Jahim" }
+      ],
+      "full": { "id": "Sesungguhnya di sisi Kami ada belenggu-belenggu (yang berat), (neraka) Jahim," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": "makanan yang menyumbat kerongkongan" },
+        { "words": [4, 5], "id": "dan azab yang pedih" }
+      ],
+      "full": { "id": "makanan yang menyumbat kerongkongan, dan azab yang pedih." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 4], "id": "(Ingatlah) pada hari (ketika) bumi dan gunung-gunung berguncang keras" },
+        { "words": [5, 8], "id": "dan gunung-gunung itu menjadi seperti onggokan pasir yang tercurah" }
+      ],
+      "full": { "id": "(Ingatlah) pada hari (ketika) bumi dan gunung-gunung berguncang keras dan gunung-gunung itu menjadi seperti onggokan pasir yang tercurah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya Kami telah mengutus" },
+        { "words": [3, 4], "id": "seorang rasul (Nabi Muhammad) kepadamu" },
+        { "words": [5, 6], "id": ["sebagai saksi", "atasmu"] },
+        { "words": [7, 11], "id": "sebagaimana Kami telah mengutus seorang rasul kepada Fir'aun" }
+      ],
+      "full": { "id": "Sesungguhnya Kami telah mengutus seorang rasul (Nabi Muhammad) kepadamu sebagai saksi atasmu, sebagaimana Kami telah mengutus seorang rasul kepada Fir'aun." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 3], "id": "Namun, Fir'aun mendurhakai rasul itu" },
+        { "words": [4, 6], "id": "sehingga Kami siksa dia dengan siksaan yang berat" }
+      ],
+      "full": { "id": "Namun, Fir'aun mendurhakai rasul itu sehingga Kami siksa dia dengan siksaan yang berat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 2], "id": "Lalu, bagaimanakah kamu akan dapat menjaga dirimu (dari azab)" },
+        { "words": [3, 4], "id": "jika kamu tetap kufur" },
+        { "words": [5, 8], "id": ["hari", "yang menjadikan anak-anak beruban"] }
+      ],
+      "full": { "id": "Lalu, bagaimanakah kamu akan dapat menjaga dirimu (dari azab) hari yang menjadikan anak-anak beruban jika kamu tetap kufur?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 3], "id": "Langit terbelah padanya (hari itu)" },
+        { "words": [4, 6], "id": "Janji-Nya pasti terlaksana" }
+      ],
+      "full": { "id": "Langit terbelah padanya (hari itu). Janji-Nya pasti terlaksana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya ini adalah peringatan" },
+        { "words": [4, 5], "id": "Siapa yang berkehendak" },
+        { "words": [6, 9], "id": "niscaya mengambil jalan (yang lurus) kepada Tuhannya" }
+      ],
+      "full": { "id": "Sesungguhnya ini adalah peringatan. Siapa yang berkehendak niscaya mengambil jalan (yang lurus) kepada Tuhannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya Tuhanmu mengetahui" },
+        { "words": [4, 5], "id": "bahwa engkau (Nabi Muhammad) berdiri (salat)" },
+        { "words": [6, 9], "id": "kurang dari dua pertiga malam" },
+        { "words": [10, 10], "id": "atau seperdua malam" },
+        { "words": [11, 11], "id": "atau sepertiganya" },
+        { "words": [12, 15], "id": ["dan (demikian pula) segolongan", "dari orang-orang yang bersamamu"] },
+        { "words": [16, 19], "id": "Allah menetapkan ukuran malam dan siang" },
+        { "words": [20, 23], "id": "Allah mengetahui bahwa kamu tidak dapat menghitungnya (secara terperinci waktu-waktu tersebut sehingga menyulitkanmu dalam melaksanakan salat malam)" },
+        { "words": [24, 25], "id": ["Maka, Dia kembali (memberi keringanan)", "kepadamu"] },
+        { "words": [26, 30], "id": "Oleh karena itu, bacalah (ayat) Al-Qur’an yang mudah (bagimu)" },
+        { "words": [31, 35], "id": "Dia mengetahui bahwa akan ada di antara kamu orang-orang yang sakit" },
+        { "words": [36, 43], "id": "dan yang lain berjalan di bumi mencari sebagian karunia Allah" },
+        { "words": [44, 48], "id": ["serta yang lain", "berperang di jalan Allah"] },
+        { "words": [49, 52], "id": "maka bacalah apa yang mudah (bagimu) darinya (Al-Qur’an)" },
+        { "words": [53, 54], "id": "Tegakkanlah salat" },
+        { "words": [55, 56], "id": ["tunaikanlah", "zakat"] },
+        { "words": [57, 60], "id": "dan berikanlah pinjaman kepada Allah pinjaman yang baik" },
+        { "words": [61, 65], "id": "Kebaikan apa saja yang kamu perbuat untuk dirimu" },
+        { "words": [66, 68], "id": ["niscaya kamu memperoleh (balasan)-nya", "di sisi Allah"] },
+        { "words": [69, 72], "id": "sebagai balasan yang paling baik dan yang paling besar pahalanya" },
+        { "words": [73, 74], "id": "Mohonlah ampunan kepada Allah" },
+        { "words": [75, 77], "id": "Sesungguhnya Allah Maha Pengampun" },
+        { "words": [78, 78], "id": "Maha Penyayang" }
+      ],
+      "full": { "id": "Sesungguhnya Tuhanmu mengetahui bahwa engkau (Nabi Muhammad) berdiri (salat) kurang dari dua pertiga malam, atau seperdua malam atau sepertiganya dan (demikian pula) segolongan dari orang-orang yang bersamamu. Allah menetapkan ukuran malam dan siang. Allah mengetahui bahwa kamu tidak dapat menghitungnya (secara terperinci waktu-waktu tersebut sehingga menyulitkanmu dalam melaksanakan salat malam). Maka, Dia kembali (memberi keringanan) kepadamu. Oleh karena itu, bacalah (ayat) Al-Qur’an yang mudah (bagimu). Dia mengetahui bahwa akan ada di antara kamu orang-orang yang sakit, dan yang lain berjalan di bumi mencari sebagian karunia Allah serta yang lain berperang di jalan Allah, maka bacalah apa yang mudah (bagimu) darinya (Al-Qur’an). Tegakkanlah salat, tunaikanlah zakat, dan berikanlah pinjaman kepada Allah pinjaman yang baik. Kebaikan apa saja yang kamu perbuat untuk dirimu niscaya kamu memperoleh (balasan)-nya di sisi Allah sebagai balasan yang paling baik dan yang paling besar pahalanya. Mohonlah ampunan kepada Allah. Sesungguhnya Allah Maha Pengampun lagi Maha Penyayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
