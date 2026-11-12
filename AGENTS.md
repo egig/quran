@@ -26,8 +26,12 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Reproduce the printed page line for line. Words keep their printed x
   position and printed line (`layout=mushaf`). Lines break where the print
   breaks them, never anywhere else.
-- The whole page scales to its container width (max 680px). It does not
-  reflow on small screens.
+- The whole page scales to its container width. It does not reflow on small
+  screens. Every page shows the Arabic at one size: it is drawn in a frame one
+  full printed line wide (`FRAME_WIDTH`), centred on its ink. The API draws
+  some pages at another scale (page 1 at 0.68×), so the frame is scaled by
+  that page's ayah-end ornament width, the same glyph on every page. On large screens a full line is at most
+  `--mushaf-max` (560px) wide, which caps the Arabic size.
 - The ayah-end ornament (with its number) stays inline, as printed.
 - Each line is one SVG. Under it sits one row of translations. Each
   translation is centred under its phrase's words.

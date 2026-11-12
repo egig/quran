@@ -3,6 +3,17 @@ import type { PageSection } from "../data.ts";
 
 const LANG = "id";
 
+/**
+ * Width of a full printed line, in artwork units of a regular page (pages
+ * 602–604 measure 325–327.5), and the width of the ayah-end ornament on such
+ * a page. The API draws some pages at another scale (page 1: ornament 12.48
+ * instead of 18.31 units), so each page's frame is FRAME_WIDTH scaled by its
+ * own ornament width. Every page then shows the Arabic at the same size,
+ * centred on its ink. The pixel cap is the container's max-width.
+ */
+const FRAME_WIDTH = 328;
+const REF_MARK = 18.31;
+
 interface Segment {
   x0: number;
   x1: number;
@@ -18,7 +29,8 @@ interface Line {
 
 /**
  * Redraws one printed Madinah mushaf page line by line. Every word keeps its
- * printed position; the whole page scales with its container. Each surah is
+ * printed position; the whole page scales with its container, at one fixed
+ * scale for every page (see FRAME_WIDTH). Each surah is
  * cropped to its own ink, so its artwork is moved by its `left` offset into
  * the page's shared frame. Each phrase's translation sits under its words. A
  * phrase that runs onto the next printed line (or comes from the previous
@@ -26,8 +38,10 @@ interface Line {
  */
 export function MushafPage({ page, sections }: { page: number; sections: PageSection[] }) {
   const layouts = sections.map((s) => s.surah.layout);
-  const left = Math.min(...layouts.map((l) => l.left));
-  const width = Math.max(...layouts.map((l) => l.left + l.width)) - left;
+  const inkLeft = Math.min(...layouts.map((l) => l.left));
+  const inkRight = Math.max(...layouts.map((l) => l.left + l.width));
+  const width = Math.max((FRAME_WIDTH * markWidth(page, sections)) / REF_MARK, inkRight - inkLeft);
+  const left = (inkLeft + inkRight - width) / 2;
   const top = Math.min(...layouts.map((l) => l.band.top));
   const bottom = Math.max(...layouts.map((l) => l.band.bottom));
   const pct = (v: number) => `${(v / width) * 100}%`;
@@ -104,6 +118,14 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
       </p>
     </div>
   );
+}
+
+/** Median ayah-end ornament width on `page` (or of any loaded ayah, if none ends there). */
+function markWidth(page: number, sections: PageSection[]): number {
+  const marks = sections.flatMap((s) => s.ayahs.map((a) => a.mark));
+  const here = marks.filter((m) => m.page === page);
+  const w = (here.length ? here : marks).map((m) => m.x1 - m.x0).sort((a, b) => a - b);
+  return w[Math.floor(w.length / 2)] ?? REF_MARK;
 }
 
 /** The surah's printed lines on `page`, in order, with their glyphs and phrase segments. */

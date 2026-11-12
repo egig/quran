@@ -282,7 +282,7 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  max-width: 680px;
+  max-width: var(--mushaf-max);
   margin: 0 auto;
   font-size: 0.85rem;
   font-weight: 500;
@@ -298,10 +298,18 @@ a {
   color: var(--ink);
 }
 
-/* The printed page, scaled to its container; translations sit between lines. */
+/*
+ * The printed page, scaled to its container; translations sit between lines.
+ * --mushaf-max caps the Arabic size on large screens: a full printed line is
+ * at most this wide, on every page.
+ */
+:root {
+  --mushaf-max: 560px;
+}
+
 .mushaf-page {
   container-type: inline-size;
-  max-width: 680px;
+  max-width: var(--mushaf-max);
   margin: 0 auto;
 }
 
