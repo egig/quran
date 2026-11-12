@@ -1,0 +1,178 @@
+{
+  "surah": 66,
+  "name": { "ar": "التحريم", "latin": "At-Taḥrīm" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai Nabi (Muhammad)" },
+        { "words": [3, 4], "id": "mengapa engkau mengharamkan" },
+        { "words": [5, 8], "id": "apa yang dihalalkan Allah bagimu" },
+        { "words": [9, 11], "id": "Engkau bermaksud menyenangkan hati istri-istrimu" },
+        { "words": [12, 13], "id": ["Allah", "Maha Pengampun"] },
+        { "words": [14, 14], "id": "Maha Penyayang" }
+      ],
+      "full": { "id": "Wahai Nabi (Muhammad), mengapa engkau mengharamkan apa yang dihalalkan Allah bagimu? Engkau bermaksud menyenangkan hati istri-istrimu. Allah Maha Pengampun lagi Maha Penyayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 4], "id": "Sungguh, Allah telah mensyariatkan untukmu" },
+        { "words": [5, 6], "id": "pembebasan diri dari sumpahmu" },
+        { "words": [7, 8], "id": "Allah adalah pelindungmu" },
+        { "words": [9, 10], "id": ["dan Dia", "Maha Mengetahui"] },
+        { "words": [11, 11], "id": "Maha Bijaksana" }
+      ],
+      "full": { "id": "Sungguh, Allah telah mensyariatkan untukmu pembebasan diri dari sumpahmu. Allah adalah pelindungmu dan Dia Maha Mengetahui lagi Maha Bijaksana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Ingatlah) ketika Nabi membicarakan secara rahasia" },
+        { "words": [4, 6], "id": "kepada salah seorang istrinya (Hafsah)" },
+        { "words": [7, 7], "id": "suatu peristiwa" },
+        { "words": [8, 10], "id": ["Kemudian, ketika", "dia menceritakan (peristiwa) itu (kepada Aisyah)"] },
+        { "words": [11, 13], "id": "dan Allah memberitahukannya (kejadian ini) kepadanya (Nabi)" },
+        { "words": [14, 15], "id": "dia (Nabi) memberitahukan (kepada Hafsah) sebagian" },
+        { "words": [16, 18], "id": "dan menyembunyikan sebagian yang lain" },
+        { "words": [19, 21], "id": ["Ketika", "dia (Nabi) memberitahukan (pembicaraan) itu kepadanya (Hafsah)"] },
+        { "words": [22, 22], "id": "dia bertanya" },
+        { "words": [23, 25], "id": "Siapa yang telah memberitahumu hal ini" },
+        { "words": [26, 26], "id": "Nabi menjawab" },
+        { "words": [27, 27], "id": "Yang memberitahuku adalah Allah" },
+        { "words": [28, 28], "id": "Yang Maha Mengetahui" },
+        { "words": [29, 29], "id": "Maha Teliti" }
+      ],
+      "full": { "id": "(Ingatlah) ketika Nabi membicarakan secara rahasia suatu peristiwa kepada salah seorang istrinya (Hafsah). Kemudian, ketika dia menceritakan (peristiwa) itu (kepada Aisyah) dan Allah memberitahukannya (kejadian ini) kepadanya (Nabi), dia (Nabi) memberitahukan (kepada Hafsah) sebagian dan menyembunyikan sebagian yang lain. Ketika dia (Nabi) memberitahukan (pembicaraan) itu kepadanya (Hafsah), dia bertanya, “Siapa yang telah memberitahumu hal ini?” Nabi menjawab, “Yang memberitahuku adalah Allah Yang Maha Mengetahui lagi Maha Teliti.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Jika", "kamu berdua bertobat kepada Allah"] },
+        { "words": [5, 7], "id": "sungguh hati kamu berdua telah condong (pada kebenaran)" },
+        { "words": [8, 10], "id": "dan jika kamu berdua saling membantu menyusahkan dia (Nabi)" },
+        { "words": [11, 14], "id": ["sesungguhnya Allahlah", "pelindungnya"] },
+        { "words": [15, 17], "id": "Demikian juga Jibril dan orang-orang mukmin yang saleh" },
+        { "words": [18, 21], "id": ["Selain itu, malaikat-malaikat", "(juga ikut) menolong"] }
+      ],
+      "full": { "id": "Jika kamu berdua bertobat kepada Allah, sungguh hati kamu berdua telah condong (pada kebenaran) dan jika kamu berdua saling membantu menyusahkan dia (Nabi), sesungguhnya Allahlah pelindungnya. Demikian juga Jibril dan orang-orang mukmin yang saleh. Selain itu, malaikat-malaikat (juga ikut) menolong." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Boleh jadi Tuhannya" },
+        { "words": [3, 4], "id": "jika dia (Nabi) menceraikan kamu" },
+        { "words": [5, 9], "id": "akan memberi ganti kepadanya istri-istri yang lebih baik daripada kamu" },
+        { "words": [10, 10], "id": "yang berserah diri" },
+        { "words": [11, 11], "id": "yang beriman" },
+        { "words": [12, 12], "id": "yang taat" },
+        { "words": [13, 13], "id": "yang bertobat" },
+        { "words": [14, 14], "id": "yang beribadah" },
+        { "words": [15, 15], "id": "dan yang berpuasa" },
+        { "words": [16, 17], "id": ["baik yang janda", "maupun yang perawan"] }
+      ],
+      "full": { "id": "Jika dia (Nabi) menceraikan kamu, boleh jadi Tuhannya akan memberi ganti kepadanya istri-istri yang lebih baik daripada kamu, yang berserah diri, yang beriman, yang taat, yang bertobat, yang beribadah, dan yang berpuasa, baik yang janda maupun yang perawan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 7], "id": "jagalah dirimu dan keluargamu dari api neraka" },
+        { "words": [8, 10], "id": "yang bahan bakarnya adalah manusia dan batu" },
+        { "words": [11, 14], "id": "Penjaganya adalah malaikat-malaikat yang kasar dan keras" },
+        { "words": [15, 19], "id": "Mereka tidak durhaka kepada Allah terhadap apa yang Dia perintahkan kepadanya" },
+        { "words": [20, 22], "id": "dan selalu mengerjakan apa yang diperintahkan" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, jagalah dirimu dan keluargamu dari api neraka yang bahan bakarnya adalah manusia dan batu. Penjaganya adalah malaikat-malaikat yang kasar dan keras. Mereka tidak durhaka kepada Allah terhadap apa yang Dia perintahkan kepadanya dan selalu mengerjakan apa yang diperintahkan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Wahai orang-orang", "yang kufur"] },
+        { "words": [4, 6], "id": "janganlah kamu mencari-cari alasan pada hari ini" },
+        { "words": [7, 11], "id": "Sesungguhnya kamu hanya diberi balasan (sesuai dengan) apa yang selama ini kamu kerjakan" }
+      ],
+      "full": { "id": "Wahai orang-orang yang kufur, janganlah kamu mencari-cari alasan pada hari ini. Sesungguhnya kamu hanya diberi balasan (sesuai dengan) apa yang selama ini kamu kerjakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 6], "id": "bertobatlah kepada Allah" },
+        { "words": [7, 8], "id": "dengan tobat yang semurni-murninya" },
+        { "words": [9, 14], "id": ["Mudah-mudahan Tuhanmu", "akan menghapus kesalahan-kesalahanmu"] },
+        { "words": [15, 16], "id": "dan memasukkanmu ke dalam surga" },
+        { "words": [17, 20], "id": ["yang mengalir", "di bawahnya sungai-sungai"] },
+        { "words": [21, 25], "id": "pada hari ketika Allah tidak menghinakan Nabi" },
+        { "words": [26, 28], "id": ["dan orang-orang yang beriman", "bersamanya"] },
+        { "words": [29, 33], "id": "Cahaya mereka memancar di hadapan dan di sebelah kanannya" },
+        { "words": [34, 34], "id": "Mereka berkata" },
+        { "words": [35, 38], "id": ["Ya Tuhan kami", "sempurnakanlah untuk kami cahaya kami"] },
+        { "words": [39, 40], "id": "dan ampunilah kami" },
+        { "words": [41, 45], "id": "Sesungguhnya Engkau Maha Kuasa atas segala sesuatu" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, bertobatlah kepada Allah dengan tobat yang semurni-murninya. Mudah-mudahan Tuhanmu akan menghapus kesalahan-kesalahanmu dan memasukkanmu ke dalam surga yang mengalir di bawahnya sungai-sungai pada hari ketika Allah tidak menghinakan Nabi dan orang-orang yang beriman bersamanya. Cahaya mereka memancar di hadapan dan di sebelah kanannya. Mereka berkata, “Ya Tuhan kami, sempurnakanlah untuk kami cahaya kami dan ampunilah kami. Sesungguhnya Engkau Maha Kuasa atas segala sesuatu.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai Nabi" },
+        { "words": [3, 5], "id": "berjihadlah (melawan) orang-orang kafir dan orang-orang munafik" },
+        { "words": [6, 7], "id": "dan bersikap keraslah terhadap mereka" },
+        { "words": [8, 9], "id": "Tempat mereka adalah (neraka) Jahanam" },
+        { "words": [10, 11], "id": "dan itulah seburuk-buruk tempat kembali" }
+      ],
+      "full": { "id": "Wahai Nabi, berjihadlah (melawan) orang-orang kafir dan orang-orang munafik dan bersikap keraslah terhadap mereka. Tempat mereka adalah (neraka) Jahanam dan itulah seburuk-buruk tempat kembali." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Allah membuat perumpamaan", "bagi orang-orang yang kufur"] },
+        { "words": [6, 9], "id": "yaitu istri Nuh dan istri Lut" },
+        { "words": [10, 15], "id": ["Keduanya berada di bawah (tanggung jawab)", "dua orang hamba yang saleh di antara hamba-hamba Kami"] },
+        { "words": [16, 16], "id": "lalu keduanya berkhianat kepada (suami-suami)-nya" },
+        { "words": [17, 22], "id": ["Mereka (kedua suami itu) tidak dapat membantunya", "sedikit pun dari (siksaan) Allah"] },
+        { "words": [23, 23], "id": "dan dikatakan (kepada kedua istri itu)" },
+        { "words": [24, 25], "id": "Masuklah kamu berdua ke neraka" },
+        { "words": [26, 27], "id": "bersama orang-orang yang masuk (neraka)" }
+      ],
+      "full": { "id": "Allah membuat perumpamaan bagi orang-orang yang kufur, yaitu istri Nuh dan istri Lut. Keduanya berada di bawah (tanggung jawab) dua orang hamba yang saleh di antara hamba-hamba Kami, lalu keduanya berkhianat kepada (suami-suami)-nya. Mereka (kedua suami itu) tidak dapat membantunya sedikit pun dari (siksaan) Allah, dan dikatakan (kepada kedua istri itu), “Masuklah kamu berdua ke neraka bersama orang-orang yang masuk (neraka).”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 5], "id": "Allah juga membuat perumpamaan bagi orang-orang yang beriman" },
+        { "words": [6, 7], "id": "yaitu istri Fir'aun" },
+        { "words": [8, 9], "id": ["ketika", "dia berkata"] },
+        { "words": [10, 10], "id": "Ya Tuhanku" },
+        { "words": [11, 16], "id": "bangunkanlah untukku di sisi-Mu sebuah rumah dalam surga" },
+        { "words": [17, 20], "id": ["selamatkanlah aku dari Fir'aun", "dan perbuatannya"] },
+        { "words": [21, 24], "id": "serta selamatkanlah aku dari kaum yang zalim" }
+      ],
+      "full": { "id": "Allah juga membuat perumpamaan bagi orang-orang yang beriman, yaitu istri Fir'aun, ketika dia berkata, “Ya Tuhanku, bangunkanlah untukku di sisi-Mu sebuah rumah dalam surga, selamatkanlah aku dari Fir'aun dan perbuatannya, serta selamatkanlah aku dari kaum yang zalim.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Demikian pula Maryam putri", "Imran"] },
+        { "words": [4, 6], "id": "yang memelihara kehormatannya" },
+        { "words": [7, 10], "id": "lalu Kami meniupkan ke dalam rahimnya sebagian dari roh (ciptaan) Kami" },
+        { "words": [11, 14], "id": "dan yang membenarkan kalimat-kalimat Tuhannya dan kitab-kitab-Nya" },
+        { "words": [15, 17], "id": "serta yang termasuk orang-orang taat" }
+      ],
+      "full": { "id": "Demikian pula Maryam putri Imran yang memelihara kehormatannya, lalu Kami meniupkan ke dalam rahimnya sebagian dari roh (ciptaan) Kami, dan yang membenarkan kalimat-kalimat Tuhannya dan kitab-kitab-Nya, serta yang termasuk orang-orang taat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

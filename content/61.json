@@ -1,0 +1,177 @@
+{
+  "surah": 61,
+  "name": { "ar": "الصف", "latin": "Aṣ-Ṣaff" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bertasbih kepada Allah" },
+        { "words": [3, 8], "id": "apa yang ada di langit dan apa yang ada di bumi" },
+        { "words": [9, 10], "id": "Dialah Yang Maha Perkasa" },
+        { "words": [11, 11], "id": "Maha Bijaksana" }
+      ],
+      "full": { "id": "Apa yang ada di langit dan apa yang ada di bumi bertasbih kepada Allah. Dialah Yang Maha Perkasa lagi Maha Bijaksana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 5], "id": "mengapa kamu mengatakan" },
+        { "words": [6, 8], "id": "sesuatu yang tidak kamu kerjakan" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, mengapa kamu mengatakan sesuatu yang tidak kamu kerjakan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 4], "id": "Sangat besarlah kemurkaan di sisi Allah" },
+        { "words": [5, 6], "id": "bahwa kamu mengatakan" },
+        { "words": [7, 9], "id": "apa yang tidak kamu kerjakan" }
+      ],
+      "full": { "id": "Sangat besarlah kemurkaan di sisi Allah bahwa kamu mengatakan apa yang tidak kamu kerjakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Sesungguhnya", "Allah mencintai"] },
+        { "words": [4, 7], "id": "orang-orang yang berperang di jalan-Nya" },
+        { "words": [8, 8], "id": "dalam satu barisan" },
+        { "words": [9, 11], "id": ["seakan-akan mereka", "suatu bangunan yang tersusun kukuh"] }
+      ],
+      "full": { "id": "Sesungguhnya Allah mencintai orang-orang yang berperang di jalan-Nya dalam satu barisan, seakan-akan mereka suatu bangunan yang tersusun kukuh." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 4], "id": "(Ingatlah) ketika Musa berkata kepada kaumnya" },
+        { "words": [5, 5], "id": "Wahai kaumku" },
+        { "words": [6, 7], "id": ["mengapa", "kamu menyakitiku"] },
+        { "words": [8, 9], "id": "Padahal, kamu sungguh mengetahui" },
+        { "words": [10, 13], "id": "bahwa aku adalah utusan Allah kepadamu" },
+        { "words": [14, 15], "id": "Maka, ketika mereka berpaling (dari perintah Allah)" },
+        { "words": [16, 18], "id": "Allah memalingkan hati mereka (dari kebenaran)" },
+        { "words": [19, 23], "id": "Allah tidak memberi petunjuk kepada kaum yang fasik" }
+      ],
+      "full": { "id": "(Ingatlah) ketika Musa berkata kepada kaumnya, “Wahai kaumku, mengapa kamu menyakitiku? Padahal, kamu sungguh mengetahui bahwa aku adalah utusan Allah kepadamu.” Maka, ketika mereka berpaling (dari perintah Allah), Allah memalingkan hati mereka (dari kebenaran). Allah tidak memberi petunjuk kepada kaum yang fasik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 5], "id": "(Ingatlah) ketika Isa putra Maryam berkata" },
+        { "words": [6, 7], "id": "Wahai Bani Israil" },
+        { "words": [8, 11], "id": "sesungguhnya aku adalah utusan Allah kepadamu" },
+        { "words": [12, 17], "id": ["untuk membenarkan kitab (yang turun)", "sebelumku, yaitu Taurat"] },
+        { "words": [18, 19], "id": "dan memberi kabar gembira tentang seorang utusan Allah" },
+        { "words": [20, 22], "id": "yang akan datang setelahku" },
+        { "words": [23, 24], "id": "yang namanya Ahmad (Nabi Muhammad)" },
+        { "words": [25, 27], "id": ["Akan tetapi, ketika", "utusan itu datang kepada mereka dengan membawa bukti-bukti yang nyata"] },
+        { "words": [28, 28], "id": "mereka berkata" },
+        { "words": [29, 31], "id": "Ini adalah sihir yang nyata" }
+      ],
+      "full": { "id": "(Ingatlah) ketika Isa putra Maryam berkata, “Wahai Bani Israil, sesungguhnya aku adalah utusan Allah kepadamu untuk membenarkan kitab (yang turun) sebelumku, yaitu Taurat, dan memberi kabar gembira tentang seorang utusan Allah yang akan datang setelahku yang namanya Ahmad (Nabi Muhammad).” Akan tetapi, ketika utusan itu datang kepada mereka dengan membawa bukti-bukti yang nyata, mereka berkata, “Ini adalah sihir yang nyata.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Siapakah yang lebih zalim" },
+        { "words": [3, 7], "id": "daripada orang yang mengada-adakan kebohongan terhadap Allah" },
+        { "words": [8, 11], "id": "padahal dia diseru kepada (agama) Islam" },
+        { "words": [12, 16], "id": "Allah tidak memberi petunjuk kepada kaum yang zalim" }
+      ],
+      "full": { "id": "Siapakah yang lebih zalim daripada orang yang mengada-adakan kebohongan terhadap Allah, padahal dia diseru kepada (agama) Islam? Allah tidak memberi petunjuk kepada kaum yang zalim." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 5], "id": "Mereka hendak memadamkan cahaya (agama) Allah dengan mulut mereka" },
+        { "words": [6, 8], "id": "sedangkan Allah tetap menyempurnakan cahaya-Nya" },
+        { "words": [9, 11], "id": "walaupun orang-orang kafir tidak menyukai" }
+      ],
+      "full": { "id": "Mereka hendak memadamkan cahaya (agama) Allah dengan mulut mereka, sedangkan Allah tetap menyempurnakan cahaya-Nya walaupun orang-orang kafir tidak menyukai." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "Dialah yang mengutus" },
+        { "words": [4, 7], "id": "Rasul-Nya dengan (membawa) petunjuk dan agama yang benar" },
+        { "words": [8, 11], "id": ["agar Dia mengunggulkannya", "atas semua agama"] },
+        { "words": [12, 14], "id": "walaupun orang-orang musyrik tidak menyukai" }
+      ],
+      "full": { "id": "Dialah yang mengutus Rasul-Nya dengan (membawa) petunjuk dan agama yang benar agar Dia mengunggulkannya atas semua agama walaupun orang-orang musyrik tidak menyukai." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 7], "id": ["maukah kamu Aku tunjukkan", "suatu perdagangan"] },
+        { "words": [8, 11], "id": "yang (dapat) menyelamatkan kamu dari azab yang pedih" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, maukah kamu Aku tunjukkan suatu perdagangan yang (dapat) menyelamatkan kamu dari azab yang pedih?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Caranya) kamu beriman kepada Allah dan Rasul-Nya" },
+        { "words": [4, 7], "id": ["dan berjihad", "di jalan Allah"] },
+        { "words": [8, 9], "id": "dengan harta dan jiwamu" },
+        { "words": [10, 12], "id": "Yang demikian itu lebih baik bagimu" },
+        { "words": [13, 15], "id": "jika kamu mengetahui" }
+      ],
+      "full": { "id": "(Caranya) kamu beriman kepada Allah dan Rasul-Nya dan berjihad di jalan Allah dengan harta dan jiwamu. Yang demikian itu lebih baik bagimu jika kamu mengetahui." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Jika kamu beriman dan berjihad,) niscaya Allah mengampuni dosa-dosamu" },
+        { "words": [4, 5], "id": "dan memasukkanmu ke dalam surga" },
+        { "words": [6, 9], "id": "yang mengalir di bawahnya sungai-sungai" },
+        { "words": [10, 14], "id": ["dan ke tempat-tempat tinggal", "yang baik di dalam surga 'Adn"] },
+        { "words": [15, 17], "id": "Itulah kemenangan yang agung" }
+      ],
+      "full": { "id": "(Jika kamu beriman dan berjihad,) niscaya Allah mengampuni dosa-dosamu dan memasukkanmu ke dalam surga yang mengalir di bawahnya sungai-sungai dan ke tempat-tempat tinggal yang baik di dalam surga 'Adn. Itulah kemenangan yang agung." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Ada balasan) lain yang kamu sukai" },
+        { "words": [3, 5], "id": ["(yaitu) pertolongan", "dari Allah"] },
+        { "words": [6, 7], "id": "dan kemenangan yang dekat (waktunya)" },
+        { "words": [8, 9], "id": "Sampaikanlah berita gembira kepada orang-orang mukmin" }
+      ],
+      "full": { "id": "(Ada balasan) lain yang kamu sukai, (yaitu) pertolongan dari Allah dan kemenangan yang dekat (waktunya). Sampaikanlah berita gembira kepada orang-orang mukmin." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 6], "id": ["jadilah", "penolong-penolong (agama) Allah"] },
+        { "words": [7, 11], "id": "sebagaimana Isa putra Maryam berkata" },
+        { "words": [12, 12], "id": "kepada pengikut-pengikutnya yang setia" },
+        { "words": [13, 14], "id": "Siapakah para penolongku" },
+        { "words": [15, 16], "id": "menuju kepada (pertolongan) Allah" },
+        { "words": [17, 18], "id": "Para pengikutnya yang setia itu berkata" },
+        { "words": [19, 21], "id": "Kamilah penolong-penolong (agama) Allah" },
+        { "words": [22, 26], "id": "Maka, segolongan dari Bani Israil beriman" },
+        { "words": [27, 28], "id": "dan segolongan (yang lain) kufur" },
+        { "words": [29, 31], "id": "Lalu, Kami menguatkan orang-orang yang beriman" },
+        { "words": [32, 33], "id": "menghadapi musuh-musuh mereka" },
+        { "words": [34, 35], "id": "sehingga menjadi orang-orang yang menang" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, jadilah penolong-penolong (agama) Allah sebagaimana Isa putra Maryam berkata kepada pengikut-pengikutnya yang setia, “Siapakah para penolongku menuju kepada (pertolongan) Allah?” Para pengikutnya yang setia itu berkata, “Kamilah penolong-penolong (agama) Allah.” Maka, segolongan dari Bani Israil beriman dan segolongan (yang lain) kufur. Lalu, Kami menguatkan orang-orang yang beriman menghadapi musuh-musuh mereka sehingga menjadi orang-orang yang menang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
