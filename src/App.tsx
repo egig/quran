@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, Navigate, Route, Routes, useParams } from "react-router";
 import { useAyahs, useSurahIndex } from "./data.ts";
-import { FullTranslations, MushafFlow } from "./components/MushafFlow.tsx";
+import { FullTranslations, MushafPage } from "./components/MushafPage.tsx";
 
 export function App() {
   return (
@@ -66,12 +66,12 @@ function SurahPage() {
       {ayahs.status === "error" && <p className="status">Gagal memuat: {ayahs.error}</p>}
       {ayahs.status === "ok" && (
         <section className="sheet">
-          {ayahs.data.some((a) => !a.reviewed) && (
+          {ayahs.data.some((a) => a.phrases.length && !a.reviewed) && (
             <span className="draft" title="Terjemahan per frasa belum diperiksa">
               Draf
             </span>
           )}
-          <MushafFlow ayahs={ayahs.data} />
+          <MushafPage layout={index.data.layout} ayahs={ayahs.data} />
           {showFull && <FullTranslations ayahs={ayahs.data} />}
         </section>
       )}

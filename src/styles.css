@@ -183,43 +183,55 @@ a {
   opacity: 0.85;
 }
 
-/* One continuous RTL flow; phrases wrap as whole units, so lines break only between phrases. */
-.mushaf {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  column-gap: calc(6 * var(--u));
-  row-gap: 18px;
+/* The printed page, scaled to its container; translations sit between lines. */
+.mushaf-page {
+  container-type: inline-size;
+  max-width: 680px;
+  margin: 0 auto;
 }
 
-.phrase {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  scroll-margin-top: 24px;
+.mline + .mline {
+  margin-top: 6px;
 }
 
-.phrase svg {
+.mline svg {
   display: block;
-  width: calc(var(--w) * var(--u));
-  height: calc(var(--h) * var(--u));
+  width: 100%;
+  height: auto;
   color: var(--ink);
   overflow: visible;
 }
 
-/* Ornament sits left of the words; offset so the translation centres on the words. */
-.tr {
-  display: block;
-  margin-left: calc(var(--mw, 0) * var(--u));
-  margin-top: 4px;
-  width: max-content;
-  max-width: min(max(calc(var(--aw) * var(--u) * 1.6), 7.5rem), calc(100vw - 56px));
+.mtr {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2px;
+}
+
+.seg {
+  flex: none;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-size: clamp(0.8rem, 0.76rem + 0.25vw, 0.95rem);
+  font-size: clamp(9px, 2.3cqi, 13.5px);
   font-weight: 500;
-  line-height: 1.35;
+  line-height: 1.3;
   color: var(--ink);
+  hyphens: auto;
+  padding: 0 1px;
+}
+
+.seg.cont {
+  color: var(--faint);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .full-list {

@@ -36,14 +36,15 @@ export interface GlyphPath {
 }
 
 /**
- * Artwork for one word (or the ayah-end ornament) in line coordinates.
- * Every glyph of every ayah sits in one shared band: y = 0 is the centre of
- * the ayah-end ornament (a fixed height above the printed baseline), and all
- * ink lies within line.top..line.bottom. Any contiguous run of glyphs, even
- * across ayahs, lines up when drawn with
- * viewBox `${x0} ${line.top} ${x1 - x0} ${line.bottom - line.top}`.
+ * Artwork for one word (or the ayah-end ornament), placed as on the printed
+ * Madinah mushaf page. x is the printed x (0..layout.width). y is relative
+ * to the centre of its printed line (the ayah-end ornament height), so any
+ * line is drawn with
+ * viewBox `0 ${band.top} ${layout.width} ${band.bottom - band.top}`.
  */
 export interface Glyph {
+  /** 1-based printed line within the surah's page. */
+  line: number;
   x0: number;
   x1: number;
   paths: GlyphPath[];
@@ -64,32 +65,43 @@ export interface Phrase {
 }
 
 export interface AyahData {
-  version: 1;
+  version: 2;
   key: string;
   surah: number;
   ayah: number;
   surahName: { ar: string; latin: string };
-  /** Vertical band shared by all ayahs (see Glyph). */
-  line: { top: number; bottom: number };
-  /** Words in reading order (right to left: x decreases). */
+  /** Words in reading order. */
   words: Word[];
   /** Ayah-end ornament with its number, drawn after the last word. */
   mark: Glyph;
+  /** Empty when the ayah has no authored translation yet. */
   phrases: Phrase[];
   full: LocalizedText;
   source: string;
   reviewed: boolean;
 }
 
+export interface MushafLayout {
+  /** Mushaf page number. */
+  page: number;
+  /** Page width in artwork units. */
+  width: number;
+  /** Number of printed lines. */
+  lines: number;
+  /** Vertical extent of every line, relative to its centre. */
+  band: { top: number; bottom: number };
+}
+
 export interface SurahIndex {
-  version: 1;
+  version: 2;
   surah: number;
   name: { ar: string; latin: string };
   /** Ayah numbers that have generated data. */
   ayahs: number[];
+  layout: MushafLayout;
 }
 
 export interface RootIndex {
-  version: 1;
+  version: 2;
   surahs: { surah: number; name: { ar: string; latin: string }; ayahs: number }[];
 }
