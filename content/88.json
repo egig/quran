@@ -1,0 +1,224 @@
+{
+  "surah": 88,
+  "name": { "ar": "الغاشية", "latin": "Al-Ghāshiyah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sudahkah sampai kepadamu" },
+        { "words": [3, 4], "id": "berita tentang al-Gāsyiyah (hari Kiamat yang menutupi kesadaran manusia dengan kedahsyatannya)" }
+      ],
+      "full": { "id": "Sudahkah sampai kepadamu berita tentang al-Gāsyiyah (hari Kiamat yang menutupi kesadaran manusia dengan kedahsyatannya)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "Pada hari itu banyak wajah" },
+        { "words": [3, 3], "id": "yang tertunduk hina" }
+      ],
+      "full": { "id": "Pada hari itu banyak wajah yang tertunduk hina" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "(karena) berusaha keras (menghindari azab neraka) lagi kepayahan (karena dibelenggu)" }
+      ],
+      "full": { "id": "(karena) berusaha keras (menghindari azab neraka) lagi kepayahan (karena dibelenggu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka memasuki" },
+        { "words": [2, 3], "id": "api (neraka) yang sangat panas" }
+      ],
+      "full": { "id": "Mereka memasuki api (neraka) yang sangat panas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Mereka) diberi minum" },
+        { "words": [2, 4], "id": "dari sumber mata air yang sangat panas" }
+      ],
+      "full": { "id": "(Mereka) diberi minum dari sumber mata air yang sangat panas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "Tidak ada makanan bagi mereka" },
+        { "words": [4, 6], "id": "selain dari pohon yang berduri" }
+      ],
+      "full": { "id": "Tidak ada makanan bagi mereka selain dari pohon yang berduri," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang tidak menggemukkan" },
+        { "words": [3, 6], "id": "dan tidak pula menghilangkan lapar" }
+      ],
+      "full": { "id": "yang tidak menggemukkan dan tidak pula menghilangkan lapar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Pada hari itu banyak (pula) wajah" },
+        { "words": [3, 3], "id": "yang berseri-seri" }
+      ],
+      "full": { "id": "Pada hari itu banyak (pula) wajah yang berseri-seri," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "merasa puas karena usahanya" }
+      ],
+      "full": { "id": "merasa puas karena usahanya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Mereka) dalam surga yang tinggi" }
+      ],
+      "full": { "id": "(Mereka) dalam surga yang tinggi." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 4], "id": "Di sana kamu tidak mendengar (perkataan) yang tidak berguna" }
+      ],
+      "full": { "id": "Di sana kamu tidak mendengar (perkataan) yang tidak berguna." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "Di sana ada mata air yang mengalir" }
+      ],
+      "full": { "id": "Di sana ada mata air yang mengalir." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": "Di sana ada (pula) dipan-dipan yang ditinggikan" }
+      ],
+      "full": { "id": "Di sana ada (pula) dipan-dipan yang ditinggikan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "gelas-gelas yang tersedia (di dekatnya)" }
+      ],
+      "full": { "id": "gelas-gelas yang tersedia (di dekatnya)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 2], "id": "bantal-bantal sandaran yang tersusun" }
+      ],
+      "full": { "id": "bantal-bantal sandaran yang tersusun," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan permadani-permadani yang terhampar" }
+      ],
+      "full": { "id": "dan permadani-permadani yang terhampar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 4], "id": "Tidakkah mereka memperhatikan unta" },
+        { "words": [5, 6], "id": "bagaimana ia diciptakan" }
+      ],
+      "full": { "id": "Tidakkah mereka memperhatikan unta, bagaimana ia diciptakan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 4], "id": "Bagaimana langit ditinggikan" }
+      ],
+      "full": { "id": "Bagaimana langit ditinggikan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 4], "id": "Bagaimana gunung-gunung ditegakkan" }
+      ],
+      "full": { "id": "Bagaimana gunung-gunung ditegakkan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 4], "id": "Bagaimana pula bumi dihamparkan" }
+      ],
+      "full": { "id": "Bagaimana pula bumi dihamparkan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, berilah peringatan" },
+        { "words": [2, 4], "id": "karena sesungguhnya engkau (Nabi Muhammad) hanyalah pemberi peringatan" }
+      ],
+      "full": { "id": "Maka, berilah peringatan karena sesungguhnya engkau (Nabi Muhammad) hanyalah pemberi peringatan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 3], "id": "Engkau bukanlah orang yang berkuasa atas mereka" }
+      ],
+      "full": { "id": "Engkau bukanlah orang yang berkuasa atas mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 4], "id": "Akan tetapi, orang yang berpaling dan kufur" }
+      ],
+      "full": { "id": "Akan tetapi, orang yang berpaling dan kufur," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 2], "id": "Allah akan mengazabnya" },
+        { "words": [3, 4], "id": "dengan azab yang paling besar" }
+      ],
+      "full": { "id": "Allah akan mengazabnya dengan azab yang paling besar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya kepada Kamilah mereka kembali" }
+      ],
+      "full": { "id": "Sesungguhnya kepada Kamilah mereka kembali." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 4], "id": "Kemudian, sesungguhnya Kamilah yang berhak melakukan hisab (perhitungan) atas mereka" }
+      ],
+      "full": { "id": "Kemudian, sesungguhnya Kamilah yang berhak melakukan hisab (perhitungan) atas mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

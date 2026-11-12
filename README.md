@@ -76,6 +76,12 @@ BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
   `layout.left` (its printed-page x offset) moves surahs that share a mushaf
   page into one frame, and `layout.pages[].ayahs` says which ayahs a page
   holds, so a page loads only those.
+- A translation whose longest word does not fit its space gets room from its
+  neighbours (`src/components/fitRow.ts`); a crowded line may also wrap more,
+  break words at syllables, or use smaller text (never below 8px).
+- png.quran.ws's surah list gives the wrong page span for a few surahs
+  (80, 84, 88, 90, 94, 96); `PAGE_SPAN_OVERRIDES` in the build script follows
+  the artwork for those.
 - Known upstream defect: mushaf page 17 (Al-Baqarah 2:106–110) is scrambled
   in png.quran.ws, so Al-Baqarah does not build yet.
 - The JSON in `public/data` is the contract for a future mobile app.

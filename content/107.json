@@ -21,10 +21,10 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 2], "id": "dan tidak mendorong" },
-        { "words": [3, 5], "id": "pemberian makan kepada orang miskin" }
+        { "words": [1, 2], "id": "dan tidak menganjurkan" },
+        { "words": [3, 5], "id": "untuk memberi makan orang miskin" }
       ],
-      "full": { "id": "dan tidak mendorong pemberian makan kepada orang miskin." },
+      "full": { "id": "dan tidak menganjurkan untuk memberi makan orang miskin." },
       "source": "kemenag-2019-adapted",
       "reviewed": false
     },

@@ -1,0 +1,407 @@
+{
+  "surah": 79,
+  "name": { "ar": "النازعات", "latin": "An-Nāziʿāt" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Demi (malaikat) yang mencabut (nyawa orang kafir) dengan keras" }
+      ],
+      "full": { "id": "Demi (malaikat) yang mencabut (nyawa orang kafir) dengan keras," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "demi (malaikat) yang mencabut (nyawa orang mukmin) dengan lemah lembut" }
+      ],
+      "full": { "id": "demi (malaikat) yang mencabut (nyawa orang mukmin) dengan lemah lembut," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "demi (malaikat) yang cepat (menunaikan tugasnya) dengan mudah" }
+      ],
+      "full": { "id": "demi (malaikat) yang cepat (menunaikan tugasnya) dengan mudah," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "(malaikat) yang bergegas (melaksanakan perintah Allah) dengan cepat" }
+      ],
+      "full": { "id": "(malaikat) yang bergegas (melaksanakan perintah Allah) dengan cepat," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan (malaikat) yang mengatur urusan (dunia)" }
+      ],
+      "full": { "id": "dan (malaikat) yang mengatur urusan (dunia)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "(kamu benar-benar akan dibangkitkan) pada hari ketika tiupan pertama mengguncang (alam semesta)" }
+      ],
+      "full": { "id": "(kamu benar-benar akan dibangkitkan) pada hari ketika tiupan pertama mengguncang (alam semesta)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Tiupan pertama) itu diiringi oleh tiupan kedua" }
+      ],
+      "full": { "id": "(Tiupan pertama) itu diiringi oleh tiupan kedua." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Hati manusia pada hari itu" },
+        { "words": [3, 3], "id": "merasa sangat takut" }
+      ],
+      "full": { "id": "Hati manusia pada hari itu merasa sangat takut;" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "pandangannya tertunduk" }
+      ],
+      "full": { "id": "pandangannya tertunduk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka (di dunia) berkata" },
+        { "words": [2, 3], "id": "Apakah kita benar-benar akan dikembalikan" },
+        { "words": [4, 5], "id": "pada kehidupan yang semula" }
+      ],
+      "full": { "id": "Mereka (di dunia) berkata, “Apakah kita benar-benar akan dikembalikan pada kehidupan yang semula?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 4], "id": "Apabila kita telah menjadi tulang-belulang yang hancur, apakah kita (akan dibangkitkan juga)" }
+      ],
+      "full": { "id": "Apabila kita telah menjadi tulang-belulang yang hancur, apakah kita (akan dibangkitkan juga)?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka berkata" },
+        { "words": [2, 3], "id": "Kalau demikian, itu" },
+        { "words": [4, 5], "id": "suatu pengembalian yang merugikan" }
+      ],
+      "full": { "id": "Mereka berkata, “Kalau demikian, itu suatu pengembalian yang merugikan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Jangan dianggap sulit,) pengembalian itu (dilakukan) hanyalah" },
+        { "words": [3, 4], "id": "dengan sekali tiupan" }
+      ],
+      "full": { "id": "(Jangan dianggap sulit,) pengembalian itu (dilakukan) hanyalah dengan sekali tiupan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Seketika itu, mereka" },
+        { "words": [3, 3], "id": "hidup kembali di bumi (yang baru)" }
+      ],
+      "full": { "id": "Seketika itu, mereka hidup kembali di bumi (yang baru)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sudah sampaikah kepadamu (Nabi Muhammad)" },
+        { "words": [3, 4], "id": "kisah Musa" }
+      ],
+      "full": { "id": "Sudah sampaikah kepadamu (Nabi Muhammad) kisah Musa?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Ingatlah) ketika Tuhannya menyeru dia (Musa)" },
+        { "words": [4, 6], "id": "di lembah suci, yaitu Lembah Tuwa" }
+      ],
+      "full": { "id": "(Ingatlah) ketika Tuhannya menyeru dia (Musa) di lembah suci, yaitu Lembah Tuwa," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 3], "id": "Pergilah engkau kepada Fir'aun" },
+        { "words": [4, 5], "id": "Sesungguhnya dia telah melampaui batas" }
+      ],
+      "full": { "id": "“Pergilah engkau kepada Fir'aun! Sesungguhnya dia telah melampaui batas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 1], "id": "Lalu, katakanlah (kepada Fir'aun)" },
+        { "words": [2, 6], "id": "Adakah keinginanmu untuk menyucikan diri (dari kesesatan)" }
+      ],
+      "full": { "id": "Lalu, katakanlah (kepada Fir'aun), 'Adakah keinginanmu untuk menyucikan diri (dari kesesatan)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan aku akan menunjukimu ke (jalan) Tuhanmu" },
+        { "words": [4, 4], "id": "agar engkau takut (kepada-Nya)" }
+      ],
+      "full": { "id": "dan aku akan menunjukimu ke (jalan) Tuhanmu agar engkau takut (kepada-Nya)?’”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 1], "id": "Lalu, dia (Musa) memperlihatkan kepadanya" },
+        { "words": [2, 3], "id": "mukjizat yang besar" }
+      ],
+      "full": { "id": "Lalu, dia (Musa) memperlihatkan mukjizat yang besar kepadanya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 1], "id": "Akan tetapi, dia (Fir'aun) mendustakan (kerasulan)" },
+        { "words": [2, 2], "id": "dan mendurhakai (Allah)" }
+      ],
+      "full": { "id": "Akan tetapi, dia (Fir'aun) mendustakan (kerasulan) dan mendurhakai (Allah)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kemudian, dia berpaling" },
+        { "words": [3, 3], "id": "seraya berusaha (menantang Musa)" }
+      ],
+      "full": { "id": "Kemudian, dia berpaling seraya berusaha (menantang Musa)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, dia mengumpulkan (pembesar-pembesarnya)" },
+        { "words": [2, 2], "id": "lalu berseru (memanggil kaumnya)" }
+      ],
+      "full": { "id": "Maka, dia mengumpulkan (pembesar-pembesarnya), lalu berseru (memanggil kaumnya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dia berkata" },
+        { "words": [2, 4], "id": "Akulah Tuhanmu yang paling tinggi" }
+      ],
+      "full": { "id": "Dia berkata, “Akulah Tuhanmu yang paling tinggi.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 2], "id": "Maka, Allah menghukumnya" },
+        { "words": [3, 5], "id": "dengan azab di akhirat dan (siksaan) di dunia" }
+      ],
+      "full": { "id": "Maka, Allah menghukumnya dengan azab di akhirat dan (siksaan) di dunia." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 4], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat pelajaran" },
+        { "words": [5, 6], "id": "bagi orang yang takut (kepada Allah)" }
+      ],
+      "full": { "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat pelajaran bagi orang yang takut (kepada Allah)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apakah penciptaan kamu yang lebih hebat" },
+        { "words": [4, 6], "id": "ataukah langit yang telah dibangun-Nya" }
+      ],
+      "full": { "id": "Apakah penciptaan kamu yang lebih hebat ataukah langit yang telah dibangun-Nya?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia telah meninggikan bangunannya" },
+        { "words": [3, 3], "id": "lalu menyempurnakannya" }
+      ],
+      "full": { "id": "Dia telah meninggikan bangunannya, lalu menyempurnakannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia menjadikan malamnya (gelap gulita)" },
+        { "words": [3, 4], "id": "dan menjadikan siangnya (terang benderang)" }
+      ],
+      "full": { "id": "Dia menjadikan malamnya (gelap gulita) dan menjadikan siangnya (terang benderang)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "30": {
+      "phrases": [
+        { "words": [1, 3], "id": "Setelah itu, bumi" },
+        { "words": [4, 4], "id": "Dia hamparkan (untuk dihuni)" }
+      ],
+      "full": { "id": "Setelah itu, bumi Dia hamparkan (untuk dihuni)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "31": {
+      "phrases": [
+        { "words": [1, 2], "id": "Darinya (bumi) Dia mengeluarkan" },
+        { "words": [3, 4], "id": "air dan (menyediakan) tempat penggembalaan" }
+      ],
+      "full": { "id": "Darinya (bumi) Dia mengeluarkan air dan (menyediakan) tempat penggembalaan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "32": {
+      "phrases": [
+        { "words": [1, 2], "id": "Gunung-gunung Dia pancangkan dengan kukuh" }
+      ],
+      "full": { "id": "Gunung-gunung Dia pancangkan dengan kukuh." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "33": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Semua itu disediakan) untuk kesenanganmu dan hewan ternakmu" }
+      ],
+      "full": { "id": "(Semua itu disediakan) untuk kesenanganmu dan hewan ternakmu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "34": {
+      "phrases": [
+        { "words": [1, 2], "id": "Maka, apabila telah datang" },
+        { "words": [3, 4], "id": "malapetaka terbesar (hari Kiamat)" }
+      ],
+      "full": { "id": "Maka, apabila malapetaka terbesar (hari Kiamat) telah datang," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "35": {
+      "phrases": [
+        { "words": [1, 3], "id": "pada hari (itu) manusia teringat" },
+        { "words": [4, 5], "id": "apa yang telah dikerjakannya" }
+      ],
+      "full": { "id": "pada hari (itu) manusia teringat apa yang telah dikerjakannya" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "36": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan (neraka) Jahim diperlihatkan dengan jelas" },
+        { "words": [3, 4], "id": "kepada orang yang melihat(-nya)" }
+      ],
+      "full": { "id": "dan (neraka) Jahim diperlihatkan dengan jelas kepada orang yang melihat(-nya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "37": {
+      "phrases": [
+        { "words": [1, 3], "id": "Adapun orang yang melampaui batas" }
+      ],
+      "full": { "id": "Adapun orang yang melampaui batas" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "38": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan lebih mengutamakan kehidupan dunia" }
+      ],
+      "full": { "id": "dan lebih mengutamakan kehidupan dunia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "39": {
+      "phrases": [
+        { "words": [1, 4], "id": "sesungguhnya (neraka) Jahimlah tempat tinggal(-nya)" }
+      ],
+      "full": { "id": "sesungguhnya (neraka) Jahimlah tempat tinggal(-nya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "40": {
+      "phrases": [
+        { "words": [1, 5], "id": "Adapun orang-orang yang takut pada kebesaran Tuhannya" },
+        { "words": [6, 9], "id": "dan menahan diri dari (keinginan) hawa nafsunya" }
+      ],
+      "full": { "id": "Adapun orang-orang yang takut pada kebesaran Tuhannya dan menahan diri dari (keinginan) hawa nafsunya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "41": {
+      "phrases": [
+        { "words": [1, 4], "id": "sesungguhnya surgalah tempat tinggal(-nya)" }
+      ],
+      "full": { "id": "sesungguhnya surgalah tempat tinggal(-nya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "42": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka (orang-orang kafir) bertanya kepadamu (Nabi Muhammad)" },
+        { "words": [2, 3], "id": "tentang hari Kiamat" },
+        { "words": [4, 5], "id": "Kapankah terjadinya" }
+      ],
+      "full": { "id": "Mereka (orang-orang kafir) bertanya kepadamu (Nabi Muhammad) tentang hari Kiamat, “Kapankah terjadinya?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "43": {
+      "phrases": [
+        { "words": [1, 4], "id": "Untuk apa engkau perlu menyebutkan (waktu)-nya" }
+      ],
+      "full": { "id": "Untuk apa engkau perlu menyebutkan (waktu)-nya?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "44": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kepada Tuhanmulah (dikembalikan) kesudahan (ketentuan waktu)-nya" }
+      ],
+      "full": { "id": "Kepada Tuhanmulah (dikembalikan) kesudahan (ketentuan waktu)-nya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "45": {
+      "phrases": [
+        { "words": [1, 3], "id": "Engkau (Nabi Muhammad) hanyalah pemberi peringatan" },
+        { "words": [4, 5], "id": "kepada siapa yang takut padanya (hari Kiamat)" }
+      ],
+      "full": { "id": "Engkau (Nabi Muhammad) hanyalah pemberi peringatan kepada siapa yang takut padanya (hari Kiamat)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "46": {
+      "phrases": [
+        { "words": [1, 3], "id": "Pada hari ketika melihatnya (hari Kiamat itu), mereka merasa seakan-akan" },
+        { "words": [4, 6], "id": "hanya (sebentar) tinggal (di dunia)" },
+        { "words": [7, 9], "id": "pada waktu petang atau pagi" }
+      ],
+      "full": { "id": "Pada hari ketika melihatnya (hari Kiamat itu), mereka merasa seakan-akan hanya (sebentar) tinggal (di dunia) pada waktu petang atau pagi." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

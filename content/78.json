@@ -1,0 +1,364 @@
+{
+  "surah": 78,
+  "name": { "ar": "النبإ", "latin": "An-Naba" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tentang apakah mereka saling bertanya" }
+      ],
+      "full": { "id": "Tentang apakah mereka saling bertanya?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "Tentang berita yang besar (hari Kebangkitan)" }
+      ],
+      "full": { "id": "Tentang berita yang besar (hari Kebangkitan)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 4], "id": "yang dalam hal itu mereka berselisih" }
+      ],
+      "full": { "id": "yang dalam hal itu mereka berselisih." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 2], "id": "Kelak mereka akan mengetahui" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Kelak mereka akan mengetahui." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sekali lagi, tidak" },
+        { "words": [3, 3], "id": "Kelak mereka akan mengetahui" }
+      ],
+      "full": { "id": "Sekali lagi, tidak! Kelak mereka akan mengetahui." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bukankah Kami telah menjadikan" },
+        { "words": [3, 4], "id": "bumi sebagai hamparan" }
+      ],
+      "full": { "id": "Bukankah Kami telah menjadikan bumi sebagai hamparan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan gunung-gunung sebagai pasak" }
+      ],
+      "full": { "id": "dan gunung-gunung sebagai pasak?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kami menciptakan kamu berpasang-pasangan" }
+      ],
+      "full": { "id": "Kami menciptakan kamu berpasang-pasangan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kami menjadikan" },
+        { "words": [2, 3], "id": "tidurmu untuk beristirahat" }
+      ],
+      "full": { "id": "Kami menjadikan tidurmu untuk beristirahat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kami menjadikan" },
+        { "words": [2, 3], "id": "malam sebagai pakaian" }
+      ],
+      "full": { "id": "Kami menjadikan malam sebagai pakaian." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kami menjadikan" },
+        { "words": [2, 3], "id": "siang untuk mencari penghidupan" }
+      ],
+      "full": { "id": "Kami menjadikan siang untuk mencari penghidupan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kami membangun di atasmu" },
+        { "words": [3, 4], "id": "tujuh (langit) yang kukuh" }
+      ],
+      "full": { "id": "Kami membangun tujuh (langit) yang kukuh di atasmu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kami menjadikan" },
+        { "words": [2, 3], "id": "pelita yang terang-benderang (matahari)" }
+      ],
+      "full": { "id": "Kami menjadikan pelita yang terang-benderang (matahari)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kami menurunkan" },
+        { "words": [2, 3], "id": "dari awan" },
+        { "words": [4, 5], "id": "air hujan yang tercurah dengan deras" }
+      ],
+      "full": { "id": "Kami menurunkan dari awan air hujan yang tercurah dengan deras" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 2], "id": "agar Kami menumbuhkan dengannya" },
+        { "words": [3, 4], "id": "biji-bijian, tanam-tanaman" }
+      ],
+      "full": { "id": "agar Kami menumbuhkan dengannya biji-bijian, tanam-tanaman," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan kebun-kebun yang rindang" }
+      ],
+      "full": { "id": "dan kebun-kebun yang rindang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya hari Keputusan itu" },
+        { "words": [4, 5], "id": "adalah waktu yang telah ditetapkan" }
+      ],
+      "full": { "id": "Sesungguhnya hari Keputusan itu adalah waktu yang telah ditetapkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 4], "id": "(yaitu) hari (ketika) sangkakala ditiup" },
+        { "words": [5, 6], "id": "lalu kamu datang berbondong-bondong" }
+      ],
+      "full": { "id": "(yaitu) hari (ketika) sangkakala ditiup, lalu kamu datang berbondong-bondong." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 2], "id": "Langit pun dibuka" },
+        { "words": [3, 4], "id": "Maka, terdapatlah beberapa pintu" }
+      ],
+      "full": { "id": "Langit pun dibuka. Maka, terdapatlah beberapa pintu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 2], "id": "Gunung-gunung pun dijalankan" },
+        { "words": [3, 4], "id": "Maka, ia menjadi (seperti) fatamorgana" }
+      ],
+      "full": { "id": "Gunung-gunung pun dijalankan. Maka, ia menjadi (seperti) fatamorgana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya (neraka) Jahanam itu" },
+        { "words": [3, 4], "id": "(merupakan) tempat mengintai (bagi penjaga neraka)" }
+      ],
+      "full": { "id": "Sesungguhnya (neraka) Jahanam itu (merupakan) tempat mengintai (bagi penjaga neraka)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 2], "id": "(dan) menjadi tempat kembali bagi orang-orang yang melampaui batas" }
+      ],
+      "full": { "id": "(dan) menjadi tempat kembali bagi orang-orang yang melampaui batas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 2], "id": "Mereka tinggal di sana" },
+        { "words": [3, 3], "id": "dalam masa yang lama" }
+      ],
+      "full": { "id": "Mereka tinggal di sana dalam masa yang lama." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 4], "id": "Mereka tidak merasakan kesejukan di dalamnya" },
+        { "words": [5, 6], "id": "dan tidak (pula mendapat) minuman" }
+      ],
+      "full": { "id": "Mereka tidak merasakan kesejukan di dalamnya dan tidak (pula mendapat) minuman," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 2], "id": "selain air yang mendidih" },
+        { "words": [3, 3], "id": "dan nanah" }
+      ],
+      "full": { "id": "selain air yang mendidih dan nanah," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 2], "id": "sebagai pembalasan yang setimpal" }
+      ],
+      "full": { "id": "sebagai pembalasan yang setimpal." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya mereka" },
+        { "words": [3, 5], "id": "tidak pernah mengharapkan perhitungan" }
+      ],
+      "full": { "id": "Sesungguhnya mereka tidak pernah mengharapkan perhitungan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 3], "id": "Mereka benar-benar mendustakan ayat-ayat Kami" }
+      ],
+      "full": { "id": "Mereka benar-benar mendustakan ayat-ayat Kami." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 3], "id": "Segala sesuatu telah Kami catat" },
+        { "words": [4, 4], "id": "dalam kitab (catatan amal manusia)" }
+      ],
+      "full": { "id": "Segala sesuatu telah Kami catat dalam kitab (catatan amal manusia)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "30": {
+      "phrases": [
+        { "words": [1, 1], "id": "Oleh karena itu, rasakanlah" },
+        { "words": [2, 5], "id": "Tidak akan Kami tambahkan kepadamu, kecuali azab" }
+      ],
+      "full": { "id": "Oleh karena itu, rasakanlah! Tidak akan Kami tambahkan kepadamu, kecuali azab." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "31": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya bagi orang-orang yang bertakwa" },
+        { "words": [3, 3], "id": "(ada) kemenangan (surga)" }
+      ],
+      "full": { "id": "Sesungguhnya bagi orang-orang yang bertakwa (ada) kemenangan (surga)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "32": {
+      "phrases": [
+        { "words": [1, 2], "id": "(yaitu) kebun-kebun, buah anggur" }
+      ],
+      "full": { "id": "(yaitu) kebun-kebun, buah anggur," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "33": {
+      "phrases": [
+        { "words": [1, 2], "id": "gadis-gadis molek yang sebaya" }
+      ],
+      "full": { "id": "gadis-gadis molek yang sebaya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "34": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan gelas-gelas yang penuh (berisi minuman)" }
+      ],
+      "full": { "id": "dan gelas-gelas yang penuh (berisi minuman)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "35": {
+      "phrases": [
+        { "words": [1, 4], "id": "Di sana mereka tidak mendengar percakapan yang sia-sia" },
+        { "words": [5, 6], "id": "dan tidak pula (perkataan) dusta" }
+      ],
+      "full": { "id": "Di sana mereka tidak mendengar percakapan yang sia-sia dan tidak pula (perkataan) dusta." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "36": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Hal itu) sebagai balasan" },
+        { "words": [2, 3], "id": "dari Tuhanmu" },
+        { "words": [4, 5], "id": "(dan) pemberian yang banyak" }
+      ],
+      "full": { "id": "(Hal itu) sebagai balasan (dan) pemberian yang banyak dari Tuhanmu," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "37": {
+      "phrases": [
+        { "words": [1, 5], "id": "(yaitu) Tuhan (pemelihara) langit, bumi, dan apa yang ada di antara keduanya" },
+        { "words": [6, 6], "id": "Yang Maha Pengasih" },
+        { "words": [7, 10], "id": "Mereka tidak memiliki (hak) berbicara dengan-Nya" }
+      ],
+      "full": { "id": "(yaitu) Tuhan (pemelihara) langit, bumi, dan apa yang ada di antara keduanya, Yang Maha Pengasih. Mereka tidak memiliki (hak) berbicara dengan-Nya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "38": {
+      "phrases": [
+        { "words": [1, 5], "id": "Pada hari ketika Rūḥ dan malaikat berdiri bersaf-saf" },
+        { "words": [6, 7], "id": "Mereka tidak berbicara" },
+        { "words": [8, 12], "id": "kecuali yang diizinkan oleh Tuhan Yang Maha Pengasih" },
+        { "words": [13, 14], "id": "dan dia mengatakan yang benar" }
+      ],
+      "full": { "id": "Pada hari ketika Rūḥ dan malaikat berdiri bersaf-saf. Mereka tidak berbicara, kecuali yang diizinkan oleh Tuhan Yang Maha Pengasih dan dia mengatakan yang benar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "39": {
+      "phrases": [
+        { "words": [1, 3], "id": "Itulah hari yang hak (pasti terjadi)" },
+        { "words": [4, 5], "id": "Siapa yang menghendaki (keselamatan)" },
+        { "words": [6, 9], "id": "niscaya menempuh jalan kembali kepada Tuhannya (dengan beramal saleh)" }
+      ],
+      "full": { "id": "Itulah hari yang hak (pasti terjadi). Siapa yang menghendaki (keselamatan) niscaya menempuh jalan kembali kepada Tuhannya (dengan beramal saleh)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "40": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya Kami telah memperingatkan kamu" },
+        { "words": [3, 4], "id": "akan azab yang dekat" },
+        { "words": [5, 7], "id": "pada hari (ketika) manusia melihat" },
+        { "words": [8, 10], "id": "apa yang telah diperbuat oleh kedua tangannya" },
+        { "words": [11, 12], "id": "dan orang kafir berkata" },
+        { "words": [13, 15], "id": "Oh, seandainya saja aku menjadi tanah" }
+      ],
+      "full": { "id": "Sesungguhnya Kami telah memperingatkan kamu akan azab yang dekat pada hari (ketika) manusia melihat apa yang telah diperbuat oleh kedua tangannya dan orang kafir berkata, “Oh, seandainya saja aku menjadi tanah.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

@@ -40,6 +40,14 @@ Madinah mushaf prints it, with an Indonesian translation under each
   and the gaps give narrow phrases more room.
 - A translation wraps within its phrase's space. The gap between Arabic lines
   grows to fit the tallest translation on that line.
+- When a translation's longest word is wider than its space, the row is laid
+  out again (`src/components/fitRow.ts`): the translation gets the room, and
+  its neighbours move as little as possible, in order, without overlap and on
+  screen. If the row is then too wide, it frees room in this order: empty
+  space in slots, more wrapping, syllable breaks (soft hyphens from
+  `hyphenate.ts`, shown only where a word actually breaks), smaller text
+  (never below 8px). Translations never overlap: check new pages at 300,
+  360 and desktop width.
 - A phrase that continues onto the next printed line shows its translation
   under the first part, and a muted "…" under each continuation.
 - No bracket or underline under the Arabic.
@@ -70,6 +78,10 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
+- The full sentences for surahs 78–114 come from the `quran-pack` npm package
+  (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
+  markers ("761)") removed. It matches the reviewed Al-Fātiḥah word for word.
+  Do not write Kemenag wording from memory: take it from a source.
 - A phrase is a meaningful unit, not a word-by-word gloss. Each divine name
   can be its own phrase (e.g. ٱلرَّحْمَٰنِ → "Yang Maha Pengasih").
 - Connectors that belong to the whole sentence (e.g. "lagi") go in the full
@@ -100,6 +112,12 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - The build stops with an error on: phrases that don't cover the words
   exactly, a missing translation, a failed line or page detection, or a page
   count that differs from the API's page span for the surah.
+- The API's surah list is wrong for some page spans: the artwork runs the last
+  ayahs of surahs 80, 84, 88, 90, 94 and 96 onto the next page (every page
+  582–604 then holds exactly 15 lines). Those spans are listed in
+  `PAGE_SPAN_OVERRIDES` in the build script, with the evidence. Add a surah
+  there only after the same check; the table of contents takes page spans of
+  built surahs from the built data.
 - Artwork is fetched in chunks of 10 ayahs (the API refuses very large
   ranges). Glyphs are read in printed-page coordinates, so chunks join
   exactly.

@@ -1,0 +1,225 @@
+{
+  "surah": 84,
+  "name": { "ar": "الإنشقاق", "latin": "Al-Inshiqāq" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila langit terbelah" }
+      ],
+      "full": { "id": "Apabila langit terbelah" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "serta patuh kepada Tuhannya" },
+        { "words": [3, 3], "id": "dan sudah semestinya patuh" }
+      ],
+      "full": { "id": "serta patuh kepada Tuhannya dan sudah semestinya patuh." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila bumi diratakan" }
+      ],
+      "full": { "id": "Apabila bumi diratakan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "memuntahkan apa yang ada di dalamnya" },
+        { "words": [4, 4], "id": "dan menjadi kosong" }
+      ],
+      "full": { "id": "memuntahkan apa yang ada di dalamnya dan menjadi kosong," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "serta patuh kepada Tuhannya" },
+        { "words": [3, 3], "id": "dan sudah semestinya patuh" }
+      ],
+      "full": { "id": "serta patuh kepada Tuhannya, dan sudah semestinya patuh." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai manusia" },
+        { "words": [3, 7], "id": "sesungguhnya engkau telah bekerja keras menuju (pertemuan dengan) Tuhanmu" },
+        { "words": [8, 8], "id": "Maka, engkau pasti menemui-Nya" }
+      ],
+      "full": { "id": "Wahai manusia, sesungguhnya engkau telah bekerja keras menuju (pertemuan dengan) Tuhanmu. Maka, engkau pasti menemui-Nya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": "Adapun orang yang" },
+        { "words": [4, 5], "id": "catatannya diberikan dari sebelah kanannya" }
+      ],
+      "full": { "id": "Adapun orang yang catatannya diberikan dari sebelah kanannya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "dia akan dihisab" },
+        { "words": [3, 4], "id": "dengan pemeriksaan yang mudah" }
+      ],
+      "full": { "id": "dia akan dihisab dengan pemeriksaan yang mudah" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan dia akan kembali kepada keluarganya (yang sama-sama beriman)" },
+        { "words": [4, 4], "id": "dengan gembira" }
+      ],
+      "full": { "id": "dan dia akan kembali kepada keluarganya (yang sama-sama beriman) dengan gembira." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "Adapun orang yang" },
+        { "words": [4, 6], "id": "catatannya diberikan dari belakang punggungnya" }
+      ],
+      "full": { "id": "Adapun orang yang catatannya diberikan dari belakang punggungnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 2], "id": "dia akan berteriak" },
+        { "words": [3, 3], "id": "Celakalah aku" }
+      ],
+      "full": { "id": "dia akan berteriak, “Celakalah aku!”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia akan memasuki (neraka) Sa'ir (yang menyala-nyala)" }
+      ],
+      "full": { "id": "Dia akan memasuki (neraka) Sa'ir (yang menyala-nyala)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya dia dahulu (di dunia)" },
+        { "words": [3, 5], "id": "bergembira di kalangan keluarganya (yang sama-sama kafir)" }
+      ],
+      "full": { "id": "Sesungguhnya dia dahulu (di dunia) bergembira di kalangan keluarganya (yang sama-sama kafir)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya dia mengira" },
+        { "words": [3, 5], "id": "bahwa dia tidak akan kembali (kepada Tuhannya)" }
+      ],
+      "full": { "id": "Sesungguhnya dia mengira bahwa dia tidak akan kembali (kepada Tuhannya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 1], "id": "Tidak demikian" },
+        { "words": [2, 6], "id": "Sesungguhnya Tuhannya selalu melihatnya" }
+      ],
+      "full": { "id": "Tidak demikian. Sesungguhnya Tuhannya selalu melihatnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 3], "id": "Aku bersumpah demi cahaya merah pada waktu senja" }
+      ],
+      "full": { "id": "Aku bersumpah demi cahaya merah pada waktu senja," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 3], "id": "demi malam dan apa yang diselubunginya" }
+      ],
+      "full": { "id": "demi malam dan apa yang diselubunginya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan demi bulan apabila jadi purnama" }
+      ],
+      "full": { "id": "dan demi bulan apabila jadi purnama," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 1], "id": "sungguh, kamu benar-benar akan menjalani" },
+        { "words": [2, 4], "id": "tingkat demi tingkat (dalam kehidupan)" }
+      ],
+      "full": { "id": "sungguh, kamu benar-benar akan menjalani tingkat demi tingkat (dalam kehidupan)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 4], "id": "Maka, mengapa mereka tidak mau beriman" }
+      ],
+      "full": { "id": "Maka, mengapa mereka tidak mau beriman?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 4], "id": "Apabila Al-Qur’an dibacakan kepada mereka" },
+        { "words": [5, 6], "id": "mereka tidak (mau) bersujud" }
+      ],
+      "full": { "id": "Apabila Al-Qur’an dibacakan kepada mereka, mereka tidak (mau) bersujud," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 3], "id": "bahkan orang-orang yang kufur itu" },
+        { "words": [4, 4], "id": "mendustakan(-nya)" }
+      ],
+      "full": { "id": "bahkan orang-orang yang kufur itu mendustakan(-nya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 2], "id": "Allah lebih mengetahui" },
+        { "words": [3, 4], "id": "apa yang mereka sembunyikan (dalam hati mereka)" }
+      ],
+      "full": { "id": "Allah lebih mengetahui apa yang mereka sembunyikan (dalam hati mereka)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, berilah mereka kabar ‘gembira’" },
+        { "words": [2, 3], "id": "dengan azab yang pedih" }
+      ],
+      "full": { "id": "Maka, berilah mereka kabar 'gembira’ dengan azab yang pedih," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 5], "id": "Kecuali orang-orang yang beriman dan mengerjakan kebajikan" },
+        { "words": [6, 9], "id": "Bagi merekalah pahala yang tidak putus-putus" }
+      ],
+      "full": { "id": "Kecuali orang-orang yang beriman dan mengerjakan kebajikan. Bagi merekalah pahala yang tidak putus-putus." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

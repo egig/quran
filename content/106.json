@@ -4,28 +4,28 @@
   "ayahs": {
     "1": {
       "phrases": [
-        { "words": [1, 1], "id": "Karena kebiasaan" },
+        { "words": [1, 1], "id": "Disebabkan oleh kebiasaan" },
         { "words": [2, 2], "id": "orang-orang Quraisy" }
       ],
-      "full": { "id": "Karena kebiasaan orang-orang Quraisy," },
+      "full": { "id": "Disebabkan oleh kebiasaan orang-orang Quraisy," },
       "source": "kemenag-2019-adapted",
       "reviewed": false
     },
     "2": {
       "phrases": [
         { "words": [1, 1], "id": "(yaitu) kebiasaan mereka" },
-        { "words": [2, 4], "id": "bepergian pada musim dingin dan musim panas" }
+        { "words": [2, 4], "id": "bepergian pada musim dingin dan musim panas (sehingga mendapatkan banyak keuntungan)" }
       ],
-      "full": { "id": "(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas." },
+      "full": { "id": "(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas (sehingga mendapatkan banyak keuntungan)," },
       "source": "kemenag-2019-adapted",
       "reviewed": false
     },
     "3": {
       "phrases": [
-        { "words": [1, 1], "id": "Maka, hendaklah mereka menyembah" },
-        { "words": [2, 4], "id": "Tuhan (pemilik) rumah ini (Ka‘bah)" }
+        { "words": [1, 1], "id": "maka hendaklah mereka menyembah" },
+        { "words": [2, 4], "id": "Tuhan (pemilik) rumah ini (Ka'bah)" }
       ],
-      "full": { "id": "Maka, hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah)" },
+      "full": { "id": "maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka'bah)" },
       "source": "kemenag-2019-adapted",
       "reviewed": false
     },

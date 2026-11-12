@@ -1,0 +1,173 @@
+{
+  "surah": 87,
+  "name": { "ar": "الأعلى", "latin": "Al-Aʿlā" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sucikanlah nama Tuhanmu" },
+        { "words": [4, 4], "id": "Yang Maha Tinggi" }
+      ],
+      "full": { "id": "Sucikanlah nama Tuhanmu Yang Maha Tinggi," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang menciptakan" },
+        { "words": [3, 3], "id": "lalu menyempurnakan (ciptaan-Nya)" }
+      ],
+      "full": { "id": "yang menciptakan, lalu menyempurnakan (ciptaan-Nya)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang menentukan kadar (masing-masing)" },
+        { "words": [3, 3], "id": "dan memberi petunjuk" }
+      ],
+      "full": { "id": "yang menentukan kadar (masing-masing) dan memberi petunjuk," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan yang menumbuhkan (rerumputan) padang gembala" }
+      ],
+      "full": { "id": "dan yang menumbuhkan (rerumputan) padang gembala," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "lalu menjadikannya kering kehitam-hitaman" }
+      ],
+      "full": { "id": "lalu menjadikannya kering kehitam-hitaman." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kami akan membacakan (Al-Qur’an) kepadamu (Nabi Muhammad)" },
+        { "words": [2, 3], "id": "sehingga engkau tidak akan lupa" }
+      ],
+      "full": { "id": "Kami akan membacakan (Al-Qur’an) kepadamu (Nabi Muhammad) sehingga engkau tidak akan lupa," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 4], "id": "kecuali jika Allah menghendaki" },
+        { "words": [5, 6], "id": "Sesungguhnya Dia mengetahui" },
+        { "words": [7, 9], "id": "yang terang dan yang tersembunyi" }
+      ],
+      "full": { "id": "kecuali jika Allah menghendaki. Sesungguhnya Dia mengetahui yang terang dan yang tersembunyi." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kami akan melapangkan bagimu jalan kemudahan (dalam segala urusan)" }
+      ],
+      "full": { "id": "Kami akan melapangkan bagimu jalan kemudahan (dalam segala urusan)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, sampaikanlah peringatan" },
+        { "words": [2, 4], "id": "jika peringatan itu bermanfaat" }
+      ],
+      "full": { "id": "Maka, sampaikanlah peringatan jika peringatan itu bermanfaat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 1], "id": "akan mengambil pelajaran" },
+        { "words": [2, 3], "id": "Orang yang takut (kepada Allah)" }
+      ],
+      "full": { "id": "Orang yang takut (kepada Allah) akan mengambil pelajaran," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 1], "id": "akan menjauhinya" },
+        { "words": [2, 2], "id": "sedangkan orang-orang yang celaka (kafir)" }
+      ],
+      "full": { "id": "sedangkan orang-orang yang celaka (kafir) akan menjauhinya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 4], "id": "(yaitu) orang yang akan memasuki api (neraka) yang besar" }
+      ],
+      "full": { "id": "(yaitu) orang yang akan memasuki api (neraka) yang besar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 4], "id": "Selanjutnya, dia tidak mati di sana" },
+        { "words": [5, 6], "id": "dan tidak (pula) hidup" }
+      ],
+      "full": { "id": "Selanjutnya, dia tidak mati dan tidak (pula) hidup di sana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sungguh, beruntung" },
+        { "words": [3, 4], "id": "orang yang menyucikan diri (dari kekafiran)" }
+      ],
+      "full": { "id": "Sungguh, beruntung orang yang menyucikan diri (dari kekafiran)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan mengingat nama Tuhannya" },
+        { "words": [4, 4], "id": "lalu dia salat" }
+      ],
+      "full": { "id": "dan mengingat nama Tuhannya, lalu dia salat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 2], "id": "Adapun kamu (orang-orang kafir) mengutamakan" },
+        { "words": [3, 4], "id": "kehidupan dunia" }
+      ],
+      "full": { "id": "Adapun kamu (orang-orang kafir) mengutamakan kehidupan dunia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 1], "id": "padahal kehidupan akhirat itu" },
+        { "words": [2, 3], "id": "lebih baik dan lebih kekal" }
+      ],
+      "full": { "id": "padahal kehidupan akhirat itu lebih baik dan lebih kekal." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya (penjelasan) ini" },
+        { "words": [3, 5], "id": "terdapat dalam suhuf (lembaran-lembaran) yang terdahulu" }
+      ],
+      "full": { "id": "Sesungguhnya (penjelasan) ini terdapat dalam suhuf (lembaran-lembaran) yang terdahulu," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 3], "id": "(yaitu) suhuf (yang diturunkan kepada) Ibrahim dan Musa" }
+      ],
+      "full": { "id": "(yaitu) suhuf (yang diturunkan kepada) Ibrahim dan Musa." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

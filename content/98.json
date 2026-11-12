@@ -1,0 +1,87 @@
+{
+  "surah": 98,
+  "name": { "ar": "البينة", "latin": "Al-Bayyinah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 8], "id": "Orang-orang yang kufur dari golongan Ahlulkitab dan orang-orang musyrik" },
+        { "words": [9, 9], "id": "tidak akan meninggalkan (kekufuran mereka)" },
+        { "words": [10, 12], "id": "sampai datang kepada mereka bukti yang nyata" }
+      ],
+      "full": { "id": "Orang-orang yang kufur dari golongan Ahlulkitab dan orang-orang musyrik tidak akan meninggalkan (kekufuran mereka) sampai datang kepada mereka bukti yang nyata," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "(yaitu) seorang Rasul dari Allah (Nabi Muhammad)" },
+        { "words": [4, 6], "id": "yang membacakan lembaran-lembaran suci (Al-Qur’an)" }
+      ],
+      "full": { "id": "(yaitu) seorang Rasul dari Allah (Nabi Muhammad) yang membacakan lembaran-lembaran suci (Al-Qur’an)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang di dalamnya terdapat (isi) kitab-kitab yang lurus (benar)" }
+      ],
+      "full": { "id": "yang di dalamnya terdapat (isi) kitab-kitab yang lurus (benar)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 5], "id": "Tidaklah terpecah-belah orang-orang Ahlulkitab" },
+        { "words": [6, 11], "id": "melainkan setelah datang kepada mereka bukti yang nyata" }
+      ],
+      "full": { "id": "Tidaklah terpecah-belah orang-orang Ahlulkitab, melainkan setelah datang kepada mereka bukti yang nyata." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 5], "id": "Mereka tidak diperintah, kecuali untuk menyembah Allah" },
+        { "words": [6, 9], "id": "dengan mengikhlaskan ketaatan kepada-Nya lagi hanif (istikamah)" },
+        { "words": [10, 11], "id": "melaksanakan salat" },
+        { "words": [12, 13], "id": "dan menunaikan zakat" },
+        { "words": [14, 16], "id": "Itulah agama yang lurus (benar)" }
+      ],
+      "full": { "id": "Mereka tidak diperintah, kecuali untuk menyembah Allah dengan mengikhlaskan ketaatan kepada-Nya lagi hanif (istikamah), melaksanakan salat, dan menunaikan zakat. Itulah agama yang lurus (benar)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 7], "id": "Sesungguhnya orang-orang yang kufur dari golongan Ahlulkitab dan orang-orang musyrik" },
+        { "words": [8, 10], "id": "(akan masuk) neraka Jahanam" },
+        { "words": [11, 12], "id": "Mereka kekal di dalamnya" },
+        { "words": [13, 16], "id": "Mereka itulah seburuk-buruk makhluk" }
+      ],
+      "full": { "id": "Sesungguhnya orang-orang yang kufur dari golongan Ahlulkitab dan orang-orang musyrik (akan masuk) neraka Jahanam. Mereka kekal di dalamnya. Mereka itulah seburuk-buruk makhluk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 5], "id": "Sesungguhnya orang-orang yang beriman dan mengerjakan kebajikan" },
+        { "words": [6, 9], "id": "mereka itulah sebaik-baik makhluk" }
+      ],
+      "full": { "id": "Sesungguhnya orang-orang yang beriman dan mengerjakan kebajikan, mereka itulah sebaik-baik makhluk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Balasan mereka di sisi Tuhannya" },
+        { "words": [4, 9], "id": "adalah surga 'Adn yang mengalir di bawahnya sungai-sungai" },
+        { "words": [10, 12], "id": "Mereka kekal di dalamnya selama-lamanya" },
+        { "words": [13, 15], "id": "Allah rida terhadap mereka" },
+        { "words": [16, 17], "id": "dan mereka pun rida kepada-Nya" },
+        { "words": [18, 21], "id": "Itu adalah (balasan) bagi orang yang takut kepada Tuhannya" }
+      ],
+      "full": { "id": "Balasan mereka di sisi Tuhannya adalah surga 'Adn yang mengalir di bawahnya sungai-sungai. Mereka kekal di dalamnya selama-lamanya. Allah rida terhadap mereka dan mereka pun rida kepada-Nya. Itu adalah (balasan) bagi orang yang takut kepada Tuhannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

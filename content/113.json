@@ -5,9 +5,9 @@
     "1": {
       "phrases": [
         { "words": [1, 2], "id": "Katakanlah (Nabi Muhammad), Aku berlindung" },
-        { "words": [3, 4], "id": "kepada Tuhan yang menguasai subuh (fajar)" }
+        { "words": [3, 4], "id": "kepada Tuhan yang (menjaga) fajar (subuh)" }
       ],
-      "full": { "id": "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang menguasai subuh (fajar)" },
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang (menjaga) fajar (subuh)" },
       "source": "kemenag-2019-adapted",
       "reviewed": false
     },

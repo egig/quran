@@ -1,0 +1,76 @@
+{
+  "surah": 102,
+  "name": { "ar": "التكاثر", "latin": "At-Takāthur" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "telah melalaikanmu" },
+        { "words": [2, 2], "id": "Berbangga-bangga dalam memperbanyak (dunia)" }
+      ],
+      "full": { "id": "Berbangga-bangga dalam memperbanyak (dunia) telah melalaikanmu" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "sampai kamu masuk ke dalam kubur" }
+      ],
+      "full": { "id": "sampai kamu masuk ke dalam kubur." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 3], "id": "Kelak kamu akan mengetahui (akibat perbuatanmu itu)" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Kelak kamu akan mengetahui (akibat perbuatanmu itu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sekali-kali tidak (jangan melakukan itu)" },
+        { "words": [3, 4], "id": "Kelak kamu akan mengetahui (akibatnya)" }
+      ],
+      "full": { "id": "Sekali-kali tidak (jangan melakukan itu)! Kelak kamu akan mengetahui (akibatnya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak (jangan melakukan itu)" },
+        { "words": [2, 5], "id": "Sekiranya kamu mengetahui dengan pasti, (niscaya kamu tidak akan melakukannya)" }
+      ],
+      "full": { "id": "Sekali-kali tidak (jangan melakukan itu)! Sekiranya kamu mengetahui dengan pasti, (niscaya kamu tidak akan melakukannya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Pasti kamu benar-benar akan melihat (neraka) Jahim" }
+      ],
+      "full": { "id": "Pasti kamu benar-benar akan melihat (neraka) Jahim." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kemudian, kamu pasti benar-benar akan melihatnya" },
+        { "words": [3, 4], "id": "dengan ainulyakin" }
+      ],
+      "full": { "id": "Kemudian, kamu pasti benar-benar akan melihatnya dengan ainulyakin." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kemudian, kamu pasti benar-benar akan ditanya pada hari itu" },
+        { "words": [4, 5], "id": "tentang kenikmatan (yang megah di dunia itu)" }
+      ],
+      "full": { "id": "Kemudian, kamu pasti benar-benar akan ditanya pada hari itu tentang kenikmatan (yang megah di dunia itu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

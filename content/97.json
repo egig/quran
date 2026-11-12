@@ -1,0 +1,52 @@
+{
+  "surah": 97,
+  "name": { "ar": "القدر", "latin": "Al-Qadr" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya Kami telah menurunkannya (Al-Qur’an)" },
+        { "words": [3, 5], "id": "pada Lailatulqadar" }
+      ],
+      "full": { "id": "Sesungguhnya Kami telah menurunkannya (Al-Qur’an) pada Lailatulqadar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah kamu" },
+        { "words": [3, 5], "id": "apakah Lailatulqadar itu" }
+      ],
+      "full": { "id": "Tahukah kamu apakah Lailatulqadar itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "Lailatulqadar itu" },
+        { "words": [3, 6], "id": "lebih baik daripada seribu bulan" }
+      ],
+      "full": { "id": "Lailatulqadar itu lebih baik daripada seribu bulan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 4], "id": "Pada malam itu turun para malaikat dan Rūḥ (Jibril)" },
+        { "words": [5, 6], "id": "dengan izin Tuhannya" },
+        { "words": [7, 9], "id": "untuk mengatur semua urusan" }
+      ],
+      "full": { "id": "Pada malam itu turun para malaikat dan Rūḥ (Jibril) dengan izin Tuhannya untuk mengatur semua urusan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sejahteralah (malam) itu" },
+        { "words": [3, 5], "id": "sampai terbit fajar" }
+      ],
+      "full": { "id": "Sejahteralah (malam) itu sampai terbit fajar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

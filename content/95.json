@@ -1,0 +1,76 @@
+{
+  "surah": 95,
+  "name": { "ar": "التين", "latin": "At-Tīn" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Demi (buah) tin dan (buah) zaitun" }
+      ],
+      "full": { "id": "Demi (buah) tin dan (buah) zaitun," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "demi gunung Sinai" }
+      ],
+      "full": { "id": "demi gunung Sinai," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan demi negeri (Makkah) yang aman ini" }
+      ],
+      "full": { "id": "dan demi negeri (Makkah) yang aman ini," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "sungguh, Kami benar-benar telah menciptakan manusia" },
+        { "words": [4, 6], "id": "dalam bentuk yang sebaik-baiknya" }
+      ],
+      "full": { "id": "sungguh, Kami benar-benar telah menciptakan manusia dalam bentuk yang sebaik-baiknya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kemudian, kami kembalikan dia" },
+        { "words": [3, 4], "id": "ke tempat yang serendah-rendahnya" }
+      ],
+      "full": { "id": "Kemudian, kami kembalikan dia ke tempat yang serendah-rendahnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 5], "id": "kecuali orang-orang yang beriman dan mengerjakan kebajikan" },
+        { "words": [6, 9], "id": "Maka, mereka akan mendapat pahala yang tidak putus-putusnya" }
+      ],
+      "full": { "id": "kecuali orang-orang yang beriman dan mengerjakan kebajikan. Maka, mereka akan mendapat pahala yang tidak putus-putusnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Maka, apa alasanmu (wahai orang kafir) mendustakan" },
+        { "words": [3, 3], "id": "setelah (adanya bukti-bukti) itu" },
+        { "words": [4, 4], "id": "hari Pembalasan" }
+      ],
+      "full": { "id": "Maka, apa alasanmu (wahai orang kafir) mendustakan hari Pembalasan setelah (adanya bukti-bukti) itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bukankah Allah" },
+        { "words": [3, 4], "id": "hakim yang paling adil" }
+      ],
+      "full": { "id": "Bukankah Allah hakim yang paling adil?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

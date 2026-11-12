@@ -1,0 +1,171 @@
+{
+  "surah": 82,
+  "name": { "ar": "الإنفطار", "latin": "Al-Infiṭār" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila langit terbelah" }
+      ],
+      "full": { "id": "Apabila langit terbelah," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila bintang-bintang jatuh berserakan" }
+      ],
+      "full": { "id": "apabila bintang-bintang jatuh berserakan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila lautan diluapkan" }
+      ],
+      "full": { "id": "apabila lautan diluapkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan apabila kuburan-kuburan dibongkar" }
+      ],
+      "full": { "id": "dan apabila kuburan-kuburan dibongkar," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "setiap jiwa akan mengetahui" },
+        { "words": [3, 5], "id": "apa yang telah dikerjakan dan yang dilalaikan(-nya)" }
+      ],
+      "full": { "id": "setiap jiwa akan mengetahui apa yang telah dikerjakan dan yang dilalaikan(-nya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai manusia" },
+        { "words": [3, 4], "id": "apakah yang telah memperdayakanmu (berbuat durhaka)" },
+        { "words": [5, 6], "id": "terhadap Tuhanmu Yang Maha Mulia" }
+      ],
+      "full": { "id": "Wahai manusia, apakah yang telah memperdayakanmu (berbuat durhaka) terhadap Tuhanmu Yang Maha Mulia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang telah menciptakanmu" },
+        { "words": [3, 3], "id": "lalu menyempurnakan kejadianmu" },
+        { "words": [4, 4], "id": "dan menjadikan (susunan tubuh)-mu seimbang" }
+      ],
+      "full": { "id": "yang telah menciptakanmu lalu menyempurnakan kejadianmu dan menjadikan (susunan tubuh)-mu seimbang?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 5], "id": "Dalam bentuk apa saja yang dikehendaki" },
+        { "words": [6, 6], "id": "Dia menyusun (tubuh)-mu" }
+      ],
+      "full": { "id": "Dalam bentuk apa saja yang dikehendaki, Dia menyusun (tubuh)-mu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 1], "id": "Jangan sekali-kali begitu" },
+        { "words": [2, 4], "id": "Bahkan, kamu mendustakan hari Pembalasan" }
+      ],
+      "full": { "id": "Jangan sekali-kali begitu! Bahkan, kamu mendustakan hari Pembalasan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya bagi kamu ada (malaikat-malaikat) pengawas" }
+      ],
+      "full": { "id": "Sesungguhnya bagi kamu ada (malaikat-malaikat) pengawas" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang mulia (di sisi Allah) dan mencatat (amal perbuatanmu)" }
+      ],
+      "full": { "id": "yang mulia (di sisi Allah) dan mencatat (amal perbuatanmu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "Mereka mengetahui apa yang kamu kerjakan" }
+      ],
+      "full": { "id": "Mereka mengetahui apa yang kamu kerjakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya orang-orang yang berbakti" },
+        { "words": [3, 4], "id": "benar-benar berada dalam (surga yang penuh) kenikmatan" }
+      ],
+      "full": { "id": "Sesungguhnya orang-orang yang berbakti benar-benar berada dalam (surga yang penuh) kenikmatan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya orang-orang yang durhaka" },
+        { "words": [3, 4], "id": "benar-benar berada dalam (neraka) Jahim" }
+      ],
+      "full": { "id": "Sesungguhnya orang-orang yang durhaka benar-benar berada dalam (neraka) Jahim." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka memasukinya" },
+        { "words": [2, 3], "id": "pada hari Pembalasan" }
+      ],
+      "full": { "id": "Mereka memasukinya pada hari Pembalasan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 4], "id": "Mereka tidak mungkin keluar dari (neraka) itu" }
+      ],
+      "full": { "id": "Mereka tidak mungkin keluar dari (neraka) itu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah engkau" },
+        { "words": [3, 5], "id": "apakah hari Pembalasan itu" }
+      ],
+      "full": { "id": "Tahukah engkau apakah hari Pembalasan itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kemudian, tahukah engkau" },
+        { "words": [4, 6], "id": "apakah hari Pembalasan itu" }
+      ],
+      "full": { "id": "Kemudian, tahukah engkau apakah hari Pembalasan itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 6], "id": "(Itulah) hari (ketika) seseorang tidak berdaya (menolong) orang lain sedikit pun" },
+        { "words": [7, 9], "id": "Segala urusan pada hari itu adalah milik Allah" }
+      ],
+      "full": { "id": "(Itulah) hari (ketika) seseorang tidak berdaya (menolong) orang lain sedikit pun. Segala urusan pada hari itu adalah milik Allah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "surah": 81,
+  "name": { "ar": "التكوير", "latin": "At-Takwīr" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila matahari digulung" }
+      ],
+      "full": { "id": "Apabila matahari digulung," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila bintang-bintang berjatuhan" }
+      ],
+      "full": { "id": "apabila bintang-bintang berjatuhan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila gunung-gunung dihancurkan" }
+      ],
+      "full": { "id": "apabila gunung-gunung dihancurkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila unta-unta yang bunting ditinggalkan (tidak terurus)" }
+      ],
+      "full": { "id": "apabila unta-unta yang bunting ditinggalkan (tidak terurus)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila binatang-binatang liar dikumpulkan" }
+      ],
+      "full": { "id": "apabila binatang-binatang liar dikumpulkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila lautan dipanaskan" }
+      ],
+      "full": { "id": "apabila lautan dipanaskan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila roh-roh dipertemukan (dengan tubuh)" }
+      ],
+      "full": { "id": "apabila roh-roh dipertemukan (dengan tubuh)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya" }
+      ],
+      "full": { "id": "apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "Karena dosa apa dia dibunuh" }
+      ],
+      "full": { "id": "“Karena dosa apa dia dibunuh,”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila lembaran-lembaran (catatan amal) telah dibuka lebar-lebar" }
+      ],
+      "full": { "id": "apabila lembaran-lembaran (catatan amal) telah dibuka lebar-lebar," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila langit dilenyapkan" }
+      ],
+      "full": { "id": "apabila langit dilenyapkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila (neraka) Jahim dinyalakan" }
+      ],
+      "full": { "id": "apabila (neraka) Jahim dinyalakan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan apabila surga didekatkan" }
+      ],
+      "full": { "id": "dan apabila surga didekatkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "setiap jiwa akan mengetahui" },
+        { "words": [3, 4], "id": "apa yang telah dikerjakannya" }
+      ],
+      "full": { "id": "setiap jiwa akan mengetahui apa yang telah dikerjakannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 3], "id": "Aku bersumpah demi bintang-bintang" }
+      ],
+      "full": { "id": "Aku bersumpah demi bintang-bintang" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang beredar lagi terbenam" }
+      ],
+      "full": { "id": "yang beredar lagi terbenam," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 3], "id": "demi malam apabila telah larut" }
+      ],
+      "full": { "id": "demi malam apabila telah larut," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 3], "id": "demi subuh apabila (fajar) telah menyingsing" }
+      ],
+      "full": { "id": "demi subuh apabila (fajar) telah menyingsing," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 2], "id": "sesungguhnya (Al-Qur’an) itu benar-benar firman (Allah yang dibawa oleh)" },
+        { "words": [3, 4], "id": "utusan yang mulia (Jibril)" }
+      ],
+      "full": { "id": "sesungguhnya (Al-Qur’an) itu benar-benar firman (Allah yang dibawa oleh) utusan yang mulia (Jibril)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang memiliki kekuatan" },
+        { "words": [3, 6], "id": "dan kedudukan tinggi di sisi (Allah) yang memiliki ʻArasy" }
+      ],
+      "full": { "id": "yang memiliki kekuatan dan kedudukan tinggi di sisi (Allah) yang memiliki ʻArasy," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang di sana (Jibril) ditaati lagi dipercaya" }
+      ],
+      "full": { "id": "yang di sana (Jibril) ditaati lagi dipercaya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 3], "id": "Temanmu (Nabi Muhammad) itu bukanlah orang gila" }
+      ],
+      "full": { "id": "Temanmu (Nabi Muhammad) itu bukanlah orang gila." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sungguh, dia (Nabi Muhammad) benar-benar telah melihatnya (Jibril)" },
+        { "words": [3, 4], "id": "di ufuk yang terang" }
+      ],
+      "full": { "id": "Sungguh, dia (Nabi Muhammad) benar-benar telah melihatnya (Jibril) di ufuk yang terang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia (Nabi Muhammad) bukanlah" },
+        { "words": [3, 5], "id": "seorang yang kikir (enggan) untuk menerangkan yang gaib" }
+      ],
+      "full": { "id": "Dia (Nabi Muhammad) bukanlah seorang yang kikir (enggan) untuk menerangkan yang gaib." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Al-Qur’an) itu bukanlah" },
+        { "words": [3, 5], "id": "perkataan setan yang terkutuk" }
+      ],
+      "full": { "id": "(Al-Qur’an) itu bukanlah perkataan setan yang terkutuk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 2], "id": "Maka, ke manakah kamu akan pergi" }
+      ],
+      "full": { "id": "Maka, ke manakah kamu akan pergi?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Al-Qur’an) itu tidak lain, kecuali" },
+        { "words": [4, 5], "id": "peringatan bagi semesta alam" }
+      ],
+      "full": { "id": "(Al-Qur’an) itu tidak lain, kecuali peringatan bagi semesta alam," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 3], "id": "(yaitu) bagi siapa di antaramu yang hendak" },
+        { "words": [4, 5], "id": "menempuh jalan yang lurus" }
+      ],
+      "full": { "id": "(yaitu) bagi siapa di antaramu yang hendak menempuh jalan yang lurus." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kamu tidak dapat berkehendak" },
+        { "words": [3, 6], "id": "kecuali apabila dikehendaki Allah" },
+        { "words": [7, 8], "id": "Tuhan semesta alam" }
+      ],
+      "full": { "id": "Kamu tidak dapat berkehendak, kecuali apabila dikehendaki Allah, Tuhan semesta alam." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

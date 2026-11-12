@@ -1,0 +1,33 @@
+{
+  "surah": 103,
+  "name": { "ar": "العصر", "latin": "Al-ʿAṣr" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Demi masa" }
+      ],
+      "full": { "id": "Demi masa," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "sesungguhnya manusia" },
+        { "words": [3, 4], "id": "benar-benar berada dalam kerugian" }
+      ],
+      "full": { "id": "sesungguhnya manusia benar-benar berada dalam kerugian," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 5], "id": "kecuali orang-orang yang beriman dan beramal saleh" },
+        { "words": [6, 7], "id": "serta saling menasihati untuk kebenaran" },
+        { "words": [8, 9], "id": "dan kesabaran" }
+      ],
+      "full": { "id": "kecuali orang-orang yang beriman dan beramal saleh serta saling menasihati untuk kebenaran dan kesabaran." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

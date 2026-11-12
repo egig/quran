@@ -1,0 +1,180 @@
+{
+  "surah": 90,
+  "name": { "ar": "البلد", "latin": "Al-Balad" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Aku bersumpah" },
+        { "words": [3, 4], "id": "demi negeri ini (Makkah)" }
+      ],
+      "full": { "id": "Aku bersumpah demi negeri ini (Makkah)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "sedangkan engkau (Nabi Muhammad) bertempat tinggal" },
+        { "words": [3, 4], "id": "di negeri (Makkah) ini" }
+      ],
+      "full": { "id": "sedangkan engkau (Nabi Muhammad) bertempat tinggal di negeri (Makkah) ini." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Aku juga bersumpah) demi bapak dan anaknya" }
+      ],
+      "full": { "id": "(Aku juga bersumpah) demi bapak dan anaknya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "sungguh, Kami benar-benar telah menciptakan manusia" },
+        { "words": [4, 5], "id": "dalam keadaan susah payah" }
+      ],
+      "full": { "id": "sungguh, Kami benar-benar telah menciptakan manusia dalam keadaan susah payah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 1], "id": "Apakah dia (manusia) itu mengira" },
+        { "words": [2, 6], "id": "bahwa tidak ada seorang pun yang berkuasa atasnya" }
+      ],
+      "full": { "id": "Apakah dia (manusia) itu mengira bahwa tidak ada seorang pun yang berkuasa atasnya?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dia mengatakan" },
+        { "words": [2, 4], "id": "Aku telah menghabiskan harta yang banyak" }
+      ],
+      "full": { "id": "Dia mengatakan, “Aku telah menghabiskan harta yang banyak.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 1], "id": "Apakah dia mengira" },
+        { "words": [2, 5], "id": "bahwa tidak ada seorang pun yang melihatnya" }
+      ],
+      "full": { "id": "Apakah dia mengira bahwa tidak ada seorang pun yang melihatnya?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Bukankah Kami telah menjadikan untuknya" },
+        { "words": [4, 4], "id": "sepasang mata" }
+      ],
+      "full": { "id": "Bukankah Kami telah menjadikan untuknya sepasang mata," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "lidah, dan sepasang bibir" }
+      ],
+      "full": { "id": "lidah, dan sepasang bibir," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 2], "id": "serta Kami juga telah menunjukkan kepadanya dua jalan (kebajikan dan kejahatan)" }
+      ],
+      "full": { "id": "serta Kami juga telah menunjukkan kepadanya dua jalan (kebajikan dan kejahatan)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 3], "id": "Maka, tidakkah sebaiknya dia menempuh jalan (kebajikan) yang mendaki dan sukar" }
+      ],
+      "full": { "id": "Maka, tidakkah sebaiknya dia menempuh jalan (kebajikan) yang mendaki dan sukar?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah kamu" },
+        { "words": [3, 4], "id": "apakah jalan yang mendaki dan sukar itu" }
+      ],
+      "full": { "id": "Tahukah kamu apakah jalan yang mendaki dan sukar itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Itulah upaya) melepaskan perbudakan" }
+      ],
+      "full": { "id": "(Itulah upaya) melepaskan perbudakan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "atau memberi makan" },
+        { "words": [3, 6], "id": "pada hari terjadi kelaparan" }
+      ],
+      "full": { "id": "atau memberi makan pada hari terjadi kelaparan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 3], "id": "(kepada) anak yatim yang memiliki hubungan kekerabatan" }
+      ],
+      "full": { "id": "(kepada) anak yatim yang memiliki hubungan kekerabatan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 4], "id": "atau orang miskin yang sangat membutuhkan" }
+      ],
+      "full": { "id": "atau orang miskin yang sangat membutuhkan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 5], "id": "Kemudian, dia juga termasuk orang-orang yang beriman" },
+        { "words": [6, 7], "id": "dan saling berpesan untuk bersabar" },
+        { "words": [8, 9], "id": "serta saling berpesan untuk berkasih sayang" }
+      ],
+      "full": { "id": "Kemudian, dia juga termasuk orang-orang yang beriman dan saling berpesan untuk bersabar serta saling berpesan untuk berkasih sayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka itulah" },
+        { "words": [2, 3], "id": "golongan kanan" }
+      ],
+      "full": { "id": "Mereka itulah golongan kanan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 3], "id": "Adapun orang-orang yang kufur pada ayat-ayat Kami" },
+        { "words": [4, 6], "id": "merekalah golongan kiri" }
+      ],
+      "full": { "id": "Adapun orang-orang yang kufur pada ayat-ayat Kami, merekalah golongan kiri." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka berada" },
+        { "words": [2, 3], "id": "dalam neraka yang ditutup rapat" }
+      ],
+      "full": { "id": "Mereka berada dalam neraka yang ditutup rapat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
