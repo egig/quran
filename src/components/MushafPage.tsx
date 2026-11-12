@@ -1,5 +1,8 @@
+import { useLayoutEffect, useRef } from "react";
 import type { AyahData, Glyph } from "../types.ts";
 import type { PageSection } from "../data.ts";
+import { fitRow } from "./fitRow.ts";
+import { hyphenate } from "./hyphenate.ts";
 
 const LANG = "id";
 
@@ -46,8 +49,26 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
   const bottom = Math.max(...layouts.map((l) => l.band.bottom));
   const pct = (v: number) => `${(v / width) * 100}%`;
 
+  // Translations that do not fit their slot get room from their neighbours
+  // (see fitRow). Re-run when the width changes and once the font has loaded.
+  const ref = useRef<HTMLDivElement>(null);
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const fit = () => el.querySelectorAll<HTMLElement>(".mtr").forEach(fitRow);
+    fit();
+    let alive = true;
+    document.fonts.ready.then(() => alive && fit());
+    const ro = new ResizeObserver(fit);
+    ro.observe(el);
+    return () => {
+      alive = false;
+      ro.disconnect();
+    };
+  }, [page, sections]);
+
   return (
-    <div className="mushaf-page" lang="ar">
+    <div className="mushaf-page" lang="ar" ref={ref}>
       {sections.map(({ surah, ayahs }) => {
         const { layout } = surah;
         const dx = layout.left - left;
@@ -89,14 +110,15 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
                   <div className="mtr" dir="rtl">
                     {segments.map((s) => {
                       const style = { width: pct(s.x1 - s.x0), marginRight: pct(edge - s.x1) };
+                      const slot = { "data-l": s.x0 / width, "data-w": (s.x1 - s.x0) / width };
                       edge = s.x0;
                       return s.text === null ? (
-                        <span key={s.x1} className="seg cont" style={style} aria-hidden="true">
+                        <span key={s.x1} className="seg cont" style={style} {...slot} aria-hidden="true">
                           …
                         </span>
                       ) : (
-                        <span key={s.x1} className="seg" style={style} lang={LANG} dir="ltr">
-                          {s.text}
+                        <span key={s.x1} className="seg" style={style} {...slot} lang={LANG} dir="ltr">
+                          {hyphenate(s.text)}
                         </span>
                       );
                     })}
