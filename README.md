@@ -2,16 +2,33 @@
 
 The Madinah mushaf page reproduced line for line — every word at its printed
 position — with the Indonesian translation placed under each **meaningful
-phrase** (not word by word). The page scales to the screen width. A page toggle
-shows the full-sentence translations below. A phrase that runs onto the next
-printed line shows its translation under the first part and "…" under the rest.
+phrase** (not word by word). The page scales to the screen width. A surah that
+spans several mushaf pages shows each page in turn, closed by its page number.
+A phrase that runs onto the next printed line shows its translation under the
+first part and "…" under the rest. A button at the top right switches between
+light and dark.
 
 ## Run
 
 ```sh
 npm install
 npm run data   # build public/data from content/*.json (fetches artwork once, cached in cache/)
-npm run dev    # http://localhost:5173/1  or  /1/1
+npm run dev    # http://localhost:5173/ (surah list), /1 (surah) or /1/1 (ayah)
+```
+
+## Deploy
+
+Pushing to `main` deploys to GitHub Pages
+(`.github/workflows/deploy.yml`). CI does not fetch artwork: it builds the
+`public/data/` that is committed, so run `npm run data` and commit its output
+first. In the repository settings, set **Pages → Source** to **GitHub
+Actions** once.
+
+To try the Pages build locally under a sub-path:
+
+```sh
+BASE_PATH=/quran-terjemah/ npm run build:site
+BASE_PATH=/quran-terjemah/ npx vite preview   # http://localhost:4173/quran-terjemah/
 ```
 
 ## Adding an ayah
@@ -38,22 +55,26 @@ npm run dev    # http://localhost:5173/1  or  /1/1
 
 ## How it works
 
-- `scripts/build-data.ts` fetches the whole surah once as SVG from
-  `png.quran.ws/api/v1/image/{s}/1-{n}.svg?layout=mushaf` (renderer pinned
-  with `v=3`), which reproduces the printed plate. It flattens every
-  `data-word-key` group and ayah-end ornament, detects the printed lines
-  (reading order runs right to left; a glyph fully right of the previous one
-  starts a new line), and stores each glyph's printed x plus y relative to its
-  line centre (the ornament centre; lines without an ornament are placed by
-  the line pitch). Output: `public/data/{s}/index.json` (page layout) and
-  `public/data/{s}/{a}.json` (words, ornament, phrases). Types in
-  `src/types.ts`.
+- `scripts/build-data.ts` fetches the surah as SVG in chunks of 10 ayahs from
+  `png.quran.ws/api/v1/image/{s}/{from}-{to}.svg?layout=mushaf` (renderer
+  pinned with `v=3`), which reproduces the printed plate. It flattens every
+  `data-word-key` group, ayah-end ornament and the basmalah in printed-page
+  coordinates (transforms from the page matrix down, so chunks join exactly).
+  It detects pages (a glyph clearly higher than the previous one starts the
+  next page; inside a chunk this must agree with the API's page stacking) and
+  printed lines (reading order runs right to left; a glyph fully right of the
+  previous one starts a new line). Each glyph stores its page, line, printed x,
+  and y relative to its line centre (the ornament centre; lines without an
+  ornament are placed by the line pitch). Output: `public/data/{s}/index.json`
+  (pages, width, basmalah) and `public/data/{s}/{a}.json` (words, ornament,
+  phrases). Types in `src/types.ts`.
 - The page draws each printed line as one SVG and puts a row of translations
   under it, each positioned under its phrase's words. Neighbouring phrases
   split the space between them at the midpoint, since printed words can
   overlap. The artwork is only moved (per line, vertically), never scaled
   relative to itself or restyled.
-- Multi-page surahs are not supported yet; the build stops with an error.
+- Known upstream defect: mushaf page 17 (Al-Baqarah 2:106–110) is scrambled
+  in png.quran.ws, so Al-Baqarah does not build yet.
 - The JSON in `public/data` is the contract for a future mobile app.
 
 ## Attribution

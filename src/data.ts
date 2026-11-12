@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
-import type { AyahData, SurahIndex } from "./types.ts";
+import type { AyahData, RootIndex, SurahIndex } from "./types.ts";
+
+/** Generated data, under the site's base path (/ locally, /<repo>/ on GitHub Pages). */
+const DATA = `${import.meta.env.BASE_URL}data`;
 
 type State<T> = { status: "loading" } | { status: "error"; error: string } | { status: "ok"; data: T };
 
@@ -20,7 +23,9 @@ function useJson<T>(url: string | null): State<T> {
   return state;
 }
 
-export const useSurahIndex = (surah: number) => useJson<SurahIndex>(`/data/${surah}/index.json`);
+export const useRootIndex = () => useJson<RootIndex>(`${DATA}/index.json`);
+
+export const useSurahIndex = (surah: number) => useJson<SurahIndex>(`${DATA}/${surah}/index.json`);
 
 export function useAyahs(surah: number, ayahs: number[] | null): State<AyahData[]> {
   const [state, setState] = useState<State<AyahData[]>>({ status: "loading" });
@@ -31,7 +36,7 @@ export function useAyahs(surah: number, ayahs: number[] | null): State<AyahData[
     setState({ status: "loading" });
     Promise.all(
       key.split(",").filter(Boolean).map((a) =>
-        fetch(`/data/${surah}/${a}.json`).then((r) =>
+        fetch(`${DATA}/${surah}/${a}.json`).then((r) =>
           r.ok ? (r.json() as Promise<AyahData>) : Promise.reject(new Error(`${surah}:${a} ${r.status}`)),
         ),
       ),

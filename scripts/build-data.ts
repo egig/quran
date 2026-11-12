@@ -5,9 +5,10 @@
 //
 // For each surah we fetch the whole surah once as SVG in the mushaf layout
 // (cached in cache/), which reproduces the Madinah printed plate: every word
-// keeps its printed x and its printed line. Each word group (data-word-key)
-// and ayah-end ornament is flattened, assigned to its printed line, and
-// stored with y relative to that line's centre. The page redraws the plate
+// keeps its printed x and its printed line. A surah that spans pages comes
+// back with the pages stacked. Each word group (data-word-key), ayah-end
+// ornament and the basmalah is flattened, assigned to its page and printed
+// line, and stored with y relative to that line's centre. The page redraws the plate
 // line by line with translations in between. The artwork is only moved
 // (vertically, per line), never scaled or restyled.
 
@@ -40,6 +41,10 @@ const LANGS = ["id"];
 const PRECISION = 2;
 /** Extra room above/below the tallest ink, in artwork units. */
 const BAND_PAD = 1;
+/** Ayahs per API request; the API refuses very large ranges. */
+const CHUNK = 10;
+/** A glyph this much higher than the previous one starts a new page. */
+const PAGE_JUMP = 20;
 
 interface SurahMeta {
   number: number;
@@ -59,26 +64,90 @@ async function cached(file: string, url: string, check: (body: string) => boolea
   return body;
 }
 
+interface SurahListMeta extends SurahMeta {
+  name_ar: string;
+  name_latin: string;
+  place: string;
+}
+
+async function allSurahs(): Promise<SurahListMeta[]> {
+  const body = await cached("surahs.json", `${API}/surahs`, (b) => b.trimStart().startsWith("{"));
+  const list = (JSON.parse(body) as { surahs: SurahListMeta[] }).surahs;
+  if (list.length !== 114) throw new Error(`surah list has ${list.length} entries, expected 114`);
+  return list;
+}
+
+/**
+ * The API's Latin names use stand-in letters (ĥ for ḥ, ` for ʿain, ' for
+ * hamza, á for alif maqṣūrah). Map them to the usual transliteration.
+ */
+function latinName(raw: string): string {
+  const map: Record<string, string> = { ĥ: "ḥ", Ĥ: "Ḥ", ş: "ṣ", Ş: "Ṣ", ţ: "ṭ", Ţ: "Ṭ", đ: "ḍ", Đ: "Ḍ", "`": "ʿ" };
+  return raw
+    .replace(/-'/g, "-") // hamza opening a word after the article is not written
+    .replace(/'/g, "ʾ")
+    .replace(/a?á/g, "ā")
+    .replace(/[ĥĤşŞţŢđĐ`]/g, (c) => map[c]);
+}
+
+async function writeRootIndex() {
+  const surahs = (await allSurahs()).map((s) => {
+    const built = join(OUT_DIR, String(s.number), "index.json");
+    return { s, built: existsSync(built) ? built : null };
+  });
+  const root: RootIndex = {
+    version: 4,
+    surahs: await Promise.all(
+      surahs.map(async ({ s, built }) => {
+        // A built surah keeps the hand-authored name from content/.
+        const name = built
+          ? (JSON.parse(await readFile(built, "utf8")) as SurahIndex).name
+          : { ar: s.name_ar, latin: latinName(s.name_latin) };
+        if (s.place !== "makkah" && s.place !== "madinah") throw new Error(`surah ${s.number}: place "${s.place}"`);
+        return { surah: s.number, name, ayahs: s.ayahs, place: s.place, pages: s.pages, available: !!built };
+      }),
+    ),
+  };
+  await writeFile(join(OUT_DIR, "index.json"), JSON.stringify(root));
+}
+
 async function surahMeta(surah: number): Promise<SurahMeta> {
   const body = await cached(`surah_${surah}.json`, `${API}/surahs/${surah}`, (b) => b.trimStart().startsWith("{"));
   return JSON.parse(body) as SurahMeta;
 }
 
-function surahSvg(surah: number, last: number): Promise<string> {
-  const url = `${API}/image/${surah}/1-${last}.svg?layout=mushaf&padding=0&v=${RENDERER}`;
-  return cached(`mushaf_${surah}.svg`, url, (b) => b.trimStart().startsWith("<svg"));
+/**
+ * The surah as mushaf-layout SVG, in chunks of ayahs: the API refuses very
+ * large ranges, and a chunk keeps each file a few pages at most.
+ */
+async function surahSvgs(surah: number, ayahs: number): Promise<string[]> {
+  const out: string[] = [];
+  for (let from = 1; from <= ayahs; from += CHUNK) {
+    const to = Math.min(from + CHUNK - 1, ayahs);
+    const url = `${API}/image/${surah}/${from}-${to}.svg?layout=mushaf&padding=0&v=${RENDERER}`;
+    out.push(await cached(`mushaf_${surah}_${from}-${to}.svg`, url, (b) => b.trimStart().startsWith("<svg")));
+  }
+  return out;
 }
 
-/** Transform list from the root down to (and including) `el`. */
-function transformChain(el: Element): string {
+const isPageMatrix = (el: Element) => (el.getAttribute("transform") ?? "").startsWith("matrix(");
+
+/**
+ * Transform list from the page-placement matrix down to (and including) `el`.
+ * Everything above that matrix only crops the image and stacks pages, so the
+ * result is in the coordinates of the printed page itself, the same for any
+ * requested range.
+ */
+function pageTransform(el: Element, key: string): string {
   const parts: string[] = [];
   let node: Element | null = el;
   while (node && node.nodeType === 1) {
     const t = node.getAttribute("transform");
     if (t) parts.unshift(t);
+    if (isPageMatrix(node)) return parts.join(" ");
     node = node.parentNode as Element | null;
   }
-  return parts.join(" ");
+  throw new Error(`${key}: no page matrix above the glyph`);
 }
 
 function elementsOf(root: Element): Element[] {
@@ -100,6 +169,7 @@ const round = (n: number) => Math.round(n * 10 ** PRECISION) / 10 ** PRECISION;
 /** A glyph flattened into page coordinates, before line assignment. */
 interface RawGlyph {
   key: string;
+  /** Ayah number, or 0 for the basmalah. */
   ayah: number;
   /** Word number, or 0 for the ayah-end ornament. */
   n: number;
@@ -119,7 +189,7 @@ function flatten(group: Element, key: string): Omit<RawGlyph, "key" | "ayah" | "
     if (el.tagName !== "path") throw new Error(`${key}: unexpected <${el.tagName}>`);
     const d = el.getAttribute("d");
     if (!d) continue;
-    const flat = svgpath(d).transform(transformChain(el)).round(PRECISION).toString();
+    const flat = svgpath(d).transform(pageTransform(el, key)).round(PRECISION).toString();
     const [a, b, c, e] = svgPathBbox(flat);
     x0 = Math.min(x0, a);
     y0 = Math.min(y0, b);
@@ -133,86 +203,154 @@ function flatten(group: Element, key: string): Omit<RawGlyph, "key" | "ayah" | "
   return { x0, x1, y0, y1, paths };
 }
 
-function parsePlate(svg: string, surah: number) {
+/** Line pitch from known [line, centre] pairs, or null with fewer than two. */
+function pitchOf(known: (readonly [number, number])[]): number | null {
+  if (known.length < 2) return null;
+  const [a, b] = [known[0], known[known.length - 1]];
+  return (b[1] - a[1]) / (b[0] - a[0]);
+}
+
+/**
+ * Glyphs of one chunk in reading order, in printed-page coordinates. Marks
+ * where the chunk itself moves to a new page: each glyph sits under a
+ * page-placement matrix whose parent stacks that page, so the transform chain
+ * above the matrix changes exactly at a page break.
+ */
+function parseChunk(svg: string, surah: number): (RawGlyph & { stackBreak: boolean })[] {
   const doc = new DOMParser().parseFromString(svg, "image/svg+xml");
   const root = doc.documentElement;
   if (!root || root.tagName !== "svg") throw new Error(`${surah}: not an SVG document`);
-  const viewBox = (root.getAttribute("viewBox") ?? "").split(/\s+/).map(Number);
-  if (viewBox.length !== 4 || viewBox.some(Number.isNaN)) throw new Error(`${surah}: bad viewBox`);
-  const width = viewBox[2];
 
-  // Collect glyphs in document order, which is reading order.
-  const glyphs: RawGlyph[] = [];
+  const glyphs: (RawGlyph & { stackBreak: boolean })[] = [];
+  let lastStack: string | null = null;
+  const stackBreak = (g: Element) => {
+    let m: Element | null = g;
+    while (m && m.nodeType === 1 && !isPageMatrix(m)) m = m.parentNode as Element | null;
+    const parts: string[] = [];
+    for (let n = m?.parentNode as Element | null; n && n.nodeType === 1; n = n.parentNode as Element | null)
+      parts.unshift(n.getAttribute("transform") ?? "");
+    const stack = parts.join(" ");
+    const isBreak = lastStack !== null && stack !== lastStack;
+    lastStack = stack;
+    return isBreak;
+  };
   for (const g of Array.from(root.getElementsByTagName("g"))) {
     const cls = g.getAttribute("class");
     if (cls === "word") {
       const key = g.getAttribute("data-word-key") ?? "";
       const [s, a, n] = key.split(":").map(Number);
       if (s !== surah || !a || !n) throw new Error(`unexpected word key "${key}"`);
-      glyphs.push({ key, ayah: a, n, text: g.getAttribute("data-rasm-uthmani") ?? "", ...flatten(g, key) });
+      const text = g.getAttribute("data-rasm-uthmani") ?? "";
+      glyphs.push({ key, ayah: a, n, text, stackBreak: stackBreak(g), ...flatten(g, key) });
     } else if (cls === "ayah-mark") {
       const key = g.getAttribute("data-ayah-key") ?? "";
       const [s, a] = key.split(":").map(Number);
       if (s !== surah || !a) throw new Error(`unexpected ayah key "${key}"`);
-      glyphs.push({ key: `${key}:mark`, ayah: a, n: 0, text: "", ...flatten(g, key) });
+      glyphs.push({ key: `${key}:mark`, ayah: a, n: 0, text: "", stackBreak: stackBreak(g), ...flatten(g, key) });
+    } else if (cls === "basmalah") {
+      if (glyphs.length) throw new Error(`${surah}: basmalah after the first glyph`);
+      const key = `${surah}:basmalah`;
+      glyphs.push({ key, ayah: 0, n: 0, text: "", stackBreak: stackBreak(g), ...flatten(g, key) });
     }
   }
+  return glyphs;
+}
 
-  // Lines: within a printed line x decreases (RTL), though neighbouring words
-  // may overlap; a glyph entirely right of the previous one starts a new line.
+const midY = (g: RawGlyph) => (g.y0 + g.y1) / 2;
+
+function parsePlate(svgs: string[], surah: number, pageCount: number) {
+  const chunks = svgs.map((svg) => parseChunk(svg, surah));
+  const glyphs = chunks.flat();
+
+  // Pages: reading order runs down a page, so a glyph that sits clearly
+  // higher than the previous one starts the next page. Inside a chunk this
+  // must agree with the API's own page stacking.
+  const pageIdx: number[] = [];
+  glyphs.forEach((g, i) => {
+    const prev = glyphs[i - 1];
+    const jump = !!prev && midY(g) < midY(prev) - PAGE_JUMP;
+    const firstOfChunk = chunks.some((c) => c[0] === g);
+    if (!firstOfChunk && jump !== g.stackBreak)
+      throw new Error(
+        `${g.key}: page break detection disagrees with the artwork ` +
+          `(y ${round(midY(g))} after ${prev?.key} at y ${prev ? round(midY(prev)) : "-"}); ` +
+          `the source artwork may be misplaced, check it at png.quran.ws`,
+      );
+    pageIdx.push(prev ? pageIdx[i - 1] + (jump ? 1 : 0) : 0);
+  });
+  const pageTotal = pageIdx[pageIdx.length - 1] + 1;
+  if (pageTotal !== pageCount)
+    throw new Error(`${surah}: found ${pageTotal} pages in the artwork, expected ${pageCount}`);
+
+  // Lines, per page: within a printed line x decreases (RTL), though
+  // neighbouring words may overlap; a glyph entirely right of the previous
+  // one starts a new line.
   const lineOf: number[] = [];
-  let line = 0;
   glyphs.forEach((g, i) => {
-    if (i > 0 && g.x0 > glyphs[i - 1].x1) line++;
-    lineOf.push(line);
+    const prev = glyphs[i - 1];
+    if (!prev || pageIdx[i - 1] !== pageIdx[i]) lineOf.push(0);
+    else lineOf.push(lineOf[i - 1] + (g.x0 > prev.x1 ? 1 : 0));
   });
-  const lineCount = line + 1;
-  // Sanity: every glyph's vertical centre sits near its line's median.
-  for (let l = 0; l < lineCount; l++) {
-    const ys = glyphs.filter((_, i) => lineOf[i] === l).map((g) => (g.y0 + g.y1) / 2);
-    const median = [...ys].sort((a, b) => a - b)[Math.floor(ys.length / 2)];
-    glyphs.forEach((g, i) => {
-      if (lineOf[i] === l && Math.abs((g.y0 + g.y1) / 2 - median) > 12)
-        throw new Error(`${g.key}: off its detected line ${l + 1}; line detection failed`);
-    });
-  }
 
-  // Line centres from the ayah-end ornaments (same glyph, same height on every line).
-  const centres: (number | null)[] = Array.from({ length: lineCount }, () => null);
-  glyphs.forEach((g, i) => {
-    if (g.n === 0) centres[lineOf[i]] = (g.y0 + g.y1) / 2;
+  const pages = Array.from({ length: pageTotal }, (_, p) => {
+    const idx = glyphs.flatMap((_, i) => (pageIdx[i] === p ? [i] : []));
+    const lines = lineOf[idx[idx.length - 1]] + 1;
+    // Sanity: every glyph's vertical centre sits near its line's median.
+    for (let l = 0; l < lines; l++) {
+      const own = idx.filter((i) => lineOf[i] === l);
+      const ys = own.map((i) => (glyphs[i].y0 + glyphs[i].y1) / 2).sort((a, b) => a - b);
+      const median = ys[Math.floor(ys.length / 2)];
+      for (const i of own)
+        if (Math.abs((glyphs[i].y0 + glyphs[i].y1) / 2 - median) > 12)
+          throw new Error(`${glyphs[i].key}: off its detected line ${l + 1}; line detection failed`);
+    }
+    // Line centres from the ayah-end ornaments (same glyph, same height on every line).
+    const centres: (number | null)[] = Array.from({ length: lines }, () => null);
+    for (const i of idx) if (glyphs[i].ayah && glyphs[i].n === 0) centres[lineOf[i]] = (glyphs[i].y0 + glyphs[i].y1) / 2;
+    const known = centres.flatMap((c, i) => (c === null ? [] : [[i, c] as const]));
+    return { lines, centres, known };
   });
-  const known = centres.flatMap((c, i) => (c === null ? [] : [[i, c] as const]));
-  if (!known.length) throw new Error(`${surah}: no ayah marks to find line positions`);
-  const pitch =
-    known.length > 1 ? (known[known.length - 1][1] - known[0][1]) / (known[known.length - 1][0] - known[0][0]) : 0;
-  const centre = (i: number) => {
-    if (centres[i] !== null) return centres[i];
+
+  // Pitch for pages with fewer than two ornaments: borrow one from another
+  // page. Full pages share the same line pitch.
+  const fallbackPitch = pages.map((p) => pitchOf(p.known)).find((v) => v !== null) ?? null;
+  const centre = (p: number, line: number) => {
+    const { centres, known } = pages[p];
+    const c = centres[line];
+    if (c !== null) return c;
+    const pitch = pitchOf(known) ?? fallbackPitch;
+    if (!known.length || pitch === null)
+      throw new Error(`${surah}: cannot place line ${line + 1} of page ${p + 1} without line pitch`);
     // Interpolate from the nearest line with an ornament.
-    const [j, c] = known.reduce((best, k) => (Math.abs(k[0] - i) < Math.abs(best[0] - i) ? k : best));
-    if (!pitch) throw new Error(`${surah}: cannot place line ${i + 1} without line pitch`);
-    return c + (i - j) * pitch;
+    const [j, k] = known.reduce((best, k) => (Math.abs(k[0] - line) < Math.abs(best[0] - line) ? k : best));
+    return k + (line - j) * pitch;
   };
 
+  // Crop to the ink of the whole surah, so x starts at 0 on every page.
+  const left = Math.min(...glyphs.map((g) => g.x0));
+  const width = Math.max(...glyphs.map((g) => g.x1)) - left;
   let top = 0;
   let bottom = 0;
   const placed = glyphs.map((g, i) => {
-    const dy = centre(lineOf[i]);
+    const dy = centre(pageIdx[i], lineOf[i]);
     top = Math.min(top, g.y0 - dy);
     bottom = Math.max(bottom, g.y1 - dy);
     return {
       ...g,
+      pageIdx: pageIdx[i],
       line: lineOf[i] + 1,
-      paths: g.paths.map((p) => ({ ...p, d: svgpath(p.d).translate(0, -dy).round(PRECISION).toString() })),
+      x0: g.x0 - left,
+      x1: g.x1 - left,
+      paths: g.paths.map((p) => ({ ...p, d: svgpath(p.d).translate(-left, -dy).round(PRECISION).toString() })),
     };
   });
 
-  const layout: Omit<MushafLayout, "page"> = {
+  return {
     width: round(width),
-    lines: lineCount,
     band: { top: Math.floor(top - BAND_PAD), bottom: Math.ceil(bottom + BAND_PAD) },
+    pageLines: pages.map((p) => p.lines),
+    glyphs: placed,
   };
-  return { layout, glyphs: placed };
 }
 
 function validatePhrases(key: string, src: AyahSource, wordCount: number): Phrase[] {
@@ -237,17 +375,16 @@ function validatePhrases(key: string, src: AyahSource, wordCount: number): Phras
   return phrases;
 }
 
-async function buildSurah(file: string): Promise<RootIndex["surahs"][number]> {
+async function buildSurah(file: string): Promise<void> {
   const src = JSON.parse(await readFile(join(CONTENT_DIR, file), "utf8")) as SurahSource;
   const meta = await surahMeta(src.surah);
-  if (meta.pages[0] !== meta.pages[1])
-    throw new Error(`surah ${src.surah} spans pages ${meta.pages.join("-")}; multi-page layout not supported yet`);
-
-  const plate = parsePlate(await surahSvg(src.surah, meta.ayahs), src.surah);
+  const [firstPage, lastPage] = meta.pages;
+  const plate = parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, lastPage - firstPage + 1);
   const outDir = join(OUT_DIR, String(src.surah));
   await mkdir(outDir, { recursive: true });
 
   const toGlyph = (g: (typeof plate.glyphs)[number]): Glyph => ({
+    page: firstPage + g.pageIdx,
     line: g.line,
     x0: round(g.x0),
     x1: round(g.x1),
@@ -266,7 +403,7 @@ async function buildSurah(file: string): Promise<RootIndex["surahs"][number]> {
 
     const ayahSrc = src.ayahs[String(ayah)];
     const data: AyahData = {
-      version: 2,
+      version: 3,
       key,
       surah: src.surah,
       ayah,
@@ -279,21 +416,27 @@ async function buildSurah(file: string): Promise<RootIndex["surahs"][number]> {
       reviewed: ayahSrc?.reviewed === true,
     };
     await writeFile(join(outDir, `${ayah}.json`), JSON.stringify(data));
-    const lines = [...new Set(words.map((w) => w.line))].join(",");
+    const lines = [...new Set(words.map((w) => `${w.page}/${w.line}`))].join(",");
     console.log(
-      `${key}  ${words.length} words, ${data.phrases.length} phrases, line ${lines}${ayahSrc ? (data.reviewed ? "" : "  [draft]") : "  [no translation]"}`,
+      `${key}  ${words.length} words, ${data.phrases.length} phrases, page/line ${lines}${ayahSrc ? (data.reviewed ? "" : "  [draft]") : "  [no translation]"}`,
     );
   }
 
+  const basmalah = plate.glyphs.find((g) => g.ayah === 0);
+  const layout: MushafLayout = {
+    width: plate.width,
+    band: plate.band,
+    pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines })),
+    basmalah: basmalah ? toGlyph(basmalah) : null,
+  };
   const index: SurahIndex = {
-    version: 2,
+    version: 3,
     surah: src.surah,
     name: src.name,
     ayahs: Array.from({ length: meta.ayahs }, (_, i) => i + 1),
-    layout: { page: meta.pages[0], ...plate.layout },
+    layout,
   };
   await writeFile(join(outDir, "index.json"), JSON.stringify(index, null, 2));
-  return { surah: src.surah, name: src.name, ayahs: meta.ayahs };
 }
 
 async function main() {
@@ -304,13 +447,8 @@ async function main() {
     .sort((a, b) => parseInt(a) - parseInt(b));
   if (!files.length) throw new Error("no content files found");
 
-  const surahs = [];
-  for (const f of files) surahs.push(await buildSurah(f));
-
-  if (!only) {
-    const root: RootIndex = { version: 2, surahs };
-    await writeFile(join(OUT_DIR, "index.json"), JSON.stringify(root, null, 2));
-  }
+  for (const f of files) await buildSurah(f);
+  await writeRootIndex();
 }
 
 main().catch((err) => {

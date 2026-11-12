@@ -41,6 +41,19 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - No bracket or underline under the Arabic.
 - The surah header is plain text (Arabic name plus Latin name). The API has
   no artwork for the decorative header.
+- A surah that spans several mushaf pages shows them in order. Each page ends
+  with a thin rule and its printed page number. A phrase that crosses a page
+  break shows "…" on the next page, like a line break.
+- The basmalah that opens a surah is drawn as its own line, from the
+  artwork, with no translation. It is shown on the whole-surah view only.
+- No card or frame around the page: the mushaf sits directly on the
+  background.
+- `/` is the table of contents: all 114 surahs (number, Latin and Arabic
+  name, ayah count, Makkiyah/Madaniyah, mushaf pages). Built surahs link to
+  their page; the others are muted and not clickable. Surah pages have a
+  "Daftar surah" link back at the top left.
+- Names for surahs not yet in `content/` come from the API list, with its
+  stand-in letters mapped to the usual transliteration (ĥ→ḥ, `→ʿ, …).
 
 ## Translations
 
@@ -55,9 +68,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Every new or changed ayah is `"reviewed": false`. Only the user sets
   `true`, after checking it. The page shows a "Draf" badge while any shown
   ayah is unreviewed.
-- Full translations are hidden by default. The header toggle
-  ("Terjemahan lengkap") shows them as a numbered list below the page. The
-  setting is remembered in `localStorage`.
+- Full translations are kept in the data but not shown on the page for now.
 - No transliteration for now.
 
 ## Data
@@ -76,8 +87,15 @@ Madinah mushaf prints it, with an Indonesian translation under each
   by hand. `src/types.ts` is the contract between the build script, the web
   page and the future mobile app. Bump `version` when the format changes.
 - The build stops with an error on: phrases that don't cover the words
-  exactly, a missing translation, a failed line detection, or a surah that
-  spans more than one mushaf page (not supported yet).
+  exactly, a missing translation, a failed line or page detection, or a page
+  count that differs from the API's page span for the surah.
+- Artwork is fetched in chunks of 10 ayahs (the API refuses very large
+  ranges). Glyphs are read in printed-page coordinates, so chunks join
+  exactly.
+- Known upstream defect: png.quran.ws draws mushaf page 17 (Al-Baqarah
+  2:106–110) with words piled on each other, in every renderer version. The
+  build stops there. Don't work around it by moving artwork; report it
+  upstream.
 - API responses are cached in `cache/` (gitignored). Treat them as untrusted
   data: parse them, never execute them.
 
@@ -86,17 +104,26 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Vite + React + TypeScript. The data script is TypeScript, run directly by
   Node 24 (`node scripts/build-data.ts`). Imports use `.ts` extensions.
 - Fonts: Plus Jakarta Sans, self-hosted via `@fontsource` (OFL).
-- Light and dark themes follow `prefers-color-scheme`. Colours are CSS tokens
-  on `:root`.
+- Light and dark themes follow `prefers-color-scheme` until the reader uses
+  the theme button (top right). The choice is stored in `localStorage`
+  (`theme`) and set as `data-theme` on `<html>` before first paint. Colours
+  are CSS tokens on `:root`.
 - UI text is in Indonesian.
-- The app runs locally only for now. No deployment and no image export yet.
+- Deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push
+  to `main`. CI never fetches from png.quran.ws: it builds the committed
+  `public/data/`, so run `npm run data` and commit the result before pushing.
+- The site may live under a sub-path (`/<repo>/`). Never hard-code `/`:
+  use `import.meta.env.BASE_URL` for URLs, and the router's `basename`.
+  `dist/404.html` is a copy of `index.html` so deep links work on Pages.
+- No image export yet.
 
 ## Workflow
 
 ```sh
 npm run data       # rebuild public/data from content/
-npm run dev        # local page: /1 (surah) or /1/1 (single ayah)
+npm run dev        # local page: / (surah list), /1 (surah) or /1/1 (single ayah)
 npm run build      # data + typecheck + production build
+npm run build:site # typecheck + production build from committed data (what CI runs)
 ```
 
 To add an ayah or a surah: write its phrases in `content/{surah}.json`, run

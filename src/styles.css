@@ -1,6 +1,5 @@
 :root {
   --bg: #f7f3ea;
-  --surface: #fffdf8;
   --ink: #231f20;
   --muted: #6b645c;
   --faint: #b5aa96;
@@ -17,7 +16,6 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #15130f;
-    --surface: #1d1a15;
     --ink: #ece6da;
     --muted: #a59d90;
     --faint: #5c5448;
@@ -29,7 +27,6 @@
 
 :root[data-theme="dark"] {
   --bg: #15130f;
-  --surface: #1d1a15;
   --ink: #ece6da;
   --muted: #a59d90;
   --faint: #5c5448;
@@ -57,7 +54,83 @@ a {
 .page {
   max-width: 960px;
   margin: 0 auto;
-  padding: 32px 16px 48px;
+  padding: 12px 16px 48px;
+}
+
+/* ---------- Top bar ---------- */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  margin-bottom: 12px;
+}
+
+.home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 10px 8px 4px;
+  margin-left: -4px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.home-link:hover {
+  color: var(--ink);
+  background: var(--line);
+}
+
+.home-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.home-link svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-toggle {
+  margin-left: auto;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--ink);
+  background: var(--line);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .status {
@@ -94,6 +167,84 @@ a {
   color: var(--muted);
 }
 
+/* ---------- Surah list ---------- */
+
+.list-note {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.surah-list {
+  list-style: none;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.surah-list li + li {
+  border-top: 1px solid var(--line);
+}
+
+.surah-list a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.surah-list a:hover {
+  background: var(--line);
+}
+
+.surah-list a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.surah-row {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 8px;
+}
+
+.surah-no {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.surah-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.surah-name {
+  font-weight: 600;
+}
+
+.surah-meta {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.surah-name-ar {
+  font-family: "Geeza Pro", "Noto Naskh Arabic", serif;
+  font-size: 1.25rem;
+}
+
+.surah-row.muted .surah-no,
+.surah-row.muted .surah-name,
+.surah-row.muted .surah-name-ar {
+  color: var(--faint);
+}
+
 .surah-tools {
   display: flex;
   flex-wrap: wrap;
@@ -104,74 +255,13 @@ a {
   font-size: 0.85rem;
 }
 
-.toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font: inherit;
-  color: var(--ink);
-  background: none;
-  border: 0;
-  padding: 4px 0;
-  cursor: pointer;
-}
-
-.toggle .switch {
-  position: relative;
-  width: 30px;
-  height: 18px;
-  border-radius: 999px;
-  background: var(--line);
-  border: 1px solid var(--faint);
-  transition: background 0.15s;
-}
-
-.toggle .switch::after {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--surface);
-  box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
-  transition: transform 0.15s;
-}
-
-.toggle[aria-pressed="true"] .switch {
-  background: var(--accent);
-  border-color: var(--accent);
-}
-
-.toggle[aria-pressed="true"] .switch::after {
-  transform: translateX(12px);
-}
-
-.toggle:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-  border-radius: 4px;
-}
-
 .back {
   display: inline-block;
 }
 
-/* ---------- Mushaf sheet ---------- */
-
-.sheet {
-  position: relative;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: clamp(32px, 5vw, 52px) clamp(12px, 4vw, 40px) clamp(20px, 4vw, 32px);
-}
+/* ---------- Mushaf ---------- */
 
 .draft {
-  position: absolute;
-  top: 12px;
-  left: 12px;
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -180,7 +270,6 @@ a {
   border: 1px solid currentColor;
   border-radius: 999px;
   padding: 2px 8px;
-  opacity: 0.85;
 }
 
 /* The printed page, scaled to its container; translations sit between lines. */
@@ -225,6 +314,24 @@ a {
   color: var(--faint);
 }
 
+/* Printed page number closing each page. */
+.page-no {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 28px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.page-no::before,
+.page-no::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--line);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -232,27 +339,6 @@ a {
   overflow: hidden;
   clip-path: inset(50%);
   white-space: nowrap;
-}
-
-.full-list {
-  margin: 28px auto 0;
-  max-width: 44rem;
-  padding: 20px 0 0 1.6em;
-  border-top: 1px solid var(--line);
-  font-style: italic;
-  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
-  line-height: 1.65;
-  color: var(--muted);
-}
-
-.full-list li + li {
-  margin-top: 8px;
-}
-
-.full-list li::marker {
-  font-style: normal;
-  font-size: 0.8em;
-  color: var(--faint);
 }
 
 .credits {
