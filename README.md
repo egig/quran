@@ -78,7 +78,7 @@ BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
   holds, so a page loads only those.
 - A translation whose longest word does not fit its space gets room from its
   neighbours (`src/components/fitRow.ts`); a crowded line may also wrap more,
-  break words at syllables, or use smaller text (never below 8px).
+  break words at syllables, or use smaller text (never below 6.5px).
 - png.quran.ws's surah list gives the wrong page span for a few surahs
   (80, 84, 88, 90, 94, 96); `PAGE_SPAN_OVERRIDES` in the build script follows
   the artwork for those.

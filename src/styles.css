@@ -337,9 +337,9 @@ a {
   justify-content: center;
   text-align: center;
   /* --k: per-row shrink set by fitRow when a row cannot fit otherwise. */
-  font-size: calc(clamp(9px, 2.3cqi, 13.5px) * var(--k, 1));
+  font-size: calc(clamp(7px, 1.75cqi, 10px) * var(--k, 1));
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.2;
   color: var(--ink);
   /* Only at the soft hyphens from hyphenate.ts, where fitRow needs a break. */
   hyphens: manual;

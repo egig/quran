@@ -20,7 +20,7 @@
  * data-l (left edge) and data-w (width), in visual order right to left.
  */
 
-const MIN_FONT_PX = 8;
+const MIN_FONT_PX = 6.5;
 const SCALE_STEP = 0.02;
 /** Horizontal padding of a .seg (1px each side) plus rounding slack. */
 const PAD = 3;

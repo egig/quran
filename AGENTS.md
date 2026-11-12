@@ -38,6 +38,9 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Neighbouring phrases on a line split the space between them at the
   midpoint. Printed words can overlap (a tail running under the next word),
   and the gaps give narrow phrases more room.
+- Translations are small next to the Arabic (1.75% of the page width,
+  7–10px, line height 1.2) so the page keeps the mushaf's shape: the Arabic
+  takes most of the height.
 - A translation wraps within its phrase's space. The gap between Arabic lines
   grows to fit the tallest translation on that line.
 - When a translation's longest word is wider than its space, the row is laid
@@ -46,7 +49,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
   screen. If the row is then too wide, it frees room in this order: empty
   space in slots, more wrapping, syllable breaks (soft hyphens from
   `hyphenate.ts`, shown only where a word actually breaks), smaller text
-  (never below 8px). Translations never overlap: check new pages at 300,
+  (never below 6.5px). Translations never overlap: check new pages at 300,
   360 and desktop width.
 - A phrase that continues onto the next printed line shows its translation
   under the first part, and a muted "…" under each continuation.
