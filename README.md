@@ -1,8 +1,9 @@
 # Quran Terjemah
 
-Quran ayahs with Indonesian translation placed under each **meaningful phrase**
-(not word by word), plus the full-sentence translation below. Responsive: lines
-break only between phrases, so each phrase always keeps its translation under it.
+Quran text flowing continuously like a mushaf page, with the Indonesian
+translation placed under each **meaningful phrase** (not word by word). A page
+toggle shows the full-sentence translations below. Responsive: lines break only
+between phrases, so each phrase always keeps its translation under it.
 
 ## Run
 
@@ -41,9 +42,14 @@ npm run dev    # http://localhost:5173/1  or  /1/1
   ayah is one line on one shared baseline, renderer pinned with `v=3`). It
   flattens every `data-word-key` group into line coordinates and writes
   `public/data/{s}/{a}.json` (see `src/types.ts`).
-- The page draws each phrase's words with a single SVG viewBox cut from that
-  line. The artwork is only moved, never scaled or restyled. Phrases sit in an
-  RTL `flex-wrap` row. The ayah-end ornament rides with the last phrase.
+- Every ayah is shifted so its ayah-end ornament is centred at y = 0. The
+  ornament sits at a fixed height on the printed baseline, so all ayahs share
+  one vertical band (`BAND` in the build script; the build fails if any glyph
+  falls outside it) and line up when they flow together.
+- The page draws each phrase's words with one SVG viewBox cut from that band.
+  The artwork is only moved, never scaled or restyled. All phrases of the
+  surah sit in one RTL `flex-wrap` flow; the ayah-end ornament rides with each
+  ayah's last phrase.
 - The JSON in `public/data` is the contract for a future mobile app.
 
 ## Attribution

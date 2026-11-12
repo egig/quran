@@ -11,6 +11,67 @@
       "full": { "id": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang." },
       "source": "kemenag-2019-adapted",
       "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 1], "id": "Segala puji" },
+        { "words": [2, 2], "id": "bagi Allah" },
+        { "words": [3, 4], "id": "Tuhan semesta alam" }
+      ],
+      "full": { "id": "Segala puji bagi Allah, Tuhan semesta alam." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "Yang Maha Pengasih" },
+        { "words": [2, 2], "id": "Maha Penyayang" }
+      ],
+      "full": { "id": "Yang Maha Pengasih lagi Maha Penyayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Pemilik" },
+        { "words": [2, 3], "id": "hari Pembalasan" }
+      ],
+      "full": { "id": "Pemilik hari Pembalasan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Hanya kepada Engkaulah kami menyembah" },
+        { "words": [3, 4], "id": "dan hanya kepada Engkaulah kami memohon pertolongan" }
+      ],
+      "full": {
+        "id": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami memohon pertolongan."
+      },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Bimbinglah kami" },
+        { "words": [2, 3], "id": "ke jalan yang lurus" }
+      ],
+      "full": { "id": "Bimbinglah kami ke jalan yang lurus." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 1], "id": "(yaitu) jalan" },
+        { "words": [2, 4], "id": "orang-orang yang telah Engkau beri nikmat" },
+        { "words": [5, 7], "id": "bukan (jalan) mereka yang dimurkai" },
+        { "words": [8, 9], "id": "dan bukan (pula jalan) orang-orang yang sesat" }
+      ],
+      "full": {
+        "id": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat, bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) orang-orang yang sesat."
+      },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
     }
   }
 }

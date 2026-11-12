@@ -36,6 +36,12 @@ const CACHE_DIR = "cache/svg";
 const OUT_DIR = "public/data";
 const LANGS = ["id"];
 const PRECISION = 2;
+/**
+ * Shared vertical band for every ayah, in artwork units. y = 0 is the centre
+ * of the ayah-end ornament, which sits at the same height relative to the
+ * printed baseline in every ayah, so all ayahs line up when they flow together.
+ */
+const BAND = { top: -18, bottom: 13 };
 
 async function fetchAyahSvg(surah: number, ayah: number): Promise<string> {
   const file = join(CACHE_DIR, `${surah}_${ayah}.svg`);
@@ -77,26 +83,47 @@ function elementsOf(root: Element): Element[] {
   return out;
 }
 
+type MeasuredGlyph = Glyph & { y0: number; y1: number };
+
 /** Flatten every path under `group` into root coordinates. */
-function toGlyph(group: Element, key: string): Glyph {
+function toGlyph(group: Element, key: string): MeasuredGlyph {
   const paths: GlyphPath[] = [];
   let x0 = Infinity;
   let x1 = -Infinity;
+  let y0 = Infinity;
+  let y1 = -Infinity;
   for (const el of elementsOf(group)) {
     if (el.tagName === "g") continue;
     if (el.tagName !== "path") throw new Error(`${key}: unexpected <${el.tagName}>`);
     const d = el.getAttribute("d");
     if (!d) continue;
     const flat = svgpath(d).transform(transformChain(el)).round(PRECISION).toString();
-    const [minX, , maxX] = svgPathBbox(flat);
+    const [minX, minY, maxX, maxY] = svgPathBbox(flat);
     x0 = Math.min(x0, minX);
     x1 = Math.max(x1, maxX);
+    y0 = Math.min(y0, minY);
+    y1 = Math.max(y1, maxY);
     const p: GlyphPath = { d: flat };
     if (el.getAttribute("fill-rule") === "evenodd") p.rule = "evenodd";
     paths.push(p);
   }
   if (!paths.length) throw new Error(`${key}: no paths`);
-  return { x0: round(x0), x1: round(x1), paths };
+  return { x0: round(x0), x1: round(x1), y0, y1, paths };
+}
+
+/** Move a glyph up by `dy` and drop the measuring fields. */
+function shiftGlyph(g: MeasuredGlyph, dy: number, key: string): Glyph {
+  const top = g.y0 - dy;
+  const bottom = g.y1 - dy;
+  if (top < BAND.top || bottom > BAND.bottom)
+    throw new Error(
+      `${key}: glyph spans y ${top.toFixed(2)}..${bottom.toFixed(2)}, outside band ${BAND.top}..${BAND.bottom}; widen BAND`,
+    );
+  return {
+    x0: g.x0,
+    x1: g.x1,
+    paths: g.paths.map((p) => ({ ...p, d: svgpath(p.d).translate(0, -dy).round(PRECISION).toString() })),
+  };
 }
 
 function round(n: number): number {
@@ -108,18 +135,14 @@ function parseArtwork(svg: string, key: string) {
   const doc = new DOMParser().parseFromString(svg, "image/svg+xml");
   const root = doc.documentElement;
   if (!root || root.tagName !== "svg") throw new Error(`${key}: not an SVG document`);
-  const viewBox = (root.getAttribute("viewBox") ?? "").split(/\s+/).map(Number);
-  if (viewBox.length !== 4 || viewBox.some(Number.isNaN)) throw new Error(`${key}: bad viewBox`);
-  const height = viewBox[3];
-
   const groups = Array.from(root.getElementsByTagName("g"));
-  const words: Word[] = groups
+  const measured = groups
     .filter((g) => g.getAttribute("class") === "word")
     .map((g) => {
       const wk = g.getAttribute("data-word-key") ?? "";
       const [s, a, n] = wk.split(":").map(Number);
       if (`${s}:${a}` !== key || !n) throw new Error(`${key}: unexpected word key "${wk}"`);
-      return { n, text: g.getAttribute("data-rasm-uthmani") ?? "", ...toGlyph(g, wk) };
+      return { n, text: g.getAttribute("data-rasm-uthmani") ?? "", glyph: toGlyph(g, wk) };
     })
     .sort((a, b) => a.n - b.n);
 
@@ -127,7 +150,14 @@ function parseArtwork(svg: string, key: string) {
     (g) => g.getAttribute("class") === "ayah-mark" && g.getAttribute("data-ayah-key") === key,
   );
   if (!markGroup) throw new Error(`${key}: ayah mark not found`);
-  const mark = toGlyph(markGroup, `${key}:mark`);
+  const rawMark = toGlyph(markGroup, `${key}:mark`);
+  const centre = (rawMark.y0 + rawMark.y1) / 2;
+  const mark = shiftGlyph(rawMark, centre, `${key}:mark`);
+  const words: Word[] = measured.map(({ n, text, glyph }) => ({
+    n,
+    text,
+    ...shiftGlyph(glyph, centre, `${key}:${n}`),
+  }));
 
   // Single-line check: reading order runs right to left without wrapping.
   words.forEach((w, i) => {
@@ -137,7 +167,7 @@ function parseArtwork(svg: string, key: string) {
   });
   if (mark.x1 > words[words.length - 1].x0 + 0.5) throw new Error(`${key}: mark not after last word`);
 
-  return { height: round(height), words, mark };
+  return { words, mark };
 }
 
 function validatePhrases(key: string, src: AyahSource, wordCount: number): Phrase[] {
@@ -178,7 +208,7 @@ async function buildSurah(file: string): Promise<RootIndex["surahs"][number]> {
       surah: src.surah,
       ayah,
       surahName: src.name,
-      line: { height: art.height },
+      line: { ...BAND },
       words: art.words,
       mark: art.mark,
       phrases: validatePhrases(key, ayahSrc, art.words.length),

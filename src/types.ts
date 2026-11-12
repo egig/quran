@@ -37,9 +37,11 @@ export interface GlyphPath {
 
 /**
  * Artwork for one word (or the ayah-end ornament) in line coordinates.
- * All glyphs of an ayah share one line: y runs 0..line.height and words
- * share the printed baseline, so any contiguous run can be drawn with
- * viewBox `${x0} 0 ${x1 - x0} ${line.height}`.
+ * Every glyph of every ayah sits in one shared band: y = 0 is the centre of
+ * the ayah-end ornament (a fixed height above the printed baseline), and all
+ * ink lies within line.top..line.bottom. Any contiguous run of glyphs, even
+ * across ayahs, lines up when drawn with
+ * viewBox `${x0} ${line.top} ${x1 - x0} ${line.bottom - line.top}`.
  */
 export interface Glyph {
   x0: number;
@@ -67,7 +69,8 @@ export interface AyahData {
   surah: number;
   ayah: number;
   surahName: { ar: string; latin: string };
-  line: { height: number };
+  /** Vertical band shared by all ayahs (see Glyph). */
+  line: { top: number; bottom: number };
   /** Words in reading order (right to left: x decreases). */
   words: Word[];
   /** Ayah-end ornament with its number, drawn after the last word. */

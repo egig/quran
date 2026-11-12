@@ -1,6 +1,7 @@
+import { useState } from "react";
 import { Link, Navigate, Route, Routes, useParams } from "react-router";
 import { useAyahs, useSurahIndex } from "./data.ts";
-import { AyahView } from "./components/AyahView.tsx";
+import { FullTranslations, MushafFlow } from "./components/MushafFlow.tsx";
 
 export function App() {
   return (
@@ -28,6 +29,7 @@ function SurahPage() {
   const wanted =
     index.status === "ok" ? index.data.ayahs.filter((a) => only === null || a === only) : null;
   const ayahs = useAyahs(surah, wanted);
+  const [showFull, setShowFull] = useStoredFlag("showFull", false);
 
   if (!Number.isInteger(surah)) return <p className="status">Surah tidak valid.</p>;
   if (index.status === "error") return <p className="status">Surah {surah} belum tersedia.</p>;
@@ -43,15 +45,57 @@ function SurahPage() {
           </span>
           <span className="surah-latin">{name.latin}</span>
         </h1>
-        {only !== null && (
-          <Link className="back" to={`/${surah}`}>
-            Lihat seluruh surah
-          </Link>
-        )}
+        <div className="surah-tools">
+          <button
+            type="button"
+            className="toggle"
+            aria-pressed={showFull}
+            onClick={() => setShowFull(!showFull)}
+          >
+            <span className="switch" aria-hidden="true" />
+            Terjemahan lengkap
+          </button>
+          {only !== null && (
+            <Link className="back" to={`/${surah}`}>
+              Lihat seluruh surah
+            </Link>
+          )}
+        </div>
       </header>
       {wanted?.length === 0 && <p className="status">Ayat {only} belum tersedia.</p>}
       {ayahs.status === "error" && <p className="status">Gagal memuat: {ayahs.error}</p>}
-      {ayahs.status === "ok" && ayahs.data.map((a) => <AyahView key={a.key} data={a} />)}
+      {ayahs.status === "ok" && (
+        <section className="sheet">
+          {ayahs.data.some((a) => !a.reviewed) && (
+            <span className="draft" title="Terjemahan per frasa belum diperiksa">
+              Draf
+            </span>
+          )}
+          <MushafFlow ayahs={ayahs.data} />
+          {showFull && <FullTranslations ayahs={ayahs.data} />}
+        </section>
+      )}
     </main>
   );
+}
+
+/** Boolean preference remembered in this browser; falls back to memory only. */
+function useStoredFlag(key: string, initial: boolean): [boolean, (v: boolean) => void] {
+  const [value, setValue] = useState(() => {
+    try {
+      const v = localStorage.getItem(key);
+      return v === null ? initial : v === "1";
+    } catch {
+      return initial;
+    }
+  });
+  const set = (v: boolean) => {
+    setValue(v);
+    try {
+      localStorage.setItem(key, v ? "1" : "0");
+    } catch {
+      /* storage unavailable: keep in-memory value */
+    }
+  };
+  return [value, set];
 }

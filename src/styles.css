@@ -94,21 +94,78 @@ a {
   color: var(--muted);
 }
 
-.back {
-  display: inline-block;
-  margin-top: 10px;
+.surah-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 20px;
+  margin-top: 14px;
   font-size: 0.85rem;
 }
 
-/* ---------- Ayah ---------- */
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: inherit;
+  color: var(--ink);
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+}
 
-.ayah {
+.toggle .switch {
+  position: relative;
+  width: 30px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--line);
+  border: 1px solid var(--faint);
+  transition: background 0.15s;
+}
+
+.toggle .switch::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+  transition: transform 0.15s;
+}
+
+.toggle[aria-pressed="true"] .switch {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.toggle[aria-pressed="true"] .switch::after {
+  transform: translateX(12px);
+}
+
+.toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.back {
+  display: inline-block;
+}
+
+/* ---------- Mushaf sheet ---------- */
+
+.sheet {
   position: relative;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: clamp(28px, 5vw, 48px) clamp(16px, 4vw, 40px) 24px;
-  margin-bottom: 20px;
+  padding: clamp(32px, 5vw, 52px) clamp(12px, 4vw, 40px) clamp(20px, 4vw, 32px);
 }
 
 .draft {
@@ -126,27 +183,24 @@ a {
   opacity: 0.85;
 }
 
-/* Phrases wrap as whole units, so lines break only between phrases. */
-.ayah-line {
+/* One continuous RTL flow; phrases wrap as whole units, so lines break only between phrases. */
+.mushaf {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  column-gap: calc(7 * var(--u));
-  row-gap: 22px;
+  column-gap: calc(6 * var(--u));
+  row-gap: 18px;
 }
 
 .phrase {
   display: flex;
-}
-
-.run {
-  display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-margin-top: 24px;
 }
 
-.run svg {
+.phrase svg {
   display: block;
   width: calc(var(--w) * var(--u));
   height: calc(var(--h) * var(--u));
@@ -154,52 +208,39 @@ a {
   overflow: visible;
 }
 
-/* Ornament sits left of the words; offset so bracket and text centre on the words. */
-.bracket,
+/* Ornament sits left of the words; offset so the translation centres on the words. */
 .tr {
+  display: block;
   margin-left: calc(var(--mw, 0) * var(--u));
-}
-
-.bracket {
-  display: block;
-  width: calc(var(--aw) * var(--u) - 6px);
-  height: 6px;
-  margin-top: 6px;
-  border: 1.5px solid var(--faint);
-  border-top: 0;
-  border-radius: 0 0 4px 4px;
-}
-
-.tr {
-  display: block;
-  margin-top: 8px;
+  margin-top: 4px;
   width: max-content;
-  max-width: max(calc(var(--aw) * var(--u) * 1.6), 7.5rem);
+  max-width: min(max(calc(var(--aw) * var(--u) * 1.6), 7.5rem), calc(100vw - 56px));
   text-align: center;
-  font-size: clamp(0.85rem, 0.8rem + 0.25vw, 1rem);
+  font-size: clamp(0.8rem, 0.76rem + 0.25vw, 0.95rem);
   font-weight: 500;
   line-height: 1.35;
   color: var(--ink);
 }
 
-.full {
+.full-list {
   margin: 28px auto 0;
-  max-width: 40rem;
-  padding-top: 18px;
+  max-width: 44rem;
+  padding: 20px 0 0 1.6em;
   border-top: 1px solid var(--line);
-  text-align: center;
   font-style: italic;
-  font-size: clamp(0.95rem, 0.9rem + 0.25vw, 1.1rem);
-  line-height: 1.6;
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
+  line-height: 1.65;
   color: var(--muted);
 }
 
-.ref {
-  margin: 12px 0 0;
-  text-align: center;
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  color: var(--muted);
+.full-list li + li {
+  margin-top: 8px;
+}
+
+.full-list li::marker {
+  font-style: normal;
+  font-size: 0.8em;
+  color: var(--faint);
 }
 
 .credits {
