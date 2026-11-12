@@ -1,0 +1,59 @@
+{
+  "surah": 109,
+  "name": { "ar": "الكافرون", "latin": "Al-Kāfirūn" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Katakanlah (Nabi Muhammad), Wahai orang-orang kafir" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Wahai orang-orang kafir," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "aku tidak akan menyembah" },
+        { "words": [3, 4], "id": "apa yang kamu sembah" }
+      ],
+      "full": { "id": "aku tidak akan menyembah apa yang kamu sembah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kamu juga bukan penyembah" },
+        { "words": [4, 5], "id": "apa yang aku sembah" }
+      ],
+      "full": { "id": "Kamu juga bukan penyembah apa yang aku sembah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "Aku juga tidak pernah menjadi penyembah" },
+        { "words": [4, 5], "id": "apa yang kamu sembah" }
+      ],
+      "full": { "id": "Aku juga tidak pernah menjadi penyembah apa yang kamu sembah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kamu tidak pernah (pula) menjadi penyembah" },
+        { "words": [4, 5], "id": "apa yang aku sembah" }
+      ],
+      "full": { "id": "Kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Untukmu agamamu" },
+        { "words": [3, 4], "id": "dan untukku agamaku" }
+      ],
+      "full": { "id": "Untukmu agamamu dan untukku agamaku.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "surah": 110,
+  "name": { "ar": "النصر", "latin": "An-Naṣr" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apabila telah datang" },
+        { "words": [3, 4], "id": "pertolongan Allah" },
+        { "words": [5, 5], "id": "dan kemenangan" }
+      ],
+      "full": { "id": "Apabila telah datang pertolongan Allah dan kemenangan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan engkau melihat manusia" },
+        { "words": [3, 7], "id": "berbondong-bondong masuk agama Allah" }
+      ],
+      "full": { "id": "dan engkau melihat manusia berbondong-bondong masuk agama Allah," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "bertasbihlah dengan memuji Tuhanmu" },
+        { "words": [4, 4], "id": "dan mohonlah ampunan kepada-Nya" },
+        { "words": [5, 7], "id": "Sesungguhnya Dia Maha Penerima tobat" }
+      ],
+      "full": { "id": "bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sesungguhnya Dia Maha Penerima tobat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

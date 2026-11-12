@@ -1,0 +1,43 @@
+{
+  "surah": 106,
+  "name": { "ar": "قريش", "latin": "Quraysh" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Karena kebiasaan" },
+        { "words": [2, 2], "id": "orang-orang Quraisy" }
+      ],
+      "full": { "id": "Karena kebiasaan orang-orang Quraisy," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 1], "id": "(yaitu) kebiasaan mereka" },
+        { "words": [2, 4], "id": "bepergian pada musim dingin dan musim panas" }
+      ],
+      "full": { "id": "(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, hendaklah mereka menyembah" },
+        { "words": [2, 4], "id": "Tuhan (pemilik) rumah ini (Ka‘bah)" }
+      ],
+      "full": { "id": "Maka, hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang telah memberi mereka makanan" },
+        { "words": [3, 4], "id": "untuk menghilangkan lapar" },
+        { "words": [5, 7], "id": "dan mengamankan mereka dari rasa takut" }
+      ],
+      "full": { "id": "yang telah memberi mereka makanan untuk menghilangkan lapar dan mengamankan mereka dari rasa takut." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
