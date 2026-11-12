@@ -1,0 +1,58 @@
+{
+  "surah": 114,
+  "name": { "ar": "الناس", "latin": "An-Nās" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Katakanlah (Nabi Muhammad), Aku berlindung" },
+        { "words": [3, 4], "id": "kepada Tuhan manusia" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan manusia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "raja manusia" }
+      ],
+      "full": { "id": "raja manusia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "sembahan manusia" }
+      ],
+      "full": { "id": "sembahan manusia" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "dari kejahatan" },
+        { "words": [3, 4], "id": "(setan) pembisik yang bersembunyi" }
+      ],
+      "full": { "id": "dari kejahatan (setan) pembisik yang bersembunyi" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang membisikkan (kejahatan)" },
+        { "words": [3, 5], "id": "ke dalam dada manusia" }
+      ],
+      "full": { "id": "yang membisikkan (kejahatan) ke dalam dada manusia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "dari (golongan) jin" },
+        { "words": [3, 3], "id": "dan manusia" }
+      ],
+      "full": { "id": "dari (golongan) jin dan manusia.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

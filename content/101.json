@@ -1,0 +1,101 @@
+{
+  "surah": 101,
+  "name": { "ar": "القارعة", "latin": "Al-Qāriʿah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Al-Qāri'ah (hari Kiamat yang menggetarkan)" }
+      ],
+      "full": { "id": "Al-Qāri'ah (hari Kiamat yang menggetarkan)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apakah al-Qāri'ah itu" }
+      ],
+      "full": { "id": "Apakah al-Qāri'ah itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah kamu" },
+        { "words": [3, 4], "id": "apakah al-Qāri'ah itu" }
+      ],
+      "full": { "id": "Tahukah kamu apakah al-Qāri'ah itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "Pada hari itu manusia" },
+        { "words": [4, 5], "id": "seperti laron yang beterbangan" }
+      ],
+      "full": { "id": "Pada hari itu manusia seperti laron yang beterbangan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan gunung-gunung" },
+        { "words": [3, 4], "id": "seperti bulu yang berhamburan" }
+      ],
+      "full": { "id": "dan gunung-gunung seperti bulu yang berhamburan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Siapa yang" },
+        { "words": [3, 4], "id": "berat timbangan (kebaikan)-nya" }
+      ],
+      "full": { "id": "Siapa yang berat timbangan (kebaikan)-nya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 1], "id": "dia" },
+        { "words": [2, 4], "id": "berada dalam kehidupan yang menyenangkan" }
+      ],
+      "full": { "id": "dia berada dalam kehidupan yang menyenangkan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Adapun orang yang" },
+        { "words": [3, 4], "id": "ringan timbangan (kebaikan)-nya" }
+      ],
+      "full": { "id": "Adapun orang yang ringan timbangan (kebaikan)-nya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "tempat kembalinya adalah (neraka) Hawiyah" }
+      ],
+      "full": { "id": "tempat kembalinya adalah (neraka) Hawiyah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah kamu" },
+        { "words": [3, 4], "id": "apakah (neraka Hawiyah) itu" }
+      ],
+      "full": { "id": "Tahukah kamu apakah (neraka Hawiyah) itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Ia adalah) api yang sangat panas" }
+      ],
+      "full": { "id": "(Ia adalah) api yang sangat panas." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

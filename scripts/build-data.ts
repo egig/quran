@@ -45,6 +45,24 @@ const BAND_PAD = 1;
 const CHUNK = 10;
 /** A glyph this much higher than the previous one starts a new page. */
 const PAGE_JUMP = 20;
+/**
+ * Page spans where png.quran.ws's surah list disagrees with its own artwork.
+ * The artwork is what we reproduce, so it wins, but only for surahs listed
+ * here after checking; any other mismatch still stops the build.
+ * Checked for Juz 30: with the artwork's breaks, every page 582-604 holds
+ * exactly 15 printed lines (surah header + basmalah + text); with the list's,
+ * pages would hold 14 or 16. In each case the last ayahs run onto the top of
+ * the next page (e.g. 80:41-42 is line 1 of page 586, drawn with even-page
+ * margins).
+ */
+const PAGE_SPAN_OVERRIDES: Record<number, [number, number]> = {
+  80: [585, 586],
+  84: [589, 590],
+  88: [592, 593],
+  90: [594, 595],
+  94: [596, 597],
+  96: [597, 598],
+};
 
 interface SurahMeta {
   number: number;
@@ -99,12 +117,15 @@ async function writeRootIndex() {
     version: 4,
     surahs: await Promise.all(
       surahs.map(async ({ s, built }) => {
-        // A built surah keeps the hand-authored name from content/.
-        const name = built
-          ? (JSON.parse(await readFile(built, "utf8")) as SurahIndex).name
-          : { ar: s.name_ar, latin: latinName(s.name_latin) };
+        // A built surah keeps the hand-authored name from content/, and its
+        // page span from the artwork (see PAGE_SPAN_OVERRIDES).
+        const index = built ? (JSON.parse(await readFile(built, "utf8")) as SurahIndex) : null;
+        const name = index ? index.name : { ar: s.name_ar, latin: latinName(s.name_latin) };
+        const pages: [number, number] = index
+          ? [index.layout.pages[0].page, index.layout.pages[index.layout.pages.length - 1].page]
+          : s.pages;
         if (s.place !== "makkah" && s.place !== "madinah") throw new Error(`surah ${s.number}: place "${s.place}"`);
-        return { surah: s.number, name, ayahs: s.ayahs, place: s.place, pages: s.pages, available: !!built };
+        return { surah: s.number, name, ayahs: s.ayahs, place: s.place, pages, available: !!built };
       }),
     ),
   };
@@ -346,6 +367,7 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
   });
 
   return {
+    left: round(left),
     width: round(width),
     band: { top: Math.floor(top - BAND_PAD), bottom: Math.ceil(bottom + BAND_PAD) },
     pageLines: pages.map((p) => p.lines),
@@ -378,7 +400,7 @@ function validatePhrases(key: string, src: AyahSource, wordCount: number): Phras
 async function buildSurah(file: string): Promise<void> {
   const src = JSON.parse(await readFile(join(CONTENT_DIR, file), "utf8")) as SurahSource;
   const meta = await surahMeta(src.surah);
-  const [firstPage, lastPage] = meta.pages;
+  const [firstPage, lastPage] = PAGE_SPAN_OVERRIDES[src.surah] ?? meta.pages;
   const plate = parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, lastPage - firstPage + 1);
   const outDir = join(OUT_DIR, String(src.surah));
   await mkdir(outDir, { recursive: true });
@@ -423,14 +445,20 @@ async function buildSurah(file: string): Promise<void> {
   }
 
   const basmalah = plate.glyphs.find((g) => g.ayah === 0);
+  const pageAyahs = (page: number): [number, number] => {
+    const on = plate.glyphs.filter((g) => g.ayah > 0 && firstPage + g.pageIdx === page).map((g) => g.ayah);
+    if (!on.length) throw new Error(`${src.surah}: no ayah on page ${page}`);
+    return [Math.min(...on), Math.max(...on)];
+  };
   const layout: MushafLayout = {
+    left: plate.left,
     width: plate.width,
     band: plate.band,
-    pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines })),
+    pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines, ayahs: pageAyahs(firstPage + i) })),
     basmalah: basmalah ? toGlyph(basmalah) : null,
   };
   const index: SurahIndex = {
-    version: 3,
+    version: 4,
     surah: src.surah,
     name: src.name,
     ayahs: Array.from({ length: meta.ayahs }, (_, i) => i + 1),

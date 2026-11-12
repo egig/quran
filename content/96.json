@@ -1,0 +1,173 @@
+{
+  "surah": 96,
+  "name": { "ar": "العلق", "latin": "Al-ʿAlaq" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Bacalah dengan (menyebut) nama Tuhanmu" },
+        { "words": [4, 5], "id": "yang menciptakan" }
+      ],
+      "full": { "id": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan!" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia menciptakan manusia" },
+        { "words": [3, 4], "id": "dari segumpal darah" }
+      ],
+      "full": { "id": "Dia menciptakan manusia dari segumpal darah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "Bacalah" },
+        { "words": [2, 3], "id": "Tuhanmulah Yang Maha Mulia" }
+      ],
+      "full": { "id": "Bacalah! Tuhanmulah Yang Maha Mulia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang mengajar (manusia) dengan pena" }
+      ],
+      "full": { "id": "yang mengajar (manusia) dengan pena." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia mengajarkan manusia" },
+        { "words": [3, 5], "id": "apa yang tidak diketahuinya" }
+      ],
+      "full": { "id": "Dia mengajarkan manusia apa yang tidak diketahuinya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 4], "id": "Sesungguhnya manusia itu benar-benar melampaui batas" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Sesungguhnya manusia itu benar-benar melampaui batas" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": "ketika melihat dirinya serba berkecukupan" }
+      ],
+      "full": { "id": "ketika melihat dirinya serba berkecukupan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya hanya kepada Tuhanmulah" },
+        { "words": [4, 4], "id": "tempat kembali(-mu)" }
+      ],
+      "full": { "id": "Sesungguhnya hanya kepada Tuhanmulah tempat kembali(-mu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 1], "id": "Tahukah kamu" },
+        { "words": [2, 3], "id": "tentang orang yang melarang" }
+      ],
+      "full": { "id": "Tahukah kamu tentang orang yang melarang" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 1], "id": "seorang hamba" },
+        { "words": [2, 3], "id": "ketika dia melaksanakan salat" }
+      ],
+      "full": { "id": "seorang hamba ketika dia melaksanakan salat?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 1], "id": "Bagaimana pendapatmu" },
+        { "words": [2, 5], "id": "kalau terbukti dia berada di dalam kebenaran" }
+      ],
+      "full": { "id": "Bagaimana pendapatmu kalau terbukti dia berada di dalam kebenaran" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "atau dia menyuruh bertakwa (kepada Allah)" }
+      ],
+      "full": { "id": "atau dia menyuruh bertakwa (kepada Allah)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 1], "id": "Bagaimana pendapatmu" },
+        { "words": [2, 4], "id": "kalau dia mendustakan (kebenaran) dan berpaling (dari keimanan)" }
+      ],
+      "full": { "id": "Bagaimana pendapatmu kalau dia mendustakan (kebenaran) dan berpaling (dari keimanan)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tidakkah dia mengetahui" },
+        { "words": [3, 5], "id": "bahwa sesungguhnya Allah melihat (segala perbuatannya)" }
+      ],
+      "full": { "id": "Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 4], "id": "Sungguh, jika dia tidak berhenti (berbuat demikian)" },
+        { "words": [5, 6], "id": "niscaya Kami tarik ubun-ubunnya (ke dalam neraka)" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian), niscaya Kami tarik ubun-ubunnya (ke dalam neraka)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 3], "id": "(yaitu) ubun-ubun orang yang mendustakan (kebenaran) dan durhaka" }
+      ],
+      "full": { "id": "(yaitu) ubun-ubun orang yang mendustakan (kebenaran) dan durhaka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 2], "id": "Biarlah dia memanggil golongannya (untuk menolongnya)" }
+      ],
+      "full": { "id": "Biarlah dia memanggil golongannya (untuk menolongnya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kelak Kami akan memanggil (Malaikat) Zabaniah (penyiksa orang-orang yang berdosa)" }
+      ],
+      "full": { "id": "Kelak Kami akan memanggil (Malaikat) Zabaniah (penyiksa orang-orang yang berdosa)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 3], "id": "Janganlah patuh kepadanya" },
+        { "words": [4, 5], "id": "(tetapi) sujud dan mendekatlah (kepada Allah)" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Janganlah patuh kepadanya, (tetapi) sujud dan mendekatlah (kepada Allah)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

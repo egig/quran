@@ -245,20 +245,6 @@ a {
   color: var(--faint);
 }
 
-.surah-tools {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px 20px;
-  margin-top: 14px;
-  font-size: 0.85rem;
-}
-
-.back {
-  display: inline-block;
-}
-
 /* ---------- Mushaf ---------- */
 
 .draft {
@@ -272,10 +258,58 @@ a {
   padding: 2px 8px;
 }
 
-/* The printed page, scaled to its container; translations sit between lines. */
+.page-tools {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Surah title where a surah starts on the page (the printed header has no artwork). */
+.surah-title {
+  margin: 0 0 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-weight: 600;
+}
+
+.surah-section + .surah-section .surah-title {
+  margin-top: 32px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: var(--mushaf-max);
+  margin: 0 auto;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.page-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 8px 4px;
+}
+
+.page-nav a:hover {
+  color: var(--ink);
+}
+
+/*
+ * The printed page, scaled to its container; translations sit between lines.
+ * --mushaf-max caps the Arabic size on large screens: a full printed line is
+ * at most this wide, on every page.
+ */
+:root {
+  --mushaf-max: 560px;
+}
+
 .mushaf-page {
   container-type: inline-size;
-  max-width: 680px;
+  max-width: var(--mushaf-max);
   margin: 0 auto;
 }
 
@@ -302,11 +336,13 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: clamp(9px, 2.3cqi, 13.5px);
+  /* --k: per-row shrink set by fitRow when a row cannot fit otherwise. */
+  font-size: calc(clamp(7px, 1.75cqi, 10px) * var(--k, 1));
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.2;
   color: var(--ink);
-  hyphens: auto;
+  /* Only at the soft hyphens from hyphenate.ts, where fitRow needs a break. */
+  hyphens: manual;
   padding: 0 1px;
 }
 

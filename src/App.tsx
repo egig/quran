@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router";
-import { useAyahs, useSurahIndex } from "./data.ts";
+import { usePage, useRootIndex } from "./data.ts";
 import { MushafPage } from "./components/MushafPage.tsx";
 import { SurahList } from "./components/SurahList.tsx";
 
@@ -21,8 +21,7 @@ export function App() {
       </nav>
       <Routes>
         <Route path="/" element={<SurahList />} />
-        <Route path="/:surah" element={<SurahPage />} />
-        <Route path="/:surah/:ayah" element={<SurahPage />} />
+        <Route path="/:page" element={<PageView />} />
         <Route path="*" element={<p className="status">Halaman tidak ditemukan.</p>} />
       </Routes>
       <footer className="credits">
@@ -34,49 +33,54 @@ export function App() {
   );
 }
 
-function SurahPage() {
-  const params = useParams();
-  const surah = Number(params.surah);
-  const only = params.ayah ? Number(params.ayah) : null;
-  const index = useSurahIndex(surah);
-  const wanted =
-    index.status === "ok" ? index.data.ayahs.filter((a) => only === null || a === only) : null;
-  const ayahs = useAyahs(surah, wanted);
+const PAGES = 604;
 
-  if (!Number.isInteger(surah)) return <p className="status">Surah tidak valid.</p>;
-  if (index.status === "error") return <p className="status">Surah {surah} belum tersedia.</p>;
-  if (index.status === "loading") return <p className="status">Memuat…</p>;
+/** One printed mushaf page, with every surah (or part of one) printed on it. */
+function PageView() {
+  const page = Number(useParams().page);
+  const valid = Number.isInteger(page) && page >= 1 && page <= PAGES;
+  const root = useRootIndex();
+  const on = (n: number) => (root.status === "ok" ? root.data.surahs.filter((s) => s.pages[0] <= n && n <= s.pages[1]) : []);
+  // A page is shown only when every surah printed on it has been built.
+  const ready = (n: number) => {
+    const surahs = on(n);
+    return surahs.length > 0 && surahs.every((s) => s.available);
+  };
+  const shown = valid && ready(page);
+  const sections = usePage(page, shown ? on(page).map((s) => s.surah) : null);
+  const { hash } = useLocation();
 
-  const { name } = index.data;
-  const draft = ayahs.status === "ok" && ayahs.data.some((a) => a.phrases.length && !a.reviewed);
+  useEffect(() => {
+    if (sections.status === "ok" && hash) document.getElementById(hash.slice(1))?.scrollIntoView();
+  }, [sections.status, hash]);
+
+  if (!valid) return <p className="status">Halaman tidak valid.</p>;
+  if (root.status === "error") return <p className="status">Gagal memuat: {root.error}</p>;
+  if (root.status === "loading") return <p className="status">Memuat…</p>;
+  if (!shown) return <p className="status">Halaman {page} belum tersedia.</p>;
+  if (sections.status === "error") return <p className="status">Gagal memuat: {sections.error}</p>;
+  if (sections.status === "loading") return <p className="status">Memuat…</p>;
+
+  const draft = sections.data.some((s) => s.ayahs.some((a) => a.phrases.length && !a.reviewed));
+  const prev = page > 1 && ready(page - 1) ? page - 1 : null;
+  const next = page < PAGES && ready(page + 1) ? page + 1 : null;
   return (
     <main>
-      <header className="surah-head">
-        <h1>
-          <span className="surah-ar" lang="ar">
-            {name.ar}
+      <h1 className="sr-only">Halaman {page}</h1>
+      {draft && (
+        <div className="page-tools">
+          <span className="draft" title="Terjemahan per frasa belum diperiksa">
+            Draf
           </span>
-          <span className="surah-latin">{name.latin}</span>
-        </h1>
-        {(draft || only !== null) && (
-          <div className="surah-tools">
-            {draft && (
-              <span className="draft" title="Terjemahan per frasa belum diperiksa">
-                Draf
-              </span>
-            )}
-            {only !== null && (
-              <Link className="back" to={`/${surah}`}>
-                Lihat seluruh surah
-              </Link>
-            )}
-          </div>
-        )}
-      </header>
-      {wanted?.length === 0 && <p className="status">Ayat {only} belum tersedia.</p>}
-      {ayahs.status === "error" && <p className="status">Gagal memuat: {ayahs.error}</p>}
-      {ayahs.status === "ok" && (
-        <MushafPage layout={index.data.layout} ayahs={ayahs.data} basmalah={only === null} />
+        </div>
+      )}
+      <MushafPage page={page} sections={sections.data} />
+      {(prev || next) && (
+        // Mushaf order: the next page lies to the left.
+        <nav className="page-nav" aria-label="Halaman lain">
+          {next ? <Link to={`/${next}`} rel="next">‹ Halaman {next}</Link> : <span />}
+          {prev ? <Link to={`/${prev}`} rel="prev">Halaman {prev} ›</Link> : <span />}
+        </nav>
       )}
     </main>
   );

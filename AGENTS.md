@@ -26,32 +26,54 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Reproduce the printed page line for line. Words keep their printed x
   position and printed line (`layout=mushaf`). Lines break where the print
   breaks them, never anywhere else.
-- The whole page scales to its container width (max 680px). It does not
-  reflow on small screens.
+- The whole page scales to its container width. It does not reflow on small
+  screens. Every page shows the Arabic at one size: it is drawn in a frame one
+  full printed line wide (`FRAME_WIDTH`), centred on its ink. The API draws
+  some pages at another scale (page 1 at 0.68×), so the frame is scaled by
+  that page's ayah-end ornament width, the same glyph on every page. On large screens a full line is at most
+  `--mushaf-max` (560px) wide, which caps the Arabic size.
 - The ayah-end ornament (with its number) stays inline, as printed.
 - Each line is one SVG. Under it sits one row of translations. Each
   translation is centred under its phrase's words.
 - Neighbouring phrases on a line split the space between them at the
   midpoint. Printed words can overlap (a tail running under the next word),
   and the gaps give narrow phrases more room.
+- Translations are small next to the Arabic (1.75% of the page width,
+  7–10px, line height 1.2) so the page keeps the mushaf's shape: the Arabic
+  takes most of the height.
 - A translation wraps within its phrase's space. The gap between Arabic lines
   grows to fit the tallest translation on that line.
+- When a translation's longest word is wider than its space, the row is laid
+  out again (`src/components/fitRow.ts`): the translation gets the room, and
+  its neighbours move as little as possible, in order, without overlap and on
+  screen. If the row is then too wide, it frees room in this order: empty
+  space in slots, more wrapping, syllable breaks (soft hyphens from
+  `hyphenate.ts`, shown only where a word actually breaks), smaller text
+  (never below 6.5px). Translations never overlap: check new pages at 300,
+  360 and desktop width.
 - A phrase that continues onto the next printed line shows its translation
   under the first part, and a muted "…" under each continuation.
 - No bracket or underline under the Arabic.
 - The surah header is plain text (Arabic name plus Latin name). The API has
   no artwork for the decorative header.
-- A surah that spans several mushaf pages shows them in order. Each page ends
-  with a thin rule and its printed page number. A phrase that crosses a page
+- The reading view is one mushaf page: `/{page}` (1–604). It shows every
+  surah printed on that page, in order, each starting with its header where
+  it starts on the page. There is no per-surah or single-ayah view. A page is
+  shown only when every surah on it is built. The page ends with a thin rule
+  and its printed page number, then links to the neighbouring built pages
+  (next page on the left, as in the mushaf). A phrase that crosses a page
   break shows "…" on the next page, like a line break.
+- Surahs on one page share one frame: each is moved by its `layout.left`
+  offset, never scaled to fit.
 - The basmalah that opens a surah is drawn as its own line, from the
-  artwork, with no translation. It is shown on the whole-surah view only.
+  artwork, with no translation.
 - No card or frame around the page: the mushaf sits directly on the
   background.
 - `/` is the table of contents: all 114 surahs (number, Latin and Arabic
   name, ayah count, Makkiyah/Madaniyah, mushaf pages). Built surahs link to
-  their page; the others are muted and not clickable. Surah pages have a
-  "Daftar surah" link back at the top left.
+  the mushaf page they start on (`/{page}#s{surah}`); the others are muted
+  and not clickable. Mushaf pages have a "Daftar surah" link back at the top
+  left.
 - Names for surahs not yet in `content/` come from the API list, with its
   stand-in letters mapped to the usual transliteration (ĥ→ḥ, `→ʿ, …).
 
@@ -59,6 +81,10 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
+- The full sentences for surahs 78–114 come from the `quran-pack` npm package
+  (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
+  markers ("761)") removed. It matches the reviewed Al-Fātiḥah word for word.
+  Do not write Kemenag wording from memory: take it from a source.
 - A phrase is a meaningful unit, not a word-by-word gloss. Each divine name
   can be its own phrase (e.g. ٱلرَّحْمَٰنِ → "Yang Maha Pengasih").
 - Connectors that belong to the whole sentence (e.g. "lagi") go in the full
@@ -89,6 +115,12 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - The build stops with an error on: phrases that don't cover the words
   exactly, a missing translation, a failed line or page detection, or a page
   count that differs from the API's page span for the surah.
+- The API's surah list is wrong for some page spans: the artwork runs the last
+  ayahs of surahs 80, 84, 88, 90, 94 and 96 onto the next page (every page
+  582–604 then holds exactly 15 lines). Those spans are listed in
+  `PAGE_SPAN_OVERRIDES` in the build script, with the evidence. Add a surah
+  there only after the same check; the table of contents takes page spans of
+  built surahs from the built data.
 - Artwork is fetched in chunks of 10 ayahs (the API refuses very large
   ranges). Glyphs are read in printed-page coordinates, so chunks join
   exactly.
@@ -121,7 +153,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 ```sh
 npm run data       # rebuild public/data from content/
-npm run dev        # local page: / (surah list), /1 (surah) or /1/1 (single ayah)
+npm run dev        # local page: / (surah list), /1 or /602 (mushaf page)
 npm run build      # data + typecheck + production build
 npm run build:site # typecheck + production build from committed data (what CI runs)
 ```

@@ -1,0 +1,84 @@
+{
+  "surah": 104,
+  "name": { "ar": "الهمزة", "latin": "Al-Humazah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Celakalah" },
+        { "words": [2, 4], "id": "setiap pengumpat lagi pencela" }
+      ],
+      "full": { "id": "Celakalah setiap pengumpat lagi pencela" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang mengumpulkan harta" },
+        { "words": [4, 4], "id": "dan menghitung-hitungnya" }
+      ],
+      "full": { "id": "yang mengumpulkan harta dan menghitung-hitungnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dia (manusia) mengira" },
+        { "words": [2, 4], "id": "bahwa hartanya dapat mengekalkannya" }
+      ],
+      "full": { "id": "Dia (manusia) mengira bahwa hartanya dapat mengekalkannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 4], "id": "Pasti dia akan dilemparkan ke dalam (neraka) Hutamah" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Pasti dia akan dilemparkan ke dalam (neraka) Hutamah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah kamu" },
+        { "words": [3, 4], "id": "apakah (neraka) Hutamah" }
+      ],
+      "full": { "id": "Tahukah kamu apakah (neraka) Hutamah?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Ia adalah) api (azab) Allah yang dinyalakan" }
+      ],
+      "full": { "id": "(Ia adalah) api (azab) Allah yang dinyalakan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 4], "id": "yang (membakar) naik sampai ke hati" }
+      ],
+      "full": { "id": "yang (membakar) naik sampai ke hati." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sesungguhnya dia (api itu)" },
+        { "words": [2, 3], "id": "tertutup rapat (sebagai hukuman) atas mereka" }
+      ],
+      "full": { "id": "Sesungguhnya dia (api itu) tertutup rapat (sebagai hukuman) atas mereka," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "(sedangkan mereka) diikat pada tiang-tiang yang panjang" }
+      ],
+      "full": { "id": "(sedangkan mereka) diikat pada tiang-tiang yang panjang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

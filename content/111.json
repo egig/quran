@@ -1,0 +1,51 @@
+{
+  "surah": 111,
+  "name": { "ar": "المسد", "latin": "Al-Masad" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 4], "id": "Binasalah kedua tangan Abu Lahab" },
+        { "words": [5, 5], "id": "dan benar-benar binasa dia" }
+      ],
+      "full": { "id": "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 4], "id": "Tidaklah berguna baginya hartanya" },
+        { "words": [5, 6], "id": "dan apa yang dia usahakan" }
+      ],
+      "full": { "id": "Tidaklah berguna baginya hartanya dan apa yang dia usahakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kelak dia akan memasuki" },
+        { "words": [2, 4], "id": "api yang bergejolak (neraka)" }
+      ],
+      "full": { "id": "Kelak dia akan memasuki api yang bergejolak (neraka)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "(begitu pula) istrinya" },
+        { "words": [2, 3], "id": "pembawa kayu bakar (penyebar fitnah)" }
+      ],
+      "full": { "id": "(begitu pula) istrinya, pembawa kayu bakar (penyebar fitnah)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "Di lehernya" },
+        { "words": [3, 5], "id": "ada tali dari sabut yang dipintal" }
+      ],
+      "full": { "id": "Di lehernya ada tali dari sabut yang dipintal." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

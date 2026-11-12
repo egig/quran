@@ -1,0 +1,54 @@
+{
+  "surah": 113,
+  "name": { "ar": "الفلق", "latin": "Al-Falaq" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Katakanlah (Nabi Muhammad), Aku berlindung" },
+        { "words": [3, 4], "id": "kepada Tuhan yang (menjaga) fajar (subuh)" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang (menjaga) fajar (subuh)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "dari kejahatan" },
+        { "words": [3, 4], "id": "(makhluk yang) Dia ciptakan" }
+      ],
+      "full": { "id": "dari kejahatan (makhluk yang) Dia ciptakan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "dari kejahatan" },
+        { "words": [3, 3], "id": "malam" },
+        { "words": [4, 5], "id": "apabila telah gelap gulita" }
+      ],
+      "full": { "id": "dari kejahatan malam apabila telah gelap gulita," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "dari kejahatan" },
+        { "words": [3, 3], "id": "perempuan-perempuan (penyihir) yang meniup" },
+        { "words": [4, 5], "id": "pada buhul-buhul (talinya)" }
+      ],
+      "full": { "id": "dari kejahatan perempuan-perempuan (penyihir) yang meniup pada buhul-buhul (talinya)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan dari kejahatan" },
+        { "words": [3, 3], "id": "orang yang dengki" },
+        { "words": [4, 5], "id": "apabila dia dengki" }
+      ],
+      "full": { "id": "dan dari kejahatan orang yang dengki apabila dia dengki.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

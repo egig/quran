@@ -1,0 +1,103 @@
+{
+  "surah": 93,
+  "name": { "ar": "الضحى", "latin": "Aḍ-Ḍuḥā" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Demi waktu duha" }
+      ],
+      "full": { "id": "Demi waktu duha" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan demi waktu malam apabila telah sunyi" }
+      ],
+      "full": { "id": "dan demi waktu malam apabila telah sunyi," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "Tuhanmu (Nabi Muhammad) tidak meninggalkan" },
+        { "words": [4, 5], "id": "dan tidak (pula) membencimu" }
+      ],
+      "full": { "id": "Tuhanmu (Nabi Muhammad) tidak meninggalkan dan tidak (pula) membencimu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sungguh, akhirat itu lebih baik bagimu" },
+        { "words": [4, 5], "id": "daripada yang permulaan (dunia)" }
+      ],
+      "full": { "id": "Sungguh, akhirat itu lebih baik bagimu daripada yang permulaan (dunia)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sungguh, kelak (di akhirat nanti) Tuhanmu pasti memberikan karunia-Nya kepadamu" },
+        { "words": [4, 4], "id": "sehingga engkau rida" }
+      ],
+      "full": { "id": "Sungguh, kelak (di akhirat nanti) Tuhanmu pasti memberikan karunia-Nya kepadamu sehingga engkau rida." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "Bukankah Dia mendapatimu sebagai seorang yatim" },
+        { "words": [4, 4], "id": "lalu Dia melindungi(-mu)" }
+      ],
+      "full": { "id": "Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungi(-mu);" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "mendapatimu sebagai seorang yang tidak tahu (tentang syariat)" },
+        { "words": [3, 3], "id": "lalu Dia memberimu petunjuk (wahyu)" }
+      ],
+      "full": { "id": "mendapatimu sebagai seorang yang tidak tahu (tentang syariat), lalu Dia memberimu petunjuk (wahyu);" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan mendapatimu sebagai seorang yang fakir" },
+        { "words": [3, 3], "id": "lalu Dia memberimu kecukupan" }
+      ],
+      "full": { "id": "dan mendapatimu sebagai seorang yang fakir, lalu Dia memberimu kecukupan?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 2], "id": "Terhadap anak yatim" },
+        { "words": [3, 4], "id": "janganlah engkau berlaku sewenang-wenang" }
+      ],
+      "full": { "id": "Terhadap anak yatim, janganlah engkau berlaku sewenang-wenang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 2], "id": "Terhadap orang yang meminta-minta" },
+        { "words": [3, 4], "id": "janganlah engkau menghardik" }
+      ],
+      "full": { "id": "Terhadap orang yang meminta-minta, janganlah engkau menghardik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 3], "id": "Terhadap nikmat Tuhanmu" },
+        { "words": [4, 4], "id": "nyatakanlah (dengan bersyukur)" }
+      ],
+      "full": { "id": "Terhadap nikmat Tuhanmu, nyatakanlah (dengan bersyukur)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

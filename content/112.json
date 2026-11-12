@@ -1,0 +1,41 @@
+{
+  "surah": 112,
+  "name": { "ar": "الإخلاص", "latin": "Al-Ikhlāṣ" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Katakanlah (Nabi Muhammad), Dialah Allah" },
+        { "words": [4, 4], "id": "Yang Maha Esa" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Dialah Allah Yang Maha Esa." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 1], "id": "Allah" },
+        { "words": [2, 2], "id": "tempat meminta segala sesuatu" }
+      ],
+      "full": { "id": "Allah tempat meminta segala sesuatu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia tidak beranak" },
+        { "words": [3, 4], "id": "dan tidak pula diperanakkan" }
+      ],
+      "full": { "id": "Dia tidak beranak dan tidak pula diperanakkan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 5], "id": "serta tidak ada sesuatu pun yang setara dengan-Nya" }
+      ],
+      "full": { "id": "serta tidak ada sesuatu pun yang setara dengan-Nya.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

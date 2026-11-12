@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "surah": 1,
   "name": {
     "ar": "الفاتحة",
@@ -15,6 +15,7 @@
     7
   ],
   "layout": {
+    "left": 65.73,
     "width": 213.79,
     "band": {
       "top": -17,
@@ -23,7 +24,11 @@
     "pages": [
       {
         "page": 1,
-        "lines": 7
+        "lines": 7,
+        "ayahs": [
+          1,
+          7
+        ]
       }
     ],
     "basmalah": null

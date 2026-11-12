@@ -1,0 +1,66 @@
+{
+  "surah": 107,
+  "name": { "ar": "الماعون", "latin": "Al-Māʿūn" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Tahukah kamu" },
+        { "words": [2, 4], "id": "(orang) yang mendustakan agama" }
+      ],
+      "full": { "id": "Tahukah kamu (orang) yang mendustakan agama?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 4], "id": "Itulah orang yang menghardik anak yatim" }
+      ],
+      "full": { "id": "Itulah orang yang menghardik anak yatim" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan tidak menganjurkan" },
+        { "words": [3, 5], "id": "untuk memberi makan orang miskin" }
+      ],
+      "full": { "id": "dan tidak menganjurkan untuk memberi makan orang miskin." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Celakalah" },
+        { "words": [2, 2], "id": "orang-orang yang melaksanakan salat" }
+      ],
+      "full": { "id": "Celakalah orang-orang yang melaksanakan salat," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 5], "id": "(yaitu) yang lalai terhadap salatnya" }
+      ],
+      "full": { "id": "(yaitu) yang lalai terhadap salatnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang berbuat riya" }
+      ],
+      "full": { "id": "yang berbuat riya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 1], "id": "dan enggan" },
+        { "words": [2, 2], "id": "(memberi) bantuan" }
+      ],
+      "full": { "id": "dan enggan (memberi) bantuan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

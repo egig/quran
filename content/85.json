@@ -1,0 +1,203 @@
+{
+  "surah": 85,
+  "name": { "ar": "البروج", "latin": "Al-Burūj" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Demi langit yang mempunyai gugusan bintang" }
+      ],
+      "full": { "id": "Demi langit yang mempunyai gugusan bintang," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "demi hari yang dijanjikan" }
+      ],
+      "full": { "id": "demi hari yang dijanjikan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "demi yang menyaksikan dan yang disaksikan" }
+      ],
+      "full": { "id": "demi yang menyaksikan dan yang disaksikan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "binasalah" },
+        { "words": [2, 3], "id": "orang-orang yang membuat parit (tempat menyiksa orang mukmin)" }
+      ],
+      "full": { "id": "binasalah orang-orang yang membuat parit (tempat menyiksa orang mukmin)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "(yang dikobarkan) api penuh kayu bakar" }
+      ],
+      "full": { "id": "(yang dikobarkan) api penuh kayu bakar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 4], "id": "Ketika (itu) mereka (hanya) duduk di sekitarnya" }
+      ],
+      "full": { "id": "Ketika (itu) mereka (hanya) duduk di sekitarnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka" },
+        { "words": [2, 5], "id": "apa yang mereka perbuat terhadap orang-orang mukmin" },
+        { "words": [6, 6], "id": "menyaksikan" }
+      ],
+      "full": { "id": "Mereka menyaksikan apa yang mereka perbuat terhadap orang-orang mukmin." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Tidaklah mereka menyiksa (membakar) orang-orang mukmin itu" },
+        { "words": [4, 7], "id": "kecuali karena mereka beriman kepada Allah" },
+        { "words": [8, 9], "id": "Yang Maha Perkasa lagi Maha Terpuji" }
+      ],
+      "full": { "id": "Tidaklah mereka menyiksa (membakar) orang-orang mukmin itu, kecuali karena mereka beriman kepada Allah Yang Maha Perkasa lagi Maha Terpuji," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 5], "id": "yang memiliki kerajaan langit dan bumi" },
+        { "words": [6, 10], "id": "Allah Maha Menyaksikan segala sesuatu" }
+      ],
+      "full": { "id": "yang memiliki kerajaan langit dan bumi. Allah Maha Menyaksikan segala sesuatu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 5], "id": "Sesungguhnya, orang-orang yang menimpakan cobaan (siksa) terhadap mukmin laki-laki dan perempuan" },
+        { "words": [6, 8], "id": "lalu mereka tidak bertobat" },
+        { "words": [9, 11], "id": "mereka akan mendapat azab Jahanam" },
+        { "words": [12, 14], "id": "dan mereka akan mendapat azab (neraka) yang membakar" }
+      ],
+      "full": { "id": "Sesungguhnya, orang-orang yang menimpakan cobaan (siksa) terhadap mukmin laki-laki dan perempuan, lalu mereka tidak bertobat, mereka akan mendapat azab Jahanam dan mereka akan mendapat azab (neraka) yang membakar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 5], "id": "Sesungguhnya, orang-orang yang beriman dan mengerjakan kebajikan" },
+        { "words": [6, 11], "id": "mereka akan mendapat surga yang mengalir di bawahnya sungai-sungai" },
+        { "words": [12, 14], "id": "Itulah kemenangan yang besar" }
+      ],
+      "full": { "id": "Sesungguhnya, orang-orang yang beriman dan mengerjakan kebajikan, mereka akan mendapat surga yang mengalir di bawahnya sungai-sungai. Itulah kemenangan yang besar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya azab Tuhanmu" },
+        { "words": [4, 4], "id": "sangat keras" }
+      ],
+      "full": { "id": "Sesungguhnya azab Tuhanmu sangat keras." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya Dialah yang memulai (penciptaan makhluk)" },
+        { "words": [4, 4], "id": "dan yang mengembalikan (hidup setelah mati)" }
+      ],
+      "full": { "id": "Sesungguhnya Dialah yang memulai (penciptaan makhluk) dan yang mengembalikan (hidup setelah mati)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dialah" },
+        { "words": [2, 2], "id": "Yang Maha Pengampun" },
+        { "words": [3, 3], "id": "Maha Pengasih" }
+      ],
+      "full": { "id": "Dialah Yang Maha Pengampun lagi Maha Pengasih," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 2], "id": "Pemilik ʻArasy" },
+        { "words": [3, 3], "id": "Maha Mulia" }
+      ],
+      "full": { "id": "Pemilik ʻArasy lagi Maha Mulia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maha Kuasa berbuat" },
+        { "words": [2, 3], "id": "apa saja yang Dia kehendaki" }
+      ],
+      "full": { "id": "Maha Kuasa berbuat apa saja yang Dia kehendaki." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sudahkah sampai kepadamu" },
+        { "words": [3, 4], "id": "berita tentang bala tentara" }
+      ],
+      "full": { "id": "Sudahkah sampai kepadamu berita tentang bala tentara," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 2], "id": "(yaitu bala tentara) Fir'aun dan Samud" }
+      ],
+      "full": { "id": "(yaitu bala tentara) Fir'aun dan Samud?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 3], "id": "Memang orang-orang kafir" },
+        { "words": [4, 5], "id": "(selalu) mendustakan" }
+      ],
+      "full": { "id": "Memang orang-orang kafir (selalu) mendustakan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 1], "id": "padahal Allah" },
+        { "words": [2, 4], "id": "mengepung dari belakang mereka" }
+      ],
+      "full": { "id": "padahal Allah mengepung dari belakang mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bahkan, (yang didustakan itu)" },
+        { "words": [3, 4], "id": "Al-Qur’an yang mulia" }
+      ],
+      "full": { "id": "Bahkan, (yang didustakan itu) Al-Qur’an yang mulia" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang (tersimpan) dalam (tempat) yang terjaga (Lauhulmahfuz)" }
+      ],
+      "full": { "id": "yang (tersimpan) dalam (tempat) yang terjaga (Lauhulmahfuz)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

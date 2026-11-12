@@ -1,0 +1,80 @@
+{
+  "surah": 99,
+  "name": { "ar": "الزلزلة", "latin": "Az-Zalzalah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila bumi diguncangkan" },
+        { "words": [4, 4], "id": "dengan guncangan yang dahsyat" }
+      ],
+      "full": { "id": "Apabila bumi diguncangkan dengan guncangan yang dahsyat," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "bumi mengeluarkan isi perutnya" }
+      ],
+      "full": { "id": "bumi mengeluarkan isi perutnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan manusia bertanya" },
+        { "words": [3, 4], "id": "Apa yang terjadi dengannya (bumi)" }
+      ],
+      "full": { "id": "dan manusia bertanya, “Apa yang terjadi dengannya (bumi)?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Pada hari itu" },
+        { "words": [2, 3], "id": "(bumi) menyampaikan berita (tentang apa yang diperbuat manusia di atasnya)" }
+      ],
+      "full": { "id": "Pada hari itu (bumi) menyampaikan berita (tentang apa yang diperbuat manusia di atasnya)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "karena sesungguhnya Tuhanmu telah memerintahkan (yang demikian itu)" },
+        { "words": [4, 4], "id": "kepadanya" }
+      ],
+      "full": { "id": "karena sesungguhnya Tuhanmu telah memerintahkan (yang demikian itu) kepadanya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "Pada hari itu manusia keluar (dari kuburnya)" },
+        { "words": [4, 4], "id": "dalam keadaan terpencar" },
+        { "words": [5, 6], "id": "untuk diperlihatkan kepada mereka (balasan) semua perbuatan mereka" }
+      ],
+      "full": { "id": "Pada hari itu manusia keluar (dari kuburnya) dalam keadaan terpencar untuk diperlihatkan kepada mereka (balasan) semua perbuatan mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Siapa yang mengerjakan" },
+        { "words": [3, 5], "id": "kebaikan seberat zarah" },
+        { "words": [6, 6], "id": "dia akan melihat (balasan)-nya" }
+      ],
+      "full": { "id": "Siapa yang mengerjakan kebaikan seberat zarah, dia akan melihat (balasan)-nya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "Siapa yang mengerjakan" },
+        { "words": [3, 5], "id": "kejahatan seberat zarah" },
+        { "words": [6, 6], "id": "dia akan melihat (balasan)-nya" }
+      ],
+      "full": { "id": "Siapa yang mengerjakan kejahatan seberat zarah, dia akan melihat (balasan)-nya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

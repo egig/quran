@@ -1,0 +1,74 @@
+{
+  "surah": 94,
+  "name": { "ar": "الشرح", "latin": "Ash-Sharḥ" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 4], "id": "Bukankah Kami telah melapangkan dadamu (Nabi Muhammad)" }
+      ],
+      "full": { "id": "Bukankah Kami telah melapangkan dadamu (Nabi Muhammad)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "meringankan beban (tugas-tugas kenabian) darimu" }
+      ],
+      "full": { "id": "meringankan beban (tugas-tugas kenabian) darimu" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "yang memberatkan punggungmu" }
+      ],
+      "full": { "id": "yang memberatkan punggungmu," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan meninggikan (derajat)-mu (dengan selalu) menyebut-nyebut (nama)-mu" }
+      ],
+      "full": { "id": "dan meninggikan (derajat)-mu (dengan selalu) menyebut-nyebut (nama)-mu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "Maka, sesungguhnya beserta kesulitan" },
+        { "words": [4, 4], "id": "ada kemudahan" }
+      ],
+      "full": { "id": "Maka, sesungguhnya beserta kesulitan ada kemudahan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya beserta kesulitan" },
+        { "words": [4, 4], "id": "ada kemudahan" }
+      ],
+      "full": { "id": "Sesungguhnya beserta kesulitan ada kemudahan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apabila engkau telah selesai (dengan suatu kebajikan)" },
+        { "words": [3, 3], "id": "teruslah bekerja keras (untuk kebajikan yang lain)" }
+      ],
+      "full": { "id": "Apabila engkau telah selesai (dengan suatu kebajikan), teruslah bekerja keras (untuk kebajikan yang lain)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan hanya kepada Tuhanmu" },
+        { "words": [3, 3], "id": "berharaplah" }
+      ],
+      "full": { "id": "dan hanya kepada Tuhanmu berharaplah!" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

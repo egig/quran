@@ -4,7 +4,7 @@ import type { SurahListEntry } from "../types.ts";
 
 const PLACE = { makkah: "Makkiyah", madinah: "Madaniyah" } as const;
 
-/** Table of contents: all 114 surahs. Surahs with generated data link to their page. */
+/** Table of contents: all 114 surahs. Built surahs link to the mushaf page they start on. */
 export function SurahList() {
   const index = useRootIndex();
   if (index.status === "loading") return <p className="status">Memuat…</p>;
@@ -21,7 +21,7 @@ export function SurahList() {
       </header>
       <ol className="surah-list">
         {index.data.surahs.map((s) => (
-          <li key={s.surah}>{s.available ? <Link to={`/${s.surah}`}><Row s={s} /></Link> : <Row s={s} muted />}</li>
+          <li key={s.surah}>{s.available ? <Link to={`/${s.pages[0]}#s${s.surah}`}><Row s={s} /></Link> : <Row s={s} muted />}</li>
         ))}
       </ol>
     </main>
