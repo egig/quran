@@ -1,0 +1,211 @@
+:root {
+  --bg: #f7f3ea;
+  --surface: #fffdf8;
+  --ink: #231f20;
+  --muted: #6b645c;
+  --faint: #b5aa96;
+  --line: #e6dfd0;
+  --accent: #8a6a2f;
+
+  /* px per artwork unit; a 1-line ayah band is ~25 units tall. */
+  --u: clamp(1.7px, 1.25px + 0.35vw, 2.8px);
+  --sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15130f;
+    --surface: #1d1a15;
+    --ink: #ece6da;
+    --muted: #a59d90;
+    --faint: #5c5448;
+    --line: #2c2820;
+    --accent: #d2b072;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #15130f;
+  --surface: #1d1a15;
+  --ink: #ece6da;
+  --muted: #a59d90;
+  --faint: #5c5448;
+  --line: #2c2820;
+  --accent: #d2b072;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+
+.status {
+  color: var(--muted);
+  text-align: center;
+  padding: 48px 0;
+}
+
+/* ---------- Surah header ---------- */
+
+.surah-head {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.surah-head h1 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.surah-ar {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Geeza Pro", "Noto Naskh Arabic", serif;
+}
+
+.surah-latin {
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.back {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+/* ---------- Ayah ---------- */
+
+.ayah {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: clamp(28px, 5vw, 48px) clamp(16px, 4vw, 40px) 24px;
+  margin-bottom: 20px;
+}
+
+.draft {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 2px 8px;
+  opacity: 0.85;
+}
+
+/* Phrases wrap as whole units, so lines break only between phrases. */
+.ayah-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: calc(7 * var(--u));
+  row-gap: 22px;
+}
+
+.phrase {
+  display: flex;
+}
+
+.run {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.run svg {
+  display: block;
+  width: calc(var(--w) * var(--u));
+  height: calc(var(--h) * var(--u));
+  color: var(--ink);
+  overflow: visible;
+}
+
+/* Ornament sits left of the words; offset so bracket and text centre on the words. */
+.bracket,
+.tr {
+  margin-left: calc(var(--mw, 0) * var(--u));
+}
+
+.bracket {
+  display: block;
+  width: calc(var(--aw) * var(--u) - 6px);
+  height: 6px;
+  margin-top: 6px;
+  border: 1.5px solid var(--faint);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.tr {
+  display: block;
+  margin-top: 8px;
+  width: max-content;
+  max-width: max(calc(var(--aw) * var(--u) * 1.6), 7.5rem);
+  text-align: center;
+  font-size: clamp(0.85rem, 0.8rem + 0.25vw, 1rem);
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.full {
+  margin: 28px auto 0;
+  max-width: 40rem;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  font-style: italic;
+  font-size: clamp(0.95rem, 0.9rem + 0.25vw, 1.1rem);
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.ref {
+  margin: 12px 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.credits {
+  margin-top: 40px;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--muted);
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+{
+  "surah": 1,
+  "name": { "ar": "الفاتحة", "latin": "Al-Fātiḥah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dengan nama Allah" },
+        { "words": [3, 3], "id": "Yang Maha Pengasih" },
+        { "words": [4, 4], "id": "Maha Penyayang" }
+      ],
+      "full": { "id": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

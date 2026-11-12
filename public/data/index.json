@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "surahs": [
+    {
+      "surah": 1,
+      "name": {
+        "ar": "الفاتحة",
+        "latin": "Al-Fātiḥah"
+      },
+      "ayahs": 1
+    }
+  ]
+}
