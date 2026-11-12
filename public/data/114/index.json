@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "surah": 114,
   "name": {
     "ar": "الناس",
@@ -14,6 +14,7 @@
     6
   ],
   "layout": {
+    "left": 10.91,
     "width": 320.39,
     "band": {
       "top": -22,
@@ -22,7 +23,11 @@
     "pages": [
       {
         "page": 604,
-        "lines": 5
+        "lines": 5,
+        "ayahs": [
+          1,
+          6
+        ]
       }
     ],
     "basmalah": {

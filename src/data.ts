@@ -25,27 +25,40 @@ function useJson<T>(url: string | null): State<T> {
 
 export const useRootIndex = () => useJson<RootIndex>(`${DATA}/index.json`);
 
-export const useSurahIndex = (surah: number) => useJson<SurahIndex>(`${DATA}/${surah}/index.json`);
+export interface PageSection {
+  surah: SurahIndex;
+  /** The surah's ayahs with artwork on this page, in order. */
+  ayahs: AyahData[];
+}
 
-export function useAyahs(surah: number, ayahs: number[] | null): State<AyahData[]> {
-  const [state, setState] = useState<State<AyahData[]>>({ status: "loading" });
-  const key = ayahs?.join(",") ?? null;
+const getJson = <T,>(url: string): Promise<T> =>
+  fetch(url).then((r) => (r.ok ? (r.json() as Promise<T>) : Promise.reject(new Error(`${url.slice(DATA.length + 1)} ${r.status}`))));
+
+/** Everything printed on one mushaf page: each surah on it with its ayahs there. */
+export function usePage(page: number, surahs: number[] | null): State<PageSection[]> {
+  const [state, setState] = useState<State<PageSection[]>>({ status: "loading" });
+  const key = surahs?.join(",") ?? null;
   useEffect(() => {
     if (key === null) return;
     let alive = true;
     setState({ status: "loading" });
     Promise.all(
-      key.split(",").filter(Boolean).map((a) =>
-        fetch(`${DATA}/${surah}/${a}.json`).then((r) =>
-          r.ok ? (r.json() as Promise<AyahData>) : Promise.reject(new Error(`${surah}:${a} ${r.status}`)),
-        ),
-      ),
+      key.split(",").map(async (s) => {
+        const surah = await getJson<SurahIndex>(`${DATA}/${s}/index.json`);
+        const info = surah.layout.pages.find((p) => p.page === page);
+        if (!info) throw new Error(`surah ${s} has no page ${page}`);
+        const [from, to] = info.ayahs;
+        const ayahs = await Promise.all(
+          Array.from({ length: to - from + 1 }, (_, i) => getJson<AyahData>(`${DATA}/${s}/${from + i}.json`)),
+        );
+        return { surah, ayahs };
+      }),
     )
       .then((data) => alive && setState({ status: "ok", data }))
       .catch((e: Error) => alive && setState({ status: "error", error: e.message }));
     return () => {
       alive = false;
     };
-  }, [surah, key]);
+  }, [page, key]);
   return state;
 }

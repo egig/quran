@@ -1,82 +1,62 @@
-import { Fragment } from "react";
-import type { AyahData, Glyph, MushafLayout } from "../types.ts";
+import type { AyahData, Glyph } from "../types.ts";
+import type { PageSection } from "../data.ts";
 
 const LANG = "id";
 
 interface Segment {
   x0: number;
   x1: number;
-  /** null: continuation of a phrase whose translation sits on an earlier line. */
+  /** null: continuation of a phrase whose translation sits on an earlier line or page. */
   text: string | null;
 }
 
 interface Line {
-  page: number;
   n: number;
   glyphs: Glyph[];
   segments: Segment[];
 }
 
 /**
- * Redraws the printed Madinah mushaf pages line by line. Every word keeps its
- * printed position; the whole page scales with its container. Each phrase's
- * translation sits under its words. A phrase that runs onto the next printed
- * line (or page) shows its translation under the first part and "…" under
- * the rest. Each page ends with its printed page number.
+ * Redraws one printed Madinah mushaf page line by line. Every word keeps its
+ * printed position; the whole page scales with its container. Each surah is
+ * cropped to its own ink, so its artwork is moved by its `left` offset into
+ * the page's shared frame. Each phrase's translation sits under its words. A
+ * phrase that runs onto the next printed line (or comes from the previous
+ * page) shows its translation under its first part and "…" under the rest.
  */
-export function MushafPage({
-  layout,
-  ayahs,
-  basmalah,
-}: {
-  layout: MushafLayout;
-  ayahs: AyahData[];
-  /** Draw the surah's opening basmalah line, if it has one. */
-  basmalah: boolean;
-}) {
-  const lines = new Map<string, Line>();
-  const lineAt = (page: number, n: number) => {
-    const key = `${page}:${n}`;
-    let l = lines.get(key);
-    if (!l) lines.set(key, (l = { page, n, glyphs: [], segments: [] }));
-    return l;
-  };
-
-  if (basmalah && layout.basmalah) lineAt(layout.basmalah.page, layout.basmalah.line).glyphs.push(layout.basmalah);
-  for (const a of ayahs) {
-    for (const g of [...a.words, a.mark]) lineAt(g.page, g.line).glyphs.push(g);
-    for (const p of a.phrases) {
-      const words = a.words.slice(p.from - 1, p.to);
-      let first = true;
-      for (const key of [...new Set(words.map((w) => `${w.page}:${w.line}`))]) {
-        const part = words.filter((w) => `${w.page}:${w.line}` === key);
-        lineAt(part[0].page, part[0].line).segments.push({
-          x0: Math.min(...part.map((w) => w.x0)),
-          x1: Math.max(...part.map((w) => w.x1)),
-          text: first ? p.text[LANG] : null,
-        });
-        first = false;
-      }
-    }
-  }
-
-  const { width, band } = layout;
+export function MushafPage({ page, sections }: { page: number; sections: PageSection[] }) {
+  const layouts = sections.map((s) => s.surah.layout);
+  const left = Math.min(...layouts.map((l) => l.left));
+  const width = Math.max(...layouts.map((l) => l.left + l.width)) - left;
+  const top = Math.min(...layouts.map((l) => l.band.top));
+  const bottom = Math.max(...layouts.map((l) => l.band.bottom));
   const pct = (v: number) => `${(v / width) * 100}%`;
-  const sorted = [...lines.values()].sort((a, b) => a.page - b.page || a.n - b.n);
-  const pages = [...new Set(sorted.map((l) => l.page))];
 
   return (
     <div className="mushaf-page" lang="ar">
-      {pages.map((page) => (
-        <Fragment key={page}>
-          {sorted
-            .filter((l) => l.page === page)
-            .map((line) => {
+      {sections.map(({ surah, ayahs }) => {
+        const { layout } = surah;
+        const dx = layout.left - left;
+        const starts = layout.pages[0].page === page;
+        return (
+          <section key={surah.surah} className="surah-section" id={`s${surah.surah}`}>
+            {starts && (
+              <h2 className="surah-title">
+                <span className="surah-ar" lang="ar">
+                  {surah.name.ar}
+                </span>
+                <span className="surah-latin" lang="id">
+                  {surah.surah}. {surah.name.latin}
+                </span>
+              </h2>
+            )}
+            {linesOf(page, ayahs, layout.basmalah?.page === page ? layout.basmalah : null).map((line) => {
               let edge = width; // left edge of the previous segment; RTL starts at the right
               // Neighbouring phrases split the space between them at the midpoint:
               // printed words can overlap (a tail running under the next word), and
               // gaps give narrow phrases more room for their translation.
-              const segments = [...line.segments]
+              const segments = line.segments
+                .map((s) => ({ ...s, x0: s.x0 + dx, x1: s.x1 + dx }))
                 .sort((a, b) => b.x1 - a.x1)
                 .map((s, i, all) => ({
                   ...s,
@@ -85,14 +65,12 @@ export function MushafPage({
                 }));
               return (
                 <div className="mline" key={line.n}>
-                  <svg
-                    viewBox={`0 ${band.top} ${width} ${band.bottom - band.top}`}
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    {line.glyphs.flatMap((g) => g.paths).map((p, i) => (
-                      <path key={i} d={p.d} fillRule={p.rule} />
-                    ))}
+                  <svg viewBox={`0 ${top} ${width} ${bottom - top}`} fill="currentColor" aria-hidden="true">
+                    <g transform={`translate(${dx} 0)`}>
+                      {line.glyphs.flatMap((g) => g.paths).map((p, i) => (
+                        <path key={i} d={p.d} fillRule={p.rule} />
+                      ))}
+                    </g>
                   </svg>
                   <div className="mtr" dir="rtl">
                     {segments.map((s) => {
@@ -112,15 +90,46 @@ export function MushafPage({
                 </div>
               );
             })}
-          <p className="page-no" lang="id">
-            <span className="sr-only">Halaman </span>
-            {page}
-          </p>
-        </Fragment>
-      ))}
-      <p className="sr-only" lang="ar">
-        {ayahs.map((a) => `${a.words.map((w) => w.text).join(" ")} (${a.ayah})`).join(" ")}
+            <p className="sr-only" lang="ar">
+              {ayahs
+                .map((a) => `${a.words.filter((w) => w.page === page).map((w) => w.text).join(" ")} (${a.ayah})`)
+                .join(" ")}
+            </p>
+          </section>
+        );
+      })}
+      <p className="page-no" lang="id">
+        <span className="sr-only">Halaman </span>
+        {page}
       </p>
     </div>
   );
+}
+
+/** The surah's printed lines on `page`, in order, with their glyphs and phrase segments. */
+function linesOf(page: number, ayahs: AyahData[], basmalah: Glyph | null): Line[] {
+  const lines = new Map<number, Line>();
+  const lineAt = (n: number) => {
+    let l = lines.get(n);
+    if (!l) lines.set(n, (l = { n, glyphs: [], segments: [] }));
+    return l;
+  };
+  if (basmalah) lineAt(basmalah.line).glyphs.push(basmalah);
+  for (const a of ayahs) {
+    for (const g of [...a.words, a.mark]) if (g.page === page) lineAt(g.line).glyphs.push(g);
+    for (const p of a.phrases) {
+      const words = a.words.slice(p.from - 1, p.to);
+      const keys = [...new Set(words.map((w) => `${w.page}:${w.line}`))];
+      keys.forEach((key, i) => {
+        const part = words.filter((w) => `${w.page}:${w.line}` === key);
+        if (part[0].page !== page) return;
+        lineAt(part[0].line).segments.push({
+          x0: Math.min(...part.map((w) => w.x0)),
+          x1: Math.max(...part.map((w) => w.x1)),
+          text: i === 0 ? p.text[LANG] : null,
+        });
+      });
+    }
+  }
+  return [...lines.values()].sort((a, b) => a.n - b.n);
 }

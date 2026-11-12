@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "surah": 113,
   "name": {
     "ar": "الفلق",
@@ -13,6 +13,7 @@
     5
   ],
   "layout": {
+    "left": 10.18,
     "width": 321.12,
     "band": {
       "top": -21,
@@ -21,7 +22,11 @@
     "pages": [
       {
         "page": 604,
-        "lines": 4
+        "lines": 4,
+        "ayahs": [
+          1,
+          5
+        ]
       }
     ],
     "basmalah": {

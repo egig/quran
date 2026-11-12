@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "surah": 111,
   "name": {
     "ar": "المسد",
@@ -13,6 +13,7 @@
     5
   ],
   "layout": {
+    "left": 5.66,
     "width": 326.07,
     "band": {
       "top": -23,
@@ -21,7 +22,11 @@
     "pages": [
       {
         "page": 603,
-        "lines": 4
+        "lines": 4,
+        "ayahs": [
+          1,
+          5
+        ]
       }
     ],
     "basmalah": {

@@ -41,17 +41,24 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - No bracket or underline under the Arabic.
 - The surah header is plain text (Arabic name plus Latin name). The API has
   no artwork for the decorative header.
-- A surah that spans several mushaf pages shows them in order. Each page ends
-  with a thin rule and its printed page number. A phrase that crosses a page
+- The reading view is one mushaf page: `/{page}` (1–604). It shows every
+  surah printed on that page, in order, each starting with its header where
+  it starts on the page. There is no per-surah or single-ayah view. A page is
+  shown only when every surah on it is built. The page ends with a thin rule
+  and its printed page number, then links to the neighbouring built pages
+  (next page on the left, as in the mushaf). A phrase that crosses a page
   break shows "…" on the next page, like a line break.
+- Surahs on one page share one frame: each is moved by its `layout.left`
+  offset, never scaled to fit.
 - The basmalah that opens a surah is drawn as its own line, from the
-  artwork, with no translation. It is shown on the whole-surah view only.
+  artwork, with no translation.
 - No card or frame around the page: the mushaf sits directly on the
   background.
 - `/` is the table of contents: all 114 surahs (number, Latin and Arabic
   name, ayah count, Makkiyah/Madaniyah, mushaf pages). Built surahs link to
-  their page; the others are muted and not clickable. Surah pages have a
-  "Daftar surah" link back at the top left.
+  the mushaf page they start on (`/{page}#s{surah}`); the others are muted
+  and not clickable. Mushaf pages have a "Daftar surah" link back at the top
+  left.
 - Names for surahs not yet in `content/` come from the API list, with its
   stand-in letters mapped to the usual transliteration (ĥ→ḥ, `→ʿ, …).
 
@@ -121,7 +128,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 ```sh
 npm run data       # rebuild public/data from content/
-npm run dev        # local page: / (surah list), /1 (surah) or /1/1 (single ayah)
+npm run dev        # local page: / (surah list), /1 or /602 (mushaf page)
 npm run build      # data + typecheck + production build
 npm run build:site # typecheck + production build from committed data (what CI runs)
 ```

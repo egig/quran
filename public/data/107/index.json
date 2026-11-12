@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "surah": 107,
   "name": {
     "ar": "الماعون",
@@ -15,6 +15,7 @@
     7
   ],
   "layout": {
+    "left": 8.16,
     "width": 324.96,
     "band": {
       "top": -24,
@@ -23,7 +24,11 @@
     "pages": [
       {
         "page": 602,
-        "lines": 5
+        "lines": 5,
+        "ayahs": [
+          1,
+          7
+        ]
       }
     ],
     "basmalah": {

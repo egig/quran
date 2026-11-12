@@ -2,10 +2,10 @@
 
 The Madinah mushaf page reproduced line for line — every word at its printed
 position — with the Indonesian translation placed under each **meaningful
-phrase** (not word by word). The page scales to the screen width. A surah that
-spans several mushaf pages shows each page in turn, closed by its page number.
-A phrase that runs onto the next printed line shows its translation under the
-first part and "…" under the rest. A button at the top right switches between
+phrase** (not word by word). The page scales to the screen width. The reader
+shows one mushaf page at a time (`/602`), with every surah printed on it,
+closed by its page number. A phrase that runs onto the next printed line shows
+its translation under the first part and "…" under the rest. A button at the top right switches between
 light and dark.
 
 ## Run
@@ -13,7 +13,7 @@ light and dark.
 ```sh
 npm install
 npm run data   # build public/data from content/*.json (fetches artwork once, cached in cache/)
-npm run dev    # http://localhost:5173/ (surah list), /1 (surah) or /1/1 (ayah)
+npm run dev    # http://localhost:5173/ (surah list), /1 or /602 (mushaf page)
 ```
 
 ## Deploy
@@ -72,7 +72,10 @@ BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
   under it, each positioned under its phrase's words. Neighbouring phrases
   split the space between them at the midpoint, since printed words can
   overlap. The artwork is only moved (per line, vertically), never scaled
-  relative to itself or restyled.
+  relative to itself or restyled. Each surah is cropped to its own ink;
+  `layout.left` (its printed-page x offset) moves surahs that share a mushaf
+  page into one frame, and `layout.pages[].ayahs` says which ayahs a page
+  holds, so a page loads only those.
 - Known upstream defect: mushaf page 17 (Al-Baqarah 2:106–110) is scrambled
   in png.quran.ws, so Al-Baqarah does not build yet.
 - The JSON in `public/data` is the contract for a future mobile app.

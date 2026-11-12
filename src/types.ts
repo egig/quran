@@ -88,9 +88,16 @@ export interface MushafPageInfo {
   page: number;
   /** Number of printed lines of this surah on the page. */
   lines: number;
+  /** First and last ayah with artwork on this page. */
+  ayahs: [number, number];
 }
 
 export interface MushafLayout {
+  /**
+   * Printed-page x of artwork x = 0. Each surah is cropped to its own ink;
+   * this aligns surahs that share a mushaf page.
+   */
+  left: number;
   /** Width shared by every page of the surah, in artwork units. */
   width: number;
   /** Vertical extent of every line, relative to its centre. */
@@ -102,7 +109,7 @@ export interface MushafLayout {
 }
 
 export interface SurahIndex {
-  version: 3;
+  version: 4;
   surah: number;
   name: { ar: string; latin: string };
   /** Ayah numbers that have generated data. */

@@ -346,6 +346,7 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
   });
 
   return {
+    left: round(left),
     width: round(width),
     band: { top: Math.floor(top - BAND_PAD), bottom: Math.ceil(bottom + BAND_PAD) },
     pageLines: pages.map((p) => p.lines),
@@ -423,14 +424,20 @@ async function buildSurah(file: string): Promise<void> {
   }
 
   const basmalah = plate.glyphs.find((g) => g.ayah === 0);
+  const pageAyahs = (page: number): [number, number] => {
+    const on = plate.glyphs.filter((g) => g.ayah > 0 && firstPage + g.pageIdx === page).map((g) => g.ayah);
+    if (!on.length) throw new Error(`${src.surah}: no ayah on page ${page}`);
+    return [Math.min(...on), Math.max(...on)];
+  };
   const layout: MushafLayout = {
+    left: plate.left,
     width: plate.width,
     band: plate.band,
-    pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines })),
+    pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines, ayahs: pageAyahs(firstPage + i) })),
     basmalah: basmalah ? toGlyph(basmalah) : null,
   };
   const index: SurahIndex = {
-    version: 3,
+    version: 4,
     surah: src.surah,
     name: src.name,
     ayahs: Array.from({ length: meta.ayahs }, (_, i) => i + 1),

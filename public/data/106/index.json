@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "surah": 106,
   "name": {
     "ar": "قريش",
@@ -12,6 +12,7 @@
     4
   ],
   "layout": {
+    "left": 8.04,
     "width": 325.07,
     "band": {
       "top": -23,
@@ -20,7 +21,11 @@
     "pages": [
       {
         "page": 602,
-        "lines": 4
+        "lines": 4,
+        "ayahs": [
+          1,
+          4
+        ]
       }
     ],
     "basmalah": {
