@@ -1,0 +1,440 @@
+{
+  "surah": 77,
+  "name": { "ar": "المرسلات", "latin": "Al-Mursalāt" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Demi (malaikat-malaikat) yang diutus" },
+        { "words": [2, 2], "id": "untuk membawa kebaikan" }
+      ],
+      "full": { "id": "Demi (malaikat-malaikat) yang diutus untuk membawa kebaikan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan (malaikat-malaikat) yang terbang dengan kencang" }
+      ],
+      "full": { "id": "dan (malaikat-malaikat) yang terbang dengan kencang;" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "demi (malaikat-malaikat) yang menyebarkan (rahmat Allah) dengan seluas-luasnya" }
+      ],
+      "full": { "id": "demi (malaikat-malaikat) yang menyebarkan (rahmat Allah) dengan seluas-luasnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan (malaikat-malaikat) yang membedakan (antara yang baik dan yang buruk) dengan sejelas-jelasnya" }
+      ],
+      "full": { "id": "dan (malaikat-malaikat) yang membedakan (antara yang baik dan yang buruk) dengan sejelas-jelasnya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 2], "id": "serta (malaikat-malaikat) yang menyampaikan wahyu" }
+      ],
+      "full": { "id": "serta (malaikat-malaikat) yang menyampaikan wahyu" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "untuk (menolak) alasan atau (memberi) peringatan" }
+      ],
+      "full": { "id": "untuk (menolak) alasan atau (memberi) peringatan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": ["sesungguhnya", "apa yang dijanjikan kepadamu pasti terjadi"] }
+      ],
+      "full": { "id": "sesungguhnya apa yang dijanjikan kepadamu pasti terjadi." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila bintang-bintang dihapuskan (cahayanya)" }
+      ],
+      "full": { "id": "Apabila bintang-bintang dihapuskan (cahayanya)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila langit dibelah" }
+      ],
+      "full": { "id": "apabila langit dibelah," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "apabila gunung-gunung dihancurleburkan" }
+      ],
+      "full": { "id": "apabila gunung-gunung dihancurleburkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan apabila rasul-rasul telah ditetapkan waktunya" }
+      ],
+      "full": { "id": "dan apabila rasul-rasul telah ditetapkan waktunya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 3], "id": "(niscaya dikatakan kepada mereka,) Sampai hari apakah ditangguhkan (azab orang kafir itu)" }
+      ],
+      "full": { "id": "(niscaya dikatakan kepada mereka,) “Sampai hari apakah ditangguhkan (azab orang kafir itu)?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sampai hari Keputusan" }
+      ],
+      "full": { "id": "Sampai hari Keputusan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Tahukah kamu" },
+        { "words": [3, 5], "id": "apakah hari Keputusan itu" }
+      ],
+      "full": { "id": "Tahukah kamu apakah hari Keputusan itu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bukankah Kami telah membinasakan" },
+        { "words": [3, 3], "id": "orang-orang dahulu" }
+      ],
+      "full": { "id": "Bukankah Kami telah membinasakan orang-orang dahulu?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 2], "id": "Lalu, Kami susuli mereka" },
+        { "words": [3, 3], "id": "dengan (mengazab) orang-orang yang datang kemudian" }
+      ],
+      "full": { "id": "Lalu, Kami susuli mereka dengan (mengazab) orang-orang yang datang kemudian." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 2], "id": "Demikianlah Kami memperlakukan" },
+        { "words": [3, 3], "id": "para pendurhaka" }
+      ],
+      "full": { "id": "Demikianlah Kami memperlakukan para pendurhaka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bukankah Kami menciptakanmu" },
+        { "words": [3, 5], "id": "dari air yang hina (mani)" }
+      ],
+      "full": { "id": "Bukankah Kami menciptakanmu dari air yang hina (mani)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 1], "id": "Kemudian, Kami meletakkannya" },
+        { "words": [2, 4], "id": "di dalam tempat yang kukuh (rahim)" }
+      ],
+      "full": { "id": "Kemudian, Kami meletakkannya di dalam tempat yang kukuh (rahim)" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 3], "id": ["sampai waktu", "yang ditentukan"] }
+      ],
+      "full": { "id": "sampai waktu yang ditentukan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 1], "id": "Lalu, Kami tentukan (bentuk dan waktu lahirnya)" },
+        { "words": [2, 3], "id": "Maka, (Kamilah) sebaik-baik penentu" }
+      ],
+      "full": { "id": "Lalu, Kami tentukan (bentuk dan waktu lahirnya). Maka, (Kamilah) sebaik-baik penentu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 3], "id": "Bukankah Kami menjadikan bumi" },
+        { "words": [4, 4], "id": "sebagai (tempat) berkumpul" }
+      ],
+      "full": { "id": "Bukankah Kami menjadikan bumi sebagai (tempat) berkumpul" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 2], "id": "bagi yang (masih) hidup dan yang (sudah) mati" }
+      ],
+      "full": { "id": "bagi yang (masih) hidup dan yang (sudah) mati?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Kami menjadikan padanya gunung-gunung", "yang tinggi"] },
+        { "words": [5, 7], "id": "dan memberi minum kamu air yang tawar" }
+      ],
+      "full": { "id": "Kami menjadikan padanya gunung-gunung yang tinggi dan memberi minum kamu air yang tawar?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Dikatakan kepada orang-orang kafir,) Pergilah" },
+        { "words": [2, 6], "id": "menuju apa (neraka) yang selalu kamu dustakan" }
+      ],
+      "full": { "id": "(Dikatakan kepada orang-orang kafir,) “Pergilah menuju apa (neraka) yang selalu kamu dustakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "30": {
+      "phrases": [
+        { "words": [1, 1], "id": "Pergilah" },
+        { "words": [2, 6], "id": ["menuju naungan (asap api neraka) yang mempunyai tiga", "cabang"] }
+      ],
+      "full": { "id": "Pergilah menuju naungan (asap api neraka) yang mempunyai tiga cabang" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "31": {
+      "phrases": [
+        { "words": [1, 2], "id": "yang tidak melindungi" },
+        { "words": [3, 6], "id": "dan tidak menahan (panasnya) nyala api neraka" }
+      ],
+      "full": { "id": "yang tidak melindungi dan tidak menahan (panasnya) nyala api neraka.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "32": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Sesungguhnya ia (neraka) menyemburkan bunga api", "bagaikan istana (yang besar dan tinggi)"] }
+      ],
+      "full": { "id": "Sesungguhnya ia (neraka) menyemburkan bunga api bagaikan istana (yang besar dan tinggi)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "33": {
+      "phrases": [
+        { "words": [1, 3], "id": "seakan-akan iringan unta (hitam) kekuning-kuningan" }
+      ],
+      "full": { "id": "seakan-akan iringan unta (hitam) kekuning-kuningan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "34": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "35": {
+      "phrases": [
+        { "words": [1, 2], "id": "Inilah hari" },
+        { "words": [3, 4], "id": "ketika mereka tidak dapat berbicara" }
+      ],
+      "full": { "id": "Inilah hari ketika mereka tidak dapat berbicara." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "36": {
+      "phrases": [
+        { "words": [1, 3], "id": "Mereka tidak diizinkan (berbicara)" },
+        { "words": [4, 4], "id": "sehingga (dapat) meminta maaf" }
+      ],
+      "full": { "id": "Mereka tidak diizinkan (berbicara) sehingga (dapat) meminta maaf." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "37": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "38": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Dikatakan kepada mereka,) Inilah hari Keputusan" },
+        { "words": [4, 5], "id": "Kami kumpulkan kamu dan orang-orang terdahulu" }
+      ],
+      "full": { "id": "(Dikatakan kepada mereka,) “Inilah hari Keputusan. Kami kumpulkan kamu dan orang-orang terdahulu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "39": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Jika", "kamu punya tipu daya"] },
+        { "words": [5, 5], "id": "lakukanlah terhadap-Ku" }
+      ],
+      "full": { "id": "Jika kamu punya tipu daya, lakukanlah terhadap-Ku.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "40": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "41": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya orang-orang yang bertakwa" },
+        { "words": [3, 5], "id": "berada dalam naungan (pepohonan surga yang teduh) dan (ada di sekitar) mata air" }
+      ],
+      "full": { "id": "Sesungguhnya orang-orang yang bertakwa berada dalam naungan (pepohonan surga yang teduh) dan (ada di sekitar) mata air" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "42": {
+      "phrases": [
+        { "words": [1, 3], "id": "serta buah-buahan yang mereka sukai" }
+      ],
+      "full": { "id": "serta buah-buahan yang mereka sukai." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "43": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Dikatakan kepada mereka,) Makan dan minumlah dengan nikmat" },
+        { "words": [4, 6], "id": "karena apa yang selalu kamu kerjakan" }
+      ],
+      "full": { "id": "(Dikatakan kepada mereka,) “Makan dan minumlah dengan nikmat karena apa yang selalu kamu kerjakan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "44": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya demikianlah" },
+        { "words": [3, 4], "id": "Kami beri balasan kepada orang-orang yang berbuat baik" }
+      ],
+      "full": { "id": "Sesungguhnya demikianlah Kami beri balasan kepada orang-orang yang berbuat baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "45": {
+      "phrases": [
+        { "words": [1, 2], "id": ["Celakalah", "pada hari itu"] },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "46": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Dikatakan kepada orang-orang kafir,) Makan dan bersenang-senanglah kamu (di dunia) sebentar" },
+        { "words": [4, 5], "id": "Sesungguhnya kamu adalah para pendurhaka" }
+      ],
+      "full": { "id": "(Dikatakan kepada orang-orang kafir,) “Makan dan bersenang-senanglah kamu (di dunia) sebentar. Sesungguhnya kamu adalah para pendurhaka!”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "47": {
+      "phrases": [
+        { "words": [1, 2], "id": ["Celakalah", "pada hari itu"] },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "48": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila dikatakan kepada mereka" },
+        { "words": [4, 4], "id": "Rukuklah" },
+        { "words": [5, 6], "id": "mereka tidak mau rukuk" }
+      ],
+      "full": { "id": "Apabila dikatakan kepada mereka, “Rukuklah,” mereka tidak mau rukuk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "49": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah pada hari itu" },
+        { "words": [3, 3], "id": "para pendusta (kebenaran)" }
+      ],
+      "full": { "id": "Celakalah pada hari itu para pendusta (kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "50": {
+      "phrases": [
+        { "words": [1, 3], "id": "Maka, pada perkataan manakah sesudahnya (Al-Qur’an)" },
+        { "words": [4, 4], "id": "mereka akan beriman" }
+      ],
+      "full": { "id": "Maka, pada perkataan manakah sesudahnya (Al-Qur’an) mereka akan beriman?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

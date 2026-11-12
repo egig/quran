@@ -87,7 +87,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 78–114 come from the `quran-pack` npm package
+- The full sentences for surahs 67–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed. It matches the reviewed Al-Fātiḥah word for word.
   Do not write Kemenag wording from memory: take it from a source.

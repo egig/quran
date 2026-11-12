@@ -1,0 +1,357 @@
+{
+  "surah": 75,
+  "name": { "ar": "القيامة", "latin": "Al-Qiyāmah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Aku bersumpah" },
+        { "words": [3, 4], "id": "demi hari Kiamat" }
+      ],
+      "full": { "id": "Aku bersumpah demi hari Kiamat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "Aku bersumpah" },
+        { "words": [3, 4], "id": "demi jiwa yang sangat menyesali (dirinya sendiri)" }
+      ],
+      "full": { "id": "Aku bersumpah demi jiwa yang sangat menyesali (dirinya sendiri)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apakah manusia mengira" },
+        { "words": [3, 5], "id": "bahwa Kami tidak akan mengumpulkan (kembali) tulang-belulangnya" }
+      ],
+      "full": { "id": "Apakah manusia mengira bahwa Kami tidak akan mengumpulkan (kembali) tulang-belulangnya?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 1], "id": "Tentu" },
+        { "words": [2, 6], "id": "(bahkan) Kami mampu menyusun (kembali) jari-jemarinya dengan sempurna" }
+      ],
+      "full": { "id": "Tentu, (bahkan) Kami mampu menyusun (kembali) jari-jemarinya dengan sempurna." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Akan tetapi", "manusia hendak"] },
+        { "words": [4, 5], "id": "berbuat maksiat terus-menerus" }
+      ],
+      "full": { "id": "Akan tetapi, manusia hendak berbuat maksiat terus-menerus." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dia bertanya" },
+        { "words": [2, 4], "id": "Kapankah hari Kiamat itu" }
+      ],
+      "full": { "id": "Dia bertanya, “Kapankah hari Kiamat itu?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila mata terbelalak (ketakutan)" }
+      ],
+      "full": { "id": "Apabila mata terbelalak (ketakutan)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 2], "id": "bulan pun telah hilang cahayanya" }
+      ],
+      "full": { "id": "bulan pun telah hilang cahayanya," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "serta matahari dan bulan dikumpulkan" }
+      ],
+      "full": { "id": "serta matahari dan bulan dikumpulkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": ["manusia berkata", "pada hari itu"] },
+        { "words": [4, 5], "id": "Ke mana tempat lari" }
+      ],
+      "full": { "id": "pada hari itu manusia berkata, “Ke mana tempat lari?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 3], "id": "Tidak ada tempat berlindung" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Tidak ada tempat berlindung." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Hanya) kepada Tuhanmu" },
+        { "words": [3, 3], "id": "pada hari itu" },
+        { "words": [4, 4], "id": "tempat kembali" }
+      ],
+      "full": { "id": "(Hanya) kepada Tuhanmu tempat kembali pada hari itu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": ["diberitakan", "kepada manusia pada hari itu"] },
+        { "words": [4, 5], "id": "apa yang telah dia kerjakan" },
+        { "words": [6, 6], "id": "dan apa yang telah dia lalaikan" }
+      ],
+      "full": { "id": "Pada hari itu diberitakan kepada manusia apa yang telah dia kerjakan dan apa yang telah dia lalaikan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bahkan, manusia" },
+        { "words": [3, 5], "id": "menjadi saksi atas dirinya sendiri" }
+      ],
+      "full": { "id": "Bahkan, manusia menjadi saksi atas dirinya sendiri" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 3], "id": "walaupun dia mengemukakan alasan-alasan(-nya)" }
+      ],
+      "full": { "id": "walaupun dia mengemukakan alasan-alasan(-nya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 4], "id": "Jangan engkau (Nabi Muhammad) gerakkan lidahmu (untuk membaca Al-Qur’an)" },
+        { "words": [5, 6], "id": "karena hendak tergesa-gesa (menguasai)-nya" }
+      ],
+      "full": { "id": "Jangan engkau (Nabi Muhammad) gerakkan lidahmu (untuk membaca Al-Qur’an) karena hendak tergesa-gesa (menguasai)-nya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Sesungguhnya tugas Kamilah", "untuk mengumpulkan (dalam hatimu) dan membacakannya"] }
+      ],
+      "full": { "id": "Sesungguhnya tugas Kamilah untuk mengumpulkan (dalam hatimu) dan membacakannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 2], "id": "Maka, apabila Kami telah selesai membacakannya" },
+        { "words": [3, 4], "id": "ikutilah bacaannya itu" }
+      ],
+      "full": { "id": "Maka, apabila Kami telah selesai membacakannya, ikutilah bacaannya itu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 4], "id": "Kemudian, sesungguhnya tugas Kami (pula)-lah (untuk) menjelaskannya" }
+      ],
+      "full": { "id": "Kemudian, sesungguhnya tugas Kami (pula)-lah (untuk) menjelaskannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 4], "id": "Bahkan, kamu mencintai kehidupan dunia" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Bahkan, kamu mencintai kehidupan dunia," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 2], "id": "dan mengabaikan (kehidupan) akhirat" }
+      ],
+      "full": { "id": "dan mengabaikan (kehidupan) akhirat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Wajah-wajah (orang mukmin) pada hari itu", "berseri-seri"] }
+      ],
+      "full": { "id": "Wajah-wajah (orang mukmin) pada hari itu berseri-seri" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 3], "id": "(karena) memandang Tuhannya" }
+      ],
+      "full": { "id": "(karena) memandang Tuhannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wajah-wajah (orang kafir) pada hari itu" },
+        { "words": [3, 3], "id": "muram" }
+      ],
+      "full": { "id": "Wajah-wajah (orang kafir) pada hari itu muram" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 5], "id": ["(karena) mereka yakin akan ditimpakan", "kepadanya malapetaka yang sangat dahsyat"] }
+      ],
+      "full": { "id": "(karena) mereka yakin akan ditimpakan kepadanya malapetaka yang sangat dahsyat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 1], "id": "Sekali-kali tidak" },
+        { "words": [2, 4], "id": "Apabila (nyawa) telah sampai di kerongkongan" }
+      ],
+      "full": { "id": "Sekali-kali tidak! Apabila (nyawa) telah sampai di kerongkongan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 1], "id": "dan dikatakan (kepadanya)" },
+        { "words": [2, 3], "id": "Siapa yang (dapat) menyembuhkan" }
+      ],
+      "full": { "id": "dan dikatakan (kepadanya), “Siapa yang (dapat) menyembuhkan?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Dia pun yakin bahwa itulah", "waktu perpisahan (dengan dunia)"] }
+      ],
+      "full": { "id": "Dia pun yakin bahwa itulah waktu perpisahan (dengan dunia)," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 3], "id": "dan bertautlah betis (kiri) dengan betis (kanan)" }
+      ],
+      "full": { "id": "dan bertautlah betis (kiri) dengan betis (kanan)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "30": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kepada Tuhanmulah" },
+        { "words": [3, 3], "id": "pada hari itu" },
+        { "words": [4, 4], "id": "(manusia) digiring" }
+      ],
+      "full": { "id": "Kepada Tuhanmulah pada hari itu (manusia) digiring." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "31": {
+      "phrases": [
+        { "words": [1, 2], "id": "Dia tidak membenarkan (Al-Qur’an dan Rasul)" },
+        { "words": [3, 4], "id": "dan tidak melaksanakan salat" }
+      ],
+      "full": { "id": "Dia tidak membenarkan (Al-Qur’an dan Rasul) dan tidak melaksanakan salat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "32": {
+      "phrases": [
+        { "words": [1, 2], "id": "Akan tetapi, dia mendustakan (Al-Qur’an)" },
+        { "words": [3, 3], "id": "dan berpaling (dari kebenaran)" }
+      ],
+      "full": { "id": "Akan tetapi, dia mendustakan (Al-Qur’an) dan berpaling (dari kebenaran)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "33": {
+      "phrases": [
+        { "words": [1, 4], "id": "Kemudian, dia pergi kepada keluarganya" },
+        { "words": [5, 5], "id": "dengan menyombongkan diri" }
+      ],
+      "full": { "id": "Kemudian, dia pergi kepada keluarganya dengan menyombongkan diri." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "34": {
+      "phrases": [
+        { "words": [1, 2], "id": "Celakalah kamu" },
+        { "words": [3, 3], "id": "Maka, celakalah" }
+      ],
+      "full": { "id": "Celakalah kamu! Maka, celakalah!" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "35": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kemudian, celakalah kamu" },
+        { "words": [4, 4], "id": "Maka, celakalah" }
+      ],
+      "full": { "id": "Kemudian, celakalah kamu! Maka, celakalah!" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "36": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apakah manusia mengira" },
+        { "words": [3, 5], "id": "akan dibiarkan begitu saja (tanpa pertanggungjawaban)" }
+      ],
+      "full": { "id": "Apakah manusia mengira akan dibiarkan begitu saja (tanpa pertanggungjawaban)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "37": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bukankah dia dahulu" },
+        { "words": [3, 6], "id": "setetes mani yang ditumpahkan (ke dalam rahim)" }
+      ],
+      "full": { "id": "Bukankah dia dahulu setetes mani yang ditumpahkan (ke dalam rahim)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "38": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kemudian, (mani itu) menjadi sesuatu yang melekat" },
+        { "words": [4, 5], "id": "lalu Dia menciptakan dan menyempurnakannya" }
+      ],
+      "full": { "id": "Kemudian, (mani itu) menjadi sesuatu yang melekat, lalu Dia menciptakan dan menyempurnakannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "39": {
+      "phrases": [
+        { "words": [1, 2], "id": "Lalu, Dia menjadikan darinya" },
+        { "words": [3, 5], "id": ["sepasang laki-laki", "dan perempuan"] }
+      ],
+      "full": { "id": "Lalu, Dia menjadikan darinya sepasang laki-laki dan perempuan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "40": {
+      "phrases": [
+        { "words": [1, 3], "id": "Bukankah (Allah) itu kuasa (pula)" },
+        { "words": [4, 7], "id": "menghidupkan orang mati" }
+      ],
+      "full": { "id": "Bukankah (Allah) itu kuasa (pula) menghidupkan orang mati?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
