@@ -44,7 +44,7 @@
     },
     "6": {
       "phrases": [
-        { "words": [1, 3], "id": "demi bumi serta penghamparannya" }
+        { "words": [1, 3], "id": ["demi bumi", "serta penghamparannya"] }
       ],
       "full": { "id": "demi bumi serta penghamparannya," },
       "source": "kemenag-2019-adapted",
@@ -61,7 +61,7 @@
     "8": {
       "phrases": [
         { "words": [1, 1], "id": "lalu Dia mengilhamkan kepadanya" },
-        { "words": [2, 3], "id": "(jalan) kejahatan dan ketakwaannya" }
+        { "words": [2, 3], "id": ["(jalan) kejahatan", "dan ketakwaannya"] }
       ],
       "full": { "id": "lalu Dia mengilhamkan kepadanya (jalan) kejahatan dan ketakwaannya," },
       "source": "kemenag-2019-adapted",

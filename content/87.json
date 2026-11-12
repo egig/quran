@@ -109,7 +109,7 @@
     },
     "13": {
       "phrases": [
-        { "words": [1, 4], "id": "Selanjutnya, dia tidak mati di sana" },
+        { "words": [1, 4], "id": ["Selanjutnya, dia tidak mati", "di sana"] },
         { "words": [5, 6], "id": "dan tidak (pula) hidup" }
       ],
       "full": { "id": "Selanjutnya, dia tidak mati dan tidak (pula) hidup di sana." },
@@ -154,7 +154,7 @@
     },
     "18": {
       "phrases": [
-        { "words": [1, 2], "id": "Sesungguhnya (penjelasan) ini" },
+        { "words": [1, 2], "id": ["Sesungguhnya", "(penjelasan) ini"] },
         { "words": [3, 5], "id": "terdapat dalam suhuf (lembaran-lembaran) yang terdahulu" }
       ],
       "full": { "id": "Sesungguhnya (penjelasan) ini terdapat dalam suhuf (lembaran-lembaran) yang terdahulu," },

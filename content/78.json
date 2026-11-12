@@ -98,7 +98,7 @@
     },
     "12": {
       "phrases": [
-        { "words": [1, 2], "id": "Kami membangun di atasmu" },
+        { "words": [1, 2], "id": ["Kami membangun", "di atasmu"] },
         { "words": [3, 4], "id": "tujuh (langit) yang kukuh" }
       ],
       "full": { "id": "Kami membangun tujuh (langit) yang kukuh di atasmu." },
@@ -117,7 +117,7 @@
     "14": {
       "phrases": [
         { "words": [1, 1], "id": "Kami menurunkan" },
-        { "words": [2, 3], "id": "dari awan" },
+        { "words": [2, 3], "id": ["dari", "awan"] },
         { "words": [4, 5], "id": "air hujan yang tercurah dengan deras" }
       ],
       "full": { "id": "Kami menurunkan dari awan air hujan yang tercurah dengan deras" },
@@ -135,7 +135,7 @@
     },
     "16": {
       "phrases": [
-        { "words": [1, 2], "id": "dan kebun-kebun yang rindang" }
+        { "words": [1, 2], "id": ["dan kebun-kebun", "yang rindang"] }
       ],
       "full": { "id": "dan kebun-kebun yang rindang." },
       "source": "kemenag-2019-adapted",
@@ -206,7 +206,7 @@
     "24": {
       "phrases": [
         { "words": [1, 4], "id": "Mereka tidak merasakan kesejukan di dalamnya" },
-        { "words": [5, 6], "id": "dan tidak (pula mendapat) minuman" }
+        { "words": [5, 6], "id": ["dan tidak (pula mendapat)", "minuman"] }
       ],
       "full": { "id": "Mereka tidak merasakan kesejukan di dalamnya dan tidak (pula mendapat) minuman," },
       "source": "kemenag-2019-adapted",
@@ -248,7 +248,7 @@
     },
     "29": {
       "phrases": [
-        { "words": [1, 3], "id": "Segala sesuatu telah Kami catat" },
+        { "words": [1, 3], "id": ["Segala sesuatu", "telah Kami catat"] },
         { "words": [4, 4], "id": "dalam kitab (catatan amal manusia)" }
       ],
       "full": { "id": "Segala sesuatu telah Kami catat dalam kitab (catatan amal manusia)." },
@@ -291,7 +291,7 @@
     },
     "34": {
       "phrases": [
-        { "words": [1, 2], "id": "dan gelas-gelas yang penuh (berisi minuman)" }
+        { "words": [1, 2], "id": ["dan gelas-gelas", "yang penuh (berisi minuman)"] }
       ],
       "full": { "id": "dan gelas-gelas yang penuh (berisi minuman)." },
       "source": "kemenag-2019-adapted",
@@ -310,7 +310,7 @@
       "phrases": [
         { "words": [1, 1], "id": "(Hal itu) sebagai balasan" },
         { "words": [2, 3], "id": "dari Tuhanmu" },
-        { "words": [4, 5], "id": "(dan) pemberian yang banyak" }
+        { "words": [4, 5], "id": ["(dan) pemberian", "yang banyak"] }
       ],
       "full": { "id": "(Hal itu) sebagai balasan (dan) pemberian yang banyak dari Tuhanmu," },
       "source": "kemenag-2019-adapted",
@@ -320,7 +320,7 @@
       "phrases": [
         { "words": [1, 5], "id": "(yaitu) Tuhan (pemelihara) langit, bumi, dan apa yang ada di antara keduanya" },
         { "words": [6, 6], "id": "Yang Maha Pengasih" },
-        { "words": [7, 10], "id": "Mereka tidak memiliki (hak) berbicara dengan-Nya" }
+        { "words": [7, 10], "id": ["Mereka tidak memiliki", "(hak) berbicara dengan-Nya"] }
       ],
       "full": { "id": "(yaitu) Tuhan (pemelihara) langit, bumi, dan apa yang ada di antara keduanya, Yang Maha Pengasih. Mereka tidak memiliki (hak) berbicara dengan-Nya." },
       "source": "kemenag-2019-adapted",
@@ -340,7 +340,7 @@
     "39": {
       "phrases": [
         { "words": [1, 3], "id": "Itulah hari yang hak (pasti terjadi)" },
-        { "words": [4, 5], "id": "Siapa yang menghendaki (keselamatan)" },
+        { "words": [4, 5], "id": ["Siapa", "yang menghendaki (keselamatan)"] },
         { "words": [6, 9], "id": "niscaya menempuh jalan kembali kepada Tuhannya (dengan beramal saleh)" }
       ],
       "full": { "id": "Itulah hari yang hak (pasti terjadi). Siapa yang menghendaki (keselamatan) niscaya menempuh jalan kembali kepada Tuhannya (dengan beramal saleh)." },

@@ -375,20 +375,33 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
   };
 }
 
-function validatePhrases(key: string, src: AyahSource, wordCount: number): Phrase[] {
+function validatePhrases(key: string, src: AyahSource, words: Word[]): Phrase[] {
+  const wordCount = words.length;
   let next = 1;
   const phrases = src.phrases.map((p, i) => {
     const [from, to] = p.words;
     if (from !== next || to < from)
       throw new Error(`${key}: phrase ${i + 1} words [${from}, ${to}], expected to start at ${next}`);
     next = to + 1;
+    const lines = new Set(words.slice(from - 1, to).map((w) => `${w.page}:${w.line}`)).size;
     const text: LocalizedText = {};
+    const parts: Record<string, string[]> = {};
     for (const lang of LANGS) {
       const t = p[lang];
-      if (typeof t !== "string" || !t.trim()) throw new Error(`${key}: phrase ${i + 1} missing "${lang}"`);
-      text[lang] = t.trim();
+      if (Array.isArray(t) && t.every((s) => typeof s === "string")) {
+        // One part per printed line the phrase spans, in reading order.
+        const ps = (t as string[]).map((s) => s.trim());
+        if (ps.length !== lines || ps.some((s) => !s))
+          throw new Error(
+            `${key}: phrase ${i + 1} "${lang}" has ${ps.length} parts, its words span ${lines} printed lines`,
+          );
+        parts[lang] = ps;
+        text[lang] = ps.join(" ");
+      } else if (typeof t === "string" && t.trim()) {
+        text[lang] = t.trim();
+      } else throw new Error(`${key}: phrase ${i + 1} missing "${lang}"`);
     }
-    return { from, to, text };
+    return Object.keys(parts).length ? { from, to, text, parts } : { from, to, text };
   });
   if (next !== wordCount + 1)
     throw new Error(`${key}: phrases cover words 1-${next - 1}, ayah has ${wordCount} words`);
@@ -425,14 +438,14 @@ async function buildSurah(file: string): Promise<void> {
 
     const ayahSrc = src.ayahs[String(ayah)];
     const data: AyahData = {
-      version: 3,
+      version: 4,
       key,
       surah: src.surah,
       ayah,
       surahName: src.name,
       words,
       mark: toGlyph(markRaw),
-      phrases: ayahSrc ? validatePhrases(key, ayahSrc, words.length) : [],
+      phrases: ayahSrc ? validatePhrases(key, ayahSrc, words) : [],
       full: ayahSrc?.full ?? {},
       source: ayahSrc?.source ?? "",
       reviewed: ayahSrc?.reviewed === true,

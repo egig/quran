@@ -13,7 +13,7 @@
     },
     "2": {
       "phrases": [
-        { "words": [1, 4], "id": "Itulah orang yang menghardik anak yatim" }
+        { "words": [1, 4], "id": ["Itulah orang yang menghardik", "anak yatim"] }
       ],
       "full": { "id": "Itulah orang yang menghardik anak yatim" },
       "source": "kemenag-2019-adapted",

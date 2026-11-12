@@ -22,7 +22,7 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 2], "id": "(karena) berusaha keras (menghindari azab neraka) lagi kepayahan (karena dibelenggu)" }
+        { "words": [1, 2], "id": ["(karena) berusaha keras (menghindari azab neraka)", "lagi kepayahan (karena dibelenggu)"] }
       ],
       "full": { "id": "(karena) berusaha keras (menghindari azab neraka) lagi kepayahan (karena dibelenggu)." },
       "source": "kemenag-2019-adapted",
@@ -48,7 +48,7 @@
     },
     "6": {
       "phrases": [
-        { "words": [1, 3], "id": "Tidak ada makanan bagi mereka" },
+        { "words": [1, 3], "id": ["Tidak ada", "makanan bagi mereka"] },
         { "words": [4, 6], "id": "selain dari pohon yang berduri" }
       ],
       "full": { "id": "Tidak ada makanan bagi mereka selain dari pohon yang berduri," },
@@ -115,7 +115,7 @@
     },
     "14": {
       "phrases": [
-        { "words": [1, 2], "id": "gelas-gelas yang tersedia (di dekatnya)" }
+        { "words": [1, 2], "id": ["gelas-gelas", "yang tersedia (di dekatnya)"] }
       ],
       "full": { "id": "gelas-gelas yang tersedia (di dekatnya)," },
       "source": "kemenag-2019-adapted",
@@ -139,7 +139,7 @@
     },
     "17": {
       "phrases": [
-        { "words": [1, 4], "id": "Tidakkah mereka memperhatikan unta" },
+        { "words": [1, 4], "id": ["Tidakkah mereka memperhatikan", "unta"] },
         { "words": [5, 6], "id": "bagaimana ia diciptakan" }
       ],
       "full": { "id": "Tidakkah mereka memperhatikan unta, bagaimana ia diciptakan?" },

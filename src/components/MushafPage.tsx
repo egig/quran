@@ -37,7 +37,8 @@ interface Line {
  * cropped to its own ink, so its artwork is moved by its `left` offset into
  * the page's shared frame. Each phrase's translation sits under its words. A
  * phrase that runs onto the next printed line (or comes from the previous
- * page) shows its translation under its first part and "…" under the rest.
+ * page) shows its translation under its first part and "…" under the rest,
+ * unless the content splits its translation per line (`parts`).
  */
 export function MushafPage({ page, sections }: { page: number; sections: PageSection[] }) {
   const layouts = sections.map((s) => s.surah.layout);
@@ -170,7 +171,7 @@ function linesOf(page: number, ayahs: AyahData[], basmalah: Glyph | null): Line[
         lineAt(part[0].line).segments.push({
           x0: Math.min(...part.map((w) => w.x0)),
           x1: Math.max(...part.map((w) => w.x1)),
-          text: i === 0 ? p.text[LANG] : null,
+          text: p.parts?.[LANG]?.[i] ?? (i === 0 ? p.text[LANG] : null),
         });
       });
     }

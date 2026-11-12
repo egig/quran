@@ -232,7 +232,7 @@
     "27": {
       "phrases": [
         { "words": [1, 3], "id": "Apakah penciptaan kamu yang lebih hebat" },
-        { "words": [4, 6], "id": "ataukah langit yang telah dibangun-Nya" }
+        { "words": [4, 6], "id": ["ataukah langit", "yang telah dibangun-Nya"] }
       ],
       "full": { "id": "Apakah penciptaan kamu yang lebih hebat ataukah langit yang telah dibangun-Nya?" },
       "source": "kemenag-2019-adapted",
@@ -250,7 +250,7 @@
     "29": {
       "phrases": [
         { "words": [1, 2], "id": "Dia menjadikan malamnya (gelap gulita)" },
-        { "words": [3, 4], "id": "dan menjadikan siangnya (terang benderang)" }
+        { "words": [3, 4], "id": ["dan menjadikan", "siangnya (terang benderang)"] }
       ],
       "full": { "id": "Dia menjadikan malamnya (gelap gulita) dan menjadikan siangnya (terang benderang)." },
       "source": "kemenag-2019-adapted",
@@ -268,7 +268,7 @@
     "31": {
       "phrases": [
         { "words": [1, 2], "id": "Darinya (bumi) Dia mengeluarkan" },
-        { "words": [3, 4], "id": "air dan (menyediakan) tempat penggembalaan" }
+        { "words": [3, 4], "id": ["air", "dan (menyediakan) tempat penggembalaan"] }
       ],
       "full": { "id": "Darinya (bumi) Dia mengeluarkan air dan (menyediakan) tempat penggembalaan." },
       "source": "kemenag-2019-adapted",
@@ -327,7 +327,7 @@
     },
     "38": {
       "phrases": [
-        { "words": [1, 3], "id": "dan lebih mengutamakan kehidupan dunia" }
+        { "words": [1, 3], "id": ["dan lebih mengutamakan kehidupan", "dunia"] }
       ],
       "full": { "id": "dan lebih mengutamakan kehidupan dunia," },
       "source": "kemenag-2019-adapted",
@@ -343,7 +343,7 @@
     },
     "40": {
       "phrases": [
-        { "words": [1, 5], "id": "Adapun orang-orang yang takut pada kebesaran Tuhannya" },
+        { "words": [1, 5], "id": ["Adapun orang-orang yang takut pada kebesaran", "Tuhannya"] },
         { "words": [6, 9], "id": "dan menahan diri dari (keinginan) hawa nafsunya" }
       ],
       "full": { "id": "Adapun orang-orang yang takut pada kebesaran Tuhannya dan menahan diri dari (keinginan) hawa nafsunya," },

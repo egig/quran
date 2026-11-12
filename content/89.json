@@ -74,7 +74,7 @@
     "9": {
       "phrases": [
         { "words": [1, 1], "id": "(Tidakkah engkau perhatikan pula kaum) Samud" },
-        { "words": [2, 5], "id": "yang memotong batu-batu besar di lembah" }
+        { "words": [2, 5], "id": ["yang", "memotong batu-batu besar di lembah"] }
       ],
       "full": { "id": "(Tidakkah engkau perhatikan pula kaum) Samud yang memotong batu-batu besar di lembah" },
       "source": "kemenag-2019-adapted",
@@ -91,7 +91,7 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 4], "id": "yang berbuat sewenang-wenang dalam negeri" }
+        { "words": [1, 4], "id": ["yang berbuat sewenang-wenang dalam", "negeri"] }
       ],
       "full": { "id": "yang berbuat sewenang-wenang dalam negeri," },
       "source": "kemenag-2019-adapted",
@@ -108,7 +108,7 @@
     "13": {
       "phrases": [
         { "words": [1, 3], "id": "maka Tuhanmu menimpakan kepada mereka" },
-        { "words": [4, 5], "id": "cemeti azab (yang dahsyat)" }
+        { "words": [4, 5], "id": ["cemeti", "azab (yang dahsyat)"] }
       ],
       "full": { "id": "maka Tuhanmu menimpakan cemeti azab (yang dahsyat) kepada mereka?" },
       "source": "kemenag-2019-adapted",
@@ -149,7 +149,7 @@
     "17": {
       "phrases": [
         { "words": [1, 1], "id": "Sekali-kali tidak" },
-        { "words": [2, 5], "id": "Sebaliknya, kamu tidak memuliakan anak yatim" }
+        { "words": [2, 5], "id": ["Sebaliknya, kamu tidak memuliakan", "anak yatim"] }
       ],
       "full": { "id": "Sekali-kali tidak! Sebaliknya, kamu tidak memuliakan anak yatim," },
       "source": "kemenag-2019-adapted",
@@ -166,7 +166,7 @@
     },
     "19": {
       "phrases": [
-        { "words": [1, 2], "id": "memakan harta warisan" },
+        { "words": [1, 2], "id": ["memakan", "harta warisan"] },
         { "words": [3, 4], "id": "dengan cara mencampurbaurkan (yang halal dan yang haram)" }
       ],
       "full": { "id": "memakan harta warisan dengan cara mencampurbaurkan (yang halal dan yang haram)," },
@@ -185,7 +185,7 @@
     "21": {
       "phrases": [
         { "words": [1, 1], "id": "Jangan sekali-kali begitu" },
-        { "words": [2, 6], "id": "Apabila bumi diguncangkan berturut-turut (berbenturan)" }
+        { "words": [2, 6], "id": ["Apabila", "bumi diguncangkan berturut-turut (berbenturan)"] }
       ],
       "full": { "id": "Jangan sekali-kali begitu! Apabila bumi diguncangkan berturut-turut (berbenturan)," },
       "source": "kemenag-2019-adapted",
@@ -204,7 +204,7 @@
       "phrases": [
         { "words": [1, 3], "id": "dan pada hari itu (neraka) Jahanam didatangkan" },
         { "words": [4, 6], "id": "sadarlah manusia pada hari itu juga" },
-        { "words": [7, 9], "id": "Akan tetapi, bagaimana bisa kesadaran itu bermanfaat baginya" }
+        { "words": [7, 9], "id": ["Akan tetapi, bagaimana", "bisa kesadaran itu bermanfaat baginya"] }
       ],
       "full": { "id": "dan pada hari itu (neraka) Jahanam didatangkan, sadarlah manusia pada hari itu juga. Akan tetapi, bagaimana bisa kesadaran itu bermanfaat baginya?" },
       "source": "kemenag-2019-adapted",
@@ -238,7 +238,7 @@
     },
     "27": {
       "phrases": [
-        { "words": [1, 3], "id": "Wahai jiwa yang tenang" }
+        { "words": [1, 3], "id": ["Wahai", "jiwa yang tenang"] }
       ],
       "full": { "id": "Wahai jiwa yang tenang," },
       "source": "kemenag-2019-adapted",

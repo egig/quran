@@ -63,7 +63,7 @@
     },
     "8": {
       "phrases": [
-        { "words": [1, 3], "id": "Tidaklah mereka menyiksa (membakar) orang-orang mukmin itu" },
+        { "words": [1, 3], "id": ["Tidaklah mereka menyiksa (membakar)", "orang-orang mukmin itu"] },
         { "words": [4, 7], "id": "kecuali karena mereka beriman kepada Allah" },
         { "words": [8, 9], "id": "Yang Maha Perkasa lagi Maha Terpuji" }
       ],
@@ -73,7 +73,7 @@
     },
     "9": {
       "phrases": [
-        { "words": [1, 5], "id": "yang memiliki kerajaan langit dan bumi" },
+        { "words": [1, 5], "id": ["yang memiliki kerajaan", "langit dan bumi"] },
         { "words": [6, 10], "id": "Allah Maha Menyaksikan segala sesuatu" }
       ],
       "full": { "id": "yang memiliki kerajaan langit dan bumi. Allah Maha Menyaksikan segala sesuatu." },
@@ -82,10 +82,10 @@
     },
     "10": {
       "phrases": [
-        { "words": [1, 5], "id": "Sesungguhnya, orang-orang yang menimpakan cobaan (siksa) terhadap mukmin laki-laki dan perempuan" },
+        { "words": [1, 5], "id": ["Sesungguhnya, orang-orang yang", "menimpakan cobaan (siksa) terhadap mukmin laki-laki dan perempuan"] },
         { "words": [6, 8], "id": "lalu mereka tidak bertobat" },
         { "words": [9, 11], "id": "mereka akan mendapat azab Jahanam" },
-        { "words": [12, 14], "id": "dan mereka akan mendapat azab (neraka) yang membakar" }
+        { "words": [12, 14], "id": ["dan mereka akan mendapat", "azab (neraka) yang membakar"] }
       ],
       "full": { "id": "Sesungguhnya, orang-orang yang menimpakan cobaan (siksa) terhadap mukmin laki-laki dan perempuan, lalu mereka tidak bertobat, mereka akan mendapat azab Jahanam dan mereka akan mendapat azab (neraka) yang membakar." },
       "source": "kemenag-2019-adapted",
@@ -94,7 +94,7 @@
     "11": {
       "phrases": [
         { "words": [1, 5], "id": "Sesungguhnya, orang-orang yang beriman dan mengerjakan kebajikan" },
-        { "words": [6, 11], "id": "mereka akan mendapat surga yang mengalir di bawahnya sungai-sungai" },
+        { "words": [6, 11], "id": ["mereka akan mendapat", "surga yang mengalir di bawahnya sungai-sungai"] },
         { "words": [12, 14], "id": "Itulah kemenangan yang besar" }
       ],
       "full": { "id": "Sesungguhnya, orang-orang yang beriman dan mengerjakan kebajikan, mereka akan mendapat surga yang mengalir di bawahnya sungai-sungai. Itulah kemenangan yang besar." },
@@ -103,7 +103,7 @@
     },
     "12": {
       "phrases": [
-        { "words": [1, 3], "id": "Sesungguhnya azab Tuhanmu" },
+        { "words": [1, 3], "id": ["Sesungguhnya azab", "Tuhanmu"] },
         { "words": [4, 4], "id": "sangat keras" }
       ],
       "full": { "id": "Sesungguhnya azab Tuhanmu sangat keras." },
@@ -150,7 +150,7 @@
     "17": {
       "phrases": [
         { "words": [1, 2], "id": "Sudahkah sampai kepadamu" },
-        { "words": [3, 4], "id": "berita tentang bala tentara" }
+        { "words": [3, 4], "id": ["berita tentang", "bala tentara"] }
       ],
       "full": { "id": "Sudahkah sampai kepadamu berita tentang bala tentara," },
       "source": "kemenag-2019-adapted",

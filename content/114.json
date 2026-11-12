@@ -21,7 +21,7 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 2], "id": "sembahan manusia" }
+        { "words": [1, 2], "id": ["sembahan", "manusia"] }
       ],
       "full": { "id": "sembahan manusia" },
       "source": "kemenag-2019-adapted",
@@ -38,7 +38,7 @@
     },
     "5": {
       "phrases": [
-        { "words": [1, 2], "id": "yang membisikkan (kejahatan)" },
+        { "words": [1, 2], "id": ["yang", "membisikkan (kejahatan)"] },
         { "words": [3, 5], "id": "ke dalam dada manusia" }
       ],
       "full": { "id": "yang membisikkan (kejahatan) ke dalam dada manusia," },

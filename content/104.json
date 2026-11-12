@@ -57,7 +57,7 @@
     },
     "7": {
       "phrases": [
-        { "words": [1, 4], "id": "yang (membakar) naik sampai ke hati" }
+        { "words": [1, 4], "id": ["yang (membakar) naik", "sampai ke hati"] }
       ],
       "full": { "id": "yang (membakar) naik sampai ke hati." },
       "source": "kemenag-2019-adapted",

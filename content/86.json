@@ -82,7 +82,7 @@
     "10": {
       "phrases": [
         { "words": [1, 4], "id": "Maka, baginya (manusia) tidak ada lagi kekuatan" },
-        { "words": [5, 6], "id": "dan tidak (pula) ada penolong" }
+        { "words": [5, 6], "id": ["dan tidak (pula) ada", "penolong"] }
       ],
       "full": { "id": "Maka, baginya (manusia) tidak ada lagi kekuatan dan tidak (pula) ada penolong." },
       "source": "kemenag-2019-adapted",

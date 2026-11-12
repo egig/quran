@@ -83,7 +83,7 @@
     },
     "10": {
       "phrases": [
-        { "words": [1, 2], "id": "serta Kami juga telah menunjukkan kepadanya dua jalan (kebajikan dan kejahatan)" }
+        { "words": [1, 2], "id": ["serta Kami juga telah menunjukkan kepadanya", "dua jalan (kebajikan dan kejahatan)"] }
       ],
       "full": { "id": "serta Kami juga telah menunjukkan kepadanya dua jalan (kebajikan dan kejahatan)?" },
       "source": "kemenag-2019-adapted",
@@ -142,7 +142,7 @@
     "17": {
       "phrases": [
         { "words": [1, 5], "id": "Kemudian, dia juga termasuk orang-orang yang beriman" },
-        { "words": [6, 7], "id": "dan saling berpesan untuk bersabar" },
+        { "words": [6, 7], "id": ["dan saling berpesan", "untuk bersabar"] },
         { "words": [8, 9], "id": "serta saling berpesan untuk berkasih sayang" }
       ],
       "full": { "id": "Kemudian, dia juga termasuk orang-orang yang beriman dan saling berpesan untuk bersabar serta saling berpesan untuk berkasih sayang." },

@@ -57,7 +57,7 @@
     "7": {
       "phrases": [
         { "words": [1, 1], "id": "Jangan sekali-kali begitu" },
-        { "words": [2, 4], "id": "Sesungguhnya catatan orang yang durhaka" },
+        { "words": [2, 4], "id": ["Sesungguhnya catatan", "orang yang durhaka"] },
         { "words": [5, 6], "id": "benar-benar (tersimpan) dalam Sijjīn" }
       ],
       "full": { "id": "Jangan sekali-kali begitu! Sesungguhnya catatan orang yang durhaka benar-benar (tersimpan) dalam Sijjīn." },
@@ -149,7 +149,7 @@
     "17": {
       "phrases": [
         { "words": [1, 2], "id": "Lalu dikatakan (kepada mereka)" },
-        { "words": [3, 7], "id": "Inilah (azab) yang selalu kamu dustakan" }
+        { "words": [3, 7], "id": ["Inilah (azab)", "yang selalu kamu dustakan"] }
       ],
       "full": { "id": "Lalu dikatakan (kepada mereka), “Inilah (azab) yang selalu kamu dustakan.”" },
       "source": "kemenag-2019-adapted",
@@ -210,7 +210,7 @@
     },
     "24": {
       "phrases": [
-        { "words": [1, 3], "id": "Engkau dapat mengetahui pada wajah mereka" },
+        { "words": [1, 3], "id": ["Engkau dapat mengetahui pada", "wajah mereka"] },
         { "words": [4, 5], "id": "gemerlapnya kenikmatan" }
       ],
       "full": { "id": "Engkau dapat mengetahui pada wajah mereka gemerlapnya kenikmatan." },
@@ -229,7 +229,7 @@
     },
     "26": {
       "phrases": [
-        { "words": [1, 2], "id": "Laknya terbuat dari kasturi" },
+        { "words": [1, 2], "id": ["Laknya", "terbuat dari kasturi"] },
         { "words": [3, 4], "id": "Untuk (mendapatkan) yang demikian itu" },
         { "words": [5, 6], "id": "hendaknya orang berlomba-lomba" }
       ],
@@ -239,7 +239,7 @@
     },
     "27": {
       "phrases": [
-        { "words": [1, 3], "id": "Campurannya terbuat dari tasnīm" }
+        { "words": [1, 3], "id": ["Campurannya terbuat dari", "tasnīm"] }
       ],
       "full": { "id": "Campurannya terbuat dari tasnīm," },
       "source": "kemenag-2019-adapted",
@@ -257,7 +257,7 @@
     "29": {
       "phrases": [
         { "words": [1, 3], "id": "Sesungguhnya orang-orang yang berdosa" },
-        { "words": [4, 8], "id": "adalah mereka yang dahulu selalu mentertawakan orang-orang yang beriman" }
+        { "words": [4, 8], "id": ["adalah mereka yang dahulu", "selalu mentertawakan orang-orang yang beriman"] }
       ],
       "full": { "id": "Sesungguhnya orang-orang yang berdosa adalah mereka yang dahulu selalu mentertawakan orang-orang yang beriman." },
       "source": "kemenag-2019-adapted",
@@ -312,7 +312,7 @@
     },
     "35": {
       "phrases": [
-        { "words": [1, 2], "id": "Mereka (duduk) di atas dipan-dipan" },
+        { "words": [1, 2], "id": ["Mereka (duduk) di atas", "dipan-dipan"] },
         { "words": [3, 3], "id": "(sambil) melepas pandangan" }
       ],
       "full": { "id": "Mereka (duduk) di atas dipan-dipan (sambil) melepas pandangan." },

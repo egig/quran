@@ -96,7 +96,7 @@
     },
     "12": {
       "phrases": [
-        { "words": [1, 3], "id": "Sesungguhnya Kamilah yang (berhak) memberi petunjuk" }
+        { "words": [1, 3], "id": ["Sesungguhnya Kamilah yang (berhak)", "memberi petunjuk"] }
       ],
       "full": { "id": "Sesungguhnya Kamilah yang (berhak) memberi petunjuk." },
       "source": "kemenag-2019-adapted",
@@ -140,7 +140,7 @@
     },
     "17": {
       "phrases": [
-        { "words": [1, 2], "id": "Akan dijauhkan darinya (neraka) orang yang paling bertakwa" }
+        { "words": [1, 2], "id": ["Akan dijauhkan darinya (neraka)", "orang yang paling bertakwa"] }
       ],
       "full": { "id": "Akan dijauhkan darinya (neraka) orang yang paling bertakwa," },
       "source": "kemenag-2019-adapted",
@@ -157,7 +157,7 @@
     },
     "19": {
       "phrases": [
-        { "words": [1, 6], "id": "Tidak ada suatu nikmat pun yang diberikan seseorang kepadanya yang harus dibalas" }
+        { "words": [1, 6], "id": ["Tidak ada suatu nikmat pun yang diberikan seseorang kepadanya", "yang harus dibalas"] }
       ],
       "full": { "id": "Tidak ada suatu nikmat pun yang diberikan seseorang kepadanya yang harus dibalas," },
       "source": "kemenag-2019-adapted",

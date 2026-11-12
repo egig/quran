@@ -51,8 +51,14 @@ Madinah mushaf prints it, with an Indonesian translation under each
   `hyphenate.ts`, shown only where a word actually breaks), smaller text
   (never below 6.5px). Translations never overlap: check new pages at 300,
   360 and desktop width.
-- A phrase that continues onto the next printed line shows its translation
-  under the first part, and a muted "…" under each continuation.
+- A phrase that continues onto the next printed line gives its translation
+  as a list, one part per printed line (`"id": ["sampai", "datang kepada
+  mereka bukti yang nyata"]`); each part sits under its own line. Split only
+  where the Indonesian word order follows the Arabic lines, and only at
+  existing word boundaries (the parts joined with a space are the phrase).
+  Where the order differs (e.g. وَقَالَ | ٱلْإِنسَٰنُ → "dan manusia
+  bertanya"), keep one string: the translation sits under the first part and
+  a muted "…" under each continuation. The build checks the part count.
 - No bracket or underline under the Arabic.
 - The surah header is plain text (Arabic name plus Latin name). The API has
   no artwork for the decorative header.

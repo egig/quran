@@ -8,8 +8,12 @@ export type LocalizedText = Record<string, string>;
 export interface PhraseSource {
   /** Inclusive 1-based word range [from, to] within the ayah. */
   words: [number, number];
-  /** Translation of this phrase, keyed by language. */
-  [lang: string]: string | [number, number];
+  /**
+   * Translation of this phrase, keyed by language. A phrase whose words run
+   * over several printed lines may give one part per line instead, in reading
+   * order; each part is shown under its own line.
+   */
+  [lang: string]: string | string[] | [number, number];
 }
 
 export interface AyahSource {
@@ -63,11 +67,18 @@ export interface Phrase {
   /** Inclusive 1-based word range. */
   from: number;
   to: number;
+  /** Whole translation (parts joined with a space when split). */
   text: LocalizedText;
+  /**
+   * Set when the translation is split over the printed lines the phrase
+   * spans: one part per line, in reading order. Otherwise the first line
+   * shows `text` and later lines show "…".
+   */
+  parts?: Record<string, string[]>;
 }
 
 export interface AyahData {
-  version: 3;
+  version: 4;
   key: string;
   surah: number;
   ayah: number;

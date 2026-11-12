@@ -47,7 +47,7 @@
     },
     "6": {
       "phrases": [
-        { "words": [1, 2], "id": "Wahai manusia" },
+        { "words": [1, 2], "id": ["Wahai", "manusia"] },
         { "words": [3, 7], "id": "sesungguhnya engkau telah bekerja keras menuju (pertemuan dengan) Tuhanmu" },
         { "words": [8, 8], "id": "Maka, engkau pasti menemui-Nya" }
       ],
@@ -75,7 +75,7 @@
     },
     "9": {
       "phrases": [
-        { "words": [1, 3], "id": "dan dia akan kembali kepada keluarganya (yang sama-sama beriman)" },
+        { "words": [1, 3], "id": ["dan dia akan kembali", "kepada keluarganya (yang sama-sama beriman)"] },
         { "words": [4, 4], "id": "dengan gembira" }
       ],
       "full": { "id": "dan dia akan kembali kepada keluarganya (yang sama-sama beriman) dengan gembira." },
@@ -93,7 +93,7 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 2], "id": "dia akan berteriak" },
+        { "words": [1, 2], "id": ["dia akan", "berteriak"] },
         { "words": [3, 3], "id": "Celakalah aku" }
       ],
       "full": { "id": "dia akan berteriak, “Celakalah aku!”" },
@@ -137,7 +137,7 @@
     },
     "16": {
       "phrases": [
-        { "words": [1, 3], "id": "Aku bersumpah demi cahaya merah pada waktu senja" }
+        { "words": [1, 3], "id": ["Aku bersumpah", "demi cahaya merah pada waktu senja"] }
       ],
       "full": { "id": "Aku bersumpah demi cahaya merah pada waktu senja," },
       "source": "kemenag-2019-adapted",

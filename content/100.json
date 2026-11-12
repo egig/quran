@@ -20,7 +20,7 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 2], "id": "yang menyerang (dengan tiba-tiba) pada waktu pagi" }
+        { "words": [1, 2], "id": ["yang menyerang (dengan tiba-tiba)", "pada waktu pagi"] }
       ],
       "full": { "id": "yang menyerang (dengan tiba-tiba) pada waktu pagi" },
       "source": "kemenag-2019-adapted",
@@ -62,7 +62,7 @@
     },
     "8": {
       "phrases": [
-        { "words": [1, 3], "id": "Sesungguhnya cintanya pada harta" },
+        { "words": [1, 3], "id": ["Sesungguhnya cintanya pada", "harta"] },
         { "words": [4, 4], "id": "benar-benar berlebihan" }
       ],
       "full": { "id": "Sesungguhnya cintanya pada harta benar-benar berlebihan." },

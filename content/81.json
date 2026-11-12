@@ -20,7 +20,7 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 3], "id": "apabila gunung-gunung dihancurkan" }
+        { "words": [1, 3], "id": ["apabila gunung-gunung", "dihancurkan"] }
       ],
       "full": { "id": "apabila gunung-gunung dihancurkan," },
       "source": "kemenag-2019-adapted",
@@ -60,7 +60,7 @@
     },
     "8": {
       "phrases": [
-        { "words": [1, 3], "id": "apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya" }
+        { "words": [1, 3], "id": ["apabila bayi-bayi perempuan yang dikubur hidup-hidup", "ditanya"] }
       ],
       "full": { "id": "apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya," },
       "source": "kemenag-2019-adapted",
@@ -100,7 +100,7 @@
     },
     "13": {
       "phrases": [
-        { "words": [1, 3], "id": "dan apabila surga didekatkan" }
+        { "words": [1, 3], "id": ["dan apabila surga", "didekatkan"] }
       ],
       "full": { "id": "dan apabila surga didekatkan," },
       "source": "kemenag-2019-adapted",
@@ -167,7 +167,7 @@
     },
     "21": {
       "phrases": [
-        { "words": [1, 3], "id": "yang di sana (Jibril) ditaati lagi dipercaya" }
+        { "words": [1, 3], "id": ["yang di sana (Jibril) ditaati", "lagi dipercaya"] }
       ],
       "full": { "id": "yang di sana (Jibril) ditaati lagi dipercaya." },
       "source": "kemenag-2019-adapted",
