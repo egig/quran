@@ -27,8 +27,8 @@ Actions** once.
 To try the Pages build locally under a sub-path:
 
 ```sh
-BASE_PATH=/quran-terjemah/ npm run build:site
-BASE_PATH=/quran-terjemah/ npx vite preview   # http://localhost:4173/quran-terjemah/
+BASE_PATH=/quran/ npm run build:site
+BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
 ```
 
 ## Adding an ayah
