@@ -21,7 +21,8 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 3], "id": "(yaitu) ketika dia berdoa kepada Tuhannya" },
+        { "words": [1, 1], "id": "(yaitu)" },
+        { "words": [2, 3], "id": "(ketika dia berdoa kepada Tuhannya" },
         { "words": [4, 5], "id": "dengan suara yang lirih" }
       ],
       "full": { "id": "(yaitu) ketika dia berdoa kepada Tuhannya dengan suara yang lirih." },
@@ -101,7 +102,8 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 5], "id": "Lalu, (Zakaria) keluar dari mihrab menuju kaumnya" },
+        { "words": [1, 4], "id": "Lalu, (Zakaria) keluar menuju kaumnya" },
+        { "words": [5, 5], "id": "dari mihrab" },
         { "words": [6, 7], "id": "lalu dia memberi isyarat kepada mereka" },
         { "words": [8, 11], "id": "agar bertasbihlah kamu pada waktu pagi dan petang" }
       ],

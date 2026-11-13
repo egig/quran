@@ -72,7 +72,8 @@
         { "words": [1, 3], "id": "(Ingatlah) ketika Allah menjanjikan kepadamu" },
         { "words": [4, 7], "id": ["bahwa salah satu dari dua golongan (yang kamu hadapi)", "adalah milikmu"] },
         { "words": [8, 14], "id": "sedangkan kamu menginginkan bahwa yang tidak mempunyai kekuatan senjatalah milikmu" },
-        { "words": [15, 20], "id": "Akan tetapi, Allah hendak menetapkan yang benar (Islam) dengan ketentuan-Nya" },
+        { "words": [15, 15], "id": "Akan tetapi" },
+        { "words": [16, 20], "id": "Allah hendak menetapkan yang benar (Islam) dengan ketentuan-Nya" },
         { "words": [21, 23], "id": "dan memusnahkan orang-orang kafir sampai ke akar-akarnya" }
       ],
       "full": { "id": "(Ingatlah) ketika Allah menjanjikan kepadamu bahwa salah satu dari dua golongan (yang kamu hadapi) adalah milikmu, sedangkan kamu menginginkan bahwa yang tidak mempunyai kekuatan senjatalah milikmu. Akan tetapi, Allah hendak menetapkan yang benar (Islam) dengan ketentuan-Nya dan memusnahkan orang-orang kafir sampai ke akar-akarnya" },
@@ -809,7 +810,8 @@
     "71": {
       "phrases": [
         { "words": [1, 3], "id": "Akan tetapi, jika mereka (para tawanan itu) hendak mengkhianatimu (Nabi Muhammad)" },
-        { "words": [4, 8], "id": "sungguh sebelumnya mereka telah berkhianat kepada Allah" },
+        { "words": [4, 6], "id": "sungguh mereka telah berkhianat kepada Allah" },
+        { "words": [7, 8], "id": "sebelumnya" },
         { "words": [9, 10], "id": "Lalu, Dia menjadikanmu menguasai mereka (pada perang Badar)" },
         { "words": [11, 13], "id": "Allah Maha Mengetahui lagi Maha Bijaksana" }
       ],

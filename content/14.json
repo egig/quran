@@ -36,7 +36,8 @@
     },
     "4": {
       "phrases": [
-        { "words": [1, 7], "id": "Kami tidak mengutus seorang rasul pun, kecuali dengan bahasa kaumnya" },
+        { "words": [1, 1], "id": "Kami tidak" },
+        { "words": [2, 7], "id": "mengutus seorang rasul pun, kecuali dengan bahasa kaumnya" },
         { "words": [8, 9], "id": "agar dia dapat memberi penjelasan kepada mereka" },
         { "words": [10, 13], "id": "Maka, Allah menyesatkan siapa yang Dia kehendaki (karena kecenderungannya untuk sesat)" },
         { "words": [14, 16], "id": "dan memberi petunjuk kepada siapa yang Dia kehendaki (berdasarkan kesiapannya untuk menerima petunjuk)" },

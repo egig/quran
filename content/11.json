@@ -27,7 +27,8 @@
         { "words": [1, 3], "id": ["Mohonlah ampunan", "kepada Tuhanmu"] },
         { "words": [4, 6], "id": "kemudian bertobatlah kepada-Nya" },
         { "words": [7, 12], "id": "niscaya Dia akan memberi kesenangan yang baik kepadamu (di dunia) sampai waktu yang telah ditentukan (kematian)" },
-        { "words": [13, 17], "id": "dan memberikan pahala-Nya (di akhirat) kepada setiap orang yang beramal saleh" },
+        { "words": [13, 13], "id": "dan memberikan" },
+        { "words": [14, 17], "id": "pahala-Nya (di akhirat) kepada setiap orang yang beramal saleh" },
         { "words": [18, 19], "id": "Jika kamu berpaling" },
         { "words": [20, 25], "id": ["sesungguhnya aku takut kamu (akan) ditimpa azab pada hari yang", "besar (kiamat)"] }
       ],

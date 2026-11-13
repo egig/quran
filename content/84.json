@@ -178,7 +178,8 @@
     },
     "21": {
       "phrases": [
-        { "words": [1, 4], "id": "Apabila Al-Qur’an dibacakan kepada mereka" },
+        { "words": [1, 2], "id": "Apabila dibacakan" },
+        { "words": [3, 4], "id": "Al-Qur’an kepada mereka" },
         { "words": [5, 6], "id": "mereka tidak (mau) bersujud" }
       ],
       "full": { "id": "Apabila Al-Qur’an dibacakan kepada mereka, mereka tidak (mau) bersujud," },

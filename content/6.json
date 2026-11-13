@@ -63,7 +63,8 @@
         { "words": [16, 19], "id": "dan Kami curahkan air hujan yang lebat" },
         { "words": [20, 24], "id": ["Kami jadikan sungai-sungai", "mengalir di bawah mereka"] },
         { "words": [25, 26], "id": "lalu Kami binasakan mereka karena dosa-dosa mereka" },
-        { "words": [27, 31], "id": "selanjutnya Kami munculkan sesudah mereka generasi lain" }
+        { "words": [27, 30], "id": "selanjutnya Kami munculkan sesudah mereka generasi" },
+        { "words": [31, 31], "id": "lain" }
       ],
       "full": { "id": "Tidakkah mereka perhatikan betapa banyak generasi sebelum mereka yang telah Kami binasakan? (Yaitu) generasi yang telah Kami teguhkan kedudukan mereka di muka bumi, yang belum pernah Kami lakukan kepada kamu; dan Kami curahkan air hujan yang lebat, Kami jadikan sungai-sungai mengalir di bawah mereka; lalu Kami binasakan mereka karena dosa-dosa mereka, selanjutnya Kami munculkan sesudah mereka generasi lain." },
       "source": "kemenag-2019-adapted",
@@ -82,7 +83,8 @@
     },
     "8": {
       "phrases": [
-        { "words": [1, 5], "id": "Mereka berkata, Mengapa tidak diturunkan malaikat kepadanya (Nabi Muhammad)?" },
+        { "words": [1, 3], "id": "Mereka berkata, Mengapa tidak diturunkan" },
+        { "words": [4, 5], "id": "malaikat kepadanya (Nabi Muhammad)?" },
         { "words": [6, 8], "id": "Andaikata Kami turunkan malaikat" },
         { "words": [9, 10], "id": "niscaya selesailah urusan (mereka dibinasakan karena pengingkaran)" },
         { "words": [11, 13], "id": "kemudian mereka tidak lagi ditangguhkan (sedikit pun untuk bertobat)" }
