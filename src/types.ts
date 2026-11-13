@@ -140,8 +140,23 @@ export interface SurahListEntry {
   available: boolean;
 }
 
-/** public/data/index.json: every surah of the mushaf, for the table of contents. */
+export interface JuzListEntry {
+  juz: number;
+  /** First and last ayah, as [surah, ayah]. */
+  start: [number, number];
+  end: [number, number];
+  /**
+   * First and last mushaf page, read from the artwork. Null until the surahs
+   * holding both ends are built.
+   */
+  pages: [number, number] | null;
+  /** True when every surah the juz touches has been built. */
+  available: boolean;
+}
+
+/** public/data/index.json: every surah and juz of the mushaf, for the table of contents. */
 export interface RootIndex {
-  version: 4;
+  version: 5;
   surahs: SurahListEntry[];
+  juz: JuzListEntry[];
 }

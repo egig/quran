@@ -23,10 +23,12 @@ import type {
   AyahSource,
   Glyph,
   GlyphPath,
+  JuzListEntry,
   LocalizedText,
   MushafLayout,
   Phrase,
   RootIndex,
+  SurahListEntry,
   SurahIndex,
   SurahSource,
   Word,
@@ -65,6 +67,17 @@ const PAGE_SPAN_OVERRIDES: Record<number, [number, number]> = {
   94: [596, 597],
   96: [597, 598],
 };
+
+/**
+ * First ayah of each juz (Ḥafṣ), as [surah, ayah]. Source: quran-meta 7.0.0,
+ * HafsLists.JuzList (global ayah numbers, converted with the API's ayah
+ * counts). Ayah boundaries only: page numbers come from the artwork.
+ */
+const JUZ_STARTS: [number, number][] = [
+  [1, 1], [2, 142], [2, 253], [3, 93], [4, 24], [4, 148], [5, 82], [6, 111], [7, 88], [8, 41],
+  [9, 93], [11, 6], [12, 53], [15, 1], [17, 1], [18, 75], [21, 1], [23, 1], [25, 21], [27, 56],
+  [29, 46], [33, 31], [36, 28], [39, 32], [41, 47], [46, 1], [51, 31], [58, 1], [67, 1], [78, 1],
+];
 
 interface SurahMeta {
   number: number;
@@ -110,14 +123,39 @@ function latinName(raw: string): string {
     .replace(/[ĥĤşŞţŢđĐ`]/g, (c) => map[c]);
 }
 
+/** Juz boundaries with their pages, read from the built surahs' artwork. */
+function juzList(surahs: SurahListEntry[], built: (SurahIndex | null)[]): JuzListEntry[] {
+  // The mushaf page an ayah starts on (first) or ends on (last), or null if
+  // its surah is not built. An ayah can run over a page break.
+  const pageOf = ([s, a]: [number, number], which: "first" | "last"): number | null => {
+    const pages = built[s - 1]?.layout.pages.filter((p) => p.ayahs[0] <= a && a <= p.ayahs[1]);
+    if (!pages) return null;
+    if (!pages.length) throw new Error(`juz: ${s}:${a} is on no page of surah ${s}`);
+    return (which === "first" ? pages[0] : pages[pages.length - 1]).page;
+  };
+  return JUZ_STARTS.map((start, i) => {
+    const next = JUZ_STARTS[i + 1];
+    const end: [number, number] = !next ? [114, surahs[113].ayahs] : next[1] > 1 ? [next[0], next[1] - 1] : [next[0] - 1, surahs[next[0] - 2].ayahs];
+    if (start[1] > surahs[start[0] - 1].ayahs) throw new Error(`juz ${i + 1}: ${start.join(":")} does not exist`);
+    const from = pageOf(start, "first");
+    const to = pageOf(end, "last");
+    const touched = surahs.slice(start[0] - 1, end[0]);
+    return {
+      juz: i + 1,
+      start,
+      end,
+      pages: from !== null && to !== null ? [from, to] : null,
+      available: touched.every((s) => s.available),
+    };
+  });
+}
+
 async function writeRootIndex() {
   const surahs = (await allSurahs()).map((s) => {
     const built = join(OUT_DIR, String(s.number), "index.json");
     return { s, built: existsSync(built) ? built : null };
   });
-  const root: RootIndex = {
-    version: 4,
-    surahs: await Promise.all(
+  const entries = await Promise.all(
       surahs.map(async ({ s, built }) => {
         // A built surah keeps the hand-authored name from content/, and its
         // page span from the artwork (see PAGE_SPAN_OVERRIDES).
@@ -127,9 +165,14 @@ async function writeRootIndex() {
           ? [index.layout.pages[0].page, index.layout.pages[index.layout.pages.length - 1].page]
           : s.pages;
         if (s.place !== "makkah" && s.place !== "madinah") throw new Error(`surah ${s.number}: place "${s.place}"`);
-        return { surah: s.number, name, ayahs: s.ayahs, place: s.place, pages, available: !!built };
+        const entry: SurahListEntry = { surah: s.number, name, ayahs: s.ayahs, place: s.place, pages, available: !!built };
+        return { entry, index };
       }),
-    ),
+  );
+  const root: RootIndex = {
+    version: 5,
+    surahs: entries.map((e) => e.entry),
+    juz: juzList(entries.map((e) => e.entry), entries.map((e) => e.index)),
   };
   await writeFile(join(OUT_DIR, "index.json"), JSON.stringify(root));
 }

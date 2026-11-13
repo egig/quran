@@ -14,7 +14,7 @@ export function App() {
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M15 5l-7 7 7 7" />
             </svg>
-            Daftar surah
+            Daftar isi
           </Link>
         )}
         <ThemeToggle />
