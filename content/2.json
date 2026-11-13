@@ -1911,7 +1911,7 @@
         { "words": [1, 3], "id": "Tuhan kamu adalah Tuhan Yang Maha Esa" },
         { "words": [4, 7], "id": "Tidak ada tuhan selain Dia" },
         { "words": [8, 8], "id": "Yang Maha Pengasih" },
-        { "words": [9, 9], "id": "lagi Maha Penyayang" }
+        { "words": [9, 9], "id": "Maha Penyayang" }
       ],
       "full": { "id": "Tuhan kamu adalah Tuhan Yang Maha Esa. Tidak ada tuhan selain Dia Yang Maha Pengasih lagi Maha Penyayang." },
       "source": "kemenag-2019-adapted",
@@ -3116,7 +3116,7 @@
       "phrases": [
         { "words": [1, 5], "id": "Allah, tidak ada tuhan selain Dia" },
         { "words": [6, 6], "id": "Yang Maha Hidup" },
-        { "words": [7, 7], "id": "lagi terus-menerus mengurus (makhluk-Nya)" },
+        { "words": [7, 7], "id": "terus-menerus mengurus (makhluk-Nya)" },
         { "words": [8, 12], "id": "Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur" },
         { "words": [13, 19], "id": ["Milik-Nyalah apa yang ada di langit", "dan apa yang ada di bumi"] },
         { "words": [20, 26], "id": "Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya" },

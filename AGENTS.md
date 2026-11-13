@@ -97,7 +97,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 3–5 and 7–114 come from the `quran-pack` npm package
+- The full sentences for surahs 2–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed and runs of whitespace collapsed. Scraping typos
   (missing spaces) are fixed: 28:77, 46:1, 46:10, 50:19, 52:16, 53:54, 56:38,
@@ -110,9 +110,13 @@ Madinah mushaf prints it, with an Indonesian translation under each
   7:161 ('Semua, 'Bebaskanlah) is ‘. In 19:9 the opening quotes
   ”Demikianlah and ”Hal itu are “; "(kekuasaan)- Ku" of 21:37 is
   "(kekuasaan)-Ku"; "beramalsalehlah" of 23:51 is "beramal salehlah". In
-  surahs 3–6: the missing ")" of 3:13 is restored ("(dalam pertempuran)."); the
+  surah 2: the straight opening quote of 2:58 ('Bebaskanlah) is ‘,
+  "berbuatbaiklah" (2:83, 2:195) is "berbuat baiklah", and the line-break
+  hyphen "mengajar-kan" (2:282) is "mengajarkan"; the unbalanced closing ”
+  of 2:97 and the missing closing quotes of 2:54 are kept as the source has
+  them. In surahs 3–6: the missing ")" of 3:13 is restored ("(dalam pertempuran)."); the
   straight opening quotes of 3:21, 3:193, 4:138, 5:116, 6:63, 6:71 and 6:151
-  are ‘ and the closing " of 4:72 is ”; "ya tim" (4:36) is "yatim",
+  (both quotes) are ‘ and the closing " of 4:72 is ”; "ya tim" (4:36) is "yatim",
   "Bertak-walah" (5:112) "Bertakwalah", "seburuk- buruk" (5:63)
   "seburuk-buruk", "berbuatbaiklah" (6:151) "berbuat baiklah", "Al-Qur'an"
   (6:106) "Al-Qur’an"; the footnote marker "232)" after a space in 5:103 is
@@ -166,11 +170,21 @@ Madinah mushaf prints it, with an Indonesian translation under each
   with no ascender and a mark below sits low (14:25 حِينٍۭ, page 259); a
   glyph from a neighbouring line still stops the build.
 - Known upstream defects: png.quran.ws draws mushaf page 17 (Al-Baqarah
-  2:106–110) and page 144 (Al-Anʿām 6:125–130) with words piled on each
-  other, in every renderer version. The build stops on both: page 17 because
-  glyphs leave their lines, page 144 because a page strictly inside a surah
-  must hold 15 printed lines. Don't work around it by moving artwork; report
-  it upstream. Surahs 2 and 6 are therefore not in `content/`.
+  2:106–112) and page 144 (Al-Anʿām 6:125–130) with words piled on each
+  other, in every renderer version (v1–v5 return identical bytes, checked
+  2026-11-13). Both are listed in `BROKEN_PAGES` in the build script: their
+  glyphs get line 0 and no paths, they are left out of every line check, the
+  crop and the band, and the page shows a notice instead of its lines. Their
+  phrases are authored like any other ayah; a phrase that continues from a
+  broken page shows its translation (with any parts from that page) under
+  its first visible part. Never move or redraw artwork to repair a broken
+  page; remove it from `BROKEN_PAGES` once the API draws it correctly.
+  Without the list, the build stops on page 17 (glyphs leave their lines)
+  and page 144 (a page strictly inside a surah must hold 15 printed lines).
+- Pages break where the API's page stacking changes inside a chunk, or where
+  the page-placement matrix (different for odd and even pages) changes
+  between chunks. The height jump between glyphs must agree, except next to
+  a broken page.
 - API responses are cached in `cache/` (gitignored). Treat them as untrusted
   data: parse them, never execute them.
 
