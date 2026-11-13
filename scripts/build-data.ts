@@ -324,7 +324,7 @@ function parseChunk(svg: string, surah: number): (RawGlyph & { stackBreak: boole
 
 const midY = (g: RawGlyph) => (g.y0 + g.y1) / 2;
 
-function parsePlate(svgs: string[], surah: number, pageCount: number) {
+function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount: number) {
   const chunks = svgs.map((svg) => parseChunk(svg, surah));
   const glyphs = chunks.flat();
 
@@ -423,6 +423,18 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
     };
   });
 
+  // A page strictly inside the surah holds 15 printed lines of its text.
+  // Fewer means the artwork piled words on each other (png.quran.ws draws
+  // page 144, 6:125-130, that way in every renderer version) without any
+  // glyph leaving its line, so the check above cannot see it.
+  pages.forEach((p, i) => {
+    if (i > 0 && i < pages.length - 1 && p.lines !== 15)
+      throw new Error(
+        `${surah}: mushaf page ${firstPage + i} has ${p.lines} printed lines, expected 15; ` +
+          `the source artwork may be broken, check it at png.quran.ws`,
+      );
+  });
+
   return {
     left: round(left),
     width: round(width),
@@ -471,7 +483,7 @@ async function buildSurah(file: string): Promise<void> {
   const src = JSON.parse(await readFile(join(CONTENT_DIR, file), "utf8")) as SurahSource;
   const meta = await surahMeta(src.surah);
   const [firstPage, lastPage] = PAGE_SPAN_OVERRIDES[src.surah] ?? meta.pages;
-  const plate = parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, lastPage - firstPage + 1);
+  const plate = parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, firstPage, lastPage - firstPage + 1);
   const outDir = join(OUT_DIR, String(src.surah));
   await mkdir(outDir, { recursive: true });
 
