@@ -54,7 +54,7 @@ const PAGE_JUMP = 20;
  * pages would hold 14 or 16. In each case the last ayahs run onto the top of
  * the next page (e.g. 80:41-42 is line 1 of page 586, drawn with even-page
  * margins).
- * Juz 20-29 (surahs 27-77, pages 377-581) need no override: with the
+ * Juz 15-29 (surahs 17-77, pages 282-581) need no override: with the
  * list's spans every page already holds 15 lines.
  */
 const PAGE_SPAN_OVERRIDES: Record<number, [number, number]> = {

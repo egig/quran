@@ -88,7 +88,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 27–114 come from the `quran-pack` npm package
+- The full sentences for surahs 17–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed and runs of whitespace collapsed. Scraping typos
   (missing spaces) are fixed: 28:77, 46:1, 46:10, 50:19, 52:16, 53:54, 56:38,
@@ -96,7 +96,9 @@ Madinah mushaf prints it, with an Indonesian translation under each
   "Berbuatbaiklah" → "Berbuat baiklah"); the
   truncated "wakyang" of 46:3 is "waktu yang"; the stray leading "." of 47:31
   and 55:18, the stray "[" of 48:20 and the ayah number "100. " opening
-  37:100 are dropped; "Ṣād. demi" of 38:1 is "Ṣād. Demi". It matches the reviewed
+  37:100 are dropped; "Ṣād. demi" of 38:1 is "Ṣād. Demi". In 19:9 the opening quotes
+  ”Demikianlah and ”Hal itu are “; "(kekuasaan)- Ku" of 21:37 is
+  "(kekuasaan)-Ku"; "beramalsalehlah" of 23:51 is "beramal salehlah". It matches the reviewed
   Al-Fātiḥah word for word.
   Do not write Kemenag wording from memory: take it from a source.
 - A phrase is a meaningful unit, not a word-by-word gloss. Each divine name
