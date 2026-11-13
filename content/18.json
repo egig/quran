@@ -93,7 +93,7 @@
       "phrases": [
         { "words": [1, 5], "id": "(Ingatlah) ketika pemuda-pemuda itu berlindung ke dalam gua" },
         { "words": [6, 7], "id": "lalu berdoa, Ya Tuhan kami" },
-        { "words": [8, 11], "id": ["anugerahkanlah kepada kami", "rahmat dari sisi-Mu"] },
+        { "words": [8, 11], "id": "anugerahkanlah kepada kami rahmat dari sisi-Mu" },
         { "words": [12, 16], "id": "dan mudahkanlah bagi kami petunjuk untuk segala urusan kami" }
       ],
       "full": { "id": "(Ingatlah) ketika pemuda-pemuda itu berlindung ke dalam gua lalu berdoa, “Ya Tuhan kami, anugerahkanlah kepada kami rahmat dari sisi-Mu dan mudahkanlah bagi kami petunjuk untuk segala urusan kami.”" },
@@ -197,7 +197,7 @@
         { "words": [10, 15], "id": ["Mereka menjawab, Kita berada (di sini)", "sehari atau setengah hari"] },
         { "words": [16, 20], "id": "Mereka (yang lain lagi) berkata, Tuhanmu lebih mengetahui berapa lama kamu berada (di sini)" },
         { "words": [21, 26], "id": ["Maka, utuslah", "salah seorang di antara kamu pergi ke kota dengan membawa uang perakmu ini"] },
-        { "words": [27, 30], "id": ["Hendaklah dia melihat manakah", "makanan yang lebih baik"] },
+        { "words": [27, 30], "id": "Hendaklah dia melihat manakah makanan yang lebih baik" },
         { "words": [31, 33], "id": "lalu membawa sebagian makanan itu untukmu" },
         { "words": [34, 34], "id": "Hendaklah pula dia berlaku lemah lembut" },
         { "words": [35, 38], "id": ["dan jangan sekali-kali memberitahukan", "keadaanmu kepada siapa pun"] }
@@ -224,7 +224,7 @@
         { "words": [14, 17], "id": "(Hal itu terjadi) ketika mereka (penduduk negeri) berselisih tentang urusan (penghuni gua)" },
         { "words": [18, 21], "id": ["Kemudian mereka berkata", "Dirikanlah sebuah bangunan di atas (gua itu)"] },
         { "words": [22, 24], "id": "Tuhannya lebih mengetahui (keadaan) mereka (penghuni gua)" },
-        { "words": [25, 29], "id": ["Orang-orang yang berkuasa atas", "urusan mereka berkata"] },
+        { "words": [25, 29], "id": "Orang-orang yang berkuasa atas urusan mereka berkata" },
         { "words": [30, 32], "id": "Kami pasti akan mendirikan sebuah masjid di atasnya" }
       ],
       "full": { "id": "Demikian (pula) Kami perlihatkan (penduduk negeri) kepada mereka agar mengetahui bahwa janji Allah benar dan bahwa (kedatangan) hari Kiamat tidak ada keraguan padanya. (Hal itu terjadi) ketika mereka (penduduk negeri) berselisih tentang urusan (penghuni gua). Kemudian mereka berkata, “Dirikanlah sebuah bangunan di atas (gua itu). Tuhannya lebih mengetahui (keadaan) mereka (penghuni gua).” Orang-orang yang berkuasa atas urusan mereka berkata, “Kami pasti akan mendirikan sebuah masjid di atasnya.”" },
@@ -281,7 +281,7 @@
         { "words": [6, 9], "id": "Milik-Nya semua yang tersembunyi di langit dan di bumi" },
         { "words": [10, 12], "id": "Alangkah terang penglihatan-Nya dan alangkah tajam pendengaran-Nya" },
         { "words": [13, 18], "id": "Tidak ada seorang pelindung pun bagi mereka selain Dia" },
-        { "words": [19, 23], "id": ["dan Dia tidak mengambil seorang pun menjadi sekutu-Nya", "dalam menetapkan keputusan"] }
+        { "words": [19, 23], "id": "dan Dia tidak mengambil seorang pun menjadi sekutu-Nya dalam menetapkan keputusan" }
       ],
       "full": { "id": "Katakanlah, “Allah lebih mengetahui berapa lamanya mereka tinggal (di gua). Milik-Nya semua yang tersembunyi di langit dan di bumi. Alangkah terang penglihatan-Nya dan alangkah tajam pendengaran-Nya. Tidak ada seorang pelindung pun bagi mereka selain Dia dan Dia tidak mengambil seorang pun menjadi sekutu-Nya dalam menetapkan keputusan.”" },
       "source": "kemenag-2019-adapted",
@@ -306,7 +306,7 @@
         { "words": [15, 18], "id": ["karena mengharapkan perhiasan kehidupan", "dunia"] },
         { "words": [19, 25], "id": "Janganlah engkau mengikuti orang yang hatinya telah Kami lalaikan dari mengingat Kami" },
         { "words": [26, 27], "id": "serta menuruti hawa nafsunya" },
-        { "words": [28, 30], "id": ["dan keadaannya", "melewati batas"] }
+        { "words": [28, 30], "id": "dan keadaannya melewati batas" }
       ],
       "full": { "id": "Bersabarlah engkau (Nabi Muhammad) bersama orang-orang yang menyeru Tuhannya pada pagi dan petang hari dengan mengharap keridaan-Nya. Janganlah kedua matamu berpaling dari mereka karena mengharapkan perhiasan kehidupan dunia. Janganlah engkau mengikuti orang yang hatinya telah Kami lalaikan dari mengingat Kami serta menuruti hawa nafsunya dan keadaannya melewati batas." },
       "source": "kemenag-2019-adapted",
@@ -446,7 +446,7 @@
     },
     "41": {
       "phrases": [
-        { "words": [1, 4], "id": ["atau", "airnya menjadi surut ke dalam tanah"] },
+        { "words": [1, 4], "id": "atau airnya menjadi surut ke dalam tanah" },
         { "words": [5, 8], "id": "sehingga engkau tidak akan dapat menemukannya lagi" }
       ],
       "full": { "id": "atau airnya menjadi surut ke dalam tanah sehingga engkau tidak akan dapat menemukannya lagi.”" },
@@ -579,7 +579,7 @@
     },
     "53": {
       "phrases": [
-        { "words": [1, 3], "id": ["Orang yang berdosa itu", "melihat neraka"] },
+        { "words": [1, 3], "id": "Orang yang berdosa itu melihat neraka" },
         { "words": [4, 6], "id": "lalu merasa yakin akan jatuh ke dalamnya (seketika itu juga)" },
         { "words": [7, 10], "id": "Mereka tidak menemukan tempat berpaling darinya" }
       ],
@@ -930,7 +930,7 @@
         { "words": [11, 13], "id": "Di sana dia menemukan suatu kaum (yang tidak mengenal agama)" },
         { "words": [14, 16], "id": "Kami berfirman, Wahai Zulqarnain" },
         { "words": [17, 19], "id": "engkau boleh menghukum" },
-        { "words": [20, 24], "id": ["atau berbuat kebaikan", "kepada mereka (dengan mengajak mereka beriman)"] }
+        { "words": [20, 24], "id": "atau berbuat kebaikan kepada mereka (dengan mengajak mereka beriman)" }
       ],
       "full": { "id": "Hingga ketika telah sampai ke tempat terbenamnya matahari, dia mendapatinya terbenam di dalam mata air panas lagi berlumpur hitam. Di sana dia menemukan suatu kaum (yang tidak mengenal agama). Kami berfirman, “Wahai Zulqarnain, engkau boleh menghukum atau berbuat kebaikan kepada mereka (dengan mengajak mereka beriman).”" },
       "source": "kemenag-2019-adapted",
@@ -969,7 +969,7 @@
       "phrases": [
         { "words": [1, 5], "id": ["Hingga", "ketika sampai di posisi terbitnya matahari (arah timur)"] },
         { "words": [6, 9], "id": "dia mendapatinya terbit pada suatu kaum" },
-        { "words": [10, 15], "id": ["yang tidak Kami buatkan suatu pelindung bagi mereka", "dari (cahaya) matahari itu"] }
+        { "words": [10, 15], "id": "yang tidak Kami buatkan suatu pelindung bagi mereka dari (cahaya) matahari itu" }
       ],
       "full": { "id": "Hingga ketika sampai di posisi terbitnya matahari (arah timur), dia mendapatinya terbit pada suatu kaum yang tidak Kami buatkan suatu pelindung bagi mereka dari (cahaya) matahari itu." },
       "source": "kemenag-2019-adapted",
@@ -1116,7 +1116,7 @@
       "phrases": [
         { "words": [1, 5], "id": "Mereka itu adalah orang-orang yang kufur terhadap ayat-ayat Tuhannya" },
         { "words": [6, 6], "id": "dan (kufur pula terhadap) pertemuan dengan-Nya" },
-        { "words": [7, 8], "id": ["Maka, amal mereka", "sia-sia"] },
+        { "words": [7, 8], "id": "Maka, amal mereka sia-sia" },
         { "words": [9, 14], "id": "dan Kami tidak memberikan penimbangan terhadap (amal) mereka pada hari Kiamat" }
       ],
       "full": { "id": "Mereka itu adalah orang-orang yang kufur terhadap ayat-ayat Tuhannya dan (kufur pula terhadap) pertemuan dengan-Nya. Maka, amal mereka sia-sia dan Kami tidak memberikan penimbangan terhadap (amal) mereka pada hari Kiamat." },

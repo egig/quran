@@ -427,7 +427,7 @@
     },
     "40": {
       "phrases": [
-        { "words": [1, 3], "id": ["Apakah (pantas) Tuhanmu", "memilihkan anak laki-laki untukmu"] },
+        { "words": [1, 3], "id": "Apakah (pantas) Tuhanmu memilihkan anak laki-laki untukmu" },
         { "words": [4, 7], "id": "sedangkan Dia menjadikan malaikat sebagai anak perempuan" },
         { "words": [8, 11], "id": "Sesungguhnya kamu (kaum musyrik) benar-benar mengucapkan perkataan yang (dosanya) sangat besar" }
       ],
@@ -468,7 +468,7 @@
     },
     "44": {
       "phrases": [
-        { "words": [1, 7], "id": ["Langit", "yang tujuh, bumi, dan semua yang ada di dalamnya senantiasa bertasbih kepada Allah"] },
+        { "words": [1, 7], "id": "Langit yang tujuh, bumi, dan semua yang ada di dalamnya senantiasa bertasbih kepada Allah" },
         { "words": [8, 13], "id": "Tidak ada sesuatu pun, kecuali senantiasa bertasbih dengan memuji-Nya" },
         { "words": [14, 17], "id": ["tetapi", "kamu tidak mengerti tasbih mereka"] },
         { "words": [18, 19], "id": "Sesungguhnya Dia" },
@@ -690,11 +690,11 @@
     },
     "64": {
       "phrases": [
-        { "words": [1, 5], "id": ["Perdayakanlah (wahai Iblis) siapa saja", "di antara mereka yang engkau sanggup dengan ajakanmu"] },
+        { "words": [1, 5], "id": "Perdayakanlah (wahai Iblis) siapa saja di antara mereka yang engkau sanggup dengan ajakanmu" },
         { "words": [6, 9], "id": "Kerahkanlah pasukanmu yang berkuda dan yang berjalan kaki terhadap mereka" },
         { "words": [10, 13], "id": ["Bersekutulah", "dengan mereka dalam harta dan anak-anak"] },
         { "words": [14, 14], "id": "lalu berilah janji kepada mereka" },
-        { "words": [15, 19], "id": ["Setan itu hanya menjanjikan", "tipuan belaka kepada mereka"] }
+        { "words": [15, 19], "id": "Setan itu hanya menjanjikan tipuan belaka kepada mereka" }
       ],
       "full": { "id": "Perdayakanlah (wahai Iblis) siapa saja di antara mereka yang engkau sanggup dengan ajakanmu. Kerahkanlah pasukanmu yang berkuda dan yang berjalan kaki terhadap mereka. Bersekutulah dengan mereka dalam harta dan anak-anak, lalu berilah janji kepada mereka.” Setan itu hanya menjanjikan tipuan belaka kepada mereka." },
       "source": "kemenag-2019-adapted",
@@ -711,7 +711,7 @@
     },
     "66": {
       "phrases": [
-        { "words": [1, 7], "id": ["Tuhanmulah yang melayarkan kapal-kapal", "di lautan untukmu"] },
+        { "words": [1, 7], "id": "Tuhanmulah yang melayarkan kapal-kapal di lautan untukmu" },
         { "words": [8, 10], "id": "agar kamu mencari karunia-Nya" },
         { "words": [11, 14], "id": "Sesungguhnya Dia Maha Penyayang terhadapmu" }
       ],
