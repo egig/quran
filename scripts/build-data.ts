@@ -18,6 +18,7 @@ import { join } from "node:path";
 import { DOMParser, type Element } from "@xmldom/xmldom";
 import svgpath from "svgpath";
 import { svgPathBbox } from "svg-path-bbox";
+import { VECTOR_PAGES, vectorArtwork } from "./vector-pages.ts";
 import type {
   AyahData,
   AyahSource,
@@ -282,23 +283,27 @@ function pitchOf(known: (readonly [number, number])[]): number | null {
  * page-placement matrix whose parent stacks that page, so the transform chain
  * above the matrix changes exactly at a page break.
  */
-function parseChunk(svg: string, surah: number): (RawGlyph & { stackBreak: boolean })[] {
+type ChunkGlyph = RawGlyph & { stackBreak: boolean; matrix: string };
+
+function parseChunk(svg: string, surah: number): ChunkGlyph[] {
   const doc = new DOMParser().parseFromString(svg, "image/svg+xml");
   const root = doc.documentElement;
   if (!root || root.tagName !== "svg") throw new Error(`${surah}: not an SVG document`);
 
-  const glyphs: (RawGlyph & { stackBreak: boolean })[] = [];
+  const glyphs: ChunkGlyph[] = [];
   let lastStack: string | null = null;
-  const stackBreak = (g: Element) => {
+  // The page-placement matrix differs between odd and even pages (their
+  // margins differ), so it changes at every page break, also between chunks.
+  const placement = (g: Element) => {
     let m: Element | null = g;
     while (m && m.nodeType === 1 && !isPageMatrix(m)) m = m.parentNode as Element | null;
     const parts: string[] = [];
     for (let n = m?.parentNode as Element | null; n && n.nodeType === 1; n = n.parentNode as Element | null)
       parts.unshift(n.getAttribute("transform") ?? "");
     const stack = parts.join(" ");
-    const isBreak = lastStack !== null && stack !== lastStack;
+    const stackBreak = lastStack !== null && stack !== lastStack;
     lastStack = stack;
-    return isBreak;
+    return { stackBreak, matrix: m?.getAttribute("transform") ?? "" };
   };
   for (const g of Array.from(root.getElementsByTagName("g"))) {
     const cls = g.getAttribute("class");
@@ -307,16 +312,16 @@ function parseChunk(svg: string, surah: number): (RawGlyph & { stackBreak: boole
       const [s, a, n] = key.split(":").map(Number);
       if (s !== surah || !a || !n) throw new Error(`unexpected word key "${key}"`);
       const text = g.getAttribute("data-rasm-uthmani") ?? "";
-      glyphs.push({ key, ayah: a, n, text, stackBreak: stackBreak(g), ...flatten(g, key) });
+      glyphs.push({ key, ayah: a, n, text, ...placement(g), ...flatten(g, key) });
     } else if (cls === "ayah-mark") {
       const key = g.getAttribute("data-ayah-key") ?? "";
       const [s, a] = key.split(":").map(Number);
       if (s !== surah || !a) throw new Error(`unexpected ayah key "${key}"`);
-      glyphs.push({ key: `${key}:mark`, ayah: a, n: 0, text: "", stackBreak: stackBreak(g), ...flatten(g, key) });
+      glyphs.push({ key: `${key}:mark`, ayah: a, n: 0, text: "", ...placement(g), ...flatten(g, key) });
     } else if (cls === "basmalah") {
       if (glyphs.length) throw new Error(`${surah}: basmalah after the first glyph`);
       const key = `${surah}:basmalah`;
-      glyphs.push({ key, ayah: 0, n: 0, text: "", stackBreak: stackBreak(g), ...flatten(g, key) });
+      glyphs.push({ key, ayah: 0, n: 0, text: "", ...placement(g), ...flatten(g, key) });
     }
   }
   return glyphs;
@@ -324,29 +329,62 @@ function parseChunk(svg: string, surah: number): (RawGlyph & { stackBreak: boole
 
 const midY = (g: RawGlyph) => (g.y0 + g.y1) / 2;
 
-function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount: number) {
+async function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount: number) {
   const chunks = svgs.map((svg) => parseChunk(svg, surah));
   const glyphs = chunks.flat();
 
-  // Pages: reading order runs down a page, so a glyph that sits clearly
-  // higher than the previous one starts the next page. Inside a chunk this
-  // must agree with the API's own page stacking.
+  // Pages: the API stacks the pages of a chunk, and places odd and even
+  // pages with different matrices, so a page starts where the stacking
+  // changes (inside a chunk) or the placement matrix changes (between
+  // chunks). Reading order runs down a page, so a glyph that sits clearly
+  // higher than the previous one must also be the start of a page.
   const pageIdx: number[] = [];
   glyphs.forEach((g, i) => {
     const prev = glyphs[i - 1];
-    const jump = !!prev && midY(g) < midY(prev) - PAGE_JUMP;
     const firstOfChunk = chunks.some((c) => c[0] === g);
-    if (!firstOfChunk && jump !== g.stackBreak)
-      throw new Error(
-        `${g.key}: page break detection disagrees with the artwork ` +
-          `(y ${round(midY(g))} after ${prev?.key} at y ${prev ? round(midY(prev)) : "-"}); ` +
-          `the source artwork may be misplaced, check it at png.quran.ws`,
-      );
-    pageIdx.push(prev ? pageIdx[i - 1] + (jump ? 1 : 0) : 0);
+    const brk = !!prev && (firstOfChunk ? g.matrix !== prev.matrix : g.stackBreak);
+    if (brk && !firstOfChunk && g.matrix === prev.matrix)
+      throw new Error(`${g.key}: new page in the stacking but the same page matrix`);
+    pageIdx.push(prev ? pageIdx[i - 1] + (brk ? 1 : 0) : 0);
   });
   const pageTotal = pageIdx[pageIdx.length - 1] + 1;
   if (pageTotal !== pageCount)
     throw new Error(`${surah}: found ${pageTotal} pages in the artwork, expected ${pageCount}`);
+
+  // Pages png.quran.ws draws broken take their artwork from the vector
+  // edition it was cut from (scripts/vector-pages.ts); from here on they are
+  // checked like any other page.
+  for (let p = 0; p < pageTotal; p++) {
+    if (!VECTOR_PAGES[firstPage + p]) continue;
+    const idx = glyphs.flatMap((_, i) => (pageIdx[i] === p ? [i] : []));
+    if (idx.some((i) => glyphs[i].ayah === 0)) throw new Error(`${surah}: vector page ${firstPage + p} holds the basmalah`);
+    const m = glyphs[idx[0]].matrix.match(/^matrix\(([^)]+)\)$/)?.[1].split(/[\s,]+/).map(Number);
+    if (!m || m.length !== 6 || idx.some((i) => glyphs[i].matrix !== glyphs[idx[0]].matrix))
+      throw new Error(`${surah}: page ${firstPage + p} has no single page matrix`);
+    const art = await vectorArtwork(
+      firstPage + p,
+      idx.map((i) => ({ key: glyphs[i].key, mark: glyphs[i].n === 0, paths: glyphs[i].paths })),
+      m as [number, number, number, number, number, number],
+      CACHE_DIR,
+      (msg) => console.log(msg),
+    );
+    for (const i of idx) {
+      const a = art.get(glyphs[i].key)!;
+      Object.assign(glyphs[i], { paths: a.paths, x0: a.bb[0], y0: a.bb[1], x1: a.bb[2], y1: a.bb[3] });
+    }
+  }
+
+  glyphs.forEach((g, i) => {
+    const prev = glyphs[i - 1];
+    if (!prev) return;
+    const jump = midY(g) < midY(prev) - PAGE_JUMP;
+    if (jump !== (pageIdx[i] !== pageIdx[i - 1]))
+      throw new Error(
+        `${g.key}: page break detection disagrees with the artwork ` +
+          `(y ${round(midY(g))} after ${prev.key} at y ${round(midY(prev))}); ` +
+          `the source artwork may be misplaced, check it at png.quran.ws`,
+      );
+  });
 
   // Lines, per page: within a printed line x decreases (RTL), though
   // neighbouring words may overlap; a glyph entirely right of the previous
@@ -483,7 +521,7 @@ async function buildSurah(file: string): Promise<void> {
   const src = JSON.parse(await readFile(join(CONTENT_DIR, file), "utf8")) as SurahSource;
   const meta = await surahMeta(src.surah);
   const [firstPage, lastPage] = PAGE_SPAN_OVERRIDES[src.surah] ?? meta.pages;
-  const plate = parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, firstPage, lastPage - firstPage + 1);
+  const plate = await parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, firstPage, lastPage - firstPage + 1);
   const outDir = join(OUT_DIR, String(src.surah));
   await mkdir(outDir, { recursive: true });
 

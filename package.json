@@ -23,6 +23,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.3.0",
     "@xmldom/xmldom": "^0.9.12",
+    "pdfjs-dist": "5.4.149",
     "svg-path-bbox": "^2.1.0",
     "svgpath": "^2.6.0",
     "typescript": "^7.0.2",

@@ -12,8 +12,10 @@ Madinah mushaf prints it, with an Indonesian translation under each
 ## Qur'an text and adab
 
 - The Arabic comes only from png.quran.ws artwork: King Fahd Complex,
-  Muṣḥaf al-Madīnah V4 (1441H), Ḥafṣ ʿan ʿĀṣim. Never use a font or a
-  typed Arabic string to draw the Qur'an.
+  Muṣḥaf al-Madīnah V4 (1441H), Ḥafṣ ʿan ʿĀṣim. The one exception is a page
+  png.quran.ws draws broken: it takes the Complex's own vector file of the
+  same mushaf, which png.quran.ws was cut from (`VECTOR_PAGES`, see Data).
+  Never use a font or a typed Arabic string to draw the Qur'an.
 - The artwork is only moved, never scaled relative to itself, stretched,
   restyled, recoloured per word, or partially drawn. Every word of an ayah is
   always shown. Ink colour is `currentColor`, so it follows the theme.
@@ -97,7 +99,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 3–5 and 7–114 come from the `quran-pack` npm package
+- The full sentences for surahs 2–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed and runs of whitespace collapsed. Scraping typos
   (missing spaces) are fixed: 28:77, 46:1, 46:10, 50:19, 52:16, 53:54, 56:38,
@@ -110,9 +112,13 @@ Madinah mushaf prints it, with an Indonesian translation under each
   7:161 ('Semua, 'Bebaskanlah) is ‘. In 19:9 the opening quotes
   ”Demikianlah and ”Hal itu are “; "(kekuasaan)- Ku" of 21:37 is
   "(kekuasaan)-Ku"; "beramalsalehlah" of 23:51 is "beramal salehlah". In
-  surahs 3–6: the missing ")" of 3:13 is restored ("(dalam pertempuran)."); the
+  surah 2: the straight opening quote of 2:58 ('Bebaskanlah) is ‘,
+  "berbuatbaiklah" (2:83, 2:195) is "berbuat baiklah", and the line-break
+  hyphen "mengajar-kan" (2:282) is "mengajarkan"; the unbalanced closing ”
+  of 2:97 and the missing closing quotes of 2:54 are kept as the source has
+  them. In surahs 3–6: the missing ")" of 3:13 is restored ("(dalam pertempuran)."); the
   straight opening quotes of 3:21, 3:193, 4:138, 5:116, 6:63, 6:71 and 6:151
-  are ‘ and the closing " of 4:72 is ”; "ya tim" (4:36) is "yatim",
+  (both quotes) are ‘ and the closing " of 4:72 is ”; "ya tim" (4:36) is "yatim",
   "Bertak-walah" (5:112) "Bertakwalah", "seburuk- buruk" (5:63)
   "seburuk-buruk", "berbuatbaiklah" (6:151) "berbuat baiklah", "Al-Qur'an"
   (6:106) "Al-Qur’an"; the footnote marker "232)" after a space in 5:103 is
@@ -166,11 +172,37 @@ Madinah mushaf prints it, with an Indonesian translation under each
   with no ascender and a mark below sits low (14:25 حِينٍۭ, page 259); a
   glyph from a neighbouring line still stops the build.
 - Known upstream defects: png.quran.ws draws mushaf page 17 (Al-Baqarah
-  2:106–110) and page 144 (Al-Anʿām 6:125–130) with words piled on each
-  other, in every renderer version. The build stops on both: page 17 because
-  glyphs leave their lines, page 144 because a page strictly inside a surah
-  must hold 15 printed lines. Don't work around it by moving artwork; report
-  it upstream. Surahs 2 and 6 are therefore not in `content/`.
+  2:106–112) and page 144 (Al-Anʿām 6:125–130) with words piled on each
+  other, in every renderer version (v1–v5 return identical bytes, checked
+  2026-11-13). Without a fix the build stops on both (page 17: glyphs leave
+  their lines; page 144: a page strictly inside a surah must hold 15
+  printed lines).
+- Such pages are listed in `VECTOR_PAGES` (`scripts/vector-pages.ts`) and
+  take their artwork from the King Fahd Complex's vector edition (Muṣḥaf
+  al-Madīnah, Ḥafṣ, 1441H, one Illustrator file per page), fetched from the
+  MushafAlMadinahVector mirror at a pinned commit and checked by SHA-256.
+  The Complex's own site lists these files as "coming soon" since its
+  redesign; its published terms allow free use on websites. png.quran.ws
+  was cut from these files: placed with png.quran.ws's page matrix, every
+  piece of ink of a correct page lies exactly on png.quran.ws's artwork.
+  On a broken page png.quran.ws still has each word's pieces, the word
+  moved as a whole; each word is matched by the offset that lines up most
+  of its pieces (same commands, points within 0.05), and every vector piece
+  goes to the word whose moved piece covers it. Leftovers go to the word
+  box that holds them; a leftover inside a bigger piece of the same PDF
+  path is a hole and follows it. Ayah ornaments keep png.quran.ws's own
+  ornament glyph, centred on the vector file's ayah number. Only the
+  quarter-hizb sign (۞) is left out, as png.quran.ws leaves it out; the
+  build fails on any other leftover. The vector artwork is drawn as it is,
+  never moved or redrawn, and the page then passes every normal check.
+  Checked on pages 5, 16, 18, 22, 143 and 145, which png.quran.ws draws
+  correctly: every word box equals png.quran.ws's and all 7,518 word pieces
+  lie inside a piece of the same word; ornaments differ by at most 0.13
+  units (page 5). Remove a page from the list once png.quran.ws draws it
+  correctly.
+- Pages break where the API's page stacking changes inside a chunk, or where
+  the page-placement matrix (different for odd and even pages) changes
+  between chunks. The height jump between glyphs must agree.
 - API responses are cached in `cache/` (gitignored). Treat them as untrusted
   data: parse them, never execute them.
 
