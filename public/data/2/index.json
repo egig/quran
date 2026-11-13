@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 4,
   "surah": 2,
   "name": {
     "ar": "البقرة",
@@ -423,12 +423,11 @@
       },
       {
         "page": 17,
-        "lines": 0,
+        "lines": 15,
         "ayahs": [
           106,
           112
-        ],
-        "broken": true
+        ]
       },
       {
         "page": 18,

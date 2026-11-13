@@ -89,8 +89,6 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
         const { layout } = surah;
         const dx = layout.left - left;
         const starts = layout.pages[0].page === page;
-        const info = layout.pages.find((p) => p.page === page);
-        const broken = new Set(layout.pages.filter((p) => p.broken).map((p) => p.page));
         return (
           <section key={surah.surah} className="surah-section" id={`s${surah.surah}`}>
             {starts && (
@@ -103,13 +101,7 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
                 </span>
               </h2>
             )}
-            {info?.broken && (
-              <p className="broken-page" lang="id">
-                Teks halaman ini ({surah.surah}:{info.ayahs[0]}–{info.ayahs[1]}) belum dapat ditampilkan: gambar dari
-                sumbernya, png.quran.ws, rusak (kata-katanya bertumpuk).
-              </p>
-            )}
-            {linesOf(page, ayahs, layout.basmalah?.page === page ? layout.basmalah : null, broken).map((line) => {
+            {linesOf(page, ayahs, layout.basmalah?.page === page ? layout.basmalah : null).map((line) => {
               let edge = width; // left edge of the previous segment; RTL starts at the right
               // Neighbouring phrases split the space between them at the midpoint:
               // printed words can overlap (a tail running under the next word), and
@@ -174,35 +166,27 @@ function markWidth(page: number, sections: PageSection[]): number {
   return w[Math.floor(w.length / 2)] ?? REF_MARK;
 }
 
-/**
- * The surah's printed lines on `page`, in order, with their glyphs and phrase
- * segments. Nothing is drawn on a page in `broken`: a phrase that starts there
- * shows its translation (with the parts from that page) under its first part
- * on a later page instead of "…".
- */
-function linesOf(page: number, ayahs: AyahData[], basmalah: Glyph | null, broken: Set<number>): Line[] {
+/** The surah's printed lines on `page`, in order, with their glyphs and phrase segments. */
+function linesOf(page: number, ayahs: AyahData[], basmalah: Glyph | null): Line[] {
   const lines = new Map<number, Line>();
   const lineAt = (n: number) => {
     let l = lines.get(n);
     if (!l) lines.set(n, (l = { n, glyphs: [], segments: [] }));
     return l;
   };
-  if (broken.has(page)) return [];
   if (basmalah) lineAt(basmalah.line).glyphs.push(basmalah);
   for (const a of ayahs) {
     for (const g of [...a.words, a.mark]) if (g.page === page) lineAt(g.line).glyphs.push(g);
     for (const p of a.phrases) {
       const words = a.words.slice(p.from - 1, p.to);
       const keys = [...new Set(words.map((w) => `${w.page}:${w.line}`))];
-      const first = keys.findIndex((k) => !broken.has(Number(k.split(":")[0])));
-      const parts = p.parts?.[LANG];
       keys.forEach((key, i) => {
         const part = words.filter((w) => `${w.page}:${w.line}` === key);
         if (part[0].page !== page) return;
         lineAt(part[0].line).segments.push({
           x0: Math.min(...part.map((w) => w.x0)),
           x1: Math.max(...part.map((w) => w.x1)),
-          text: parts ? (i === first ? parts.slice(0, i + 1).join(" ") : parts[i]) : i === first ? p.text[LANG] : null,
+          text: p.parts?.[LANG]?.[i] ?? (i === 0 ? p.text[LANG] : null),
         });
       });
     }

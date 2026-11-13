@@ -84,8 +84,10 @@ BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
   (80, 84, 88, 90, 94, 96); `PAGE_SPAN_OVERRIDES` in the build script follows
   the artwork for those.
 - Known upstream defects: mushaf pages 17 (Al-Baqarah 2:106–112) and 144
-  (Al-Anʿām 6:125–130) are scrambled in png.quran.ws. They are listed in
-  `BROKEN_PAGES` in the build script and show a notice instead of artwork.
+  (Al-Anʿām 6:125–130) are scrambled in png.quran.ws. They take their
+  artwork from the King Fahd Complex's 1441H vector files, which
+  png.quran.ws was cut from (`scripts/vector-pages.ts`, read with
+  `pdfjs-dist`).
 - The JSON in `public/data` is the contract for a future mobile app.
 
 ## Attribution
@@ -94,5 +96,8 @@ BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
   al-Madīnah V4 (1441H), riwāyah Ḥafṣ ʿan ʿĀṣim. Free for digital use per the
   Complex's terms.
 - Word decomposition: [png.quran.ws](https://png.quran.ws/about/), CC BY 4.0.
+- Pages 17 and 144: the Complex's 1441H vector files, via the
+  [MushafAlMadinahVector](https://github.com/MushafAlMadinahVector/MushafAlMadinahVector)
+  mirror; PDF reading with pdfjs-dist (Apache-2.0).
 - Indonesian translation adapted from Terjemahan Al-Qur'an Kemenag RI (2019).
 - Font: Plus Jakarta Sans (SIL Open Font License).

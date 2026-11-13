@@ -139,17 +139,6 @@ a {
   padding: 48px 0;
 }
 
-/* A page png.quran.ws draws broken (see BROKEN_PAGES in the build script). */
-.broken-page {
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  padding: 48px 8px;
-  margin: 0;
-}
-
 /* ---------- Surah header ---------- */
 
 .surah-head {

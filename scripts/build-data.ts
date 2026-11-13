@@ -18,6 +18,7 @@ import { join } from "node:path";
 import { DOMParser, type Element } from "@xmldom/xmldom";
 import svgpath from "svgpath";
 import { svgPathBbox } from "svg-path-bbox";
+import { VECTOR_PAGES, vectorArtwork } from "./vector-pages.ts";
 import type {
   AyahData,
   AyahSource,
@@ -26,7 +27,6 @@ import type {
   JuzListEntry,
   LocalizedText,
   MushafLayout,
-  MushafPageInfo,
   Phrase,
   RootIndex,
   SurahListEntry,
@@ -68,19 +68,6 @@ const PAGE_SPAN_OVERRIDES: Record<number, [number, number]> = {
   94: [596, 597],
   96: [597, 598],
 };
-
-/**
- * Mushaf pages that png.quran.ws draws broken, in every renderer version
- * (checked v1-v5, 2026-11-13): words piled on each other and run off the
- * right edge. Their artwork is not shown; the page shows a notice instead.
- * Their glyphs get line 0 and no paths, and are left out of every line
- * check, the crop and the band. Remove a page here once the API draws it
- * correctly (the build then checks it like any other page).
- * - 17 (2:106-112): 2:107's ornament sits above its own words, so page
- *   detection by height fails.
- * - 144 (6:125-130): detected as 7 printed lines instead of 15.
- */
-const BROKEN_PAGES = new Set([17, 144]);
 
 /**
  * First ayah of each juz (Ḥafṣ), as [surah, ayah]. Source: quran-meta 7.0.0,
@@ -342,7 +329,7 @@ function parseChunk(svg: string, surah: number): ChunkGlyph[] {
 
 const midY = (g: RawGlyph) => (g.y0 + g.y1) / 2;
 
-function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount: number) {
+async function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount: number) {
   const chunks = svgs.map((svg) => parseChunk(svg, surah));
   const glyphs = chunks.flat();
 
@@ -350,8 +337,7 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
   // pages with different matrices, so a page starts where the stacking
   // changes (inside a chunk) or the placement matrix changes (between
   // chunks). Reading order runs down a page, so a glyph that sits clearly
-  // higher than the previous one must also be the start of a page, except
-  // on a page the API draws broken (BROKEN_PAGES).
+  // higher than the previous one must also be the start of a page.
   const pageIdx: number[] = [];
   glyphs.forEach((g, i) => {
     const prev = glyphs[i - 1];
@@ -364,10 +350,33 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
   const pageTotal = pageIdx[pageIdx.length - 1] + 1;
   if (pageTotal !== pageCount)
     throw new Error(`${surah}: found ${pageTotal} pages in the artwork, expected ${pageCount}`);
-  const broken = (i: number) => BROKEN_PAGES.has(firstPage + pageIdx[i]);
+
+  // Pages png.quran.ws draws broken take their artwork from the vector
+  // edition it was cut from (scripts/vector-pages.ts); from here on they are
+  // checked like any other page.
+  for (let p = 0; p < pageTotal; p++) {
+    if (!VECTOR_PAGES[firstPage + p]) continue;
+    const idx = glyphs.flatMap((_, i) => (pageIdx[i] === p ? [i] : []));
+    if (idx.some((i) => glyphs[i].ayah === 0)) throw new Error(`${surah}: vector page ${firstPage + p} holds the basmalah`);
+    const m = glyphs[idx[0]].matrix.match(/^matrix\(([^)]+)\)$/)?.[1].split(/[\s,]+/).map(Number);
+    if (!m || m.length !== 6 || idx.some((i) => glyphs[i].matrix !== glyphs[idx[0]].matrix))
+      throw new Error(`${surah}: page ${firstPage + p} has no single page matrix`);
+    const art = await vectorArtwork(
+      firstPage + p,
+      idx.map((i) => ({ key: glyphs[i].key, mark: glyphs[i].n === 0, paths: glyphs[i].paths })),
+      m as [number, number, number, number, number, number],
+      CACHE_DIR,
+      (msg) => console.log(msg),
+    );
+    for (const i of idx) {
+      const a = art.get(glyphs[i].key)!;
+      Object.assign(glyphs[i], { paths: a.paths, x0: a.bb[0], y0: a.bb[1], x1: a.bb[2], y1: a.bb[3] });
+    }
+  }
+
   glyphs.forEach((g, i) => {
     const prev = glyphs[i - 1];
-    if (!prev || broken(i) || broken(i - 1)) return;
+    if (!prev) return;
     const jump = midY(g) < midY(prev) - PAGE_JUMP;
     if (jump !== (pageIdx[i] !== pageIdx[i - 1]))
       throw new Error(
@@ -381,18 +390,15 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
   // neighbouring words may overlap; a glyph entirely right of the previous
   // one starts a new line. The basmalah is always a line of its own: on page
   // 305 (Maryam) its ink reaches past the right edge of 19:1's first word.
-  // Glyphs on a broken page all get line index -1 (line 0 in the output).
   const lineOf: number[] = [];
   glyphs.forEach((g, i) => {
     const prev = glyphs[i - 1];
-    if (broken(i)) lineOf.push(-1);
-    else if (!prev || pageIdx[i - 1] !== pageIdx[i]) lineOf.push(0);
+    if (!prev || pageIdx[i - 1] !== pageIdx[i]) lineOf.push(0);
     else lineOf.push(lineOf[i - 1] + (g.x0 > prev.x1 || prev.ayah === 0 ? 1 : 0));
   });
 
   const pages = Array.from({ length: pageTotal }, (_, p) => {
     const idx = glyphs.flatMap((_, i) => (pageIdx[i] === p ? [i] : []));
-    if (BROKEN_PAGES.has(firstPage + p)) return { lines: 0, centres: [], known: [], broken: true };
     const lines = lineOf[idx[idx.length - 1]] + 1;
     // Sanity: every glyph's vertical centre sits near its line's median, or
     // at least inside the ink of the line's other glyphs. A word with no
@@ -418,7 +424,7 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
     const centres: (number | null)[] = Array.from({ length: lines }, () => null);
     for (const i of idx) if (glyphs[i].ayah && glyphs[i].n === 0) centres[lineOf[i]] = (glyphs[i].y0 + glyphs[i].y1) / 2;
     const known = centres.flatMap((c, i) => (c === null ? [] : [[i, c] as const]));
-    return { lines, centres, known, broken: false };
+    return { lines, centres, known };
   });
 
   // Pitch for pages with fewer than two ornaments: borrow one from another
@@ -437,13 +443,11 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
   };
 
   // Crop to the ink of the whole surah, so x starts at 0 on every page.
-  const shown = glyphs.filter((_, i) => !broken(i));
-  const left = Math.min(...shown.map((g) => g.x0));
-  const width = Math.max(...shown.map((g) => g.x1)) - left;
+  const left = Math.min(...glyphs.map((g) => g.x0));
+  const width = Math.max(...glyphs.map((g) => g.x1)) - left;
   let top = 0;
   let bottom = 0;
   const placed = glyphs.map((g, i) => {
-    if (broken(i)) return { ...g, pageIdx: pageIdx[i], line: 0, x0: g.x0 - left, x1: g.x1 - left, paths: [] };
     const dy = centre(pageIdx[i], lineOf[i]);
     top = Math.min(top, g.y0 - dy);
     bottom = Math.max(bottom, g.y1 - dy);
@@ -462,7 +466,7 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
   // page 144, 6:125-130, that way in every renderer version) without any
   // glyph leaving its line, so the check above cannot see it.
   pages.forEach((p, i) => {
-    if (i > 0 && i < pages.length - 1 && !p.broken && p.lines !== 15)
+    if (i > 0 && i < pages.length - 1 && p.lines !== 15)
       throw new Error(
         `${surah}: mushaf page ${firstPage + i} has ${p.lines} printed lines, expected 15; ` +
           `the source artwork may be broken, check it at png.quran.ws`,
@@ -474,7 +478,6 @@ function parsePlate(svgs: string[], surah: number, firstPage: number, pageCount:
     width: round(width),
     band: { top: Math.floor(top - BAND_PAD), bottom: Math.ceil(bottom + BAND_PAD) },
     pageLines: pages.map((p) => p.lines),
-    pageBroken: pages.map((p) => p.broken),
     glyphs: placed,
   };
 }
@@ -518,7 +521,7 @@ async function buildSurah(file: string): Promise<void> {
   const src = JSON.parse(await readFile(join(CONTENT_DIR, file), "utf8")) as SurahSource;
   const meta = await surahMeta(src.surah);
   const [firstPage, lastPage] = PAGE_SPAN_OVERRIDES[src.surah] ?? meta.pages;
-  const plate = parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, firstPage, lastPage - firstPage + 1);
+  const plate = await parsePlate(await surahSvgs(src.surah, meta.ayahs), src.surah, firstPage, lastPage - firstPage + 1);
   const outDir = join(OUT_DIR, String(src.surah));
   await mkdir(outDir, { recursive: true });
 
@@ -542,7 +545,7 @@ async function buildSurah(file: string): Promise<void> {
 
     const ayahSrc = src.ayahs[String(ayah)];
     const data: AyahData = {
-      version: 5,
+      version: 4,
       key,
       surah: src.surah,
       ayah,
@@ -571,15 +574,11 @@ async function buildSurah(file: string): Promise<void> {
     left: plate.left,
     width: plate.width,
     band: plate.band,
-    pages: plate.pageLines.map((lines, i) => {
-      const info: MushafPageInfo = { page: firstPage + i, lines, ayahs: pageAyahs(firstPage + i) };
-      if (plate.pageBroken[i]) info.broken = true;
-      return info;
-    }),
+    pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines, ayahs: pageAyahs(firstPage + i) })),
     basmalah: basmalah ? toGlyph(basmalah) : null,
   };
   const index: SurahIndex = {
-    version: 5,
+    version: 4,
     surah: src.surah,
     name: src.name,
     ayahs: Array.from({ length: meta.ayahs }, (_, i) => i + 1),

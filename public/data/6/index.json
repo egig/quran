@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 4,
   "surah": 6,
   "name": {
     "ar": "الأنعام",
@@ -310,12 +310,11 @@
       },
       {
         "page": 144,
-        "lines": 0,
+        "lines": 15,
         "ayahs": [
           125,
           130
-        ],
-        "broken": true
+        ]
       },
       {
         "page": 145,
