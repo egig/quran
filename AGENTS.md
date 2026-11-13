@@ -88,7 +88,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 17–114 come from the `quran-pack` npm package
+- The full sentences for surahs 8–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed and runs of whitespace collapsed. Scraping typos
   (missing spaces) are fixed: 28:77, 46:1, 46:10, 50:19, 52:16, 53:54, 56:38,
@@ -140,6 +140,10 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Artwork is fetched in chunks of 10 ayahs (the API refuses very large
   ranges). Glyphs are read in printed-page coordinates, so chunks join
   exactly.
+- Line detection checks that every glyph sits on its line: near the line's
+  median centre, or with its centre inside the other glyphs' ink. A word
+  with no ascender and a mark below sits low (14:25 حِينٍۭ, page 259); a
+  glyph from a neighbouring line still stops the build.
 - Known upstream defect: png.quran.ws draws mushaf page 17 (Al-Baqarah
   2:106–110) with words piled on each other, in every renderer version. The
   build stops there. Don't work around it by moving artwork; report it
