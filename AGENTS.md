@@ -76,11 +76,20 @@ Madinah mushaf prints it, with an Indonesian translation under each
   artwork, with no translation.
 - No card or frame around the page: the mushaf sits directly on the
   background.
-- `/` is the table of contents: all 114 surahs (number, Latin and Arabic
-  name, ayah count, Makkiyah/Madaniyah, mushaf pages). Built surahs link to
-  the mushaf page they start on (`/{page}#s{surah}`); the others are muted
-  and not clickable. Mushaf pages have a "Daftar surah" link back at the top
-  left.
+- `/` is the table of contents ("Daftar Isi") with two tabs, Surah and Juz
+  (`/?daftar=juz`; arrow keys move between tabs). The Surah tab lists all
+  114 surahs (number, Latin and Arabic name, ayah count,
+  Makkiyah/Madaniyah, mushaf pages). Built surahs link to the mushaf page
+  they start on (`/{page}#s{surah}`); the others are muted and not
+  clickable. The Juz tab lists all 30 juz (first and last ayah, mushaf
+  pages). A juz links to the page it starts on once every surah it touches
+  is built; its pages come only from the artwork, so they show only when
+  the surahs at both ends are built. Mushaf pages have a "Daftar isi" link
+  back at the top left.
+- Juz boundaries are ayah numbers (`JUZ_STARTS` in the build script, from
+  quran-meta 7.0.0 `HafsLists.JuzList`). Never take juz or page numbers
+  from another mushaf's page table: the V4 artwork breaks some pages
+  differently from the 1405H print (e.g. 55:17, 80:41).
 - Names for surahs not yet in `content/` come from the API list, with its
   stand-in letters mapped to the usual transliteration (ĥ→ḥ, `→ʿ, …).
 
