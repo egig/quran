@@ -1,0 +1,171 @@
+{
+  "surah": 65,
+  "name": { "ar": "الطلاق", "latin": "Aṭ-Ṭalāq" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai Nabi" },
+        { "words": [3, 5], "id": "apabila kamu menceraikan istri-istrimu" },
+        { "words": [6, 7], "id": "hendaklah kamu ceraikan mereka pada waktu mereka dapat (menghadapi) idahnya (yang wajar)" },
+        { "words": [8, 9], "id": "dan hitunglah waktu idah itu" },
+        { "words": [10, 12], "id": "serta bertakwalah kepada Allah Tuhanmu" },
+        { "words": [13, 16], "id": "Janganlah kamu keluarkan mereka dari rumahnya" },
+        { "words": [17, 18], "id": "dan janganlah (diizinkan) keluar" },
+        { "words": [19, 23], "id": ["kecuali jika", "mereka mengerjakan perbuatan keji yang jelas"] },
+        { "words": [24, 26], "id": "Itulah hukum-hukum Allah" },
+        { "words": [27, 30], "id": "Siapa melanggar hukum-hukum Allah" },
+        { "words": [31, 33], "id": "maka sungguh, dia telah berbuat zalim terhadap dirinya sendiri" },
+        { "words": [34, 35], "id": "Kamu tidak mengetahui" },
+        { "words": [36, 41], "id": "boleh jadi setelah itu Allah mengadakan suatu ketentuan yang baru" }
+      ],
+      "full": { "id": "Wahai Nabi, apabila kamu menceraikan istri-istrimu, hendaklah kamu ceraikan mereka pada waktu mereka dapat (menghadapi) idahnya (yang wajar), dan hitunglah waktu idah itu, serta bertakwalah kepada Allah Tuhanmu. Janganlah kamu keluarkan mereka dari rumahnya dan janganlah (diizinkan) keluar kecuali jika mereka mengerjakan perbuatan keji yang jelas. Itulah hukum-hukum Allah. Siapa melanggar hukum-hukum Allah, maka sungguh, dia telah berbuat zalim terhadap dirinya sendiri. Kamu tidak mengetahui boleh jadi setelah itu Allah mengadakan suatu ketentuan yang baru." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila mereka telah mendekati akhir idahnya" },
+        { "words": [4, 5], "id": "rujuklah dengan mereka secara baik" },
+        { "words": [6, 8], "id": "atau lepaskanlah mereka secara baik" },
+        { "words": [9, 12], "id": "dan persaksikanlah dengan dua orang saksi yang adil dari kamu" },
+        { "words": [13, 15], "id": "dan hendaklah kamu tegakkan kesaksian itu karena Allah" },
+        { "words": [16, 24], "id": ["Yang demikian itu dinasihatkan", "kepada orang-orang di antara kamu yang beriman kepada Allah dan hari akhir"] },
+        { "words": [25, 27], "id": "Siapa yang bertakwa kepada Allah" },
+        { "words": [28, 30], "id": "niscaya Dia akan membukakan jalan keluar baginya" }
+      ],
+      "full": { "id": "Apabila mereka telah mendekati akhir idahnya, rujuklah dengan mereka secara baik atau lepaskanlah mereka secara baik dan persaksikanlah dengan dua orang saksi yang adil dari kamu dan hendaklah kamu tegakkan kesaksian itu karena Allah. Yang demikian itu dinasihatkan kepada orang-orang di antara kamu yang beriman kepada Allah dan hari akhir. Siapa yang bertakwa kepada Allah, niscaya Dia akan membukakan jalan keluar baginya" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 5], "id": "dan menganugerahkan kepadanya rezeki dari arah yang tidak dia duga" },
+        { "words": [6, 9], "id": "Siapa yang bertawakal kepada Allah" },
+        { "words": [10, 11], "id": "niscaya Allah akan mencukupkan (keperluan)-nya" },
+        { "words": [12, 15], "id": "Sesungguhnya Allahlah yang menuntaskan urusan-Nya" },
+        { "words": [16, 21], "id": "Sungguh, Allah telah membuat ketentuan bagi setiap sesuatu" }
+      ],
+      "full": { "id": "dan menganugerahkan kepadanya rezeki dari arah yang tidak dia duga. Siapa yang bertawakal kepada Allah, niscaya Allah akan mencukupkan (keperluan)-nya. Sesungguhnya Allahlah yang menuntaskan urusan-Nya. Sungguh, Allah telah membuat ketentuan bagi setiap sesuatu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Perempuan-perempuan yang tidak mungkin", "haid lagi (menopause)"] },
+        { "words": [5, 6], "id": "di antara istri-istrimu" },
+        { "words": [7, 8], "id": "jika kamu ragu-ragu (tentang masa idahnya)" },
+        { "words": [9, 11], "id": "maka idahnya adalah tiga bulan" },
+        { "words": [12, 14], "id": "Begitu (pula) perempuan-perempuan yang tidak haid (belum dewasa)" },
+        { "words": [15, 16], "id": "Adapun perempuan-perempuan yang hamil" },
+        { "words": [17, 20], "id": "waktu idah mereka adalah sampai mereka melahirkan kandungannya" },
+        { "words": [21, 23], "id": "Siapa yang bertakwa kepada Allah" },
+        { "words": [24, 28], "id": "niscaya Dia menjadikan kemudahan baginya dalam urusannya" }
+      ],
+      "full": { "id": "Perempuan-perempuan yang tidak mungkin haid lagi (menopause) di antara istri-istrimu jika kamu ragu-ragu (tentang masa idahnya) maka idahnya adalah tiga bulan. Begitu (pula) perempuan-perempuan yang tidak haid (belum dewasa). Adapun perempuan-perempuan yang hamil, waktu idah mereka adalah sampai mereka melahirkan kandungannya. Siapa yang bertakwa kepada Allah, niscaya Dia menjadikan kemudahan baginya dalam urusannya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Ketentuan idah) itu merupakan perintah Allah" },
+        { "words": [4, 5], "id": ["yang diturunkan-Nya", "kepada kamu"] },
+        { "words": [6, 8], "id": "Siapa yang bertakwa kepada Allah" },
+        { "words": [9, 11], "id": "niscaya Allah akan menghapus kesalahan-kesalahannya" },
+        { "words": [12, 14], "id": "dan akan memperbesar pahala baginya" }
+      ],
+      "full": { "id": "(Ketentuan idah) itu merupakan perintah Allah yang diturunkan-Nya kepada kamu. Siapa yang bertakwa kepada Allah, niscaya Allah akan menghapus kesalahan-kesalahannya dan akan memperbesar pahala baginya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Tempatkanlah mereka (para istri yang dicerai)" },
+        { "words": [2, 4], "id": "di mana kamu bertempat tinggal" },
+        { "words": [5, 6], "id": "menurut kemampuanmu" },
+        { "words": [7, 8], "id": "dan janganlah kamu menyusahkan mereka" },
+        { "words": [9, 10], "id": ["untuk menyempitkan", "(hati) mereka"] },
+        { "words": [11, 14], "id": "Jika mereka (para istri yang dicerai) itu sedang hamil" },
+        { "words": [15, 16], "id": "maka berikanlah kepada mereka nafkahnya" },
+        { "words": [17, 19], "id": "sampai mereka melahirkan" },
+        { "words": [20, 22], "id": ["kemudian jika", "mereka menyusukan (anak-anak)-mu"] },
+        { "words": [23, 24], "id": "maka berikanlah imbalannya kepada mereka" },
+        { "words": [25, 27], "id": "dan musyawarahkanlah di antara kamu (segala sesuatu) dengan baik" },
+        { "words": [28, 29], "id": ["dan jika", "kamu sama-sama menemui kesulitan (dalam hal penyusuan)"] },
+        { "words": [30, 32], "id": "maka perempuan lain boleh menyusukan (anak itu) untuknya" }
+      ],
+      "full": { "id": "Tempatkanlah mereka (para istri yang dicerai) di mana kamu bertempat tinggal menurut kemampuanmu dan janganlah kamu menyusahkan mereka untuk menyempitkan (hati) mereka. Jika mereka (para istri yang dicerai) itu sedang hamil, maka berikanlah kepada mereka nafkahnya sampai mereka melahirkan, kemudian jika mereka menyusukan (anak-anak)-mu maka berikanlah imbalannya kepada mereka; dan musyawarahkanlah di antara kamu (segala sesuatu) dengan baik; dan jika kamu sama-sama menemui kesulitan (dalam hal penyusuan), maka perempuan lain boleh menyusukan (anak itu) untuknya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 5], "id": "Hendaklah orang yang lapang (rezekinya) memberi nafkah menurut kemampuannya" },
+        { "words": [6, 9], "id": ["dan orang", "yang disempitkan rezekinya"] },
+        { "words": [10, 13], "id": "hendaklah memberi nafkah dari apa (harta) yang dianugerahkan Allah kepadanya" },
+        { "words": [14, 20], "id": ["Allah tidak membebani kepada seseorang melainkan", "(sesuai) dengan apa yang dianugerahkan Allah kepadanya"] },
+        { "words": [21, 25], "id": "Allah kelak akan menganugerahkan kelapangan setelah kesempitan" }
+      ],
+      "full": { "id": "Hendaklah orang yang lapang (rezekinya) memberi nafkah menurut kemampuannya, dan orang yang disempitkan rezekinya, hendaklah memberi nafkah dari apa (harta) yang dianugerahkan Allah kepadanya. Allah tidak membebani kepada seseorang melainkan (sesuai) dengan apa yang dianugerahkan Allah kepadanya. Allah kelak akan menganugerahkan kelapangan setelah kesempitan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 8], "id": ["Betapa banyak (penduduk) negeri yang mendurhakai", "perintah Tuhan mereka dan rasul-rasul-Nya"] },
+        { "words": [9, 11], "id": "maka Kami buat perhitungan terhadap penduduk negeri itu dengan perhitungan yang ketat" },
+        { "words": [12, 14], "id": ["dan Kami azab mereka dengan azab", "yang mengerikan"] }
+      ],
+      "full": { "id": "Betapa banyak (penduduk) negeri yang mendurhakai perintah Tuhan mereka dan rasul-rasul-Nya, maka Kami buat perhitungan terhadap penduduk negeri itu dengan perhitungan yang ketat, dan Kami azab mereka dengan azab yang mengerikan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "Maka, mereka telah merasakan akibat buruk dari perbuatannya" },
+        { "words": [4, 7], "id": "dan akibat perbuatan mereka itu adalah kerugian yang besar" }
+      ],
+      "full": { "id": "Maka, mereka telah merasakan akibat buruk dari perbuatannya, dan akibat perbuatan mereka itu adalah kerugian yang besar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Allah telah menyediakan", "azab yang sangat pedih bagi mereka"] },
+        { "words": [6, 7], "id": "Maka, bertakwalah kepada Allah" },
+        { "words": [8, 9], "id": "wahai ululalbab (orang-orang yang berakal sehat, berhati bersih, dan cerdas,)" },
+        { "words": [10, 11], "id": "(yaitu) orang-orang yang beriman" },
+        { "words": [12, 16], "id": "Sungguh, Allah telah menurunkan peringatan kepadamu" }
+      ],
+      "full": { "id": "Allah telah menyediakan azab yang sangat pedih bagi mereka. Maka, bertakwalah kepada Allah, wahai ululalbab (orang-orang yang berakal sehat, berhati bersih, dan cerdas,) (yaitu) orang-orang yang beriman. Sungguh, Allah telah menurunkan peringatan kepadamu" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 6], "id": "(berupa) seorang Rasul yang membacakan ayat-ayat Allah kepadamu yang menerangkan (bermacam-macam hukum)" },
+        { "words": [7, 11], "id": ["agar dia mengeluarkan", "orang-orang yang beriman dan mengerjakan kebajikan"] },
+        { "words": [12, 15], "id": "dari kegelapan kepada cahaya" },
+        { "words": [16, 20], "id": ["Siapa yang beriman", "kepada Allah dan mengerjakan kebajikan"] },
+        { "words": [21, 26], "id": "niscaya akan Dia masukkan ke dalam surga-surga yang mengalir di bawahnya sungai-sungai" },
+        { "words": [27, 29], "id": ["Mereka kekal", "di dalamnya selama-lamanya"] },
+        { "words": [30, 34], "id": "Sungguh, Allah telah menganugerahkan rezeki yang baik kepadanya" }
+      ],
+      "full": { "id": "(berupa) seorang Rasul yang membacakan ayat-ayat Allah kepadamu yang menerangkan (bermacam-macam hukum) agar dia mengeluarkan orang-orang yang beriman dan mengerjakan kebajikan dari kegelapan kepada cahaya. Siapa yang beriman kepada Allah dan mengerjakan kebajikan, niscaya akan Dia masukkan ke dalam surga-surga yang mengalir di bawahnya sungai-sungai. Mereka kekal di dalamnya selama-lamanya. Sungguh, Allah telah menganugerahkan rezeki yang baik kepadanya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 5], "id": "Allahlah yang menciptakan tujuh langit" },
+        { "words": [6, 8], "id": "dan (menciptakan pula) bumi seperti itu" },
+        { "words": [9, 11], "id": "Perintah-Nya berlaku padanya" },
+        { "words": [12, 14], "id": "agar kamu mengetahui bahwa Allah" },
+        { "words": [15, 18], "id": "Maha Kuasa atas segala sesuatu" },
+        { "words": [19, 25], "id": "dan ilmu Allah benar-benar meliputi segala sesuatu" }
+      ],
+      "full": { "id": "Allahlah yang menciptakan tujuh langit dan (menciptakan pula) bumi seperti itu. Perintah-Nya berlaku padanya agar kamu mengetahui bahwa Allah Maha Kuasa atas segala sesuatu dan ilmu Allah benar-benar meliputi segala sesuatu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

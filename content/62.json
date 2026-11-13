@@ -1,0 +1,142 @@
+{
+  "surah": 62,
+  "name": { "ar": "الجمعة", "latin": "Al-Jumuʿah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 2], "id": "Senantiasa bertasbih kepada Allah" },
+        { "words": [3, 8], "id": "apa yang ada di langit dan apa yang ada di bumi" },
+        { "words": [9, 9], "id": "Yang Maha Raja" },
+        { "words": [10, 10], "id": "Maha Suci" },
+        { "words": [11, 11], "id": "Maha Perkasa" },
+        { "words": [12, 12], "id": "Maha Bijaksana" }
+      ],
+      "full": { "id": "Apa yang ada di langit dan apa yang ada di bumi senantiasa bertasbih kepada Allah Yang Maha Raja, Maha Suci, Maha Perkasa, lagi Maha Bijaksana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": "Dialah yang mengutus" },
+        { "words": [4, 5], "id": "kepada kaum yang buta huruf" },
+        { "words": [6, 7], "id": "seorang Rasul (Nabi Muhammad) dari (kalangan) mereka sendiri" },
+        { "words": [8, 10], "id": ["yang membacakan kepada mereka", "ayat-ayat-Nya"] },
+        { "words": [11, 11], "id": "menyucikan (jiwa) mereka" },
+        { "words": [12, 14], "id": "serta mengajarkan kepada mereka Kitab (Al-Qur’an) dan Hikmah (sunah)" },
+        { "words": [15, 18], "id": "meskipun sebelumnya mereka" },
+        { "words": [19, 21], "id": "benar-benar dalam kesesatan yang nyata" }
+      ],
+      "full": { "id": "Dialah yang mengutus seorang Rasul (Nabi Muhammad) kepada kaum yang buta huruf dari (kalangan) mereka sendiri, yang membacakan kepada mereka ayat-ayat-Nya, menyucikan (jiwa) mereka, serta mengajarkan kepada mereka Kitab (Al-Qur’an) dan Hikmah (sunah), meskipun sebelumnya mereka benar-benar dalam kesesatan yang nyata." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Allah juga mengutus Nabi Muhammad) kepada (kaum) selain mereka" },
+        { "words": [3, 5], "id": "yang belum (datang) menyusul mereka" },
+        { "words": [6, 7], "id": "Dialah Yang Maha Perkasa" },
+        { "words": [8, 8], "id": "Maha Bijaksana" }
+      ],
+      "full": { "id": "(Allah juga mengutus Nabi Muhammad) kepada (kaum) selain mereka yang belum (datang) menyusul mereka. Dialah Yang Maha Perkasa lagi Maha Bijaksana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 3], "id": "Itulah karunia Allah" },
+        { "words": [4, 6], "id": "yang dianugerahkan kepada siapa yang Dia kehendaki" },
+        { "words": [7, 10], "id": ["Allah", "memiliki karunia yang besar"] }
+      ],
+      "full": { "id": "Itulah karunia Allah yang dianugerahkan kepada siapa yang Dia kehendaki. Allah memiliki karunia yang besar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 4], "id": "Perumpamaan orang-orang yang dibebani tugas mengamalkan Taurat" },
+        { "words": [5, 7], "id": ["kemudian tidak", "mengamalkannya"] },
+        { "words": [8, 11], "id": "adalah seperti keledai yang membawa kitab-kitab (tebal tanpa mengerti kandungannya)" },
+        { "words": [12, 18], "id": ["Sangat buruk perumpamaan kaum", "yang mendustakan ayat-ayat Allah"] },
+        { "words": [19, 23], "id": "Allah tidak memberi petunjuk kepada kaum yang zalim" }
+      ],
+      "full": { "id": "Perumpamaan orang-orang yang dibebani tugas mengamalkan Taurat, kemudian tidak mengamalkannya, adalah seperti keledai yang membawa kitab-kitab (tebal tanpa mengerti kandungannya). Sangat buruk perumpamaan kaum yang mendustakan ayat-ayat Allah. Allah tidak memberi petunjuk kepada kaum yang zalim." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
+        { "words": [2, 4], "id": "Wahai orang-orang Yahudi" },
+        { "words": [5, 9], "id": "jika kamu mengira bahwa kamulah kekasih Allah" },
+        { "words": [10, 12], "id": ["(dan) bukan", "orang lain"] },
+        { "words": [13, 14], "id": "harapkanlah kematianmu" },
+        { "words": [15, 17], "id": "jika kamu orang-orang benar" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Wahai orang-orang Yahudi, jika kamu mengira bahwa kamulah kekasih Allah (dan) bukan orang lain, harapkanlah kematianmu, jika kamu orang-orang benar.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Mereka tidak akan mengharapkan kematian itu", "selamanya"] },
+        { "words": [4, 6], "id": "disebabkan apa (keburukan) yang telah mereka perbuat dengan tangan mereka sendiri" },
+        { "words": [7, 9], "id": "Allah Maha Mengetahui orang-orang zalim" }
+      ],
+      "full": { "id": "Mereka tidak akan mengharapkan kematian itu selamanya disebabkan apa (keburukan) yang telah mereka perbuat dengan tangan mereka sendiri. Allah Maha Mengetahui orang-orang zalim." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 1], "id": "Katakanlah" },
+        { "words": [2, 6], "id": "Sesungguhnya kematian yang kamu lari darinya" },
+        { "words": [7, 8], "id": "pasti akan menemuimu" },
+        { "words": [9, 11], "id": ["Kamu kemudian akan dikembalikan", "kepada"] },
+        { "words": [12, 14], "id": "Yang Maha Mengetahui yang gaib dan yang nyata" },
+        { "words": [15, 18], "id": "lalu Dia beritakan kepadamu apa yang selama ini kamu kerjakan" }
+      ],
+      "full": { "id": "Katakanlah, “Sesungguhnya kematian yang kamu lari darinya pasti akan menemuimu. Kamu kemudian akan dikembalikan kepada Yang Maha Mengetahui yang gaib dan yang nyata, lalu Dia beritakan kepadamu apa yang selama ini kamu kerjakan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 9], "id": "apabila (seruan) untuk melaksanakan salat pada hari Jumat telah dikumandangkan" },
+        { "words": [10, 13], "id": ["segeralah", "mengingat Allah"] },
+        { "words": [14, 15], "id": "dan tinggalkanlah jual beli" },
+        { "words": [16, 18], "id": "Yang demikian itu lebih baik bagimu" },
+        { "words": [19, 21], "id": "jika kamu mengetahui" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, apabila (seruan) untuk melaksanakan salat pada hari Jumat telah dikumandangkan, segeralah mengingat Allah dan tinggalkanlah jual beli. Yang demikian itu lebih baik bagimu jika kamu mengetahui." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila salat (Jumat) telah dilaksanakan" },
+        { "words": [4, 6], "id": "bertebaranlah kamu di bumi" },
+        { "words": [7, 10], "id": ["carilah", "karunia Allah"] },
+        { "words": [11, 13], "id": "dan ingatlah Allah sebanyak-banyaknya" },
+        { "words": [14, 15], "id": "agar kamu beruntung" }
+      ],
+      "full": { "id": "Apabila salat (Jumat) telah dilaksanakan, bertebaranlah kamu di bumi, carilah karunia Allah, dan ingatlah Allah sebanyak-banyaknya agar kamu beruntung." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 5], "id": "Apabila (sebagian) mereka melihat perdagangan atau permainan" },
+        { "words": [6, 7], "id": "mereka segera berpencar (menuju) padanya" },
+        { "words": [8, 9], "id": "dan meninggalkan engkau (Nabi Muhammad) yang sedang berdiri (berkhotbah)" },
+        { "words": [10, 10], "id": "Katakanlah" },
+        { "words": [11, 14], "id": ["Apa yang ada di sisi", "Allah lebih baik"] },
+        { "words": [15, 18], "id": "daripada permainan dan perdagangan" },
+        { "words": [19, 21], "id": "Allah pemberi rezeki yang terbaik" }
+      ],
+      "full": { "id": "Apabila (sebagian) mereka melihat perdagangan atau permainan, mereka segera berpencar (menuju) padanya dan meninggalkan engkau (Nabi Muhammad) yang sedang berdiri (berkhotbah). Katakanlah, “Apa yang ada di sisi Allah lebih baik daripada permainan dan perdagangan.” Allah pemberi rezeki yang terbaik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

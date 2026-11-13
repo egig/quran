@@ -1,0 +1,207 @@
+{
+  "surah": 60,
+  "name": { "ar": "الممتحنة", "latin": "Al-Mumtaḥanah" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 8], "id": "Janganlah kamu menjadikan musuh-Ku dan musuhmu sebagai teman setia" },
+        { "words": [9, 11], "id": ["Kamu sampaikan kepada mereka (hal-hal yang seharusnya dirahasiakan)", "karena rasa kasih sayang (kamu kepada mereka)"] },
+        { "words": [12, 17], "id": "Padahal, mereka telah mengingkari kebenaran yang datang kepadamu" },
+        { "words": [18, 20], "id": "Mereka mengusir Rasul dan kamu (dari Makkah)" },
+        { "words": [21, 24], "id": ["karena", "kamu beriman kepada Allah, Tuhanmu"] },
+        { "words": [25, 28], "id": "Jika kamu keluar untuk berjihad" },
+        { "words": [29, 30], "id": "pada jalan-Ku" },
+        { "words": [31, 32], "id": "dan mencari keridaan-Ku, (janganlah kamu berbuat demikian)" },
+        { "words": [33, 35], "id": "Kamu memberitahukan secara rahasia (hal-hal yang seharusnya dirahasiakan) kepada mereka karena rasa kasih sayang" },
+        { "words": [36, 37], "id": "Aku lebih tahu" },
+        { "words": [38, 41], "id": "tentang apa yang kamu sembunyikan dan apa yang kamu nyatakan" },
+        { "words": [42, 44], "id": ["Siapa", "di antara kamu yang melakukannya"] },
+        { "words": [45, 48], "id": "sungguh telah tersesat dari jalan yang lurus" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman. Janganlah kamu menjadikan musuh-Ku dan musuhmu sebagai teman setia. Kamu sampaikan kepada mereka (hal-hal yang seharusnya dirahasiakan) karena rasa kasih sayang (kamu kepada mereka). Padahal, mereka telah mengingkari kebenaran yang datang kepadamu. Mereka mengusir Rasul dan kamu (dari Makkah) karena kamu beriman kepada Allah, Tuhanmu. Jika kamu keluar untuk berjihad pada jalan-Ku dan mencari keridaan-Ku, (janganlah kamu berbuat demikian). Kamu memberitahukan secara rahasia (hal-hal yang seharusnya dirahasiakan) kepada mereka karena rasa kasih sayang. Aku lebih tahu tentang apa yang kamu sembunyikan dan apa yang kamu nyatakan. Siapa di antara kamu yang melakukannya sungguh telah tersesat dari jalan yang lurus." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 2], "id": "Jika (suatu saat) mereka menangkapmu" },
+        { "words": [3, 5], "id": "niscaya mereka bertindak sebagai musuh bagimu" },
+        { "words": [6, 10], "id": "Lalu, mereka melepaskan tangan dan lidahnya kepadamu untuk menyakiti" },
+        { "words": [11, 13], "id": "dan mereka ingin agar kamu (kembali) kafir" }
+      ],
+      "full": { "id": "Jika (suatu saat) mereka menangkapmu, niscaya mereka bertindak sebagai musuh bagimu. Lalu, mereka melepaskan tangan dan lidahnya kepadamu untuk menyakiti dan mereka ingin agar kamu (kembali) kafir." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 5], "id": "Kaum kerabatmu dan anak-anakmu tidak akan bermanfaat bagimu" },
+        { "words": [6, 7], "id": "pada hari Kiamat" },
+        { "words": [8, 9], "id": "Kelak Dia akan memisahkan antara kamu" },
+        { "words": [10, 13], "id": ["Allah", "Maha Melihat apa yang kamu kerjakan"] }
+      ],
+      "full": { "id": "Kaum kerabatmu dan anak-anakmu tidak akan bermanfaat bagimu pada hari Kiamat. Kelak Dia akan memisahkan antara kamu. Allah Maha Melihat apa yang kamu kerjakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 5], "id": "Sungguh, benar-benar ada suri teladan yang baik bagimu" },
+        { "words": [6, 9], "id": ["pada (diri) Ibrahim dan orang-orang", "yang bersama dengannya"] },
+        { "words": [10, 12], "id": "ketika mereka berkata kepada kaumnya" },
+        { "words": [13, 15], "id": "Sesungguhnya kami berlepas diri dari kamu" },
+        { "words": [16, 20], "id": "dan dari apa yang kamu sembah selain Allah" },
+        { "words": [21, 22], "id": "Kami mengingkari (kekufuran)-mu" },
+        { "words": [23, 27], "id": "dan telah nyata antara kami dan kamu ada permusuhan dan kebencian" },
+        { "words": [28, 28], "id": "untuk selama-lamanya" },
+        { "words": [29, 32], "id": ["sampai kamu beriman", "kepada Allah saja"] },
+        { "words": [33, 36], "id": "Akan tetapi, (janganlah engkau teladani) perkataan Ibrahim kepada ayahnya" },
+        { "words": [37, 38], "id": "Sungguh, aku akan memohonkan ampunan bagimu" },
+        { "words": [39, 45], "id": "tetapi aku sama sekali tidak dapat menolak (siksaan) Allah terhadapmu" },
+        { "words": [46, 48], "id": "(Ibrahim berkata,) Ya Tuhan kami, hanya kepada Engkau kami bertawakal" },
+        { "words": [49, 50], "id": "hanya kepada Engkau kami bertobat" },
+        { "words": [51, 52], "id": "dan hanya kepada Engkaulah kami kembali" }
+      ],
+      "full": { "id": "Sungguh, benar-benar ada suri teladan yang baik bagimu pada (diri) Ibrahim dan orang-orang yang bersama dengannya ketika mereka berkata kepada kaumnya, “Sesungguhnya kami berlepas diri dari kamu dan dari apa yang kamu sembah selain Allah. Kami mengingkari (kekufuran)-mu dan telah nyata antara kami dan kamu ada permusuhan dan kebencian untuk selama-lamanya sampai kamu beriman kepada Allah saja.” Akan tetapi, (janganlah engkau teladani) perkataan Ibrahim kepada ayahnya, “Sungguh, aku akan memohonkan ampunan bagimu, tetapi aku sama sekali tidak dapat menolak (siksaan) Allah terhadapmu.” (Ibrahim berkata,) “Ya Tuhan kami, hanya kepada Engkau kami bertawakal, hanya kepada Engkau kami bertobat, dan hanya kepada Engkaulah kami kembali." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Ya Tuhan kami", "janganlah Engkau jadikan kami"] },
+        { "words": [4, 6], "id": "(sasaran) fitnah bagi orang-orang kafir" },
+        { "words": [7, 8], "id": "Ampunilah kami" },
+        { "words": [9, 9], "id": "ya Tuhan kami" },
+        { "words": [10, 12], "id": "Sesungguhnya Engkau Yang Maha Perkasa" },
+        { "words": [13, 13], "id": "Maha Bijaksana" }
+      ],
+      "full": { "id": "Ya Tuhan kami, janganlah Engkau jadikan kami (sasaran) fitnah bagi orang-orang kafir. Ampunilah kami, ya Tuhan kami. Sesungguhnya Engkau Yang Maha Perkasa lagi Maha Bijaksana.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 6], "id": "Sungguh pada mereka itu (Ibrahim dan umatnya) benar-benar terdapat suri teladan yang baik bagimu" },
+        { "words": [7, 10], "id": "(yaitu) bagi orang yang mengharap (pahala) Allah" },
+        { "words": [11, 12], "id": "dan (keselamatan pada) hari Kemudian" },
+        { "words": [13, 14], "id": "Siapa yang berpaling" },
+        { "words": [15, 17], "id": "sesungguhnya Allah, Dialah" },
+        { "words": [18, 18], "id": "Yang Maha Kaya" },
+        { "words": [19, 19], "id": "Maha Terpuji" }
+      ],
+      "full": { "id": "Sungguh pada mereka itu (Ibrahim dan umatnya) benar-benar terdapat suri teladan yang baik bagimu, (yaitu) bagi orang yang mengharap (pahala) Allah dan (keselamatan pada) hari Kemudian. Siapa yang berpaling, sesungguhnya Allah, Dialah Yang Maha Kaya lagi Maha Terpuji." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 2], "id": "Mudah-mudahan Allah" },
+        { "words": [3, 10], "id": "menimbulkan kasih sayang di antara kamu dengan orang-orang yang pernah kamu musuhi di antara mereka" },
+        { "words": [11, 12], "id": "Allah Maha Kuasa" },
+        { "words": [13, 14], "id": "dan Allah Maha Pengampun" },
+        { "words": [15, 15], "id": "Maha Penyayang" }
+      ],
+      "full": { "id": "Mudah-mudahan Allah menimbulkan kasih sayang di antara kamu dengan orang-orang yang pernah kamu musuhi di antara mereka. Allah Maha Kuasa dan Allah Maha Pengampun lagi Maha Penyayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 3], "id": "Allah tidak melarang kamu" },
+        { "words": [4, 9], "id": "terhadap orang-orang yang tidak memerangimu dalam urusan agama" },
+        { "words": [10, 13], "id": ["dan tidak mengusir kamu", "dari kampung halamanmu"] },
+        { "words": [14, 17], "id": "berbuat baik dan berlaku adil" },
+        { "words": [18, 21], "id": "Sesungguhnya Allah mencintai orang-orang yang berlaku adil" }
+      ],
+      "full": { "id": "Allah tidak melarang kamu berbuat baik dan berlaku adil terhadap orang-orang yang tidak memerangimu dalam urusan agama dan tidak mengusir kamu dari kampung halamanmu. Sesungguhnya Allah mencintai orang-orang yang berlaku adil." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya Allah hanya melarangmu" },
+        { "words": [4, 8], "id": "dengan orang-orang yang memerangimu dalam urusan agama" },
+        { "words": [9, 11], "id": ["mengusirmu", "dari kampung halamanmu"] },
+        { "words": [12, 14], "id": "dan membantu (orang lain) dalam mengusirmu" },
+        { "words": [15, 16], "id": "(berteman akrab)" },
+        { "words": [17, 18], "id": "Siapa yang menjadikan mereka sebagai teman akrab" },
+        { "words": [19, 21], "id": ["mereka itulah", "orang-orang yang zalim"] }
+      ],
+      "full": { "id": "Sesungguhnya Allah hanya melarangmu (berteman akrab) dengan orang-orang yang memerangimu dalam urusan agama, mengusirmu dari kampung halamanmu, dan membantu (orang lain) dalam mengusirmu. Siapa yang menjadikan mereka sebagai teman akrab, mereka itulah orang-orang yang zalim." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 7], "id": "apabila perempuan-perempuan mukmin datang berhijrah kepadamu" },
+        { "words": [8, 8], "id": "hendaklah kamu uji (keimanan) mereka" },
+        { "words": [9, 11], "id": "Allah lebih tahu tentang keimanan mereka" },
+        { "words": [12, 14], "id": "Jika kamu telah mengetahui (keadaan) mereka bahwa mereka (benar-benar sebagai) perempuan-perempuan mukmin" },
+        { "words": [15, 18], "id": ["janganlah", "kamu kembalikan mereka kepada orang-orang kafir (suami mereka)"] },
+        { "words": [19, 22], "id": "Mereka tidak halal bagi orang-orang kafir itu" },
+        { "words": [23, 26], "id": "dan orang-orang kafir itu tidak halal pula bagi mereka" },
+        { "words": [27, 29], "id": ["Berikanlah kepada (suami) mereka", "mahar yang telah mereka berikan"] },
+        { "words": [30, 32], "id": "Tidak ada dosa bagimu" },
+        { "words": [33, 34], "id": "menikahi mereka" },
+        { "words": [35, 37], "id": "apabila kamu membayar mahar kepada mereka" },
+        { "words": [38, 41], "id": "Janganlah kamu tetap berpegang pada tali (pernikahan) dengan perempuan-perempuan kafir" },
+        { "words": [42, 44], "id": "Hendaklah kamu meminta kembali (dari orang-orang kafir) mahar yang telah kamu berikan (kepada istri yang kembali kafir)" },
+        { "words": [45, 47], "id": "Hendaklah mereka (orang-orang kafir) meminta kembali mahar yang telah mereka bayar (kepada mantan istrinya yang telah beriman)" },
+        { "words": [48, 50], "id": "Demikianlah hukum Allah" },
+        { "words": [51, 52], "id": "yang ditetapkan-Nya di antara kamu" },
+        { "words": [53, 54], "id": "Allah Maha Mengetahui" },
+        { "words": [55, 55], "id": "Maha Bijaksana" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, apabila perempuan-perempuan mukmin datang berhijrah kepadamu, hendaklah kamu uji (keimanan) mereka. Allah lebih tahu tentang keimanan mereka. Jika kamu telah mengetahui (keadaan) mereka bahwa mereka (benar-benar sebagai) perempuan-perempuan mukmin, janganlah kamu kembalikan mereka kepada orang-orang kafir (suami mereka). Mereka tidak halal bagi orang-orang kafir itu dan orang-orang kafir itu tidak halal pula bagi mereka. Berikanlah kepada (suami) mereka mahar yang telah mereka berikan. Tidak ada dosa bagimu menikahi mereka apabila kamu membayar mahar kepada mereka. Janganlah kamu tetap berpegang pada tali (pernikahan) dengan perempuan-perempuan kafir. Hendaklah kamu meminta kembali (dari orang-orang kafir) mahar yang telah kamu berikan (kepada istri yang kembali kafir). Hendaklah mereka (orang-orang kafir) meminta kembali mahar yang telah mereka bayar (kepada mantan istrinya yang telah beriman). Demikianlah hukum Allah yang ditetapkan-Nya di antara kamu. Allah Maha Mengetahui lagi Maha Bijaksana." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 7], "id": "Jika ada sesuatu (pengembalian mahar) yang belum kamu selesaikan dari istri-istrimu yang lari kepada orang-orang kafir" },
+        { "words": [8, 8], "id": "lalu kamu dapat mengalahkan mereka" },
+        { "words": [9, 12], "id": "berikanlah (dari harta rampasan) kepada orang-orang yang istrinya lari itu" },
+        { "words": [13, 15], "id": "sebanyak mahar yang telah mereka berikan" },
+        { "words": [16, 17], "id": "Bertakwalah kepada Allah" },
+        { "words": [18, 21], "id": "yang kepada-Nya kamu beriman" }
+      ],
+      "full": { "id": "Jika ada sesuatu (pengembalian mahar) yang belum kamu selesaikan dari istri-istrimu yang lari kepada orang-orang kafir, lalu kamu dapat mengalahkan mereka, berikanlah (dari harta rampasan) kepada orang-orang yang istrinya lari itu sebanyak mahar yang telah mereka berikan. Bertakwalah kepada Allah yang kepada-Nya kamu beriman." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 2], "id": "Wahai Nabi" },
+        { "words": [3, 5], "id": "apabila perempuan-perempuan mukmin datang kepadamu" },
+        { "words": [6, 6], "id": "untuk mengadakan baiat (janji setia)" },
+        { "words": [7, 12], "id": "bahwa mereka tidak akan mempersekutukan sesuatu apa pun dengan Allah" },
+        { "words": [13, 14], "id": "tidak akan mencuri" },
+        { "words": [15, 16], "id": "tidak akan berzina" },
+        { "words": [17, 19], "id": "tidak akan membunuh anak-anaknya" },
+        { "words": [20, 26], "id": ["tidak akan berbuat", "dusta yang mereka ada-adakan antara tangan dan kaki mereka"] },
+        { "words": [27, 30], "id": ["dan tidak akan mendurhakaimu dalam", "urusan yang baik"] },
+        { "words": [31, 31], "id": "terimalah baiat mereka" },
+        { "words": [32, 34], "id": "dan mohonkanlah ampunan untuk mereka kepada Allah" },
+        { "words": [35, 36], "id": "Sesungguhnya Allah" },
+        { "words": [37, 37], "id": "Maha Pengampun" },
+        { "words": [38, 38], "id": "Maha Penyayang" }
+      ],
+      "full": { "id": "Wahai Nabi, apabila perempuan-perempuan mukmin datang kepadamu untuk mengadakan baiat (janji setia) bahwa mereka tidak akan mempersekutukan sesuatu apa pun dengan Allah, tidak akan mencuri, tidak akan berzina, tidak akan membunuh anak-anaknya, tidak akan berbuat dusta yang mereka ada-adakan antara tangan dan kaki mereka dan tidak akan mendurhakaimu dalam urusan yang baik, terimalah baiat mereka dan mohonkanlah ampunan untuk mereka kepada Allah. Sesungguhnya Allah Maha Pengampun lagi Maha Penyayang." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 9], "id": "janganlah kamu jadikan kaum yang dimurkai Allah sebagai teman-teman akrab" },
+        { "words": [10, 13], "id": ["Sungguh", "mereka telah putus asa terhadap akhirat"] },
+        { "words": [14, 19], "id": "sebagaimana orang-orang kafir yang telah berada dalam kubur juga berputus asa (dari rahmat Allah di akhirat)" }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, janganlah kamu jadikan kaum yang dimurkai Allah sebagai teman-teman akrab. Sungguh, mereka telah putus asa terhadap akhirat sebagaimana orang-orang kafir yang telah berada dalam kubur juga berputus asa (dari rahmat Allah di akhirat)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}

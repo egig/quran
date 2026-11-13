@@ -1,0 +1,144 @@
+{
+  "surah": 63,
+  "name": { "ar": "المنافقون", "latin": "Al-Munāfiqūn" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila orang-orang munafik datang kepadamu (Nabi Muhammad)" },
+        { "words": [4, 4], "id": "mereka berkata" },
+        { "words": [5, 5], "id": "Kami bersaksi" },
+        { "words": [6, 8], "id": "bahwa engkau adalah benar-benar utusan Allah" },
+        { "words": [9, 10], "id": "Allah mengetahui" },
+        { "words": [11, 12], "id": ["bahwa engkau", "benar-benar utusan-Nya"] },
+        { "words": [13, 14], "id": "Allah pun bersaksi" },
+        { "words": [15, 17], "id": "bahwa orang-orang munafik itu benar-benar para pendusta" }
+      ],
+      "full": { "id": "Apabila orang-orang munafik datang kepadamu (Nabi Muhammad), mereka berkata, “Kami bersaksi bahwa engkau adalah benar-benar utusan Allah.” Allah mengetahui bahwa engkau benar-benar utusan-Nya. Allah pun bersaksi bahwa orang-orang munafik itu benar-benar para pendusta." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Mereka menjadikan", "sumpah-sumpah mereka sebagai perisai"] },
+        { "words": [4, 7], "id": "lalu mereka menghalang-halangi (orang lain) dari jalan Allah" },
+        { "words": [8, 12], "id": "Sesungguhnya apa yang selalu mereka kerjakan itu sangatlah buruk" }
+      ],
+      "full": { "id": "Mereka menjadikan sumpah-sumpah mereka sebagai perisai lalu mereka menghalang-halangi (orang lain) dari jalan Allah. Sesungguhnya apa yang selalu mereka kerjakan itu sangatlah buruk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 3], "id": "Yang demikian itu karena sesungguhnya mereka telah beriman" },
+        { "words": [4, 5], "id": "kemudian kufur" },
+        { "words": [6, 8], "id": "Maka, hati mereka dikunci" },
+        { "words": [9, 11], "id": ["sehingga", "tidak dapat mengerti"] }
+      ],
+      "full": { "id": "Yang demikian itu karena sesungguhnya mereka telah beriman, kemudian kufur. Maka, hati mereka dikunci sehingga tidak dapat mengerti." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apabila engkau melihat mereka" },
+        { "words": [3, 4], "id": "tubuhnya mengagumkanmu" },
+        { "words": [5, 6], "id": "Jika mereka bertutur kata" },
+        { "words": [7, 8], "id": "engkau mendengarkan tutur katanya (dengan saksama karena kefasihannya)" },
+        { "words": [9, 11], "id": "Mereka bagaikan (seonggok) kayu yang tersandar" },
+        { "words": [12, 15], "id": ["Mereka mengira bahwa setiap teriakan (kutukan)", "ditujukan kepada mereka"] },
+        { "words": [16, 17], "id": "Mereka itulah musuh (yang sebenarnya)" },
+        { "words": [18, 18], "id": "Maka, waspadalah terhadap mereka" },
+        { "words": [19, 20], "id": "Semoga Allah membinasakan mereka" },
+        { "words": [21, 22], "id": "Bagaimanakah mereka dapat dipalingkan (dari kebenaran)" }
+      ],
+      "full": { "id": "Apabila engkau melihat mereka, tubuhnya mengagumkanmu. Jika mereka bertutur kata, engkau mendengarkan tutur katanya (dengan saksama karena kefasihannya). Mereka bagaikan (seonggok) kayu yang tersandar. Mereka mengira bahwa setiap teriakan (kutukan) ditujukan kepada mereka. Mereka itulah musuh (yang sebenarnya). Maka, waspadalah terhadap mereka. Semoga Allah membinasakan mereka. Bagaimanakah mereka dapat dipalingkan (dari kebenaran)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 3], "id": "Apabila dikatakan kepada mereka" },
+        { "words": [4, 4], "id": "Marilah (beriman)" },
+        { "words": [5, 8], "id": "agar Rasulullah memohonkan ampunan bagimu" },
+        { "words": [9, 10], "id": ["mereka membuang", "muka"] },
+        { "words": [11, 12], "id": "dan engkau melihat mereka menolak (ajakan itu)" },
+        { "words": [13, 14], "id": "sambil menyombongkan diri" }
+      ],
+      "full": { "id": "Apabila dikatakan kepada mereka, “Marilah (beriman) agar Rasulullah memohonkan ampunan bagimu,” mereka membuang muka dan engkau melihat mereka menolak (ajakan itu) sambil menyombongkan diri." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sama saja bagi mereka" },
+        { "words": [3, 4], "id": "apakah engkau (Nabi Muhammad) memohonkan ampunan untuk mereka" },
+        { "words": [5, 8], "id": "atau tidak" },
+        { "words": [9, 12], "id": "Allah tidak akan mengampuni mereka" },
+        { "words": [13, 18], "id": "Sesungguhnya Allah tidak akan memberi petunjuk kepada kaum fasik" }
+      ],
+      "full": { "id": "Sama saja bagi mereka apakah engkau (Nabi Muhammad) memohonkan ampunan untuk mereka atau tidak, Allah tidak akan mengampuni mereka. Sesungguhnya Allah tidak akan memberi petunjuk kepada kaum fasik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 3], "id": "Merekalah orang-orang yang berkata (kepada kaum Ansar)" },
+        { "words": [4, 5], "id": "Janganlah bersedekah" },
+        { "words": [6, 10], "id": "kepada orang-orang (Muhajirin) yang ada di sisi Rasulullah" },
+        { "words": [11, 12], "id": "sampai mereka bubar (meninggalkan Rasulullah)" },
+        { "words": [13, 16], "id": "padahal milik Allahlah perbendaharaan langit dan bumi" },
+        { "words": [17, 20], "id": ["Akan tetapi", "orang-orang munafik itu tidak mengerti"] }
+      ],
+      "full": { "id": "Merekalah orang-orang yang berkata (kepada kaum Ansar), “Janganlah bersedekah kepada orang-orang (Muhajirin) yang ada di sisi Rasulullah sampai mereka bubar (meninggalkan Rasulullah),” padahal milik Allahlah perbendaharaan langit dan bumi. Akan tetapi, orang-orang munafik itu tidak mengerti." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka berkata" },
+        { "words": [2, 5], "id": ["Sungguh, jika kita kembali ke", "Madinah (dari perang Bani Mustaliq)"] },
+        { "words": [6, 9], "id": "pastilah orang yang kuat akan mengusir orang-orang yang lemah dari sana" },
+        { "words": [10, 13], "id": ["padahal kekuatan itu hanyalah milik Allah", "Rasul-Nya, dan orang-orang mukmin"] },
+        { "words": [14, 17], "id": "Akan tetapi, orang-orang munafik itu tidak mengetahui" }
+      ],
+      "full": { "id": "Mereka berkata, “Sungguh, jika kita kembali ke Madinah (dari perang Bani Mustaliq), pastilah orang yang kuat akan mengusir orang-orang yang lemah dari sana,” padahal kekuatan itu hanyalah milik Allah, Rasul-Nya, dan orang-orang mukmin. Akan tetapi, orang-orang munafik itu tidak mengetahui." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
+        { "words": [4, 11], "id": ["janganlah harta bendamu dan anak-anakmu membuatmu lalai", "dari mengingat Allah"] },
+        { "words": [12, 14], "id": "Siapa yang berbuat demikian" },
+        { "words": [15, 17], "id": ["mereka itulah", "orang-orang yang merugi"] }
+      ],
+      "full": { "id": "Wahai orang-orang yang beriman, janganlah harta bendamu dan anak-anakmu membuatmu lalai dari mengingat Allah. Siapa yang berbuat demikian, mereka itulah orang-orang yang merugi." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 4], "id": "Infakkanlah sebagian dari apa yang telah Kami anugerahkan kepadamu" },
+        { "words": [5, 10], "id": ["sebelum", "kematian datang kepada salah seorang di antaramu"] },
+        { "words": [11, 11], "id": "Dia lalu berkata (sambil menyesal)" },
+        { "words": [12, 12], "id": "Ya Tuhanku" },
+        { "words": [13, 17], "id": ["sekiranya Engkau berkenan menunda (kematian)-ku", "sedikit waktu lagi"] },
+        { "words": [18, 18], "id": "aku akan dapat bersedekah" },
+        { "words": [19, 21], "id": "dan aku akan termasuk orang-orang saleh" }
+      ],
+      "full": { "id": "Infakkanlah sebagian dari apa yang telah Kami anugerahkan kepadamu sebelum kematian datang kepada salah seorang di antaramu. Dia lalu berkata (sambil menyesal), “Ya Tuhanku, sekiranya Engkau berkenan menunda (kematian)-ku sedikit waktu lagi, aku akan dapat bersedekah dan aku akan termasuk orang-orang saleh.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 4], "id": "Allah tidak akan menunda (kematian) seseorang" },
+        { "words": [5, 7], "id": "apabila waktu kematiannya telah datang" },
+        { "words": [8, 11], "id": "Allah Maha Teliti terhadap apa yang kamu kerjakan" }
+      ],
+      "full": { "id": "Allah tidak akan menunda (kematian) seseorang apabila waktu kematiannya telah datang. Allah Maha Teliti terhadap apa yang kamu kerjakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
