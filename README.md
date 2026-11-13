@@ -83,8 +83,9 @@ BASE_PATH=/quran/ npx vite preview   # http://localhost:4173/quran/
 - png.quran.ws's surah list gives the wrong page span for a few surahs
   (80, 84, 88, 90, 94, 96); `PAGE_SPAN_OVERRIDES` in the build script follows
   the artwork for those.
-- Known upstream defect: mushaf page 17 (Al-Baqarah 2:106–110) is scrambled
-  in png.quran.ws, so Al-Baqarah does not build yet.
+- Known upstream defects: mushaf pages 17 (Al-Baqarah 2:106–110) and 144
+  (Al-Anʿām 6:125–130) are scrambled in png.quran.ws, so Al-Baqarah and
+  Al-Anʿām do not build yet.
 - The JSON in `public/data` is the contract for a future mobile app.
 
 ## Attribution

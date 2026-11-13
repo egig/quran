@@ -1450,7 +1450,8 @@
     },
     "119": {
       "phrases": [
-        { "words": [1, 2], "id": ["Aku benar-benar akan menyesatkan mereka", "membangkitkan angan-angan kosong mereka"] },
+        { "words": [1, 1], "id": "Aku benar-benar akan menyesatkan mereka" },
+        { "words": [2, 2], "id": "membangkitkan angan-angan kosong mereka" },
         { "words": [3, 6], "id": "menyuruh mereka (untuk memotong telinga-telinga binatang ternaknya) hingga mereka benar-benar memotongnya" },
         { "words": [7, 10], "id": "dan menyuruh mereka (mengubah ciptaan Allah) hingga benar-benar mengubahnya" },
         { "words": [11, 17], "id": "Siapa yang menjadikan setan sebagai pelindung selain Allah" },
