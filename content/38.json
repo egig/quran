@@ -1,0 +1,888 @@
+{
+  "surah": 38,
+  "name": { "ar": "ص", "latin": "Ṣād" },
+  "ayahs": {
+    "1": {
+      "phrases": [
+        { "words": [1, 1], "id": "Ṣād" },
+        { "words": [2, 2], "id": "Demi Al-Qur’an" },
+        { "words": [3, 4], "id": "yang mengandung peringatan" }
+      ],
+      "full": { "id": "Ṣād. Demi Al-Qur’an yang mengandung peringatan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "2": {
+      "phrases": [
+        { "words": [1, 1], "id": "Akan tetapi" },
+        { "words": [2, 3], "id": "orang-orang yang kufur" },
+        { "words": [4, 6], "id": "(berada) dalam kesombongan dan permusuhan" }
+      ],
+      "full": { "id": "Akan tetapi, orang-orang yang kufur (berada) dalam kesombongan dan permusuhan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "3": {
+      "phrases": [
+        { "words": [1, 6], "id": "Betapa banyak generasi sebelum mereka yang telah Kami binasakan" },
+        { "words": [7, 7], "id": "Lalu, mereka meminta tolong (ketika datang azab)" },
+        { "words": [8, 10], "id": "padahal (waktu itu) bukanlah saat untuk melepaskan diri" }
+      ],
+      "full": { "id": "Betapa banyak generasi sebelum mereka yang telah Kami binasakan. Lalu, mereka meminta tolong (ketika datang azab), padahal (waktu itu) bukanlah saat untuk melepaskan diri." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "4": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Mereka heran", "karena telah datang kepada mereka seorang pemberi peringatan (rasul) dari kalangan mereka"] },
+        { "words": [6, 7], "id": "Orang-orang kafir berkata" },
+        { "words": [8, 10], "id": "Orang ini adalah penyihir yang banyak berdusta" }
+      ],
+      "full": { "id": "Mereka heran karena telah datang kepada mereka seorang pemberi peringatan (rasul) dari kalangan mereka. Orang-orang kafir berkata, “Orang ini adalah penyihir yang banyak berdusta." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "5": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Apakah dia menjadikan", "tuhan-tuhan itu Tuhan yang satu saja"] },
+        { "words": [5, 8], "id": "Sesungguhnya ini benar-benar sesuatu yang sangat mengherankan" }
+      ],
+      "full": { "id": "Apakah dia menjadikan tuhan-tuhan itu Tuhan yang satu saja? Sesungguhnya ini benar-benar sesuatu yang sangat mengherankan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "6": {
+      "phrases": [
+        { "words": [1, 3], "id": "Lalu, pergilah pemimpin-pemimpin mereka" },
+        { "words": [4, 5], "id": ["(seraya berkata)", "Pergilah kamu"] },
+        { "words": [6, 8], "id": "dan tetaplah (menyembah) tuhan-tuhanmu" },
+        { "words": [9, 12], "id": "Sesungguhnya ini benar-benar suatu hal yang dikehendaki" }
+      ],
+      "full": { "id": "Lalu, pergilah pemimpin-pemimpin mereka (seraya berkata), “Pergilah kamu dan tetaplah (menyembah) tuhan-tuhanmu. Sesungguhnya ini benar-benar suatu hal yang dikehendaki." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "7": {
+      "phrases": [
+        { "words": [1, 6], "id": ["Kami tidak pernah", "mendengar hal ini dalam agama yang terakhir"] },
+        { "words": [7, 10], "id": "(Ajaran mengesakan Allah) ini tidak lain kecuali (dusta) yang dibuat-buat" }
+      ],
+      "full": { "id": "Kami tidak pernah mendengar hal ini dalam agama yang terakhir. (Ajaran mengesakan Allah) ini tidak lain kecuali (dusta) yang dibuat-buat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "8": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Mengapa Al-Qur’an itu diturunkan kepada dia", "di antara kita"] },
+        { "words": [6, 11], "id": "Sebenarnya mereka dalam keraguan terhadap kitab-Ku" },
+        { "words": [12, 15], "id": "Akan tetapi, mereka (ragu karena) belum merasakan azab-Ku" }
+      ],
+      "full": { "id": "Mengapa Al-Qur’an itu diturunkan kepada dia di antara kita?” Sebenarnya mereka dalam keraguan terhadap kitab-Ku. Akan tetapi, mereka (ragu karena) belum merasakan azab-Ku." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "9": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Atau, apakah mereka itu mempunyai", "perbendaharaan rahmat Tuhanmu"] },
+        { "words": [6, 6], "id": "Yang Maha Perkasa" },
+        { "words": [7, 7], "id": "Maha Pemberi" }
+      ],
+      "full": { "id": "Atau, apakah mereka itu mempunyai perbendaharaan rahmat Tuhanmu Yang Maha Perkasa lagi Maha Pemberi?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "10": {
+      "phrases": [
+        { "words": [1, 5], "id": "Atau, apakah mereka mempunyai kerajaan langit dan bumi" },
+        { "words": [6, 7], "id": "serta apa yang ada di antara keduanya" },
+        { "words": [8, 10], "id": "(Jika ada,) biarlah mereka menaiki tangga-tangga (ke langit)" }
+      ],
+      "full": { "id": "Atau, apakah mereka mempunyai kerajaan langit dan bumi serta apa yang ada di antara keduanya? (Jika ada,) biarlah mereka menaiki tangga-tangga (ke langit)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "11": {
+      "phrases": [
+        { "words": [1, 3], "id": "Bala tentara yang berada di sana" },
+        { "words": [4, 4], "id": "tentu akan dikalahkan" },
+        { "words": [5, 6], "id": ["dari", "golongan yang bersekutu (untuk mengalahkan Rasul Kami)"] }
+      ],
+      "full": { "id": "Bala tentara yang berada di sana dari golongan yang bersekutu (untuk mengalahkan Rasul Kami) tentu akan dikalahkan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "12": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sebelum mereka itu" },
+        { "words": [3, 6], "id": "kaum Nuh, 'Ad, dan Fir'aun" },
+        { "words": [7, 8], "id": "yang mempunyai kekuatan besar (juga) telah mendustakan (para rasul)" }
+      ],
+      "full": { "id": "Sebelum mereka itu, kaum Nuh, 'Ad, dan Fir'aun yang mempunyai kekuatan besar (juga) telah mendustakan (para rasul)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "13": {
+      "phrases": [
+        { "words": [1, 5], "id": "(Begitu juga) Samud, kaum Lut, dan penduduk Aikah" },
+        { "words": [6, 7], "id": "Mereka itulah golongan yang bersekutu (menentang para rasul)" }
+      ],
+      "full": { "id": "(Begitu juga) Samud, kaum Lut, dan penduduk Aikah. Mereka itulah golongan yang bersekutu (menentang para rasul)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "14": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Masing-masing tidak lain, kecuali", "mendustakan para rasul"] },
+        { "words": [6, 7], "id": "Maka, pantaslah mereka merasakan hukuman-Ku" }
+      ],
+      "full": { "id": "Masing-masing tidak lain, kecuali mendustakan para rasul. Maka, pantaslah mereka merasakan hukuman-Ku." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "15": {
+      "phrases": [
+        { "words": [1, 6], "id": "Mereka tidak menunggu selain satu teriakan (saja)" },
+        { "words": [7, 10], "id": "yang tidak ada selanya" }
+      ],
+      "full": { "id": "Mereka tidak menunggu selain satu teriakan (saja) yang tidak ada selanya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "16": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka berkata" },
+        { "words": [2, 2], "id": "Wahai Tuhan kami" },
+        { "words": [3, 5], "id": "segerakanlah untuk kami bagian (dari siksa) kami" },
+        { "words": [6, 8], "id": "sebelum hari Perhitungan" }
+      ],
+      "full": { "id": "Mereka berkata, “Wahai Tuhan kami, segerakanlah untuk kami bagian (dari siksa) kami sebelum hari Perhitungan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "17": {
+      "phrases": [
+        { "words": [1, 4], "id": "Bersabarlah atas apa yang mereka katakan" },
+        { "words": [5, 7], "id": "dan ingatlah akan hamba Kami, Daud" },
+        { "words": [8, 9], "id": "yang mempunyai kekuatan" },
+        { "words": [10, 11], "id": "Sesungguhnya dia adalah orang yang selalu kembali (kepada Allah)" }
+      ],
+      "full": { "id": "Bersabarlah atas apa yang mereka katakan dan ingatlah akan hamba Kami, Daud, yang mempunyai kekuatan. Sesungguhnya dia adalah orang yang selalu kembali (kepada Allah)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "18": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Sesungguhnya", "Kami telah menundukkan gunung-gunung"] },
+        { "words": [4, 5], "id": "untuk bertasbih bersama dia (Daud)" },
+        { "words": [6, 7], "id": "pada waktu petang dan pagi" }
+      ],
+      "full": { "id": "Sesungguhnya Kami telah menundukkan gunung-gunung untuk bertasbih bersama dia (Daud) pada waktu petang dan pagi." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "19": {
+      "phrases": [
+        { "words": [1, 2], "id": ["(Kami menundukkan pula) burung-burung", "dalam keadaan berkumpul"] },
+        { "words": [3, 5], "id": "Masing-masing sangat patuh kepadanya (Daud)" }
+      ],
+      "full": { "id": "(Kami menundukkan pula) burung-burung dalam keadaan berkumpul. Masing-masing sangat patuh kepadanya (Daud)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "20": {
+      "phrases": [
+        { "words": [1, 2], "id": "Kami menguatkan kerajaannya" },
+        { "words": [3, 4], "id": "serta menganugerahkan hikmah (kenabian) kepadanya" },
+        { "words": [5, 6], "id": "dan kemampuan dalam menyelesaikan perkara" }
+      ],
+      "full": { "id": "Kami menguatkan kerajaannya serta menganugerahkan hikmah (kenabian) kepadanya dan kemampuan dalam menyelesaikan perkara." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "21": {
+      "phrases": [
+        { "words": [1, 4], "id": "Apakah telah sampai kepadamu (Nabi Muhammad) berita orang-orang yang berselisih" },
+        { "words": [5, 7], "id": ["ketika mereka memanjat", "dinding mihrab"] }
+      ],
+      "full": { "id": "Apakah telah sampai kepadamu (Nabi Muhammad) berita orang-orang yang berselisih ketika mereka memanjat dinding mihrab?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "22": {
+      "phrases": [
+        { "words": [1, 4], "id": "Ketika mereka masuk menemui Daud" },
+        { "words": [5, 6], "id": "dia terkejut karena (kedatangan) mereka" },
+        { "words": [7, 7], "id": "Mereka berkata" },
+        { "words": [8, 9], "id": "Janganlah takut" },
+        { "words": [10, 10], "id": "(Kami) berdua sedang berselisih" },
+        { "words": [11, 14], "id": "Sebagian kami berbuat aniaya kepada yang lain" },
+        { "words": [15, 17], "id": "Maka, berilah keputusan di antara kami dengan hak" },
+        { "words": [18, 19], "id": "janganlah menyimpang dari kebenaran" },
+        { "words": [20, 23], "id": "dan tunjukilah kami ke jalan yang lurus" }
+      ],
+      "full": { "id": "Ketika mereka masuk menemui Daud, dia terkejut karena (kedatangan) mereka. Mereka berkata, “Janganlah takut! (Kami) berdua sedang berselisih. Sebagian kami berbuat aniaya kepada yang lain. Maka, berilah keputusan di antara kami dengan hak, janganlah menyimpang dari kebenaran, dan tunjukilah kami ke jalan yang lurus.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "23": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Salah seorang berkata,) Sesungguhnya ini saudaraku" },
+        { "words": [4, 7], "id": "Dia mempunyai sembilan puluh sembilan ekor kambing betina" },
+        { "words": [8, 10], "id": "sedangkan aku mempunyai seekor saja" },
+        { "words": [11, 11], "id": "Lalu, dia berkata" },
+        { "words": [12, 12], "id": "Biarkan aku yang memeliharanya" },
+        { "words": [13, 15], "id": "Dia mengalahkanku dalam perdebatan" }
+      ],
+      "full": { "id": "(Salah seorang berkata,) “Sesungguhnya ini saudaraku. Dia mempunyai sembilan puluh sembilan ekor kambing betina, sedangkan aku mempunyai seekor saja. Lalu, dia berkata, 'Biarkan aku yang memeliharanya! Dia mengalahkanku dalam perdebatan.’”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "24": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dia (Daud) berkata" },
+        { "words": [2, 3], "id": "Sungguh, dia benar-benar telah berbuat zalim kepadamu" },
+        { "words": [4, 7], "id": "dengan meminta kambingmu itu untuk (digabungkan) kepada kambing-kambingnya" },
+        { "words": [8, 11], "id": "Sesungguhnya banyak di antara orang-orang yang berserikat itu" },
+        { "words": [12, 15], "id": ["benar-benar saling merugikan", "satu sama lain"] },
+        { "words": [16, 20], "id": "kecuali orang-orang yang beriman dan beramal saleh" },
+        { "words": [21, 23], "id": "dan sedikit sekali mereka itu" },
+        { "words": [24, 27], "id": "Daud meyakini bahwa Kami hanya mengujinya" },
+        { "words": [28, 29], "id": "Maka, dia memohon ampunan kepada Tuhannya" },
+        { "words": [30, 31], "id": "dan dia tersungkur jatuh" },
+        { "words": [32, 32], "id": "serta bertobat" }
+      ],
+      "full": { "id": "Dia (Daud) berkata, “Sungguh, dia benar-benar telah berbuat zalim kepadamu dengan meminta kambingmu itu untuk (digabungkan) kepada kambing-kambingnya. Sesungguhnya banyak di antara orang-orang yang berserikat itu benar-benar saling merugikan satu sama lain, kecuali orang-orang yang beriman dan beramal saleh, dan sedikit sekali mereka itu.” Daud meyakini bahwa Kami hanya mengujinya. Maka, dia memohon ampunan kepada Tuhannya dan dia tersungkur jatuh serta bertobat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "25": {
+      "phrases": [
+        { "words": [1, 3], "id": "Lalu, Kami mengampuni (kesalahannya) itu" },
+        { "words": [4, 7], "id": "Sesungguhnya dia mempunyai kedudukan yang benar-benar dekat di sisi Kami" },
+        { "words": [8, 9], "id": "dan tempat kembali yang baik" }
+      ],
+      "full": { "id": "Lalu, Kami mengampuni (kesalahannya) itu. Sesungguhnya dia mempunyai kedudukan yang benar-benar dekat di sisi Kami dan tempat kembali yang baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "26": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Allah berfirman,) Wahai Daud" },
+        { "words": [2, 6], "id": "sesungguhnya Kami menjadikanmu khalifah (penguasa) di bumi" },
+        { "words": [7, 10], "id": "Maka, berilah keputusan (perkara) di antara manusia dengan hak" },
+        { "words": [11, 13], "id": "dan janganlah mengikuti hawa nafsu" },
+        { "words": [14, 17], "id": "karena akan menyesatkan engkau dari jalan Allah" },
+        { "words": [18, 23], "id": ["Sesungguhnya orang-orang yang sesat", "dari jalan Allah"] },
+        { "words": [24, 26], "id": "akan mendapat azab yang berat" },
+        { "words": [27, 30], "id": "karena mereka melupakan hari Perhitungan" }
+      ],
+      "full": { "id": "(Allah berfirman,) “Wahai Daud, sesungguhnya Kami menjadikanmu khalifah (penguasa) di bumi. Maka, berilah keputusan (perkara) di antara manusia dengan hak dan janganlah mengikuti hawa nafsu karena akan menyesatkan engkau dari jalan Allah. Sesungguhnya orang-orang yang sesat dari jalan Allah akan mendapat azab yang berat, karena mereka melupakan hari Perhitungan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "27": {
+      "phrases": [
+        { "words": [1, 7], "id": "Kami tidak menciptakan langit dan bumi serta apa yang ada di antara keduanya secara sia-sia" },
+        { "words": [8, 11], "id": ["Itulah anggapan orang-orang", "yang kufur"] },
+        { "words": [12, 16], "id": "Maka, celakalah orang-orang yang kufur karena (mereka akan masuk) neraka" }
+      ],
+      "full": { "id": "Kami tidak menciptakan langit dan bumi serta apa yang ada di antara keduanya secara sia-sia. Itulah anggapan orang-orang yang kufur. Maka, celakalah orang-orang yang kufur karena (mereka akan masuk) neraka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "28": {
+      "phrases": [
+        { "words": [1, 6], "id": ["Apakah (pantas) Kami menjadikan orang-orang yang beriman dan beramal", "saleh"] },
+        { "words": [7, 9], "id": "sama dengan orang-orang yang berbuat kerusakan di bumi" },
+        { "words": [10, 12], "id": "Pantaskah Kami menjadikan orang-orang yang bertakwa" },
+        { "words": [13, 13], "id": "sama dengan para pendurhaka" }
+      ],
+      "full": { "id": "Apakah (pantas) Kami menjadikan orang-orang yang beriman dan beramal saleh sama dengan orang-orang yang berbuat kerusakan di bumi? Pantaskah Kami menjadikan orang-orang yang bertakwa sama dengan para pendurhaka?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "29": {
+      "phrases": [
+        { "words": [1, 3], "id": "(Al-Qur’an ini adalah) kitab yang Kami turunkan kepadamu (Nabi Muhammad)" },
+        { "words": [4, 4], "id": "yang penuh berkah" },
+        { "words": [5, 6], "id": "supaya mereka menghayati ayat-ayatnya" },
+        { "words": [7, 9], "id": ["dan orang-orang yang berakal sehat", "mendapat pelajaran"] }
+      ],
+      "full": { "id": "(Al-Qur’an ini adalah) kitab yang Kami turunkan kepadamu (Nabi Muhammad) yang penuh berkah supaya mereka menghayati ayat-ayatnya dan orang-orang yang berakal sehat mendapat pelajaran." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "30": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kami menganugerahkan kepada Daud (anak bernama) Sulaiman" },
+        { "words": [4, 5], "id": "Dia adalah sebaik-baik hamba" },
+        { "words": [6, 7], "id": "Sesungguhnya dia sangat taat (kepada Allah)" }
+      ],
+      "full": { "id": "Kami menganugerahkan kepada Daud (anak bernama) Sulaiman. Dia adalah sebaik-baik hamba. Sesungguhnya dia sangat taat (kepada Allah)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "31": {
+      "phrases": [
+        { "words": [1, 4], "id": "(Ingatlah) ketika pada suatu petang dipertunjukkan kepadanya" },
+        { "words": [5, 6], "id": "(kuda-kuda) yang jinak, (tetapi) sangat cepat larinya" }
+      ],
+      "full": { "id": "(Ingatlah) ketika pada suatu petang dipertunjukkan kepadanya (kuda-kuda) yang jinak, (tetapi) sangat cepat larinya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "32": {
+      "phrases": [
+        { "words": [1, 1], "id": "Maka, dia berkata" },
+        { "words": [2, 5], "id": ["Sesungguhnya aku menyukai", "kesenangan terhadap yang baik (kuda)"] },
+        { "words": [6, 8], "id": "sehingga aku lalai mengingat Tuhanku" },
+        { "words": [9, 11], "id": "sampai ia (matahari atau kuda itu) bersembunyi di balik tabir (hilang dari pandangan)" }
+      ],
+      "full": { "id": "Maka, dia berkata, “Sesungguhnya aku menyukai kesenangan terhadap yang baik (kuda) sehingga aku lalai mengingat Tuhanku sampai ia (matahari atau kuda itu) bersembunyi di balik tabir (hilang dari pandangan)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "33": {
+      "phrases": [
+        { "words": [1, 2], "id": "Bawalah semua kuda itu kembali kepadaku" },
+        { "words": [3, 6], "id": "Lalu, dia mengusap-usap kaki dan leher (kuda itu)" }
+      ],
+      "full": { "id": "Bawalah semua kuda itu kembali kepadaku.” Lalu, dia mengusap-usap kaki dan leher (kuda itu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "34": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sungguh, Kami benar-benar telah menguji Sulaiman" },
+        { "words": [4, 7], "id": "dan Kami menggeletakkan(-nya) di atas kursinya sebagai tubuh (yang lemah karena sakit)" },
+        { "words": [8, 9], "id": "kemudian dia bertobat" }
+      ],
+      "full": { "id": "Sungguh, Kami benar-benar telah menguji Sulaiman dan Kami menggeletakkan(-nya) di atas kursinya sebagai tubuh (yang lemah karena sakit), kemudian dia bertobat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "35": {
+      "phrases": [
+        { "words": [1, 1], "id": "Dia berkata" },
+        { "words": [2, 4], "id": "Wahai Tuhanku, ampunilah aku" },
+        { "words": [5, 7], "id": ["dan anugerahkanlah", "kepadaku kerajaan"] },
+        { "words": [8, 12], "id": "yang tidak patut (dimiliki) oleh seorang pun sesudahku" },
+        { "words": [13, 15], "id": "Sesungguhnya Engkaulah Yang Maha Pemberi" }
+      ],
+      "full": { "id": "Dia berkata, “Wahai Tuhanku, ampunilah aku dan anugerahkanlah kepadaku kerajaan yang tidak patut (dimiliki) oleh seorang pun sesudahku. Sesungguhnya Engkaulah Yang Maha Pemberi.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "36": {
+      "phrases": [
+        { "words": [1, 3], "id": "Maka, Kami menundukkan kepadanya angin" },
+        { "words": [4, 6], "id": "yang berembus dengan baik menurut perintahnya" },
+        { "words": [7, 8], "id": "ke mana saja yang ia kehendaki" }
+      ],
+      "full": { "id": "Maka, Kami menundukkan kepadanya angin yang berembus dengan baik menurut perintahnya ke mana saja yang ia kehendaki." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "37": {
+      "phrases": [
+        { "words": [1, 4], "id": ["(Kami menundukkan pula kepadanya) setan-setan,", "semuanya ahli bangunan, dan penyelam"] }
+      ],
+      "full": { "id": "(Kami menundukkan pula kepadanya) setan-setan, semuanya ahli bangunan, dan penyelam." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "38": {
+      "phrases": [
+        { "words": [1, 4], "id": "(Begitu juga setan-setan) lain yang terikat dalam belenggu" }
+      ],
+      "full": { "id": "(Begitu juga setan-setan) lain yang terikat dalam belenggu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "39": {
+      "phrases": [
+        { "words": [1, 2], "id": ["Inilah", "anugerah Kami"] },
+        { "words": [3, 5], "id": "Maka, berikanlah (kepada orang lain) atau tahanlah (untuk dirimu sendiri)" },
+        { "words": [6, 7], "id": "tanpa perhitungan" }
+      ],
+      "full": { "id": "Inilah anugerah Kami. Maka, berikanlah (kepada orang lain) atau tahanlah (untuk dirimu sendiri) tanpa perhitungan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "40": {
+      "phrases": [
+        { "words": [1, 4], "id": "Sesungguhnya dia mempunyai kedudukan yang dekat pada sisi Kami" },
+        { "words": [5, 6], "id": ["dan tempat kembali", "yang baik"] }
+      ],
+      "full": { "id": "Sesungguhnya dia mempunyai kedudukan yang dekat pada sisi Kami dan tempat kembali yang baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "41": {
+      "phrases": [
+        { "words": [1, 3], "id": "Ingatlah hamba Kami Ayyub" },
+        { "words": [4, 6], "id": "ketika dia menyeru Tuhannya" },
+        { "words": [7, 11], "id": ["Sesungguhnya aku telah diganggu setan", "dengan penderitaan dan siksaan (rasa sakit)"] }
+      ],
+      "full": { "id": "Ingatlah hamba Kami Ayyub ketika dia menyeru Tuhannya, “Sesungguhnya aku telah diganggu setan dengan penderitaan dan siksaan (rasa sakit).”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "42": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Allah berfirman,) Entakkanlah kakimu (ke bumi)" },
+        { "words": [3, 6], "id": "Inilah air yang sejuk untuk mandi dan minum" }
+      ],
+      "full": { "id": "(Allah berfirman,) “Entakkanlah kakimu (ke bumi)! Inilah air yang sejuk untuk mandi dan minum.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "43": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kami anugerahkan (pula) kepadanya (Ayyub) keluarganya" },
+        { "words": [4, 5], "id": "dan (Kami lipat gandakan) jumlah mereka" },
+        { "words": [6, 7], "id": "sebagai rahmat dari Kami" },
+        { "words": [8, 10], "id": "dan pelajaran bagi orang-orang yang berpikiran sehat" }
+      ],
+      "full": { "id": "Kami anugerahkan (pula) kepadanya (Ayyub) keluarganya dan (Kami lipat gandakan) jumlah mereka sebagai rahmat dari Kami dan pelajaran bagi orang-orang yang berpikiran sehat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "44": {
+      "phrases": [
+        { "words": [1, 3], "id": "Ambillah dengan tanganmu seikat rumput" },
+        { "words": [4, 5], "id": "lalu pukullah (istrimu) dengannya" },
+        { "words": [6, 7], "id": "dan janganlah engkau melanggar sumpah" },
+        { "words": [8, 10], "id": "Sesungguhnya Kami dapati dia (Ayyub) seorang yang sabar" },
+        { "words": [11, 12], "id": ["Dialah", "sebaik-baik hamba"] },
+        { "words": [13, 14], "id": "Sesungguhnya dia selalu kembali (kepada Allah dan sangat taat kepadanya)" }
+      ],
+      "full": { "id": "Ambillah dengan tanganmu seikat rumput, lalu pukullah (istrimu) dengannya dan janganlah engkau melanggar sumpah. Sesungguhnya Kami dapati dia (Ayyub) seorang yang sabar. Dialah sebaik-baik hamba. Sesungguhnya dia selalu kembali (kepada Allah dan sangat taat kepadanya)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "45": {
+      "phrases": [
+        { "words": [1, 5], "id": "Ingatlah hamba-hamba Kami: Ibrahim, Ishaq, dan Ya'qub" },
+        { "words": [6, 8], "id": ["yang mempunyai", "kekuatan (dalam taat kepada Allah) dan penglihatan (mata hati yang jernih)"] }
+      ],
+      "full": { "id": "Ingatlah hamba-hamba Kami: Ibrahim, Ishaq, dan Ya'qub yang mempunyai kekuatan (dalam taat kepada Allah) dan penglihatan (mata hati yang jernih)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "46": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya Kami telah memberikan secara khusus kepada mereka" },
+        { "words": [3, 3], "id": "anugerah yang besar" },
+        { "words": [4, 5], "id": "(yaitu selalu) mengingat negeri akhirat" }
+      ],
+      "full": { "id": "Sesungguhnya Kami telah memberikan secara khusus kepada mereka anugerah yang besar, (yaitu selalu) mengingat negeri akhirat." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "47": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sesungguhnya mereka di sisi Kami" },
+        { "words": [3, 5], "id": "benar-benar termasuk orang-orang pilihan yang terbaik" }
+      ],
+      "full": { "id": "Sesungguhnya mereka di sisi Kami benar-benar termasuk orang-orang pilihan yang terbaik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "48": {
+      "phrases": [
+        { "words": [1, 5], "id": ["Ingatlah Ismail,", "Ilyasa, dan Zulkifli"] },
+        { "words": [6, 8], "id": "Semuanya termasuk orang-orang yang paling baik" }
+      ],
+      "full": { "id": "Ingatlah Ismail, Ilyasa, dan Zulkifli. Semuanya termasuk orang-orang yang paling baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "49": {
+      "phrases": [
+        { "words": [1, 2], "id": "Ini adalah kehormatan (bagimu dan kaummu)" },
+        { "words": [3, 6], "id": ["Sesungguhnya bagi orang-orang yang bertakwa", "benar-benar (disediakan) tempat kembali yang baik"] }
+      ],
+      "full": { "id": "Ini adalah kehormatan (bagimu dan kaummu). Sesungguhnya bagi orang-orang yang bertakwa benar-benar (disediakan) tempat kembali yang baik." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "50": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Yaitu) surga 'Adn" },
+        { "words": [3, 5], "id": "yang pintu-pintunya terbuka bagi mereka" }
+      ],
+      "full": { "id": "(Yaitu) surga 'Adn yang pintu-pintunya terbuka bagi mereka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "51": {
+      "phrases": [
+        { "words": [1, 2], "id": ["Mereka bersandar", "di dalamnya (di atas dipan-dipan)"] },
+        { "words": [3, 7], "id": "sambil meminta buah-buahan dan minuman yang banyak (di surga itu)" }
+      ],
+      "full": { "id": "Mereka bersandar di dalamnya (di atas dipan-dipan) sambil meminta buah-buahan dan minuman yang banyak (di surga itu)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "52": {
+      "phrases": [
+        { "words": [1, 1], "id": "Di samping mereka" },
+        { "words": [2, 3], "id": ["(ada bidadari-bidadari) yang pandangannya", "terbatas (hanya untuk pasangannya)"] },
+        { "words": [4, 4], "id": "sebaya umurnya" }
+      ],
+      "full": { "id": "Di samping mereka (ada bidadari-bidadari) yang pandangannya terbatas (hanya untuk pasangannya), lagi sebaya umurnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "53": {
+      "phrases": [
+        { "words": [1, 3], "id": "Inilah apa yang dijanjikan kepadamu" },
+        { "words": [4, 5], "id": "pada hari Perhitungan" }
+      ],
+      "full": { "id": "Inilah apa yang dijanjikan kepadamu pada hari Perhitungan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "54": {
+      "phrases": [
+        { "words": [1, 3], "id": ["Sesungguhnya ini", "adalah benar-benar rezeki (dari) Kami"] },
+        { "words": [4, 7], "id": "yang tidak habis-habisnya" }
+      ],
+      "full": { "id": "Sesungguhnya ini adalah benar-benar rezeki (dari) Kami yang tidak habis-habisnya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "55": {
+      "phrases": [
+        { "words": [1, 1], "id": "Inilah (kenikmatan bagi orang yang bertakwa)" },
+        { "words": [2, 3], "id": "Sesungguhnya bagi orang-orang yang melampaui batas" },
+        { "words": [4, 5], "id": "benar-benar (disediakan) tempat kembali yang buruk" }
+      ],
+      "full": { "id": "Inilah (kenikmatan bagi orang yang bertakwa). Sesungguhnya bagi orang-orang yang melampaui batas benar-benar (disediakan) tempat kembali yang buruk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "56": {
+      "phrases": [
+        { "words": [1, 2], "id": "(Yaitu neraka) Jahanam yang mereka akan masuk ke dalamnya" },
+        { "words": [3, 4], "id": "Itulah seburuk-buruk tempat tinggal" }
+      ],
+      "full": { "id": "(Yaitu neraka) Jahanam yang mereka akan masuk ke dalamnya. Itulah seburuk-buruk tempat tinggal." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "57": {
+      "phrases": [
+        { "words": [1, 1], "id": "Inilah (azab neraka)" },
+        { "words": [2, 2], "id": "Biarlah mereka merasakannya" },
+        { "words": [3, 4], "id": ["(Minuman mereka) air yang mendidih", "dan cairan nanah (yang menjijikkan)"] }
+      ],
+      "full": { "id": "Inilah (azab neraka). Biarlah mereka merasakannya. (Minuman mereka) air yang mendidih dan cairan nanah (yang menjijikkan)." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "58": {
+      "phrases": [
+        { "words": [1, 4], "id": "(Selain itu, ada) berbagai macam (azab) lain yang serupa itu" }
+      ],
+      "full": { "id": "(Selain itu, ada) berbagai macam (azab) lain yang serupa itu." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "59": {
+      "phrases": [
+        { "words": [1, 4], "id": ["(Dikatakan kepada mereka,) Ini rombongan (pengikut-pengikutmu)", "yang masuk berdesak-desakan bersama kamu (ke neraka)"] },
+        { "words": [5, 7], "id": "Tidak ada ucapan selamat datang bagi mereka" },
+        { "words": [8, 10], "id": "karena sesungguhnya mereka akan masuk neraka" }
+      ],
+      "full": { "id": "(Dikatakan kepada mereka,) “Ini rombongan (pengikut-pengikutmu) yang masuk berdesak-desakan bersama kamu (ke neraka).” Tidak ada ucapan selamat datang bagi mereka karena sesungguhnya mereka akan masuk neraka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "60": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka (para pengikutnya) menjawab" },
+        { "words": [2, 6], "id": "Sebenarnya kamulah yang (lebih pantas) tidak menerima ucapan selamat datang" },
+        { "words": [7, 9], "id": "karena kamulah yang menjerumuskan kami ke dalam azab" },
+        { "words": [10, 11], "id": "(Itulah) seburuk-buruk tempat menetap" }
+      ],
+      "full": { "id": "Mereka (para pengikutnya) menjawab, “Sebenarnya kamulah yang (lebih pantas) tidak menerima ucapan selamat datang karena kamulah yang menjerumuskan kami ke dalam azab. (Itulah) seburuk-buruk tempat menetap.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "61": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka berkata (lagi)" },
+        { "words": [2, 2], "id": "Wahai Tuhan kami" },
+        { "words": [3, 6], "id": "siapa yang menjerumuskan kami ke dalam (azab) ini" },
+        { "words": [7, 11], "id": "tambahkanlah kepadanya azab yang berlipat ganda di dalam neraka" }
+      ],
+      "full": { "id": "Mereka berkata (lagi), “Wahai Tuhan kami, siapa yang menjerumuskan kami ke dalam (azab) ini, tambahkanlah kepadanya azab yang berlipat ganda di dalam neraka.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "62": {
+      "phrases": [
+        { "words": [1, 1], "id": "Mereka (penghuni neraka) berkata" },
+        { "words": [2, 6], "id": "Mengapa kami tidak melihat orang-orang" },
+        { "words": [7, 10], "id": "yang (di dunia) selalu kami anggap sebagai orang-orang yang jahat (hina)" }
+      ],
+      "full": { "id": "Mereka (penghuni neraka) berkata, “Mengapa kami tidak melihat orang-orang yang (di dunia) selalu kami anggap sebagai orang-orang yang jahat (hina)?" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "63": {
+      "phrases": [
+        { "words": [1, 2], "id": ["Apakah karena dahulu kami menjadikan mereka", "(bahan) olok-olokan"] },
+        { "words": [3, 6], "id": "ataukah karena penglihatan (kami) yang tidak melihat mereka" }
+      ],
+      "full": { "id": "Apakah karena dahulu kami menjadikan mereka (bahan) olok-olokan ataukah karena penglihatan (kami) yang tidak melihat mereka?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "64": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya yang demikian itu benar-benar terjadi" },
+        { "words": [4, 6], "id": ["(yaitu) pertengkaran di antara", "penghuni neraka"] }
+      ],
+      "full": { "id": "Sesungguhnya yang demikian itu benar-benar terjadi, (yaitu) pertengkaran di antara penghuni neraka." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "65": {
+      "phrases": [
+        { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
+        { "words": [2, 4], "id": "Sesungguhnya aku hanya seorang pemberi peringatan" },
+        { "words": [5, 9], "id": "tidak ada tuhan selain Allah" },
+        { "words": [10, 10], "id": "Yang Maha Esa" },
+        { "words": [11, 11], "id": "Maha Mengalahkan" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Sesungguhnya aku hanya seorang pemberi peringatan, tidak ada tuhan selain Allah Yang Maha Esa lagi Maha Mengalahkan," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "66": {
+      "phrases": [
+        { "words": [1, 3], "id": "(yaitu,) Tuhan langit dan bumi" },
+        { "words": [4, 5], "id": "dan apa yang ada di antara keduanya" },
+        { "words": [6, 6], "id": "Yang Maha Perkasa" },
+        { "words": [7, 7], "id": "Maha Pengampun" }
+      ],
+      "full": { "id": "(yaitu,) Tuhan langit dan bumi dan apa yang ada di antara keduanya, Yang Maha Perkasa lagi Maha Pengampun.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "67": {
+      "phrases": [
+        { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
+        { "words": [2, 4], "id": ["Ia (Al-Qur’an) adalah berita", "besar"] }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Ia (Al-Qur’an) adalah berita besar." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "68": {
+      "phrases": [
+        { "words": [1, 3], "id": "Kamu berpaling darinya" }
+      ],
+      "full": { "id": "Kamu berpaling darinya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "69": {
+      "phrases": [
+        { "words": [1, 5], "id": "Aku tidak mempunyai pengetahuan sedikit pun" },
+        { "words": [6, 7], "id": "tentang malaikat langit" },
+        { "words": [8, 9], "id": "ketika mereka berbantah-bantahan" }
+      ],
+      "full": { "id": "Aku tidak mempunyai pengetahuan sedikit pun tentang malaikat langit ketika mereka berbantah-bantahan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "70": {
+      "phrases": [
+        { "words": [1, 3], "id": "Tidaklah diwahyukan kepadaku" },
+        { "words": [4, 8], "id": "kecuali aku hanyalah seorang pemberi peringatan yang nyata" }
+      ],
+      "full": { "id": "Tidaklah diwahyukan kepadaku, kecuali aku hanyalah seorang pemberi peringatan yang nyata.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "71": {
+      "phrases": [
+        { "words": [1, 4], "id": ["(Ingatlah) ketika", "Tuhanmu berfirman kepada malaikat"] },
+        { "words": [5, 7], "id": "Sesungguhnya Aku akan menciptakan manusia" },
+        { "words": [8, 9], "id": "dari tanah" }
+      ],
+      "full": { "id": "(Ingatlah) ketika Tuhanmu berfirman kepada malaikat, “Sesungguhnya Aku akan menciptakan manusia dari tanah." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "72": {
+      "phrases": [
+        { "words": [1, 2], "id": "Apabila Aku telah menyempurnakan (penciptaan)-nya" },
+        { "words": [3, 6], "id": "dan meniupkan roh (ciptaan)-Ku ke dalamnya" },
+        { "words": [7, 9], "id": "tunduklah kamu kepadanya dalam keadaan bersujud" }
+      ],
+      "full": { "id": "Apabila Aku telah menyempurnakan (penciptaan)-nya dan meniupkan roh (ciptaan)-Ku ke dalamnya, tunduklah kamu kepadanya dalam keadaan bersujud.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "73": {
+      "phrases": [
+        { "words": [1, 4], "id": ["Lalu, para malaikat itu bersujud semuanya", "bersama-sama"] }
+      ],
+      "full": { "id": "Lalu, para malaikat itu bersujud semuanya bersama-sama," },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "74": {
+      "phrases": [
+        { "words": [1, 2], "id": "kecuali Iblis" },
+        { "words": [3, 3], "id": "Ia menyombongkan diri" },
+        { "words": [4, 6], "id": "dan termasuk golongan kafir" }
+      ],
+      "full": { "id": "kecuali Iblis. Ia menyombongkan diri dan termasuk golongan kafir." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "75": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Allah) berfirman" },
+        { "words": [2, 2], "id": "Wahai Iblis" },
+        { "words": [3, 6], "id": "apakah yang menghalangimu untuk bersujud" },
+        { "words": [7, 9], "id": "kepada yang telah Aku ciptakan dengan kedua tangan-Ku (kekuasaan-Ku)" },
+        { "words": [10, 10], "id": "Apakah kamu menyombongkan diri" },
+        { "words": [11, 14], "id": ["ataukah (memang)", "termasuk golongan yang (lebih) tinggi"] }
+      ],
+      "full": { "id": "(Allah) berfirman, “Wahai Iblis, apakah yang menghalangimu untuk bersujud kepada yang telah Aku ciptakan dengan kedua tangan-Ku (kekuasaan-Ku)? Apakah kamu menyombongkan diri ataukah (memang) termasuk golongan yang (lebih) tinggi?”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "76": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Iblis) berkata" },
+        { "words": [2, 4], "id": "Aku lebih baik darinya" },
+        { "words": [5, 7], "id": "karena Engkau menciptakanku dari api" },
+        { "words": [8, 10], "id": ["sedangkan Engkau menciptakannya", "dari tanah"] }
+      ],
+      "full": { "id": "(Iblis) berkata, “Aku lebih baik darinya, karena Engkau menciptakanku dari api, sedangkan Engkau menciptakannya dari tanah.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "77": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Allah) berfirman" },
+        { "words": [2, 3], "id": "Keluarlah darinya (surga)" },
+        { "words": [4, 5], "id": "karena sesungguhnya kamu terkutuk" }
+      ],
+      "full": { "id": "(Allah) berfirman, “Keluarlah darinya (surga) karena sesungguhnya kamu terkutuk." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "78": {
+      "phrases": [
+        { "words": [1, 3], "id": "Sesungguhnya laknat-Ku tetap atasmu" },
+        { "words": [4, 6], "id": ["sampai hari", "Pembalasan"] }
+      ],
+      "full": { "id": "Sesungguhnya laknat-Ku tetap atasmu sampai hari Pembalasan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "79": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Iblis) berkata" },
+        { "words": [2, 2], "id": "Wahai Tuhanku" },
+        { "words": [3, 3], "id": "tangguhkanlah (usia)-ku" },
+        { "words": [4, 6], "id": "sampai hari mereka (manusia) dibangkitkan" }
+      ],
+      "full": { "id": "(Iblis) berkata, “Wahai Tuhanku, tangguhkanlah (usia)-ku sampai hari mereka (manusia) dibangkitkan.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "80": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Allah) berfirman" },
+        { "words": [2, 4], "id": ["Sesungguhnya kamu termasuk", "golongan yang ditangguhkan"] }
+      ],
+      "full": { "id": "(Allah) berfirman, “Sesungguhnya kamu termasuk golongan yang ditangguhkan" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "81": {
+      "phrases": [
+        { "words": [1, 4], "id": "sampai hari yang telah ditentukan waktunya (kiamat)" }
+      ],
+      "full": { "id": "sampai hari yang telah ditentukan waktunya (kiamat).”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "82": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Iblis) berkata" },
+        { "words": [2, 2], "id": "Demi kemuliaan-Mu" },
+        { "words": [3, 4], "id": "pasti aku akan menyesatkan mereka semuanya" }
+      ],
+      "full": { "id": "(Iblis) berkata, “Demi kemuliaan-Mu, pasti aku akan menyesatkan mereka semuanya." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "83": {
+      "phrases": [
+        { "words": [1, 4], "id": "Kecuali, hamba-hamba-Mu yang terpilih (karena keikhlasannya) di antara mereka" }
+      ],
+      "full": { "id": "Kecuali, hamba-hamba-Mu yang terpilih (karena keikhlasannya) di antara mereka.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "84": {
+      "phrases": [
+        { "words": [1, 1], "id": "(Allah) berfirman" },
+        { "words": [2, 2], "id": "Maka, yang benar (adalah sumpah-Ku)" },
+        { "words": [3, 4], "id": "dan hanya kebenaran itulah yang Aku katakan" }
+      ],
+      "full": { "id": "(Allah) berfirman, “Maka, yang benar (adalah sumpah-Ku) dan hanya kebenaran itulah yang Aku katakan." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "85": {
+      "phrases": [
+        { "words": [1, 2], "id": "Aku pasti akan memenuhi (neraka) Jahanam" },
+        { "words": [3, 3], "id": "denganmu" },
+        { "words": [4, 7], "id": ["dan orang yang mengikutimu di antara mereka", "semuanya"] }
+      ],
+      "full": { "id": "Aku pasti akan memenuhi (neraka) Jahanam denganmu dan orang yang mengikutimu di antara mereka semuanya.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "86": {
+      "phrases": [
+        { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
+        { "words": [2, 6], "id": "Aku tidak meminta imbalan sedikit pun kepadamu atasnya (dakwahku)" },
+        { "words": [7, 10], "id": "dan aku bukanlah termasuk orang-orang yang mengada-ada" }
+      ],
+      "full": { "id": "Katakanlah (Nabi Muhammad), “Aku tidak meminta imbalan sedikit pun kepadamu atasnya (dakwahku) dan aku bukanlah termasuk orang-orang yang mengada-ada." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "87": {
+      "phrases": [
+        { "words": [1, 4], "id": "(Al-Qur’an) ini tidak lain, kecuali (sebagai) peringatan" },
+        { "words": [5, 5], "id": "bagi semesta alam" }
+      ],
+      "full": { "id": "(Al-Qur’an) ini tidak lain, kecuali (sebagai) peringatan bagi semesta alam." },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    },
+    "88": {
+      "phrases": [
+        { "words": [1, 2], "id": "Sungguh, kamu akan mengetahui (kebenaran) beritanya (Al-Qur’an)" },
+        { "words": [3, 4], "id": "setelah beberapa waktu lagi" }
+      ],
+      "full": { "id": "Sungguh, kamu akan mengetahui (kebenaran) beritanya (Al-Qur’an) setelah beberapa waktu lagi.”" },
+      "source": "kemenag-2019-adapted",
+      "reviewed": false
+    }
+  }
+}
