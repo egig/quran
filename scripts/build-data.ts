@@ -54,7 +54,7 @@ const PAGE_JUMP = 20;
  * pages would hold 14 or 16. In each case the last ayahs run onto the top of
  * the next page (e.g. 80:41-42 is line 1 of page 586, drawn with even-page
  * margins).
- * Juz 20-29 (surahs 27-77, pages 377-581) need no override: with the
+ * Juz 15-29 (surahs 17-77, pages 282-581) need no override: with the
  * list's spans every page already holds 15 lines.
  */
 const PAGE_SPAN_OVERRIDES: Record<number, [number, number]> = {
@@ -307,12 +307,13 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
 
   // Lines, per page: within a printed line x decreases (RTL), though
   // neighbouring words may overlap; a glyph entirely right of the previous
-  // one starts a new line.
+  // one starts a new line. The basmalah is always a line of its own: on page
+  // 305 (Maryam) its ink reaches past the right edge of 19:1's first word.
   const lineOf: number[] = [];
   glyphs.forEach((g, i) => {
     const prev = glyphs[i - 1];
     if (!prev || pageIdx[i - 1] !== pageIdx[i]) lineOf.push(0);
-    else lineOf.push(lineOf[i - 1] + (g.x0 > prev.x1 ? 1 : 0));
+    else lineOf.push(lineOf[i - 1] + (g.x0 > prev.x1 || prev.ayah === 0 ? 1 : 0));
   });
 
   const pages = Array.from({ length: pageTotal }, (_, p) => {
