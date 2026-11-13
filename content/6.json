@@ -1403,10 +1403,10 @@
       "phrases": [
         { "words": [1, 5], "id": "Maka, siapa yang Allah kehendaki mendapat hidayah" },
         { "words": [6, 8], "id": "Dia akan melapangkan dadanya untuk menerima Islam" },
-        { "words": [9, 12], "id": "Siapa yang Dia kehendaki menjadi sesat" },
+        { "words": [9, 12], "id": ["Siapa", "yang Dia kehendaki menjadi sesat"] },
         { "words": [13, 16], "id": "Dia akan menjadikan dadanya sempit lagi sesak" },
-        { "words": [17, 20], "id": "seakan-akan dia sedang mendaki ke langit" },
-        { "words": [21, 28], "id": "Begitulah Allah menimpakan siksa kepada orang-orang yang tidak beriman" }
+        { "words": [17, 20], "id": ["seakan-akan", "dia sedang mendaki ke langit"] },
+        { "words": [21, 28], "id": ["Begitulah Allah menimpakan siksa kepada orang-orang", "yang tidak beriman"] }
       ],
       "full": { "id": "Maka, siapa yang Allah kehendaki mendapat hidayah, Dia akan melapangkan dadanya untuk menerima Islam. Siapa yang Dia kehendaki menjadi sesat, Dia akan menjadikan dadanya sempit lagi sesak seakan-akan dia sedang mendaki ke langit. Begitulah Allah menimpakan siksa kepada orang-orang yang tidak beriman." },
       "source": "kemenag-2019-adapted",
@@ -1415,7 +1415,7 @@
     "126": {
       "phrases": [
         { "words": [1, 4], "id": "Inilah jalan Tuhanmu yang lurus" },
-        { "words": [5, 9], "id": "Sungguh, Kami telah menjelaskan secara rinci ayat-ayat (Kami) kepada orang-orang yang mengambil pelajaran" }
+        { "words": [5, 9], "id": ["Sungguh, Kami telah menjelaskan secara rinci", "ayat-ayat (Kami) kepada orang-orang yang mengambil pelajaran"] }
       ],
       "full": { "id": "Inilah jalan Tuhanmu yang lurus. Sungguh, Kami telah menjelaskan secara rinci ayat-ayat (Kami) kepada orang-orang yang mengambil pelajaran." },
       "source": "kemenag-2019-adapted",
@@ -1423,7 +1423,7 @@
     },
     "127": {
       "phrases": [
-        { "words": [1, 5], "id": "Bagi mereka (disediakan) tempat yang damai (surga) di sisi Tuhannya" },
+        { "words": [1, 5], "id": ["Bagi mereka (disediakan) tempat yang damai (surga) di sisi", "Tuhannya"] },
         { "words": [6, 7], "id": "Dialah pelindung mereka" },
         { "words": [8, 10], "id": "karena apa (amal kebajikan) yang mereka kerjakan" }
       ],
@@ -1433,11 +1433,11 @@
     },
     "128": {
       "phrases": [
-        { "words": [1, 3], "id": "(Ingatlah) pada hari ketika Dia mengumpulkan mereka semua (dan Allah berfirman)" },
+        { "words": [1, 3], "id": ["(Ingatlah) pada hari ketika Dia mengumpulkan mereka", "semua (dan Allah berfirman)"] },
         { "words": [4, 9], "id": "Wahai golongan jin, kamu telah sering kali (menyesatkan) manusia" },
         { "words": [10, 13], "id": "Kawan-kawan mereka dari golongan manusia berkata" },
         { "words": [14, 17], "id": "Ya Tuhan, kami telah saling mendapatkan kesenangan" },
-        { "words": [18, 22], "id": "dan kami telah sampai pada waktu yang telah Engkau tentukan buat kami" },
+        { "words": [18, 22], "id": ["dan kami telah sampai", "pada waktu yang telah Engkau tentukan buat kami"] },
         { "words": [23, 27], "id": "Allah berfirman, Nerakalah tempat kamu selama-lamanya" },
         { "words": [28, 31], "id": "kecuali jika Allah menghendaki lain" },
         { "words": [32, 35], "id": "Sesungguhnya Tuhanmu Maha Bijaksana lagi Maha Mengetahui" }
@@ -1448,7 +1448,7 @@
     },
     "129": {
       "phrases": [
-        { "words": [1, 5], "id": "Demikianlah Kami jadikan sebagian orang-orang zalim berteman dengan sebagian lainnya" },
+        { "words": [1, 5], "id": ["Demikianlah Kami jadikan", "sebagian orang-orang zalim berteman dengan sebagian lainnya"] },
         { "words": [6, 8], "id": "sebagai balasan atas apa yang selalu mereka kerjakan" }
       ],
       "full": { "id": "Demikianlah Kami jadikan sebagian orang-orang zalim berteman dengan sebagian lainnya, sebagai balasan atas apa yang selalu mereka kerjakan." },
@@ -1460,7 +1460,7 @@
         { "words": [1, 3], "id": "(Allah berfirman,) Wahai golongan jin dan manusia" },
         { "words": [4, 7], "id": "tidakkah sudah datang kepadamu rasul-rasul dari kalanganmu sendiri" },
         { "words": [8, 10], "id": "yang menyampaikan ayat-ayat-Ku kepadamu" },
-        { "words": [11, 14], "id": "dan memperingatkanmu tentang pertemuan pada hari ini?" },
+        { "words": [11, 14], "id": ["dan memperingatkanmu tentang pertemuan pada hari", "ini?"] },
         { "words": [15, 18], "id": "Mereka menjawab, (Ya,) kami menjadi saksi atas diri kami sendiri" },
         { "words": [19, 21], "id": "Namun, mereka tertipu oleh kehidupan dunia" },
         { "words": [22, 27], "id": "Mereka telah menjadi saksi atas diri mereka sendiri bahwa mereka adalah orang kafir" }

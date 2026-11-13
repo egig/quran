@@ -1255,7 +1255,7 @@
     },
     "107": {
       "phrases": [
-        { "words": [1, 4], "id": "Apakah engkau tidak mengetahui bahwa Allah" },
+        { "words": [1, 4], "id": ["Apakah engkau tidak mengetahui bahwa", "Allah"] },
         { "words": [5, 8], "id": "memiliki kerajaan langit dan bumi?" },
         { "words": [9, 17], "id": "(Ketahuilah bahwa) tidak ada bagimu pelindung dan penolong selain Allah" }
       ],
@@ -1278,7 +1278,7 @@
       "phrases": [
         { "words": [1, 5], "id": "Banyak di antara Ahlulkitab" },
         { "words": [6, 11], "id": "menginginkan agar mereka dapat mengembalikan kamu setelah kamu beriman menjadi kafir kembali" },
-        { "words": [12, 15], "id": "karena rasa dengki dalam diri mereka" },
+        { "words": [12, 15], "id": ["karena rasa dengki", "dalam diri mereka"] },
         { "words": [16, 21], "id": "setelah kebenaran jelas bagi mereka" },
         { "words": [22, 22], "id": "Maka, maafkanlah (biarkanlah)" },
         { "words": [23, 23], "id": "dan berlapang dadalah (berpalinglah dari mereka)" },
@@ -1304,10 +1304,10 @@
     "111": {
       "phrases": [
         { "words": [1, 1], "id": "Mereka (Yahudi dan Nasrani) berkata" },
-        { "words": [2, 10], "id": "Tidak akan masuk surga kecuali orang Yahudi atau Nasrani" },
+        { "words": [2, 10], "id": ["Tidak akan masuk surga kecuali orang Yahudi", "atau Nasrani"] },
         { "words": [11, 12], "id": "Itu (hanya) angan-angan mereka" },
         { "words": [13, 15], "id": "Katakanlah (Nabi Muhammad), Tunjukkan bukti kebenaranmu" },
-        { "words": [16, 18], "id": "jika kamu orang-orang yang benar" }
+        { "words": [16, 18], "id": ["jika kamu", "orang-orang yang benar"] }
       ],
       "full": { "id": "Mereka (Yahudi dan Nasrani) berkata, “Tidak akan masuk surga kecuali orang Yahudi atau Nasrani.” Itu (hanya) angan-angan mereka. Katakanlah (Nabi Muhammad), “Tunjukkan bukti kebenaranmu jika kamu orang-orang yang benar.”" },
       "source": "kemenag-2019-adapted",
@@ -1318,7 +1318,7 @@
         { "words": [1, 1], "id": "Tidak demikian!" },
         { "words": [2, 5], "id": "Orang yang menyerahkan diri sepenuhnya kepada Allah" },
         { "words": [6, 7], "id": "serta berbuat ihsan" },
-        { "words": [8, 11], "id": "akan mendapat pahala di sisi Tuhannya" },
+        { "words": [8, 11], "id": ["akan mendapat", "pahala di sisi Tuhannya"] },
         { "words": [12, 14], "id": "tidak ada rasa takut yang menimpa mereka" },
         { "words": [15, 17], "id": "dan mereka pun tidak bersedih" }
       ],
