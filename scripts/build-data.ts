@@ -427,9 +427,12 @@ async function parsePlate(svgs: string[], surah: number, firstPage: number, page
     return { lines, centres, known };
   });
 
-  // Pitch for pages with fewer than two ornaments: borrow one from another
-  // page. Full pages share the same line pitch.
-  const fallbackPitch = pages.map((p) => pitchOf(p.known)).find((v) => v !== null) ?? null;
+  // Pitch for pages with fewer than two ornaments (page 48 holds only 2:282):
+  // borrow the median pitch of the surah's other pages. Not the first page
+  // found: the API draws pages 1-2 at another scale (page 2: 28.35 units
+  // against ~35.8), which put page 48's first line 104 units too high.
+  const pitches = pages.flatMap((p) => pitchOf(p.known) ?? []).sort((a, b) => a - b);
+  const fallbackPitch = pitches.length ? pitches[Math.floor(pitches.length / 2)] : null;
   const centre = (p: number, line: number) => {
     const { centres, known } = pages[p];
     const c = centres[line];
