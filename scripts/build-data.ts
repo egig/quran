@@ -307,12 +307,13 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
 
   // Lines, per page: within a printed line x decreases (RTL), though
   // neighbouring words may overlap; a glyph entirely right of the previous
-  // one starts a new line.
+  // one starts a new line. The basmalah is always a line of its own: on page
+  // 305 (Maryam) its ink reaches past the right edge of 19:1's first word.
   const lineOf: number[] = [];
   glyphs.forEach((g, i) => {
     const prev = glyphs[i - 1];
     if (!prev || pageIdx[i - 1] !== pageIdx[i]) lineOf.push(0);
-    else lineOf.push(lineOf[i - 1] + (g.x0 > prev.x1 ? 1 : 0));
+    else lineOf.push(lineOf[i - 1] + (g.x0 > prev.x1 || prev.ayah === 0 ? 1 : 0));
   });
 
   const pages = Array.from({ length: pageTotal }, (_, p) => {
