@@ -22,7 +22,8 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 2], "id": "Apakah manusia mengira" },
+        { "words": [1, 1], "id": "Apakah mengira" },
+        { "words": [2, 2], "id": "manusia" },
         { "words": [3, 5], "id": "bahwa Kami tidak akan mengumpulkan (kembali) tulang-belulangnya" }
       ],
       "full": { "id": "Apakah manusia mengira bahwa Kami tidak akan mengumpulkan (kembali) tulang-belulangnya?" },
@@ -58,7 +59,8 @@
     },
     "7": {
       "phrases": [
-        { "words": [1, 3], "id": "Apabila mata terbelalak (ketakutan)" }
+        { "words": [1, 2], "id": "Apabila terbelalak (ketakutan)" },
+        { "words": [3, 3], "id": "mata" }
       ],
       "full": { "id": "Apabila mata terbelalak (ketakutan)," },
       "source": "kemenag-2019-adapted",
@@ -310,7 +312,8 @@
     },
     "36": {
       "phrases": [
-        { "words": [1, 2], "id": "Apakah manusia mengira" },
+        { "words": [1, 1], "id": "Apakah mengira" },
+        { "words": [2, 2], "id": "manusia" },
         { "words": [3, 5], "id": "akan dibiarkan begitu saja (tanpa pertanggungjawaban)" }
       ],
       "full": { "id": "Apakah manusia mengira akan dibiarkan begitu saja (tanpa pertanggungjawaban)?" },

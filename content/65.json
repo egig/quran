@@ -134,7 +134,8 @@
         { "words": [6, 7], "id": "Maka, bertakwalah kepada Allah" },
         { "words": [8, 9], "id": "wahai ululalbab (orang-orang yang berakal sehat, berhati bersih, dan cerdas,)" },
         { "words": [10, 11], "id": "(yaitu) orang-orang yang beriman" },
-        { "words": [12, 16], "id": "Sungguh, Allah telah menurunkan peringatan kepadamu" }
+        { "words": [12, 13], "id": "Sungguh telah menurunkan," },
+        { "words": [14, 16], "id": "Allah, peringatan kepadamu" }
       ],
       "full": { "id": "Allah telah menyediakan azab yang sangat pedih bagi mereka. Maka, bertakwalah kepada Allah, wahai ululalbab (orang-orang yang berakal sehat, berhati bersih, dan cerdas,) (yaitu) orang-orang yang beriman. Sungguh, Allah telah menurunkan peringatan kepadamu" },
       "source": "kemenag-2019-adapted",

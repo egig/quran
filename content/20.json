@@ -156,7 +156,8 @@
     },
     "17": {
       "phrases": [
-        { "words": [1, 4], "id": "Apa yang ada di tangan kananmu itu, wahai Musa" }
+        { "words": [1, 2], "id": "Apa itu" },
+        { "words": [3, 4], "id": "yang ada di tangan kananmu, wahai Musa" }
       ],
       "full": { "id": "Apa yang ada di tangan kananmu itu, wahai Musa?”" },
       "source": "kemenag-2019-adapted",
@@ -294,7 +295,8 @@
     },
     "33": {
       "phrases": [
-        { "words": [1, 3], "id": "agar kami banyak bertasbih kepada-Mu" }
+        { "words": [1, 2], "id": "agar kami bertasbih kepada-Mu" },
+        { "words": [3, 3], "id": "banyak" }
       ],
       "full": { "id": "agar kami banyak bertasbih kepada-Mu," },
       "source": "kemenag-2019-adapted",
@@ -410,7 +412,8 @@
     "45": {
       "phrases": [
         { "words": [1, 2], "id": "Keduanya berkata, Wahai Tuhan kami" },
-        { "words": [3, 7], "id": "sesungguhnya kami khawatir dia akan segera menyiksa kami" },
+        { "words": [3, 6], "id": "sesungguhnya kami khawatir dia akan segera menyiksa" },
+        { "words": [7, 7], "id": "kami" },
         { "words": [8, 10], "id": "atau akan makin melampaui batas" }
       ],
       "full": { "id": "Keduanya berkata, “Wahai Tuhan kami, sesungguhnya kami khawatir dia akan segera menyiksa kami atau akan makin melampaui batas.”" },
@@ -462,7 +465,8 @@
     "50": {
       "phrases": [
         { "words": [1, 1], "id": "Dia (Musa) menjawab" },
-        { "words": [2, 7], "id": "Tuhan kami ialah (Tuhan) yang telah menganugerahkan kepada segala sesuatu bentuk penciptaannya (yang layak)" },
+        { "words": [2, 4], "id": "Tuhan kami ialah (Tuhan) yang telah menganugerahkan" },
+        { "words": [5, 7], "id": "kepada segala sesuatu bentuk penciptaannya (yang layak)" },
         { "words": [8, 9], "id": "kemudian memberinya petunjuk" }
       ],
       "full": { "id": "Dia (Musa) menjawab, “Tuhan kami ialah (Tuhan) yang telah menganugerahkan kepada segala sesuatu bentuk penciptaannya (yang layak), kemudian memberinya petunjuk.”" },
@@ -492,7 +496,8 @@
       "phrases": [
         { "words": [1, 5], "id": ["(Dialah Tuhan)", "yang telah menjadikan bumi sebagai hamparan"] },
         { "words": [6, 9], "id": "dan meratakan jalan-jalan di atasnya bagimu" },
-        { "words": [10, 13], "id": "serta menurunkan air (hujan) dari langit" },
+        { "words": [10, 11], "id": "serta menurunkan" },
+        { "words": [12, 13], "id": "air (hujan) dari langit" },
         { "words": [14, 19], "id": "Kemudian, Kami menumbuhkan dengannya (air hujan itu) beraneka macam tumbuh-tumbuhan" }
       ],
       "full": { "id": "(Dialah Tuhan) yang telah menjadikan bumi sebagai hamparan dan meratakan jalan-jalan di atasnya bagimu serta menurunkan air (hujan) dari langit.” Kemudian, Kami menumbuhkan dengannya (air hujan itu) beraneka macam tumbuh-tumbuhan." },
@@ -569,7 +574,8 @@
     },
     "61": {
       "phrases": [
-        { "words": [1, 3], "id": "Musa berkata kepada mereka (para penyihir)" },
+        { "words": [1, 2], "id": "Berkata kepada mereka (para penyihir)" },
+        { "words": [3, 3], "id": "Musa" },
         { "words": [4, 4], "id": "Celakalah kamu" },
         { "words": [5, 9], "id": "Janganlah kamu mengada-adakan kedustaan terhadap Allah" },
         { "words": [10, 11], "id": "nanti Dia membinasakan kamu dengan azab" },
@@ -623,7 +629,8 @@
       "phrases": [
         { "words": [1, 3], "id": ["Dia (Musa) berkata", "Silakan kamu melemparkan"] },
         { "words": [4, 6], "id": "Tiba-tiba tali-temali dan tongkat-tongkat mereka" },
-        { "words": [7, 12], "id": "terbayang olehnya (Musa) seakan-akan ia (ular-ular itu) merayap cepat karena sihir mereka" }
+        { "words": [7, 11], "id": "terbayang olehnya (Musa) seakan-akan ia (ular-ular itu) karena sihir mereka" },
+        { "words": [12, 12], "id": "merayap cepat" }
       ],
       "full": { "id": "Dia (Musa) berkata, “Silakan kamu melemparkan!” Tiba-tiba tali-temali dan tongkat-tongkat mereka terbayang olehnya (Musa) seakan-akan ia (ular-ular itu) merayap cepat karena sihir mereka." },
       "source": "kemenag-2019-adapted",
@@ -674,7 +681,8 @@
         { "words": [8, 12], "id": "Sesungguhnya dia itu pemimpinmu yang mengajarkan sihir kepadamu" },
         { "words": [13, 17], "id": ["Sungguh, akan kupotong tangan-tangan", "dan kaki-kakimu secara bersilang"] },
         { "words": [18, 21], "id": "dan sungguh, akan aku salib kamu pada pangkal pohon kurma" },
-        { "words": [22, 26], "id": "Sungguh, kamu pasti akan mengetahui siapa di antara kita yang lebih keras dan lebih kekal siksaannya" }
+        { "words": [22, 22], "id": "Sungguh, kamu pasti akan mengetahui" },
+        { "words": [23, 26], "id": "siapa di antara kita yang lebih keras dan lebih kekal siksaannya" }
       ],
       "full": { "id": "Dia (Fir'aun) berkata, “Apakah kamu beriman kepadanya (Musa) sebelum aku memberi izin kepadamu? Sesungguhnya dia itu pemimpinmu yang mengajarkan sihir kepadamu. Sungguh, akan kupotong tangan-tangan dan kaki-kakimu secara bersilang dan sungguh, akan aku salib kamu pada pangkal pohon kurma. Sungguh, kamu pasti akan mengetahui siapa di antara kita yang lebih keras dan lebih kekal siksaannya.”" },
       "source": "kemenag-2019-adapted",
@@ -683,10 +691,12 @@
     "72": {
       "phrases": [
         { "words": [1, 1], "id": "Mereka (para penyihir) berkata" },
-        { "words": [2, 8], "id": "Kami tidak akan mengutamakanmu daripada bukti-bukti nyata (mukjizat) yang telah datang kepada kami (melalui Musa)" },
+        { "words": [2, 7], "id": "Kami tidak akan mengutamakanmu daripada yang telah datang kepada kami (melalui Musa)" },
+        { "words": [8, 8], "id": "bukti-bukti nyata (mukjizat)" },
         { "words": [9, 10], "id": "dan daripada (Allah) yang telah menciptakan kami" },
         { "words": [11, 14], "id": "Putuskanlah apa yang hendak engkau putuskan" },
-        { "words": [15, 19], "id": "Sesungguhnya engkau hanya dapat memutuskan (perkara) dalam kehidupan dunia ini" }
+        { "words": [15, 17], "id": "Sesungguhnya engkau hanya dapat memutuskan (perkara)" },
+        { "words": [18, 19], "id": "dalam kehidupan dunia ini" }
       ],
       "full": { "id": "Mereka (para penyihir) berkata, “Kami tidak akan mengutamakanmu daripada bukti-bukti nyata (mukjizat) yang telah datang kepada kami (melalui Musa) dan daripada (Allah) yang telah menciptakan kami. Putuskanlah apa yang hendak engkau putuskan! Sesungguhnya engkau hanya dapat memutuskan (perkara) dalam kehidupan dunia ini." },
       "source": "kemenag-2019-adapted",
@@ -696,7 +706,8 @@
       "phrases": [
         { "words": [1, 3], "id": "Sesungguhnya kami telah beriman kepada Tuhan kami" },
         { "words": [4, 6], "id": "agar Dia mengampuni semua kesalahan kami" },
-        { "words": [7, 11], "id": "dan sihir yang telah engkau paksakan kepada kami" },
+        { "words": [7, 8], "id": "dan yang telah engkau paksakan kepada kami" },
+        { "words": [9, 11], "id": "sihir" },
         { "words": [12, 14], "id": "Allah lebih baik dan lebih kekal" }
       ],
       "full": { "id": "Sesungguhnya kami telah beriman kepada Tuhan kami agar Dia mengampuni semua kesalahan kami dan sihir yang telah engkau paksakan kepada kami. Allah lebih baik dan lebih kekal.”" },
@@ -738,7 +749,8 @@
       "phrases": [
         { "words": [1, 4], "id": "Sungguh, telah Kami wahyukan kepada Musa" },
         { "words": [5, 7], "id": "Pergilah bersama hamba-hamba-Ku (Bani Israil) pada malam hari" },
-        { "words": [8, 13], "id": "dan pukullah laut itu untuk menjadi jalan yang kering bagi mereka" },
+        { "words": [8, 10], "id": "dan pukullah untuk menjadi jalan bagi mereka" },
+        { "words": [11, 13], "id": "laut itu yang kering" },
         { "words": [14, 16], "id": "tanpa rasa takut akan tersusul" },
         { "words": [17, 18], "id": "dan tanpa rasa khawatir (akan tenggelam)" }
       ],
@@ -748,7 +760,8 @@
     },
     "78": {
       "phrases": [
-        { "words": [1, 3], "id": "Fir'aun dengan bala tentaranya lalu mengejar mereka (Musa dan pengikutnya)" },
+        { "words": [1, 2], "id": "Fir'aun lalu mengejar mereka (Musa dan pengikutnya)" },
+        { "words": [3, 3], "id": "dengan bala tentaranya" },
         { "words": [4, 8], "id": "tetapi mereka (Fir'aun dengan bala tentaranya) digulung ombak laut (yang dahsyat) sehingga menenggelamkan mereka" }
       ],
       "full": { "id": "Fir'aun dengan bala tentaranya lalu mengejar mereka (Musa dan pengikutnya), tetapi mereka (Fir'aun dengan bala tentaranya) digulung ombak laut (yang dahsyat) sehingga menenggelamkan mereka." },
@@ -817,7 +830,8 @@
       "phrases": [
         { "words": [1, 1], "id": "Dia (Allah) berfirman" },
         { "words": [2, 7], "id": "Sesungguhnya Kami benar-benar telah menguji kaummu setelah engkau tinggalkan" },
-        { "words": [8, 9], "id": "dan Samiri telah menyesatkan mereka" }
+        { "words": [8, 8], "id": "dan telah menyesatkan mereka" },
+        { "words": [9, 9], "id": "Samiri" }
       ],
       "full": { "id": "Dia (Allah) berfirman, “Sesungguhnya Kami benar-benar telah menguji kaummu setelah engkau tinggalkan dan Samiri telah menyesatkan mereka.”" },
       "source": "kemenag-2019-adapted",
@@ -869,7 +883,8 @@
     },
     "90": {
       "phrases": [
-        { "words": [1, 6], "id": "Sungguh, sebelumnya Harun telah berkata kepada mereka" },
+        { "words": [1, 4], "id": "Sungguh, Harun telah berkata kepada mereka" },
+        { "words": [5, 6], "id": "sebelumnya" },
         { "words": [7, 10], "id": "Wahai kaumku, sesungguhnya kamu hanya diberi cobaan dengannya (patung anak sapi)" },
         { "words": [11, 13], "id": "dan sesungguhnya Tuhanmu ialah (Allah) Yang Maha Pengasih" },
         { "words": [14, 16], "id": ["Maka, ikutilah aku", "dan taatilah perintahku"] }
@@ -882,7 +897,8 @@
       "phrases": [
         { "words": [1, 1], "id": "Mereka menjawab" },
         { "words": [2, 5], "id": "Kami tidak akan meninggalkannya (patung anak sapi) (dan) tetap akan menyembahnya" },
-        { "words": [6, 9], "id": "sampai Musa kembali kepada kami" }
+        { "words": [6, 7], "id": "sampai kembali" },
+        { "words": [8, 9], "id": "Musa kepada kami" }
       ],
       "full": { "id": "Mereka menjawab, “Kami tidak akan meninggalkannya (patung anak sapi) (dan) tetap akan menyembahnya sampai Musa kembali kepada kami.”" },
       "source": "kemenag-2019-adapted",
@@ -941,8 +957,10 @@
       "phrases": [
         { "words": [1, 2], "id": ["Dia (Musa) berkata (kepada Samiri)", "Pergilah kau"] },
         { "words": [3, 10], "id": "Sesungguhnya di dalam kehidupan (dunia) engkau (hanya dapat) mengatakan, Jangan sentuh (aku)" },
-        { "words": [11, 15], "id": "Engkau pasti mendapat (hukuman) yang telah dijanjikan (di akhirat) yang tidak akan dapat engkau hindari" },
-        { "words": [16, 22], "id": "Lihatlah tuhanmu itu yang tetap engkau sembah" },
+        { "words": [11, 12], "id": "Engkau pasti mendapat" },
+        { "words": [13, 15], "id": "(hukuman) yang telah dijanjikan (di akhirat) yang tidak akan dapat engkau hindari" },
+        { "words": [16, 21], "id": "Lihatlah tuhanmu itu yang tetap" },
+        { "words": [22, 22], "id": "engkau sembah" },
         { "words": [23, 28], "id": "Kami pasti akan membakarnya, kemudian sungguh kami akan menghamburkan (abu)-nya ke laut" }
       ],
       "full": { "id": "Dia (Musa) berkata (kepada Samiri), “Pergilah kau! Sesungguhnya di dalam kehidupan (dunia) engkau (hanya dapat) mengatakan, 'Jangan sentuh (aku).’ Engkau pasti mendapat (hukuman) yang telah dijanjikan (di akhirat) yang tidak akan dapat engkau hindari. Lihatlah tuhanmu itu yang tetap engkau sembah. Kami pasti akan membakarnya, kemudian sungguh kami akan menghamburkan (abu)-nya ke laut.”" },
@@ -961,7 +979,8 @@
     "99": {
       "phrases": [
         { "words": [1, 8], "id": "Demikianlah Kami kisahkan kepadamu (Nabi Muhammad) sebagian kisah umat yang terdahulu" },
-        { "words": [9, 13], "id": "dan sungguh, telah Kami anugerahkan kepadamu suatu peringatan (Al-Qur’an) dari sisi Kami" }
+        { "words": [9, 12], "id": "dan sungguh, telah Kami anugerahkan kepadamu dari sisi Kami" },
+        { "words": [13, 13], "id": "suatu peringatan (Al-Qur’an)" }
       ],
       "full": { "id": "Demikianlah Kami kisahkan kepadamu (Nabi Muhammad) sebagian kisah umat yang terdahulu dan sungguh, telah Kami anugerahkan kepadamu suatu peringatan (Al-Qur’an) dari sisi Kami." },
       "source": "kemenag-2019-adapted",
@@ -987,7 +1006,8 @@
     },
     "102": {
       "phrases": [
-        { "words": [1, 4], "id": "(yaitu) pada hari ketika sangkakala ditiup" },
+        { "words": [1, 2], "id": "(yaitu) pada hari ketika ditiup" },
+        { "words": [3, 4], "id": "sangkakala" },
         { "words": [5, 8], "id": "Pada hari itu Kami kumpulkan para pendurhaka dengan (wajah) pucat (penuh ketakutan)" }
       ],
       "full": { "id": "(yaitu) pada hari ketika sangkakala ditiup. Pada hari itu Kami kumpulkan para pendurhaka dengan (wajah) pucat (penuh ketakutan)." },
@@ -1006,7 +1026,8 @@
     "104": {
       "phrases": [
         { "words": [1, 4], "id": "Kami lebih mengetahui apa yang akan mereka katakan" },
-        { "words": [5, 8], "id": "ketika orang yang paling lurus jalannya mengatakan" },
+        { "words": [5, 6], "id": "ketika mengatakan" },
+        { "words": [7, 8], "id": "orang yang paling lurus jalannya" },
         { "words": [9, 12], "id": "Kamu tinggal (di dunia) tidak lebih dari sehari saja" }
       ],
       "full": { "id": "Kami lebih mengetahui apa yang akan mereka katakan, ketika orang yang paling lurus jalannya mengatakan, “Kamu tinggal (di dunia) tidak lebih dari sehari saja.”" },
@@ -1064,7 +1085,8 @@
       "phrases": [
         { "words": [1, 4], "id": "Dia (Allah) mengetahui apa yang di hadapan mereka (yang akan terjadi)" },
         { "words": [5, 6], "id": "dan apa yang di belakang mereka (yang telah terjadi)" },
-        { "words": [7, 10], "id": "sedangkan ilmu mereka tidak dapat meliputi-Nya" }
+        { "words": [7, 9], "id": "sedangkan tidak dapat meliputi-Nya" },
+        { "words": [10, 10], "id": "ilmu mereka" }
       ],
       "full": { "id": "Dia (Allah) mengetahui apa yang di hadapan mereka (yang akan terjadi) dan apa yang di belakang mereka (yang telah terjadi), sedangkan ilmu mereka tidak dapat meliputi-Nya." },
       "source": "kemenag-2019-adapted",
@@ -1161,7 +1183,8 @@
     },
     "120": {
       "phrases": [
-        { "words": [1, 3], "id": "Maka, setan membisikkan (pikiran jahat) kepadanya" },
+        { "words": [1, 2], "id": "Maka, membisikkan (pikiran jahat) kepadanya" },
+        { "words": [3, 3], "id": "setan" },
         { "words": [4, 5], "id": "Ia berkata, Wahai Adam" },
         { "words": [6, 10], "id": "maukah aku tunjukkan kepadamu pohon khuldi (keabadian)" },
         { "words": [11, 13], "id": ["dan kerajaan", "yang tidak akan binasa"] }

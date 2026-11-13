@@ -695,7 +695,8 @@
         { "words": [1, 6], "id": "Kepada mereka diedarkan piring-piring dan gelas-gelas dari emas" },
         { "words": [7, 10], "id": "dan di dalamnya (surga) terdapat apa yang diingini oleh hati" },
         { "words": [11, 12], "id": "dan dipandang sedap oleh mata" },
-        { "words": [13, 15], "id": "serta kamu kekal di dalamnya" }
+        { "words": [13, 14], "id": "serta kamu di dalamnya" },
+        { "words": [15, 15], "id": "kekal" }
       ],
       "full": { "id": "Kepada mereka diedarkan piring-piring dan gelas-gelas dari emas dan di dalamnya (surga) terdapat apa yang diingini oleh hati dan dipandang sedap oleh mata serta kamu kekal di dalamnya." },
       "source": "kemenag-2019-adapted",
@@ -817,7 +818,8 @@
     },
     "84": {
       "phrases": [
-        { "words": [1, 8], "id": "Dialah Tuhan (yang disembah) di langit dan Tuhan (yang disembah) di bumi" },
+        { "words": [1, 7], "id": "Dialah Tuhan (yang disembah) di langit dan di bumi" },
+        { "words": [8, 8], "id": "Tuhan (yang disembah)" },
         { "words": [9, 10], "id": "Dialah Yang Maha Bijaksana" },
         { "words": [11, 11], "id": "Maha Mengetahui" }
       ],

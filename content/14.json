@@ -86,7 +86,8 @@
     "8": {
       "phrases": [
         { "words": [1, 2], "id": "Musa berkata" },
-        { "words": [3, 9], "id": "Jika kamu dan siapa pun yang ada di bumi semuanya kufur (atas nikmat Allah)" },
+        { "words": [3, 7], "id": "Jika kamu dan siapa pun yang ada kufur (atas nikmat Allah)" },
+        { "words": [8, 9], "id": "di bumi semuanya" },
         { "words": [10, 13], "id": "sesungguhnya Allah benar-benar Maha Kaya lagi Maha Terpuji" }
       ],
       "full": { "id": "Musa berkata, “Jika kamu dan siapa pun yang ada di bumi semuanya kufur (atas nikmat Allah), sesungguhnya Allah benar-benar Maha Kaya lagi Maha Terpuji." },
@@ -125,7 +126,8 @@
         { "words": [1, 3], "id": "Rasul-rasul mereka berkata kepada mereka" },
         { "words": [4, 8], "id": "Kami hanyalah manusia seperti kamu" },
         { "words": [9, 16], "id": ["tetapi Allah", "memberi karunia kepada siapa yang Dia kehendaki di antara hamba-hamba-Nya"] },
-        { "words": [17, 25], "id": "Tidak mungkin bagi kami mendatangkan suatu bukti kepada kamu melainkan dengan izin Allah" },
+        { "words": [17, 21], "id": "Tidak mungkin bagi kami mendatangkan kepada kamu" },
+        { "words": [22, 25], "id": "suatu bukti melainkan dengan izin Allah" },
         { "words": [26, 29], "id": "Hanya kepada Allah seharusnya orang-orang yang beriman bertawakal" }
       ],
       "full": { "id": "Rasul-rasul mereka berkata kepada mereka, “Kami hanyalah manusia seperti kamu, tetapi Allah memberi karunia kepada siapa yang Dia kehendaki di antara hamba-hamba-Nya. Tidak mungkin bagi kami mendatangkan suatu bukti kepada kamu melainkan dengan izin Allah. Hanya kepada Allah seharusnya orang-orang yang beriman bertawakal." },
@@ -293,7 +295,8 @@
       "phrases": [
         { "words": [1, 5], "id": ["(Adapun) perumpamaan kalimah khabīṡah", "seperti pohon yang buruk"] },
         { "words": [6, 9], "id": "akar-akarnya telah dicabut dari permukaan bumi" },
-        { "words": [10, 13], "id": "(dan) tidak dapat tetap (tegak) sedikit pun" }
+        { "words": [10, 12], "id": "(dan) tidak dapat sedikit pun" },
+        { "words": [13, 13], "id": "tetap (tegak)" }
       ],
       "full": { "id": "(Adapun) perumpamaan kalimah khabīṡah seperti pohon yang buruk, akar-akarnya telah dicabut dari permukaan bumi, (dan) tidak dapat tetap (tegak) sedikit pun." },
       "source": "kemenag-2019-adapted",
@@ -355,7 +358,8 @@
       "phrases": [
         { "words": [1, 5], "id": ["Allahlah yang", "telah menciptakan langit dan bumi"] },
         { "words": [6, 9], "id": "menurunkan air (hujan) dari langit" },
-        { "words": [10, 15], "id": "lalu dengan (air hujan) itu Dia mengeluarkan berbagai buah-buahan sebagai rezeki untukmu" },
+        { "words": [10, 10], "id": "lalu Dia mengeluarkan" },
+        { "words": [11, 15], "id": "dengan (air hujan) itu berbagai buah-buahan sebagai rezeki untukmu" },
         { "words": [16, 22], "id": ["Dia juga telah menundukkan kapal bagimu agar berlayar", "di lautan dengan kehendak-Nya"] },
         { "words": [23, 25], "id": "Dia pun telah menundukkan sungai-sungai bagimu" }
       ],
@@ -418,7 +422,8 @@
     "38": {
       "phrases": [
         { "words": [1, 7], "id": "Ya Tuhan kami, sesungguhnya Engkau mengetahui apa yang kami sembunyikan dan apa yang kami tampakkan" },
-        { "words": [8, 13], "id": "Tidak ada sesuatu pun yang tersembunyi bagi Allah" },
+        { "words": [8, 11], "id": "Tidak ada yang tersembunyi bagi Allah" },
+        { "words": [12, 13], "id": "sesuatu pun" },
         { "words": [14, 18], "id": "baik yang ada di bumi maupun yang ada di langit" }
       ],
       "full": { "id": "Ya Tuhan kami, sesungguhnya Engkau mengetahui apa yang kami sembunyikan dan apa yang kami tampakkan. Tidak ada sesuatu pun yang tersembunyi bagi Allah, baik yang ada di bumi maupun yang ada di langit." },
@@ -454,7 +459,8 @@
     },
     "42": {
       "phrases": [
-        { "words": [1, 7], "id": "Janganlah sekali-kali engkau mengira bahwa Allah lengah terhadap apa yang orang-orang zalim perbuat" },
+        { "words": [1, 6], "id": "Janganlah sekali-kali engkau mengira bahwa Allah lengah terhadap apa yang perbuat" },
+        { "words": [7, 7], "id": "orang-orang zalim" },
         { "words": [8, 10], "id": "Sesungguhnya Dia menangguhkan mereka sampai hari" },
         { "words": [11, 13], "id": "ketika mata (mereka) terbelalak" }
       ],
@@ -533,7 +539,8 @@
     "50": {
       "phrases": [
         { "words": [1, 3], "id": "Pakaian mereka dari cairan (seperti aspal)" },
-        { "words": [4, 6], "id": "dan wajah mereka ditutup oleh api neraka" }
+        { "words": [4, 4], "id": "dan ditutup" },
+        { "words": [5, 6], "id": "wajah mereka oleh api neraka" }
       ],
       "full": { "id": "Pakaian mereka dari cairan (seperti aspal) dan wajah mereka ditutup oleh api neraka." },
       "source": "kemenag-2019-adapted",

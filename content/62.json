@@ -23,7 +23,8 @@
         { "words": [8, 10], "id": ["yang membacakan kepada mereka", "ayat-ayat-Nya"] },
         { "words": [11, 11], "id": "menyucikan (jiwa) mereka" },
         { "words": [12, 14], "id": "serta mengajarkan kepada mereka Kitab (Al-Qur’an) dan Hikmah (sunah)" },
-        { "words": [15, 18], "id": "meskipun sebelumnya mereka" },
+        { "words": [15, 16], "id": "meskipun mereka" },
+        { "words": [17, 18], "id": "sebelumnya" },
         { "words": [19, 21], "id": "benar-benar dalam kesesatan yang nyata" }
       ],
       "full": { "id": "Dialah yang mengutus seorang Rasul (Nabi Muhammad) kepada kaum yang buta huruf dari (kalangan) mereka sendiri, yang membacakan kepada mereka ayat-ayat-Nya, menyucikan (jiwa) mereka, serta mengajarkan kepada mereka Kitab (Al-Qur’an) dan Hikmah (sunah), meskipun sebelumnya mereka benar-benar dalam kesesatan yang nyata." },

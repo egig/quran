@@ -203,7 +203,8 @@
     },
     "20": {
       "phrases": [
-        { "words": [1, 6], "id": "Datanglah dengan bergegas dari ujung kota, seorang laki-laki" },
+        { "words": [1, 4], "id": "Datanglah dari ujung kota" },
+        { "words": [5, 6], "id": "seorang laki-laki dengan bergegas" },
         { "words": [7, 7], "id": "Dia berkata" },
         { "words": [8, 8], "id": "Wahai kaumku" },
         { "words": [9, 10], "id": "ikutilah para rasul itu" }
@@ -410,7 +411,8 @@
     },
     "40": {
       "phrases": [
-        { "words": [1, 7], "id": "Tidaklah mungkin bagi matahari mengejar bulan" },
+        { "words": [1, 6], "id": "Tidaklah mungkin bagi matahari mengejar" },
+        { "words": [7, 7], "id": "bulan" },
         { "words": [8, 11], "id": "dan malam pun tidak dapat mendahului siang" },
         { "words": [12, 15], "id": "Masing-masing beredar pada garis edarnya" }
       ],
@@ -480,7 +482,8 @@
       "phrases": [
         { "words": [1, 3], "id": "Apabila dikatakan kepada mereka" },
         { "words": [4, 7], "id": "Infakkanlah sebagian rezeki yang diberikan Allah kepadamu" },
-        { "words": [8, 10], "id": "orang-orang yang kufur itu berkata" },
+        { "words": [8, 9], "id": "berkata orang-orang yang" },
+        { "words": [10, 10], "id": "kufur itu" },
         { "words": [11, 12], "id": "kepada orang-orang yang beriman" },
         { "words": [13, 18], "id": "Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki, Dia akan memberinya makan" },
         { "words": [19, 24], "id": "Kamu benar-benar dalam kesesatan yang nyata" }
@@ -512,7 +515,8 @@
     "50": {
       "phrases": [
         { "words": [1, 3], "id": "Oleh sebab itu, mereka tidak dapat berwasiat" },
-        { "words": [4, 7], "id": "dan tidak dapat kembali kepada keluarganya" }
+        { "words": [4, 6], "id": "dan tidak kepada keluarganya" },
+        { "words": [7, 7], "id": "dapat kembali" }
       ],
       "full": { "id": "Oleh sebab itu, mereka tidak dapat berwasiat dan tidak dapat kembali kepada keluarganya." },
       "source": "kemenag-2019-adapted",
@@ -521,7 +525,8 @@
     "51": {
       "phrases": [
         { "words": [1, 3], "id": "Sangkakala pun ditiup" },
-        { "words": [4, 10], "id": "dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya" }
+        { "words": [4, 9], "id": "dan seketika itu mereka dari kuburnya menuju kepada Tuhannya" },
+        { "words": [10, 10], "id": "bergerak cepat" }
       ],
       "full": { "id": "Sangkakala pun ditiup dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya." },
       "source": "kemenag-2019-adapted",
@@ -630,7 +635,8 @@
     },
     "62": {
       "phrases": [
-        { "words": [1, 5], "id": "Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu" },
+        { "words": [1, 3], "id": "Sungguh, ia (setan itu) benar-benar telah menyesatkan dari kamu" },
+        { "words": [4, 5], "id": "sangat banyak orang" },
         { "words": [6, 8], "id": "Maka, apakah kamu tidak mengerti" }
       ],
       "full": { "id": "Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu. Maka, apakah kamu tidak mengerti?" },

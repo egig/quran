@@ -47,7 +47,8 @@
     "5": {
       "phrases": [
         { "words": [1, 2], "id": "Sesungguhnya kami mengira" },
-        { "words": [3, 7], "id": "bahwa manusia dan jin itu tidak akan mengatakan" },
+        { "words": [3, 6], "id": "bahwa manusia tidak akan mengatakan" },
+        { "words": [7, 7], "id": "dan jin itu" },
         { "words": [8, 10], "id": "perkataan yang dusta terhadap Allah" }
       ],
       "full": { "id": "Sesungguhnya kami mengira bahwa manusia dan jin itu tidak akan mengatakan perkataan yang dusta terhadap Allah.”" },
@@ -68,7 +69,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Sesungguhnya mereka (jin) mengira" },
         { "words": [3, 4], "id": "sebagaimana kamu (orang musyrik Makkah) mengira" },
-        { "words": [5, 9], "id": "bahwa Allah tidak akan membangkitkan kembali siapa pun (pada hari Kiamat)" }
+        { "words": [5, 7], "id": "bahwa tidak akan membangkitkan kembali" },
+        { "words": [8, 9], "id": "Allah, siapa pun (pada hari Kiamat)" }
       ],
       "full": { "id": "Sesungguhnya mereka (jin) mengira sebagaimana kamu (orang musyrik Makkah) mengira bahwa Allah tidak akan membangkitkan kembali siapa pun (pada hari Kiamat)." },
       "source": "kemenag-2019-adapted",
@@ -86,7 +88,8 @@
     "9": {
       "phrases": [
         { "words": [1, 6], "id": "Sesungguhnya kami (jin) dahulu selalu menduduki beberapa tempat (di langit) untuk mencuri dengar (berita-beritanya)" },
-        { "words": [7, 9], "id": "Akan tetapi, sekarang siapa yang (mencoba) mencuri dengar" },
+        { "words": [7, 7], "id": "Akan tetapi, siapa yang" },
+        { "words": [8, 9], "id": "sekarang (mencoba) mencuri dengar" },
         { "words": [10, 13], "id": "pasti akan menjumpai panah api yang mengintai (untuk membakarnya)" }
       ],
       "full": { "id": "Sesungguhnya kami (jin) dahulu selalu menduduki beberapa tempat (di langit) untuk mencuri dengar (berita-beritanya). Akan tetapi, sekarang siapa yang (mencoba) mencuri dengar pasti akan menjumpai panah api yang mengintai (untuk membakarnya)." },

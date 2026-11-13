@@ -22,7 +22,8 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 5], "id": "Kami menceritakan kepadamu (Nabi Muhammad) kisah yang paling baik" },
+        { "words": [1, 4], "id": "Kami menceritakan kepadamu (Nabi Muhammad) yang paling baik" },
+        { "words": [5, 5], "id": "kisah" },
         { "words": [6, 10], "id": "dengan mewahyukan Al-Qur’an ini kepadamu" },
         { "words": [11, 16], "id": ["Sesungguhnya engkau sebelum itu", "termasuk orang-orang yang tidak mengetahui"] }
       ],
@@ -54,7 +55,8 @@
     },
     "6": {
       "phrases": [
-        { "words": [1, 3], "id": "Demikianlah, Tuhan memilihmu (untuk menjadi nabi)" },
+        { "words": [1, 2], "id": "Demikianlah, memilihmu (untuk menjadi nabi)" },
+        { "words": [3, 3], "id": "Tuhan" },
         { "words": [4, 7], "id": "mengajarkan kepadamu sebagian dari takwil mimpi" },
         { "words": [8, 13], "id": ["serta menyempurnakan nikmat-Nya kepadamu", "dan kepada keluarga Ya'qub"] },
         { "words": [14, 19], "id": "sebagaimana Dia telah menyempurnakannya kepada kedua kakekmu sebelumnya" },
@@ -214,7 +216,8 @@
     },
     "21": {
       "phrases": [
-        { "words": [1, 6], "id": "Orang Mesir yang membelinya berkata kepada istrinya" },
+        { "words": [1, 1], "id": "Berkata" },
+        { "words": [2, 6], "id": "orang Mesir yang membelinya kepada istrinya" },
         { "words": [7, 8], "id": "Berikanlah kepadanya tempat (dan layanan) yang baik" },
         { "words": [9, 14], "id": ["Mudah-mudahan", "dia bermanfaat bagi kita atau kita pungut dia sebagai anak"] },
         { "words": [15, 19], "id": ["Demikianlah, (kelak setelah dewasa,) Kami memberikan kedudukan yang baik kepada Yusuf di", "negeri (Mesir)"] },
@@ -278,7 +281,8 @@
     "26": {
       "phrases": [
         { "words": [1, 5], "id": "Dia (Yusuf) berkata, Dia yang menggoda diriku" },
-        { "words": [6, 9], "id": "Seorang saksi dari keluarga perempuan itu memberikan kesaksian" },
+        { "words": [6, 8], "id": "Seorang saksi memberikan kesaksian" },
+        { "words": [9, 9], "id": "dari keluarga perempuan itu" },
         { "words": [10, 15], "id": "Jika bajunya koyak di bagian depan" },
         { "words": [16, 16], "id": "perempuan itu benar" },
         { "words": [17, 19], "id": ["dan dia (Yusuf) termasuk", "orang-orang yang berdusta"] }
@@ -392,7 +396,8 @@
       "phrases": [
         { "words": [1, 4], "id": "Bersama dia (Yusuf) masuk pula dua orang pemuda ke dalam penjara" },
         { "words": [5, 10], "id": ["Salah satunya berkata, Sesungguhnya", "aku bermimpi memeras anggur"] },
-        { "words": [11, 18], "id": "dan yang lainnya berkata, Aku bermimpi membawa roti di atas kepalaku" },
+        { "words": [11, 17], "id": "dan yang lainnya berkata, Aku bermimpi membawa di atas kepalaku" },
+        { "words": [18, 18], "id": "roti" },
         { "words": [19, 21], "id": "Sebagiannya dimakan burung" },
         { "words": [22, 23], "id": "(Keduanya berkata,) Jelaskanlah kepada kami takwilnya" },
         { "words": [24, 27], "id": ["Sesungguhnya kami memandangmu termasuk", "orang-orang yang berbuat baik"] }
@@ -436,7 +441,8 @@
     },
     "40": {
       "phrases": [
-        { "words": [1, 9], "id": "Apa yang kamu sembah selain Dia hanyalah nama-nama (berhala) yang kamu dan nenek moyangmu buat sendiri" },
+        { "words": [1, 8], "id": "Apa yang kamu sembah selain Dia hanyalah nama-nama (berhala) yang kamu buat sendiri" },
+        { "words": [9, 9], "id": "dan nenek moyangmu" },
         { "words": [10, 15], "id": "Allah tidak menurunkan suatu keterangan apa pun yang pasti tentang hal (nama-nama) itu" },
         { "words": [16, 19], "id": "Ketetapan (yang pasti benar) itu hanyalah milik Allah" },
         { "words": [20, 24], "id": "Dia telah memerintahkan agar kamu tidak menyembah selain Dia" },
@@ -463,7 +469,8 @@
       "phrases": [
         { "words": [1, 6], "id": ["Dia (Yusuf) berkata", "kepada orang yang diketahuinya akan selamat di antara mereka berdua"] },
         { "words": [7, 9], "id": "Jelaskanlah keadaanku kepada tuanmu" },
-        { "words": [10, 13], "id": "Kemudian, setan menjadikan dia lupa untuk menjelaskan (keadaan Yusuf) kepada tuannya" },
+        { "words": [10, 10], "id": "Kemudian, menjadikan dia lupa" },
+        { "words": [11, 13], "id": "setan untuk menjelaskan (keadaan Yusuf) kepada tuannya" },
         { "words": [14, 18], "id": "Karena itu, dia (Yusuf) tetap dalam penjara beberapa tahun lamanya" }
       ],
       "full": { "id": "Dia (Yusuf) berkata kepada orang yang diketahuinya akan selamat di antara mereka berdua, “Jelaskanlah keadaanku kepada tuanmu.” Kemudian, setan menjadikan dia lupa untuk menjelaskan (keadaan Yusuf) kepada tuannya. Karena itu, dia (Yusuf) tetap dalam penjara beberapa tahun lamanya." },
@@ -633,7 +640,8 @@
     },
     "58": {
       "phrases": [
-        { "words": [1, 3], "id": "Saudara-saudara Yusuf datang (ke Mesir)" },
+        { "words": [1, 1], "id": "Datang (ke Mesir)" },
+        { "words": [2, 3], "id": "saudara-saudara Yusuf" },
         { "words": [4, 5], "id": "lalu mereka masuk ke (tempat)-nya" },
         { "words": [6, 6], "id": "Maka, dia (Yusuf) mengenali mereka" },
         { "words": [7, 9], "id": "sedangkan mereka benar-benar tidak mengenalinya" }
@@ -699,7 +707,8 @@
     "64": {
       "phrases": [
         { "words": [1, 4], "id": "Dia (Ya'qub) berkata, Bagaimana aku akan memercayakannya (Bunyamin) kepadamu" },
-        { "words": [5, 11], "id": "seperti halnya dahulu aku telah memercayakan saudaranya (Yusuf) kepada kamu" },
+        { "words": [5, 10], "id": "seperti halnya aku telah memercayakan saudaranya (Yusuf) kepada kamu" },
+        { "words": [11, 11], "id": "dahulu" },
         { "words": [12, 14], "id": "Allah adalah penjaga yang terbaik" },
         { "words": [15, 17], "id": "dan Dia Maha Penyayang di antara para penyayang" }
       ],
@@ -731,7 +740,8 @@
         { "words": [12, 15], "id": "kecuali jika kamu dikepung (oleh musuh)" },
         { "words": [16, 18], "id": "Setelah mereka memberikan janji kepadanya" },
         { "words": [19, 19], "id": "dia (Ya'qub) berkata" },
-        { "words": [20, 24], "id": "Allah adalah saksi terhadap apa yang kita ucapkan" }
+        { "words": [20, 22], "id": "Allah terhadap apa yang" },
+        { "words": [23, 24], "id": "kita ucapkan adalah saksi" }
       ],
       "full": { "id": "Dia (Ya'qub) berkata, “Aku tidak akan melepaskannya (pergi) bersama kamu, sebelum kamu bersumpah kepadaku atas (nama) Allah, bahwa kamu pasti akan membawanya kembali kepadaku, kecuali jika kamu dikepung (oleh musuh).” Setelah mereka memberikan janji kepadanya, dia (Ya'qub) berkata, “Allah adalah saksi terhadap apa yang kita ucapkan.”" },
       "source": "kemenag-2019-adapted",
@@ -745,7 +755,8 @@
         { "words": [12, 18], "id": ["(Namun,) aku tidak dapat mencegah (takdir) Allah dari kamu", "sedikit pun"] },
         { "words": [19, 22], "id": "(Penetapan) hukum itu hanyalah hak Allah" },
         { "words": [23, 24], "id": "Kepada-Nyalah aku bertawakal" },
-        { "words": [25, 27], "id": "dan hendaklah kepada-Nya (saja) orang-orang yang bertawakal (meningkatkan) tawakal(-nya)" }
+        { "words": [25, 26], "id": "dan hendaklah kepada-Nya (saja) (meningkatkan) tawakal(-nya)" },
+        { "words": [27, 27], "id": "orang-orang yang bertawakal" }
       ],
       "full": { "id": "Dia (Ya'qub) berkata, “Wahai anak-anakku, janganlah kamu masuk dari satu pintu gerbang, dan masuklah dari pintu-pintu gerbang yang berbeda-beda. (Namun,) aku tidak dapat mencegah (takdir) Allah dari kamu sedikit pun. (Penetapan) hukum itu hanyalah hak Allah. Kepada-Nyalah aku bertawakal dan hendaklah kepada-Nya (saja) orang-orang yang bertawakal (meningkatkan) tawakal(-nya).”" },
       "source": "kemenag-2019-adapted",
@@ -754,7 +765,8 @@
     "68": {
       "phrases": [
         { "words": [1, 6], "id": "Ketika mereka masuk dari arah yang sesuai dengan perintah ayahnya" },
-        { "words": [7, 14], "id": "(hal itu) tidak dapat mencegah sedikit pun keputusan Allah" },
+        { "words": [7, 8], "id": "(hal itu) tidak" },
+        { "words": [9, 14], "id": "dapat mencegah sedikit pun keputusan Allah" },
         { "words": [15, 20], "id": ["tetapi (itu) hanya suatu keinginan pada diri Ya'qub (yaitu kasih sayang kepada anak-anaknya)", "yang telah dipenuhinya"] },
         { "words": [21, 25], "id": "Sesungguhnya dia benar-benar mempunyai pengetahuan karena Kami telah mengajarkan kepadanya" },
         { "words": [26, 30], "id": ["tetapi kebanyakan manusia", "tidak mengetahui"] }
@@ -873,7 +885,8 @@
       "phrases": [
         { "words": [1, 5], "id": "Dia (Yusuf) berkata, Kami memohon pelindungan kepada Allah dari menahan (seseorang)" },
         { "words": [6, 10], "id": "kecuali siapa yang kami temukan harta kami padanya" },
-        { "words": [11, 13], "id": "Jika kami (berbuat) demikian, sesungguhnya kami benar-benar orang-orang zalim" }
+        { "words": [11, 11], "id": "Sesungguhnya kami" },
+        { "words": [12, 13], "id": "jika (berbuat) demikian, benar-benar orang-orang zalim" }
       ],
       "full": { "id": "Dia (Yusuf) berkata, “Kami memohon pelindungan kepada Allah dari menahan (seseorang), kecuali siapa yang kami temukan harta kami padanya. Jika kami (berbuat) demikian, sesungguhnya kami benar-benar orang-orang zalim.”" },
       "source": "kemenag-2019-adapted",
@@ -884,7 +897,8 @@
         { "words": [1, 3], "id": "Maka, ketika mereka telah berputus asa darinya (putusan Yusuf terhadap permintaan mereka membebaskan adiknya)" },
         { "words": [4, 5], "id": "mereka menyendiri (sambil berunding) dengan berbisik-bisik" },
         { "words": [6, 7], "id": "Yang tertua di antara mereka berkata" },
-        { "words": [8, 17], "id": "Tidakkah kamu ketahui bahwa ayah kamu telah mengambil sumpah dari kamu dengan (nama) Allah" },
+        { "words": [8, 14], "id": "Tidakkah kamu ketahui bahwa ayah kamu telah mengambil dari kamu" },
+        { "words": [15, 17], "id": "sumpah dengan (nama) Allah" },
         { "words": [18, 23], "id": "dan sebelum ini kamu telah menyia-nyiakan Yusuf" },
         { "words": [24, 26], "id": ["Oleh karena itu, aku tidak akan meninggalkan", "negeri ini (Mesir)"] },
         { "words": [27, 30], "id": "sampai ayahku mengizinkanku (untuk kembali)" },
@@ -951,7 +965,8 @@
     },
     "86": {
       "phrases": [
-        { "words": [1, 7], "id": "Dia (Ya'qub) menjawab, Hanya kepada Allah aku mengadukan kesusahan dan kesedihanku" },
+        { "words": [1, 4], "id": "Dia (Ya'qub) menjawab, Hanya aku mengadukan kesusahan" },
+        { "words": [5, 7], "id": "dan kesedihanku kepada Allah" },
         { "words": [8, 13], "id": "Aku mengetahui dari Allah apa yang tidak kamu ketahui" }
       ],
       "full": { "id": "Dia (Ya'qub) menjawab, “Hanya kepada Allah aku mengadukan kesusahan dan kesedihanku. Aku mengetahui dari Allah apa yang tidak kamu ketahui." },
@@ -974,7 +989,8 @@
         { "words": [4, 6], "id": "mereka berkata, Wahai yang mulia" },
         { "words": [7, 9], "id": "kami dan keluarga kami telah ditimpa kesengsaraan" },
         { "words": [10, 12], "id": "dan kami datang membawa barang-barang yang tidak berharga" },
-        { "words": [13, 15], "id": "maka penuhilah takaran (gandum) untuk kami" },
+        { "words": [13, 14], "id": "maka penuhilah untuk kami" },
+        { "words": [15, 15], "id": "takaran (gandum)" },
         { "words": [16, 17], "id": "dan bersedekahlah kepada kami" },
         { "words": [18, 21], "id": "Sesungguhnya Allah memberi balasan kepada orang-orang yang bersedekah" }
       ],
@@ -1016,7 +1032,8 @@
     },
     "92": {
       "phrases": [
-        { "words": [1, 5], "id": "Dia (Yusuf) berkata, Pada hari ini tidak ada cercaan terhadap kamu" },
+        { "words": [1, 3], "id": "Dia (Yusuf) berkata, Tidak ada cercaan" },
+        { "words": [4, 5], "id": "terhadap kamu pada hari ini" },
         { "words": [6, 8], "id": "mudah-mudahan Allah mengampuni kamu" },
         { "words": [9, 11], "id": "Dia Maha Penyayang di antara para penyayang" }
       ],
@@ -1037,7 +1054,8 @@
     },
     "94": {
       "phrases": [
-        { "words": [1, 3], "id": "Ketika kafilah itu telah keluar (dari Mesir dan memasuki Palestina)" },
+        { "words": [1, 2], "id": "Ketika telah keluar (dari Mesir dan memasuki Palestina)" },
+        { "words": [3, 3], "id": "kafilah itu" },
         { "words": [4, 5], "id": "ayah mereka berkata" },
         { "words": [6, 9], "id": "Sesungguhnya aku mencium bau Yusuf" },
         { "words": [10, 12], "id": ["seandainya kamu tidak", "menuduhku lemah akal"] }
@@ -1103,7 +1121,8 @@
         { "words": [5, 7], "id": ["Mereka tunduk", "bersujud kepadanya (Yusuf)"] },
         { "words": [8, 9], "id": "Dia (Yusuf) berkata, Wahai ayahku" },
         { "words": [10, 14], "id": "inilah takwil mimpiku yang dahulu itu" },
-        { "words": [15, 18], "id": "Sungguh, Tuhanku telah menjadikannya kenyataan" },
+        { "words": [15, 16], "id": "Sungguh, telah menjadikannya" },
+        { "words": [17, 18], "id": "Tuhanku kenyataan" },
         { "words": [19, 25], "id": "Sungguh, Tuhanku telah berbuat baik kepadaku, ketika Dia membebaskan aku dari penjara" },
         { "words": [26, 29], "id": ["dan ketika membawa kamu", "dari dusun"] },
         { "words": [30, 37], "id": "setelah setan merusak (hubungan) antara aku dengan saudara-saudaraku" },

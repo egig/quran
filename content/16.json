@@ -43,7 +43,8 @@
     },
     "5": {
       "phrases": [
-        { "words": [1, 3], "id": "Dia telah menciptakan hewan ternak untukmu" },
+        { "words": [1, 1], "id": "Hewan ternak" },
+        { "words": [2, 3], "id": "Dia telah menciptakan untukmu" },
         { "words": [4, 6], "id": "Padanya (hewan ternak itu) ada (bulu) yang menghangatkan dan berbagai manfaat" },
         { "words": [7, 8], "id": "serta sebagian (daging)-nya kamu makan" }
       ],
@@ -103,7 +104,9 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 10], "id": "Dengan (air hujan) itu Dia menumbuhkan untukmu tumbuh-tumbuhan, zaitun, kurma, anggur, dan segala macam buah-buahan" },
+        { "words": [1, 2], "id": "Dia menumbuhkan untukmu" },
+        { "words": [3, 9], "id": "Dengan (air hujan) itu tumbuh-tumbuhan, zaitun, kurma, anggur, dan segala macam" },
+        { "words": [10, 10], "id": "buah-buahan" },
         { "words": [11, 16], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kebesaran Allah) bagi orang yang berpikir" }
       ],
       "full": { "id": "Dengan (air hujan) itu Dia menumbuhkan untukmu tumbuh-tumbuhan, zaitun, kurma, anggur, dan segala macam buah-buahan. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kebesaran Allah) bagi orang yang berpikir." },
@@ -239,7 +242,8 @@
     },
     "25": {
       "phrases": [
-        { "words": [1, 5], "id": "(Ucapan mereka) menyebabkan mereka pada hari Kiamat memikul dosa-dosanya sendiri secara utuh" },
+        { "words": [1, 1], "id": "(Ucapan mereka) menyebabkan mereka memikul" },
+        { "words": [2, 5], "id": "dosa-dosanya sendiri secara utuh pada hari Kiamat" },
         { "words": [6, 11], "id": ["dan sebagian dosa orang-orang yang mereka sesatkan", "yang tidak mengetahui (bahwa mereka disesatkan)"] },
         { "words": [12, 15], "id": "Ingatlah, alangkah buruknya (dosa) yang mereka pikul" }
       ],
@@ -330,7 +334,8 @@
       "phrases": [
         { "words": [1, 6], "id": ["Adakah yang mereka (orang kafir) tunggu selain", "kedatangan para malaikat kepadanya"] },
         { "words": [7, 10], "id": "atau perintah Tuhanmu" },
-        { "words": [11, 15], "id": "Demikianlah orang-orang (kafir) sebelumnya berbuat" },
+        { "words": [11, 14], "id": "Demikianlah orang-orang (kafir) berbuat" },
+        { "words": [15, 15], "id": "sebelumnya" },
         { "words": [16, 18], "id": "Allah tidak menzalimi mereka" },
         { "words": [19, 22], "id": "justru merekalah yang (selalu) menzalimi diri mereka sendiri" }
       ],
@@ -350,7 +355,8 @@
     "35": {
       "phrases": [
         { "words": [1, 3], "id": "Orang-orang yang musyrik berkata" },
-        { "words": [4, 15], "id": "Seandainya Allah menghendaki, niscaya kami dan nenek moyang kami tidak akan menyembah sesuatu apa pun selain-Nya" },
+        { "words": [4, 11], "id": "Seandainya Allah menghendaki, niscaya tidak akan menyembah selain-Nya" },
+        { "words": [12, 15], "id": "sesuatu apa pun kami dan nenek moyang kami" },
         { "words": [16, 21], "id": "dan tidak (pula) mengharamkan sesuatu pun tanpa (ketetapan)-Nya" },
         { "words": [22, 26], "id": ["Demikianlah", "orang-orang (kafir) sebelumnya berbuat"] },
         { "words": [27, 32], "id": "Bukankah kewajiban para rasul hanya menyampaikan (amanat Allah) dengan jelas" }
@@ -445,7 +451,8 @@
     "44": {
       "phrases": [
         { "words": [1, 2], "id": "(Kami mengutus mereka) dengan (membawa) bukti-bukti yang jelas (mukjizat) dan kitab-kitab" },
-        { "words": [3, 5], "id": "Kami turunkan aż-Żikr (Al-Qur’an) kepadamu" },
+        { "words": [3, 4], "id": "Kami turunkan kepadamu" },
+        { "words": [5, 5], "id": "aż-Żikr (Al-Qur’an)" },
         { "words": [6, 10], "id": "agar engkau menerangkan kepada manusia apa yang telah diturunkan kepada mereka" },
         { "words": [11, 12], "id": "dan agar mereka memikirkan" }
       ],
@@ -534,7 +541,8 @@
     },
     "53": {
       "phrases": [
-        { "words": [1, 6], "id": "Segala nikmat yang ada padamu (datangnya) dari Allah" },
+        { "words": [1, 3], "id": "Segala yang ada padamu" },
+        { "words": [4, 6], "id": "nikmat (datangnya) dari Allah" },
         { "words": [7, 10], "id": "Kemudian, apabila kamu ditimpa kemudaratan" },
         { "words": [11, 12], "id": "kepada-Nyalah kamu meminta pertolongan" }
       ],
@@ -563,7 +571,8 @@
     },
     "56": {
       "phrases": [
-        { "words": [1, 7], "id": "Mereka menyediakan bagian dari rezeki yang telah Kami anugerahkan kepada mereka untuk (berhala-berhala) yang tidak mereka ketahui (kekuasaannya)" },
+        { "words": [1, 1], "id": "Mereka menyediakan" },
+        { "words": [2, 7], "id": "bagian dari rezeki yang telah Kami anugerahkan kepada mereka untuk (berhala-berhala) yang tidak mereka ketahui (kekuasaannya)" },
         { "words": [8, 12], "id": ["Demi Allah, kamu pasti akan ditanyai tentang apa yang kamu", "ada-adakan"] }
       ],
       "full": { "id": "Mereka menyediakan bagian dari rezeki yang telah Kami anugerahkan kepada mereka untuk (berhala-berhala) yang tidak mereka ketahui (kekuasaannya). Demi Allah, kamu pasti akan ditanyai tentang apa yang kamu ada-adakan." },
@@ -617,7 +626,8 @@
         { "words": [6, 10], "id": "niscaya Dia tidak meninggalkan satu makhluk melata pun di atasnya (bumi)" },
         { "words": [11, 15], "id": "tetapi Dia menangguhkan mereka sampai waktu yang sudah ditentukan" },
         { "words": [16, 18], "id": "Maka, apabila ajalnya tiba" },
-        { "words": [19, 23], "id": "mereka tidak dapat meminta penundaan dan percepatan sesaat pun" }
+        { "words": [19, 20], "id": "mereka tidak dapat meminta penundaan" },
+        { "words": [21, 23], "id": "dan percepatan sesaat pun" }
       ],
       "full": { "id": "Seandainya Allah menghukum manusia karena kezaliman mereka, niscaya Dia tidak meninggalkan satu makhluk melata pun di atasnya (bumi), tetapi Dia menangguhkan mereka sampai waktu yang sudah ditentukan. Maka, apabila ajalnya tiba, mereka tidak dapat meminta penundaan dan percepatan sesaat pun." },
       "source": "kemenag-2019-adapted",
@@ -626,7 +636,8 @@
     "62": {
       "phrases": [
         { "words": [1, 4], "id": "Mereka menetapkan bagi Allah apa yang mereka sendiri membencinya" },
-        { "words": [5, 7], "id": "dan lidah mereka mengucapkan kebohongan" },
+        { "words": [5, 5], "id": "dan mengucapkan" },
+        { "words": [6, 7], "id": "lidah mereka kebohongan" },
         { "words": [8, 10], "id": "bahwa sesungguhnya bagi merekalah (balasan) yang terbaik (surga)" },
         { "words": [11, 15], "id": "Tidak diragukan bahwa nerakalah (tempat yang layak) bagi mereka" },
         { "words": [16, 17], "id": "dan sesungguhnya mereka segera akan dimasukkan (ke dalamnya)" }
@@ -744,7 +755,8 @@
     "73": {
       "phrases": [
         { "words": [1, 4], "id": "Mereka menyembah selain Allah" },
-        { "words": [5, 13], "id": "sesuatu yang sama sekali tidak kuasa memberikan rezeki sedikit pun kepada mereka, baik dari langit maupun dari bumi" },
+        { "words": [5, 11], "id": "sesuatu yang sama sekali tidak kuasa memberikan rezeki kepada mereka, baik dari langit" },
+        { "words": [12, 13], "id": "maupun dari bumi sedikit pun" },
         { "words": [14, 15], "id": "dan tidak akan sanggup (berbuat apa pun)" }
       ],
       "full": { "id": "Mereka menyembah selain Allah, sesuatu yang sama sekali tidak kuasa memberikan rezeki sedikit pun kepada mereka, baik dari langit maupun dari bumi, dan tidak akan sanggup (berbuat apa pun)." },
@@ -833,7 +845,8 @@
     "81": {
       "phrases": [
         { "words": [1, 6], "id": "Allah menjadikan tempat bernaung bagi kamu dari apa yang telah Dia ciptakan" },
-        { "words": [7, 11], "id": "Dia menjadikan bagi kamu tempat-tempat tertutup (gua dan lorong-lorong sebagai tempat tinggal) di gunung-gunung" },
+        { "words": [7, 9], "id": "Dia menjadikan bagi kamu" },
+        { "words": [10, 11], "id": "tempat-tempat tertutup (gua dan lorong-lorong sebagai tempat tinggal) di gunung-gunung" },
         { "words": [12, 16], "id": ["Dia menjadikan pakaian bagimu untuk melindungimu dari", "panas"] },
         { "words": [17, 19], "id": "dan pakaian (baju besi) untuk melindungimu dalam peperangan" },
         { "words": [20, 23], "id": ["Demikian Allah menyempurnakan nikmat-Nya", "kepadamu"] },
@@ -864,7 +877,8 @@
     },
     "84": {
       "phrases": [
-        { "words": [1, 6], "id": "(Ingatlah) hari (ketika) Kami menghadirkan seorang saksi (rasul) dari setiap umat" },
+        { "words": [1, 5], "id": "(Ingatlah) hari (ketika) Kami menghadirkan dari setiap umat" },
+        { "words": [6, 6], "id": "seorang saksi (rasul)" },
         { "words": [7, 11], "id": "Kemudian, orang-orang yang kufur tidak diizinkan (untuk membela diri)" },
         { "words": [12, 14], "id": "dan tidak (pula) dibolehkan memohon ampunan" }
       ],
@@ -896,7 +910,8 @@
     },
     "87": {
       "phrases": [
-        { "words": [1, 5], "id": "Pada hari itu mereka menyatakan tunduk kepada Allah" },
+        { "words": [1, 2], "id": "Mereka menyatakan" },
+        { "words": [3, 5], "id": "tunduk kepada Allah pada hari itu" },
         { "words": [6, 10], "id": "dan lenyaplah dari mereka apa yang selalu mereka ada-adakan" }
       ],
       "full": { "id": "Pada hari itu mereka menyatakan tunduk kepada Allah dan lenyaplah dari mereka apa yang selalu mereka ada-adakan." },
@@ -915,7 +930,8 @@
     },
     "89": {
       "phrases": [
-        { "words": [1, 9], "id": "(Ingatlah) hari (ketika) Kami menghadirkan seorang saksi (rasul) kepada setiap umat dari (kalangan) mereka sendiri" },
+        { "words": [1, 3], "id": "(Ingatlah) hari (ketika) Kami menghadirkan" },
+        { "words": [4, 9], "id": "seorang saksi (rasul) kepada setiap umat dari (kalangan) mereka sendiri" },
         { "words": [10, 14], "id": ["dan Kami mendatangkan engkau (Nabi Muhammad)", "menjadi saksi atas mereka"] },
         { "words": [15, 20], "id": ["Kami turunkan Kitab (Al-Qur’an) kepadamu untuk menjelaskan segala", "sesuatu"] },
         { "words": [21, 24], "id": "sebagai petunjuk, rahmat, dan kabar gembira bagi orang-orang muslim" }
@@ -1023,7 +1039,8 @@
     "99": {
       "phrases": [
         { "words": [1, 7], "id": "Sesungguhnya ia (setan) tidak memiliki pengaruh terhadap orang-orang yang beriman" },
-        { "words": [8, 10], "id": "dan bertawakal hanya kepada Tuhan mereka" }
+        { "words": [8, 9], "id": "dan hanya kepada Tuhan mereka" },
+        { "words": [10, 10], "id": "bertawakal" }
       ],
       "full": { "id": "Sesungguhnya ia (setan) tidak memiliki pengaruh terhadap orang-orang yang beriman dan bertawakal hanya kepada Tuhan mereka." },
       "source": "kemenag-2019-adapted",
@@ -1094,7 +1111,8 @@
         { "words": [1, 6], "id": "Siapa yang kufur kepada Allah setelah beriman (dia mendapat kemurkaan Allah)" },
         { "words": [7, 9], "id": "kecuali orang yang dipaksa (mengucapkan kalimat kekufuran)" },
         { "words": [10, 12], "id": ["sedangkan hatinya", "tetap tenang dengan keimanannya (dia tidak berdosa)"] },
-        { "words": [13, 17], "id": "Akan tetapi, siapa yang berlapang dada untuk (menerima) kekufuran" },
+        { "words": [13, 16], "id": "Akan tetapi, siapa yang untuk (menerima) kekufuran" },
+        { "words": [17, 17], "id": "berlapang dada" },
         { "words": [18, 21], "id": "niscaya kemurkaan Allah menimpanya" },
         { "words": [22, 24], "id": "dan bagi mereka ada azab yang besar" }
       ],
@@ -1141,7 +1159,8 @@
     "111": {
       "phrases": [
         { "words": [1, 7], "id": "(Ingatlah) hari (ketika) setiap orang datang untuk membela dirinya" },
-        { "words": [8, 12], "id": "dan setiap orang disempurnakan (balasan) apa yang telah ia kerjakan" },
+        { "words": [8, 9], "id": "dan disempurnakan" },
+        { "words": [10, 12], "id": "setiap orang (balasan) apa yang telah ia kerjakan" },
         { "words": [13, 15], "id": "dan mereka tidak dizalimi" }
       ],
       "full": { "id": "(Ingatlah) hari (ketika) setiap orang datang untuk membela dirinya dan setiap orang disempurnakan (balasan) apa yang telah ia kerjakan dan mereka tidak dizalimi." },

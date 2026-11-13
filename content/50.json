@@ -165,7 +165,8 @@
     "17": {
       "phrases": [
         { "words": [1, 3], "id": "(Ingatlah) ketika dua malaikat mencatat (perbuatannya)" },
-        { "words": [4, 8], "id": "Yang satu duduk di sebelah kanan dan yang lain di sebelah kiri" }
+        { "words": [4, 7], "id": "Yang satu di sebelah kanan dan yang lain di sebelah kiri" },
+        { "words": [8, 8], "id": "duduk" }
       ],
       "full": { "id": "(Ingatlah) ketika dua malaikat mencatat (perbuatannya). Yang satu duduk di sebelah kanan dan yang lain di sebelah kiri." },
       "source": "kemenag-2019-adapted",

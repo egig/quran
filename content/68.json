@@ -136,7 +136,8 @@
     },
     "15": {
       "phrases": [
-        { "words": [1, 4], "id": "Apabila ayat-ayat Kami dibacakan kepadanya" },
+        { "words": [1, 3], "id": "Apabila dibacakan kepadanya" },
+        { "words": [4, 4], "id": "ayat-ayat Kami" },
         { "words": [5, 5], "id": "dia berkata" },
         { "words": [6, 7], "id": "(Ini adalah) dongengan orang-orang terdahulu" }
       ],
@@ -219,7 +220,8 @@
     },
     "24": {
       "phrases": [
-        { "words": [1, 6], "id": "Pada hari ini jangan sampai ada orang miskin yang masuk ke dalam kebunmu" }
+        { "words": [1, 5], "id": "Pada hari ini jangan sampai ada yang masuk ke dalam kebunmu" },
+        { "words": [6, 6], "id": "orang miskin" }
       ],
       "full": { "id": "“Pada hari ini jangan sampai ada orang miskin yang masuk ke dalam kebunmu.”" },
       "source": "kemenag-2019-adapted",
@@ -371,7 +373,8 @@
     "40": {
       "phrases": [
         { "words": [1, 1], "id": "Tanyakanlah kepada mereka (kaum musyrik)" },
-        { "words": [2, 4], "id": "siapakah di antara mereka yang bertanggung jawab terhadap (putusan yang diambil itu)" }
+        { "words": [2, 3], "id": "siapakah di antara mereka terhadap (putusan yang diambil itu)" },
+        { "words": [4, 4], "id": "yang bertanggung jawab" }
       ],
       "full": { "id": "Tanyakanlah kepada mereka (kaum musyrik) siapakah di antara mereka yang bertanggung jawab terhadap (putusan yang diambil itu)." },
       "source": "kemenag-2019-adapted",
@@ -429,7 +432,8 @@
     },
     "46": {
       "phrases": [
-        { "words": [1, 3], "id": "Ataukah engkau (Nabi Muhammad) meminta imbalan kepada mereka" },
+        { "words": [1, 2], "id": "Ataukah engkau (Nabi Muhammad) meminta kepada mereka" },
+        { "words": [3, 3], "id": "imbalan" },
         { "words": [4, 7], "id": "sehingga mereka dibebani utang" }
       ],
       "full": { "id": "Ataukah engkau (Nabi Muhammad) meminta imbalan kepada mereka sehingga mereka dibebani utang?" },

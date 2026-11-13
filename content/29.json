@@ -123,7 +123,8 @@
         { "words": [1, 5], "id": "Orang-orang yang kufur berkata kepada orang-orang yang beriman" },
         { "words": [6, 7], "id": "Ikutilah jalan kami" },
         { "words": [8, 9], "id": "dan kami akan memikul dosa-dosa kamu" },
-        { "words": [10, 16], "id": "Padahal, mereka tidak (sanggup) sedikit pun memikul dosa-dosa mereka sendiri" },
+        { "words": [10, 15], "id": "Padahal, mereka tidak (sanggup) memikul dosa-dosa mereka sendiri" },
+        { "words": [16, 16], "id": "sedikit pun" },
         { "words": [17, 18], "id": "Sesungguhnya mereka (orang-orang kafir) benar-benar para pendusta" }
       ],
       "full": { "id": "Orang-orang yang kufur berkata kepada orang-orang yang beriman, “Ikutilah jalan kami dan kami akan memikul dosa-dosa kamu.” Padahal, mereka tidak (sanggup) sedikit pun memikul dosa-dosa mereka sendiri. Sesungguhnya mereka (orang-orang kafir) benar-benar para pendusta." },
@@ -174,8 +175,10 @@
     },
     "17": {
       "phrases": [
-        { "words": [1, 8], "id": "Sesungguhnya apa yang kamu sembah selain Allah hanyalah berhala-berhala dan kamu membuat kebohongan" },
-        { "words": [9, 18], "id": "Sesungguhnya apa yang kamu sembah selain Allah tidak mampu memberikan rezeki kepadamu" },
+        { "words": [1, 3], "id": "Sesungguhnya apa yang kamu sembah" },
+        { "words": [4, 8], "id": "selain Allah hanyalah berhala-berhala dan kamu membuat kebohongan" },
+        { "words": [9, 12], "id": "Sesungguhnya apa yang kamu sembah" },
+        { "words": [13, 18], "id": "selain Allah tidak mampu memberikan rezeki kepadamu" },
         { "words": [19, 22], "id": "Maka, mintalah rezeki dari sisi Allah" },
         { "words": [23, 23], "id": "sembahlah Dia" },
         { "words": [24, 25], "id": "dan bersyukurlah kepada-Nya" },
@@ -231,7 +234,8 @@
     "22": {
       "phrases": [
         { "words": [1, 8], "id": ["Kamu sama sekali tidak dapat melepaskan diri (dari azab Allah) di", "bumi dan di langit"] },
-        { "words": [9, 17], "id": "Tidak ada pula pelindung dan penolong bagimu selain Allah" }
+        { "words": [9, 14], "id": "Tidak ada pula bagimu selain Allah" },
+        { "words": [15, 17], "id": "pelindung dan penolong" }
       ],
       "full": { "id": "Kamu sama sekali tidak dapat melepaskan diri (dari azab Allah) di bumi dan di langit. Tidak ada pula pelindung dan penolong bagimu selain Allah.”" },
       "source": "kemenag-2019-adapted",
@@ -300,7 +304,8 @@
       "phrases": [
         { "words": [1, 4], "id": "(Ingatlah) ketika Lut berkata kepada kaumnya" },
         { "words": [5, 7], "id": "Sesungguhnya kamu benar-benar melakukan perbuatan yang sangat keji (homoseksual)" },
-        { "words": [8, 14], "id": "yang tidak pernah dilakukan oleh seorang pun sebelum kamu di alam semesta" }
+        { "words": [8, 12], "id": "yang tidak pernah dilakukan oleh seorang pun sebelum kamu" },
+        { "words": [13, 14], "id": "di alam semesta" }
       ],
       "full": { "id": "(Ingatlah) ketika Lut berkata kepada kaumnya, “Sesungguhnya kamu benar-benar melakukan perbuatan yang sangat keji (homoseksual) yang tidak pernah dilakukan oleh seorang pun sebelum kamu di alam semesta." },
       "source": "kemenag-2019-adapted",
@@ -311,7 +316,8 @@
         { "words": [1, 3], "id": "Pantaskah kamu mendatangi laki-laki (untuk melampiaskan syahwat)" },
         { "words": [4, 5], "id": "menyamun" },
         { "words": [6, 9], "id": "dan mengerjakan kemungkaran di tempat-tempat pertemuanmu" },
-        { "words": [10, 16], "id": "Maka, jawaban kaumnya tidak lain hanyalah mengatakan" },
+        { "words": [10, 12], "id": "Maka, tidak lain jawaban" },
+        { "words": [13, 16], "id": "kaumnya hanyalah mengatakan" },
         { "words": [17, 19], "id": "Datangkanlah kepada kami azab Allah" },
         { "words": [20, 23], "id": ["jika engkau termasuk", "orang-orang benar"] }
       ],
@@ -523,9 +529,11 @@
     },
     "48": {
       "phrases": [
-        { "words": [1, 7], "id": "Engkau (Nabi Muhammad) tidak pernah membaca suatu kitab pun sebelumnya (Al-Qur’an)" },
+        { "words": [1, 4], "id": "Engkau (Nabi Muhammad) tidak pernah membaca" },
+        { "words": [5, 7], "id": "sebelumnya (Al-Qur’an) suatu kitab pun" },
         { "words": [8, 10], "id": "dan tidak (pula) menuliskannya dengan tangan kananmu" },
-        { "words": [11, 13], "id": "Sekiranya (engkau pernah membaca dan menulis,) niscaya orang-orang yang mengingkarinya ragu (bahwa ia dari Allah)" }
+        { "words": [11, 12], "id": "Sekiranya (engkau pernah membaca dan menulis,) niscaya ragu (bahwa ia dari Allah)" },
+        { "words": [13, 13], "id": "orang-orang yang mengingkarinya" }
       ],
       "full": { "id": "Engkau (Nabi Muhammad) tidak pernah membaca suatu kitab pun sebelumnya (Al-Qur’an) dan tidak (pula) menuliskannya dengan tangan kananmu. Sekiranya (engkau pernah membaca dan menulis,) niscaya orang-orang yang mengingkarinya ragu (bahwa ia dari Allah)." },
       "source": "kemenag-2019-adapted",
@@ -568,7 +576,8 @@
     "52": {
       "phrases": [
         { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
-        { "words": [2, 6], "id": "Cukuplah Allah menjadi saksi antara aku dan kamu" },
+        { "words": [2, 5], "id": "Cukuplah Allah antara aku dan kamu" },
+        { "words": [6, 6], "id": "menjadi saksi" },
         { "words": [7, 11], "id": "Dia mengetahui apa yang ada di langit dan di bumi" },
         { "words": [12, 16], "id": ["Orang-orang yang memercayai", "kebatilan dan kufur kepada Allah"] },
         { "words": [17, 19], "id": "mereka itulah orang-orang yang rugi" }
@@ -731,7 +740,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Tidakkah mereka memperhatikan" },
         { "words": [3, 6], "id": "bahwa Kami telah menjadikan (negeri mereka) tanah suci yang aman" },
-        { "words": [7, 10], "id": "padahal manusia di sekitarnya sering mengalami penculikan" },
+        { "words": [7, 9], "id": "padahal manusia sering mengalami penculikan" },
+        { "words": [10, 10], "id": "di sekitarnya" },
         { "words": [11, 12], "id": "Mengapa (setelah nyata kebenaran) mereka masih percaya kepada yang batil" },
         { "words": [13, 15], "id": "dan ingkar kepada nikmat Allah" }
       ],

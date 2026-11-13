@@ -66,7 +66,8 @@
         { "words": [6, 7], "id": "dan istri-istrinya adalah ibu-ibu mereka" },
         { "words": [8, 15], "id": ["Orang-orang yang mempunyai hubungan darah satu sama lain lebih berhak (saling mewarisi)", "di dalam Kitab Allah"] },
         { "words": [16, 18], "id": "daripada orang-orang mukmin dan orang-orang Muhajirin" },
-        { "words": [19, 24], "id": "kecuali kalau kamu hendak berbuat baik kepada saudara-saudaramu (seagama)" },
+        { "words": [19, 22], "id": "kecuali kalau kamu hendak berbuat" },
+        { "words": [23, 24], "id": "baik kepada saudara-saudaramu (seagama)" },
         { "words": [25, 29], "id": "Demikian itu telah tertulis dalam Kitab (Allah)" }
       ],
       "full": { "id": "Nabi itu lebih utama bagi orang-orang mukmin dibandingkan diri mereka sendiri dan istri-istrinya adalah ibu-ibu mereka. Orang-orang yang mempunyai hubungan darah satu sama lain lebih berhak (saling mewarisi) di dalam Kitab Allah daripada orang-orang mukmin dan orang-orang Muhajirin, kecuali kalau kamu hendak berbuat baik kepada saudara-saudaramu (seagama). Demikian itu telah tertulis dalam Kitab (Allah)." },
@@ -230,7 +231,8 @@
       "phrases": [
         { "words": [1, 4], "id": ["Mereka mengira", "(bahwa) golongan-golongan (yang bersekutu) itu belum pergi"] },
         { "words": [5, 7], "id": "Jika golongan-golongan itu datang kembali" },
-        { "words": [8, 13], "id": "mereka pasti ingin berada di dusun-dusun bersama-sama orang Arab Badui" },
+        { "words": [8, 10], "id": "mereka pasti ingin" },
+        { "words": [11, 13], "id": "berada di dusun-dusun bersama-sama orang Arab Badui" },
         { "words": [14, 16], "id": "sambil menanyakan berita tentangmu" },
         { "words": [17, 19], "id": "Seandainya mereka berada bersamamu" },
         { "words": [20, 23], "id": "niscaya mereka tidak akan berperang, kecuali sebentar saja" }
@@ -300,7 +302,8 @@
     },
     "26": {
       "phrases": [
-        { "words": [1, 8], "id": "Dia menurunkan orang-orang Ahlulkitab (Bani Quraizah) yang membantu mereka (golongan-golongan yang bersekutu) dari benteng-benteng mereka" },
+        { "words": [1, 4], "id": "Dia menurunkan orang-orang yang membantu mereka (golongan-golongan yang bersekutu)" },
+        { "words": [5, 8], "id": "Ahlulkitab (Bani Quraizah) dari benteng-benteng mereka" },
         { "words": [9, 12], "id": "Dia memasukkan rasa takut ke dalam hati mereka" },
         { "words": [13, 14], "id": "Sebagian mereka kamu bunuh" },
         { "words": [15, 16], "id": "dan sebagian yang lain kamu tawan" }
@@ -344,7 +347,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Wahai istri-istri Nabi" },
         { "words": [3, 7], "id": "siapa di antara kamu yang melakukan perbuatan keji yang nyata" },
-        { "words": [8, 11], "id": "pasti azabnya akan dilipatgandakan dua kali lipat kepadanya" },
+        { "words": [8, 8], "id": "pasti akan dilipatgandakan" },
+        { "words": [9, 11], "id": "azabnya dua kali lipat kepadanya" },
         { "words": [12, 16], "id": "Hal yang demikian itu sangat mudah bagi Allah" }
       ],
       "full": { "id": "Wahai istri-istri Nabi, siapa di antara kamu yang melakukan perbuatan keji yang nyata, pasti azabnya akan dilipatgandakan dua kali lipat kepadanya. Hal yang demikian itu sangat mudah bagi Allah." },
@@ -412,7 +416,8 @@
         { "words": [14, 15], "id": ["laki-laki dan", "perempuan yang bersedekah"] },
         { "words": [16, 17], "id": "laki-laki dan perempuan yang berpuasa" },
         { "words": [18, 20], "id": "laki-laki dan perempuan yang memelihara kemaluannya" },
-        { "words": [21, 24], "id": "laki-laki dan perempuan yang banyak menyebut (nama) Allah" },
+        { "words": [21, 23], "id": "laki-laki yang banyak menyebut (nama) Allah" },
+        { "words": [24, 24], "id": "dan perempuan" },
         { "words": [25, 27], "id": "untuk mereka Allah telah menyiapkan" },
         { "words": [28, 30], "id": "ampunan dan pahala yang besar" }
       ],
@@ -439,10 +444,12 @@
         { "words": [7, 8], "id": "dan engkau (juga) telah memberi nikmat kepadanya" },
         { "words": [9, 11], "id": "Pertahankan istrimu" },
         { "words": [12, 13], "id": "dan bertakwalah kepada Allah" },
-        { "words": [14, 19], "id": "sedang engkau menyembunyikan di dalam hatimu apa yang akan dinyatakan oleh Allah" },
+        { "words": [14, 18], "id": "sedang engkau menyembunyikan di dalam hatimu apa yang oleh Allah" },
+        { "words": [19, 19], "id": "akan dinyatakan" },
         { "words": [20, 21], "id": "dan engkau takut kepada manusia" },
         { "words": [22, 25], "id": "padahal Allah lebih berhak untuk engkau takuti" },
-        { "words": [26, 30], "id": "Maka, ketika Zaid telah mengakhiri keperluan terhadap istrinya (menceraikannya)" },
+        { "words": [26, 28], "id": "Maka, ketika Zaid telah mengakhiri" },
+        { "words": [29, 30], "id": "keperluan terhadap istrinya (menceraikannya)" },
         { "words": [31, 31], "id": "Kami nikahkan engkau dengan dia (Zainab)" },
         { "words": [32, 37], "id": "agar tidak ada keberatan bagi orang mukmin" },
         { "words": [38, 40], "id": ["untuk (menikahi)", "istri-istri anak-anak angkat mereka"] },
@@ -622,9 +629,11 @@
       "phrases": [
         { "words": [1, 6], "id": ["Tidak halal bagimu (Nabi Muhammad)", "menikahi perempuan-perempuan (lain) setelah itu"] },
         { "words": [7, 12], "id": "dan tidak boleh (pula) mengganti mereka dengan istri-istri (yang lain)" },
-        { "words": [13, 15], "id": "meskipun kecantikannya menarik hatimu" },
+        { "words": [13, 14], "id": "meskipun menarik hatimu" },
+        { "words": [15, 15], "id": "kecantikannya" },
         { "words": [16, 19], "id": "kecuali perempuan-perempuan (hamba sahaya) yang engkau miliki" },
-        { "words": [20, 25], "id": "Allah Maha Mengawasi segala sesuatu" }
+        { "words": [20, 23], "id": "Allah" },
+        { "words": [24, 25], "id": "Maha Mengawasi segala sesuatu" }
       ],
       "full": { "id": "Tidak halal bagimu (Nabi Muhammad) menikahi perempuan-perempuan (lain) setelah itu dan tidak boleh (pula) mengganti mereka dengan istri-istri (yang lain) meskipun kecantikannya menarik hatimu kecuali perempuan-perempuan (hamba sahaya) yang engkau miliki. Allah Maha Mengawasi segala sesuatu." },
       "source": "kemenag-2019-adapted",
@@ -638,7 +647,8 @@
         { "words": [14, 16], "id": "tanpa menunggu waktu masak (makanannya)" },
         { "words": [17, 20], "id": ["tetapi", "jika kamu diundang, masuklah"] },
         { "words": [21, 23], "id": "dan apabila kamu selesai makan, keluarlah kamu" },
-        { "words": [24, 26], "id": "tanpa memperpanjang percakapan" },
+        { "words": [24, 25], "id": "tanpa memperpanjang" },
+        { "words": [26, 26], "id": "percakapan" },
         { "words": [27, 31], "id": "Sesungguhnya yang demikian itu adalah mengganggu Nabi" },
         { "words": [32, 33], "id": "sehingga dia malu kepadamu (untuk menyuruhmu keluar)" },
         { "words": [34, 38], "id": "Allah tidak malu (menerangkan) yang benar" },

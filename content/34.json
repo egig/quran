@@ -99,7 +99,8 @@
     "9": {
       "phrases": [
         { "words": [1, 2], "id": "Tidakkah mereka memperhatikan" },
-        { "words": [3, 11], "id": "langit dan bumi yang ada di hadapan dan di belakang mereka" },
+        { "words": [3, 6], "id": "yang ada di hadapan" },
+        { "words": [7, 11], "id": "dan di belakang mereka langit dan bumi" },
         { "words": [12, 13], "id": "Jika menghendakinya" },
         { "words": [14, 16], "id": "niscaya Kami membenamkan mereka di bumi" },
         { "words": [17, 22], "id": "atau menjatuhkan kepingan-kepingan (benda-benda angkasa) dari langit di atas mereka" },
@@ -125,7 +126,8 @@
         { "words": [1, 3], "id": ["Buatlah", "baju-baju besi besar"] },
         { "words": [4, 6], "id": "dan ukurlah anyamannya" },
         { "words": [7, 8], "id": "serta kerjakanlah amal saleh" },
-        { "words": [9, 12], "id": "Sesungguhnya Aku Maha Melihat apa yang kamu kerjakan" }
+        { "words": [9, 11], "id": "Sesungguhnya Aku apa yang kamu kerjakan" },
+        { "words": [12, 12], "id": "Maha Melihat" }
       ],
       "full": { "id": "Buatlah baju-baju besi besar dan ukurlah anyamannya serta kerjakanlah amal saleh. Sesungguhnya Aku Maha Melihat apa yang kamu kerjakan." },
       "source": "kemenag-2019-adapted",
@@ -363,9 +365,11 @@
         { "words": [1, 3], "id": "Orang-orang yang kufur berkata" },
         { "words": [4, 7], "id": "Kami tidak akan pernah beriman kepada Al-Qur’an ini" },
         { "words": [8, 11], "id": ["dan tidak (pula)", "kepada (kitab) yang sebelumnya"] },
-        { "words": [12, 18], "id": "(Alangkah mengerikan) jika engkau (Nabi Muhammad) melihat orang-orang zalim ketika mereka dihadapkan kepada Tuhannya" },
+        { "words": [12, 17], "id": "(Alangkah mengerikan) jika engkau (Nabi Muhammad) melihat orang-orang zalim ketika mereka dihadapkan" },
+        { "words": [18, 18], "id": "kepada Tuhannya" },
         { "words": [19, 23], "id": "(saat) sebagian mereka mengembalikan perkataan kepada sebagian yang lain (saling berbantah)" },
-        { "words": [24, 28], "id": "(Para pengikut) yang dianggap lemah berkata kepada (para pemimpin) yang menyombongkan diri" },
+        { "words": [24, 25], "id": "Berkata (para pengikut) yang" },
+        { "words": [26, 28], "id": "dianggap lemah kepada (para pemimpin) yang menyombongkan diri" },
         { "words": [29, 32], "id": "Seandainya bukan karenamu, niscaya kami menjadi orang-orang mukmin" }
       ],
       "full": { "id": "Orang-orang yang kufur berkata, “Kami tidak akan pernah beriman kepada Al-Qur’an ini dan tidak (pula) kepada (kitab) yang sebelumnya.” (Alangkah mengerikan) jika engkau (Nabi Muhammad) melihat orang-orang zalim ketika mereka dihadapkan kepada Tuhannya (saat) sebagian mereka mengembalikan perkataan kepada sebagian yang lain (saling berbantah). (Para pengikut) yang dianggap lemah berkata kepada (para pemimpin) yang menyombongkan diri, “Seandainya bukan karenamu, niscaya kami menjadi orang-orang mukmin.”" },
@@ -386,7 +390,8 @@
     },
     "33": {
       "phrases": [
-        { "words": [1, 5], "id": "Orang-orang yang dianggap lemah berkata kepada orang-orang yang menyombongkan diri" },
+        { "words": [1, 2], "id": "Berkata orang-orang yang" },
+        { "words": [3, 5], "id": "dianggap lemah kepada orang-orang yang menyombongkan diri" },
         { "words": [6, 9], "id": "(Tidak!) Sebenarnya tipu daya(-mu) pada waktu malam dan siang (yang menghalangi kami)" },
         { "words": [10, 14], "id": ["ketika", "kamu menyuruh kami agar kufur kepada Allah"] },
         { "words": [15, 17], "id": "dan menjadikan tandingan-tandingan bagi-Nya" },
@@ -400,7 +405,8 @@
     },
     "34": {
       "phrases": [
-        { "words": [1, 6], "id": "Tidaklah Kami utus pemberi peringatan ke suatu negeri" },
+        { "words": [1, 4], "id": "Tidaklah Kami utus ke suatu negeri" },
+        { "words": [5, 6], "id": "pemberi peringatan" },
         { "words": [7, 9], "id": "kecuali orang-orang yang hidup mewah (di negeri itu) berkata" },
         { "words": [10, 14], "id": "Sesungguhnya kami ingkar pada kerasulanmu" }
       ],
@@ -486,7 +492,8 @@
     },
     "42": {
       "phrases": [
-        { "words": [1, 8], "id": "Pada hari ini sebagian kamu tidak kuasa (mendatangkan) manfaat dan (menolak) mudarat kepada sebagian yang lain" },
+        { "words": [1, 3], "id": "Pada hari ini tidak kuasa" },
+        { "words": [4, 8], "id": "sebagian kamu (mendatangkan) manfaat dan (menolak) mudarat kepada sebagian yang lain" },
         { "words": [9, 11], "id": "Kami katakan kepada orang-orang yang zalim" },
         { "words": [12, 14], "id": ["Rasakanlah olehmu azab", "neraka"] },
         { "words": [15, 18], "id": "yang selalu kamu dustakan" }
@@ -519,7 +526,8 @@
     },
     "45": {
       "phrases": [
-        { "words": [1, 4], "id": "Orang-orang sebelum mereka (kafir Makkah) telah mendustakan (para rasul)" },
+        { "words": [1, 1], "id": "Telah mendustakan (para rasul)" },
+        { "words": [2, 4], "id": "orang-orang sebelum mereka (kafir Makkah)" },
         { "words": [5, 9], "id": "Padahal, mereka (kafir Makkah) itu belum sampai (menerima) sepersepuluh dari apa (nikmat) yang telah Kami anugerahkan kepada orang-orang terdahulu itu" },
         { "words": [10, 11], "id": ["lalu mereka mendustakan", "para rasul-Ku"] },
         { "words": [12, 14], "id": "Maka, (lihatlah) bagaimana dahsyatnya akibat kemurkaan-Ku" }
@@ -535,7 +543,8 @@
         { "words": [5, 7], "id": ["(yaitu) agar", "kamu bangkit karena Allah"] },
         { "words": [8, 9], "id": "baik berdua-dua maupun sendiri-sendiri" },
         { "words": [10, 11], "id": "kemudian memikirkan (perihal Nabi Muhammad)" },
-        { "words": [12, 15], "id": "Kawanmu itu tidak gila sedikit pun" },
+        { "words": [12, 14], "id": "Kawanmu itu tidak sedikit pun" },
+        { "words": [15, 15], "id": "gila" },
         { "words": [16, 20], "id": "Dia tidak lain hanyalah pemberi peringatan bagi kamu" },
         { "words": [21, 24], "id": "bahwa di hadapanmu ada azab yang keras" }
       ],
@@ -548,7 +557,8 @@
         { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
         { "words": [2, 7], "id": "Imbalan yang aku minta kepadamu (dari dakwah ini) hanya untuk kamu (sendiri)" },
         { "words": [8, 12], "id": "Imbalanku hanyalah dari Allah" },
-        { "words": [13, 17], "id": "dan Dia Maha Menyaksikan segala sesuatu" }
+        { "words": [13, 14], "id": "dan Dia" },
+        { "words": [15, 17], "id": "Maha Menyaksikan segala sesuatu" }
       ],
       "full": { "id": "Katakanlah (Nabi Muhammad), “Imbalan yang aku minta kepadamu (dari dakwah ini) hanya untuk kamu (sendiri). Imbalanku hanyalah dari Allah dan Dia Maha Menyaksikan segala sesuatu.”" },
       "source": "kemenag-2019-adapted",

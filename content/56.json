@@ -214,7 +214,8 @@
     },
     "25": {
       "phrases": [
-        { "words": [1, 4], "id": "Di sana mereka tidak mendengar percakapan yang sia-sia" },
+        { "words": [1, 2], "id": "Mereka tidak mendengar" },
+        { "words": [3, 4], "id": "di sana percakapan yang sia-sia" },
         { "words": [5, 6], "id": "dan tidak (pula) percakapan yang menimbulkan dosa" }
       ],
       "full": { "id": "Di sana mereka tidak mendengar percakapan yang sia-sia dan tidak (pula) percakapan yang menimbulkan dosa," },
@@ -709,7 +710,8 @@
     },
     "81": {
       "phrases": [
-        { "words": [1, 4], "id": "Apakah kamu menganggap remeh berita ini (Al-Qur’an)" }
+        { "words": [1, 2], "id": "Apakah berita ini (Al-Qur’an)" },
+        { "words": [3, 4], "id": "kamu menganggap remeh" }
       ],
       "full": { "id": "Apakah kamu menganggap remeh berita ini (Al-Qur’an)" },
       "source": "kemenag-2019-adapted",

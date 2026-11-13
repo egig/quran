@@ -249,7 +249,8 @@
       "phrases": [
         { "words": [1, 5], "id": "Padahal, mereka tidak mempunyai pengetahuan tentang hal itu" },
         { "words": [6, 9], "id": "Mereka tidak lain hanyalah mengikuti dugaan" },
-        { "words": [10, 16], "id": "dan sesungguhnya dugaan itu tidak berfaedah sedikit pun terhadap kebenaran" }
+        { "words": [10, 14], "id": "dan sesungguhnya dugaan itu tidak berfaedah" },
+        { "words": [15, 16], "id": "sedikit pun terhadap kebenaran" }
       ],
       "full": { "id": "Padahal, mereka tidak mempunyai pengetahuan tentang hal itu. Mereka tidak lain hanyalah mengikuti dugaan dan sesungguhnya dugaan itu tidak berfaedah sedikit pun terhadap kebenaran." },
       "source": "kemenag-2019-adapted",
@@ -531,7 +532,8 @@
     },
     "59": {
       "phrases": [
-        { "words": [1, 4], "id": "Maka, apakah kamu merasa heran terhadap pemberitaan ini" }
+        { "words": [1, 3], "id": "Maka, apakah terhadap pemberitaan ini" },
+        { "words": [4, 4], "id": "kamu merasa heran" }
       ],
       "full": { "id": "Maka, apakah kamu merasa heran terhadap pemberitaan ini?" },
       "source": "kemenag-2019-adapted",

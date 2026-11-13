@@ -21,7 +21,8 @@
       "phrases": [
         { "words": [1, 3], "id": ["Mereka menjadikan", "sumpah-sumpah mereka sebagai perisai"] },
         { "words": [4, 7], "id": "lalu mereka menghalang-halangi (orang lain) dari jalan Allah" },
-        { "words": [8, 12], "id": "Sesungguhnya apa yang selalu mereka kerjakan itu sangatlah buruk" }
+        { "words": [8, 11], "id": "Sesungguhnya sangatlah buruk apa yang selalu mereka" },
+        { "words": [12, 12], "id": "kerjakan itu" }
       ],
       "full": { "id": "Mereka menjadikan sumpah-sumpah mereka sebagai perisai lalu mereka menghalang-halangi (orang lain) dari jalan Allah. Sesungguhnya apa yang selalu mereka kerjakan itu sangatlah buruk." },
       "source": "kemenag-2019-adapted",
@@ -73,7 +74,8 @@
         { "words": [1, 2], "id": "Sama saja bagi mereka" },
         { "words": [3, 4], "id": "apakah engkau (Nabi Muhammad) memohonkan ampunan untuk mereka" },
         { "words": [5, 8], "id": "atau tidak" },
-        { "words": [9, 12], "id": "Allah tidak akan mengampuni mereka" },
+        { "words": [9, 9], "id": "tidak akan" },
+        { "words": [10, 12], "id": "Allah mengampuni mereka" },
         { "words": [13, 18], "id": "Sesungguhnya Allah tidak akan memberi petunjuk kepada kaum fasik" }
       ],
       "full": { "id": "Sama saja bagi mereka apakah engkau (Nabi Muhammad) memohonkan ampunan untuk mereka atau tidak, Allah tidak akan mengampuni mereka. Sesungguhnya Allah tidak akan memberi petunjuk kepada kaum fasik." },
@@ -132,7 +134,8 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 4], "id": "Allah tidak akan menunda (kematian) seseorang" },
+        { "words": [1, 2], "id": "Tidak akan menunda" },
+        { "words": [3, 4], "id": "Allah (kematian) seseorang" },
         { "words": [5, 7], "id": "apabila waktu kematiannya telah datang" },
         { "words": [8, 11], "id": "Allah Maha Teliti terhadap apa yang kamu kerjakan" }
       ],

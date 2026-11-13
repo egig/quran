@@ -108,7 +108,8 @@
     "11": {
       "phrases": [
         { "words": [1, 1], "id": "Katakanlah" },
-        { "words": [2, 7], "id": "Malaikat maut yang diserahi (tugas) untuk (mencabut nyawa)-mu akan mematikanmu" },
+        { "words": [2, 2], "id": "akan mematikanmu" },
+        { "words": [3, 7], "id": "malaikat maut yang diserahi (tugas) untuk (mencabut nyawa)-mu" },
         { "words": [8, 11], "id": "kemudian kepada Tuhanmulah kamu akan dikembalikan" }
       ],
       "full": { "id": "Katakanlah, “Malaikat maut yang diserahi (tugas) untuk (mencabut nyawa)-mu akan mematikanmu, kemudian kepada Tuhanmulah kamu akan dikembalikan.”" },
@@ -165,7 +166,8 @@
         { "words": [1, 4], "id": ["Lambung (tubuh) mereka", "jauh dari tempat tidur (untuk salat malam)"] },
         { "words": [5, 6], "id": "seraya berdoa kepada Tuhannya" },
         { "words": [7, 8], "id": "dengan rasa takut (akan siksa-Nya) dan penuh harap (akan rahmat-Nya)" },
-        { "words": [9, 11], "id": "dan mereka menginfakkan sebagian dari rezeki yang Kami anugerahkan kepada mereka" }
+        { "words": [9, 10], "id": "dan sebagian dari rezeki yang Kami anugerahkan kepada mereka" },
+        { "words": [11, 11], "id": "mereka menginfakkan" }
       ],
       "full": { "id": "Lambung (tubuh) mereka jauh dari tempat tidur (untuk salat malam) seraya berdoa kepada Tuhannya dengan rasa takut (akan siksa-Nya) dan penuh harap (akan rahmat-Nya) dan mereka menginfakkan sebagian dari rezeki yang Kami anugerahkan kepada mereka." },
       "source": "kemenag-2019-adapted",

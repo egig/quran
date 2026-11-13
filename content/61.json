@@ -79,7 +79,8 @@
     "7": {
       "phrases": [
         { "words": [1, 2], "id": "Siapakah yang lebih zalim" },
-        { "words": [3, 7], "id": "daripada orang yang mengada-adakan kebohongan terhadap Allah" },
+        { "words": [3, 5], "id": "daripada orang yang mengada-adakan" },
+        { "words": [6, 7], "id": "kebohongan terhadap Allah" },
         { "words": [8, 11], "id": "padahal dia diseru kepada (agama) Islam" },
         { "words": [12, 16], "id": "Allah tidak memberi petunjuk kepada kaum yang zalim" }
       ],
@@ -91,7 +92,8 @@
       "phrases": [
         { "words": [1, 5], "id": "Mereka hendak memadamkan cahaya (agama) Allah dengan mulut mereka" },
         { "words": [6, 8], "id": "sedangkan Allah tetap menyempurnakan cahaya-Nya" },
-        { "words": [9, 11], "id": "walaupun orang-orang kafir tidak menyukai" }
+        { "words": [9, 10], "id": "walaupun tidak menyukai" },
+        { "words": [11, 11], "id": "orang-orang kafir" }
       ],
       "full": { "id": "Mereka hendak memadamkan cahaya (agama) Allah dengan mulut mereka, sedangkan Allah tetap menyempurnakan cahaya-Nya walaupun orang-orang kafir tidak menyukai." },
       "source": "kemenag-2019-adapted",

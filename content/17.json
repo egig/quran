@@ -88,7 +88,8 @@
         { "words": [1, 4], "id": "Mudah-mudahan Tuhanmu melimpahkan rahmat kepadamu" },
         { "words": [5, 6], "id": "Akan tetapi, jika kamu kembali (melakukan kejahatan)" },
         { "words": [7, 7], "id": "niscaya Kami kembali (mengazabmu)" },
-        { "words": [8, 11], "id": "Kami jadikan (neraka) Jahanam sebagai penjara bagi orang-orang kafir" }
+        { "words": [8, 10], "id": "Kami jadikan (neraka) Jahanam bagi orang-orang kafir" },
+        { "words": [11, 11], "id": "sebagai penjara" }
       ],
       "full": { "id": "Mudah-mudahan Tuhanmu melimpahkan rahmat kepadamu. Akan tetapi, jika kamu kembali (melakukan kejahatan), niscaya Kami kembali (mengazabmu). Kami jadikan (neraka) Jahanam sebagai penjara bagi orang-orang kafir." },
       "source": "kemenag-2019-adapted",
@@ -139,7 +140,8 @@
     },
     "13": {
       "phrases": [
-        { "words": [1, 6], "id": "Setiap manusia telah Kami kalungkan (catatan) amal perbuatannya di lehernya" },
+        { "words": [1, 2], "id": "Setiap manusia" },
+        { "words": [3, 6], "id": "telah Kami kalungkan (catatan) amal perbuatannya di lehernya" },
         { "words": [7, 11], "id": "Pada hari Kiamat Kami keluarkan baginya sebuah kitab" },
         { "words": [12, 13], "id": ["yang dia terima", "dalam keadaan terbuka"] }
       ],
@@ -182,7 +184,8 @@
     },
     "17": {
       "phrases": [
-        { "words": [1, 7], "id": "Banyak generasi setelah Nuh yang telah Kami binasakan" },
+        { "words": [1, 4], "id": "Banyak generasi yang telah Kami binasakan" },
+        { "words": [5, 7], "id": "setelah Nuh" },
         { "words": [8, 9], "id": "Cukuplah Tuhanmu" },
         { "words": [10, 11], "id": "dosa-dosa hamba-Nya" },
         { "words": [12, 12], "id": "sebagai Zat Yang Maha Teliti" },
@@ -240,7 +243,8 @@
     "22": {
       "phrases": [
         { "words": [1, 6], "id": "Janganlah engkau menjadikan tuhan yang lain bersama Allah" },
-        { "words": [7, 9], "id": "(sebab) nanti engkau menjadi tercela lagi terhina" }
+        { "words": [7, 8], "id": "(sebab) nanti engkau menjadi tercela" },
+        { "words": [9, 9], "id": "lagi terhina" }
       ],
       "full": { "id": "Janganlah engkau menjadikan tuhan yang lain bersama Allah (sebab) nanti engkau menjadi tercela lagi terhina." },
       "source": "kemenag-2019-adapted",
@@ -261,7 +265,8 @@
     },
     "24": {
       "phrases": [
-        { "words": [1, 6], "id": "Rendahkanlah dirimu terhadap keduanya dengan penuh kasih sayang" },
+        { "words": [1, 2], "id": "Rendahkanlah terhadap keduanya" },
+        { "words": [3, 6], "id": "dirimu dengan penuh kasih sayang" },
         { "words": [7, 7], "id": "dan ucapkanlah" },
         { "words": [8, 9], "id": "Wahai Tuhanku, sayangilah keduanya" },
         { "words": [10, 12], "id": ["sebagaimana mereka berdua (menyayangiku ketika) mendidik aku", "pada waktu kecil"] }
@@ -344,7 +349,8 @@
     "32": {
       "phrases": [
         { "words": [1, 3], "id": "Janganlah kamu mendekati zina" },
-        { "words": [4, 8], "id": "Sesungguhnya (zina) itu adalah perbuatan keji dan jalan terburuk" }
+        { "words": [4, 7], "id": "Sesungguhnya (zina) itu adalah perbuatan keji dan terburuk" },
+        { "words": [8, 8], "id": "jalan" }
       ],
       "full": { "id": "Janganlah kamu mendekati zina. Sesungguhnya (zina) itu adalah perbuatan keji dan jalan terburuk." },
       "source": "kemenag-2019-adapted",
@@ -417,7 +423,8 @@
     "39": {
       "phrases": [
         { "words": [1, 7], "id": "Itulah sebagian hikmah yang diwahyukan Tuhan kepada engkau (Nabi Muhammad)" },
-        { "words": [8, 13], "id": "Janganlah engkau menjadikan tuhan yang lain di samping Allah" },
+        { "words": [8, 12], "id": "Janganlah engkau menjadikan tuhan di samping Allah" },
+        { "words": [13, 13], "id": "yang lain" },
         { "words": [14, 16], "id": "yang menyebabkan engkau dilemparkan ke dalam neraka" },
         { "words": [17, 18], "id": "dalam keadaan tercela lagi terusir (dari rahmat Allah)" }
       ],
@@ -427,7 +434,8 @@
     },
     "40": {
       "phrases": [
-        { "words": [1, 3], "id": "Apakah (pantas) Tuhanmu memilihkan anak laki-laki untukmu" },
+        { "words": [1, 2], "id": "Apakah (pantas) Tuhanmu memilihkan untukmu" },
+        { "words": [3, 3], "id": "anak laki-laki" },
         { "words": [4, 7], "id": "sedangkan Dia menjadikan malaikat sebagai anak perempuan" },
         { "words": [8, 11], "id": "Sesungguhnya kamu (kaum musyrik) benar-benar mengucapkan perkataan yang (dosanya) sangat besar" }
       ],
@@ -468,7 +476,8 @@
     },
     "44": {
       "phrases": [
-        { "words": [1, 7], "id": "Langit yang tujuh, bumi, dan semua yang ada di dalamnya senantiasa bertasbih kepada Allah" },
+        { "words": [1, 3], "id": "Langit senantiasa bertasbih kepada Allah" },
+        { "words": [4, 7], "id": "yang tujuh, bumi, dan semua yang ada di dalamnya" },
         { "words": [8, 13], "id": "Tidak ada sesuatu pun, kecuali senantiasa bertasbih dengan memuji-Nya" },
         { "words": [14, 17], "id": ["tetapi", "kamu tidak mengerti tasbih mereka"] },
         { "words": [18, 19], "id": "Sesungguhnya Dia" },
@@ -569,7 +578,8 @@
         { "words": [1, 2], "id": "Katakan kepada hamba-hamba-Ku" },
         { "words": [3, 6], "id": "supaya mereka mengucapkan perkataan yang lebih baik (dan benar)" },
         { "words": [7, 10], "id": "Sesungguhnya setan itu selalu menimbulkan perselisihan di antara mereka" },
-        { "words": [11, 16], "id": "Sesungguhnya setan adalah musuh yang nyata bagi manusia" }
+        { "words": [11, 15], "id": "Sesungguhnya setan adalah musuh bagi manusia" },
+        { "words": [16, 16], "id": "yang nyata" }
       ],
       "full": { "id": "Katakan kepada hamba-hamba-Ku supaya mereka mengucapkan perkataan yang lebih baik (dan benar). Sesungguhnya setan itu selalu menimbulkan perselisihan di antara mereka. Sesungguhnya setan adalah musuh yang nyata bagi manusia." },
       "source": "kemenag-2019-adapted",
@@ -690,11 +700,13 @@
     },
     "64": {
       "phrases": [
-        { "words": [1, 5], "id": "Perdayakanlah (wahai Iblis) siapa saja di antara mereka yang engkau sanggup dengan ajakanmu" },
+        { "words": [1, 3], "id": "Perdayakanlah (wahai Iblis) siapa saja yang engkau sanggup" },
+        { "words": [4, 5], "id": "di antara mereka dengan ajakanmu" },
         { "words": [6, 9], "id": "Kerahkanlah pasukanmu yang berkuda dan yang berjalan kaki terhadap mereka" },
         { "words": [10, 13], "id": ["Bersekutulah", "dengan mereka dalam harta dan anak-anak"] },
         { "words": [14, 14], "id": "lalu berilah janji kepada mereka" },
-        { "words": [15, 19], "id": "Setan itu hanya menjanjikan tipuan belaka kepada mereka" }
+        { "words": [15, 18], "id": "Setan itu hanya menjanjikan kepada mereka" },
+        { "words": [19, 19], "id": "tipuan belaka" }
       ],
       "full": { "id": "Perdayakanlah (wahai Iblis) siapa saja di antara mereka yang engkau sanggup dengan ajakanmu. Kerahkanlah pasukanmu yang berkuda dan yang berjalan kaki terhadap mereka. Bersekutulah dengan mereka dalam harta dan anak-anak, lalu berilah janji kepada mereka.” Setan itu hanya menjanjikan tipuan belaka kepada mereka." },
       "source": "kemenag-2019-adapted",
@@ -711,7 +723,8 @@
     },
     "66": {
       "phrases": [
-        { "words": [1, 7], "id": "Tuhanmulah yang melayarkan kapal-kapal di lautan untukmu" },
+        { "words": [1, 6], "id": "Tuhanmulah yang melayarkan kapal-kapal untukmu" },
+        { "words": [7, 7], "id": "di lautan" },
         { "words": [8, 10], "id": "agar kamu mencari karunia-Nya" },
         { "words": [11, 14], "id": "Sesungguhnya Dia Maha Penyayang terhadapmu" }
       ],
@@ -825,7 +838,8 @@
     },
     "77": {
       "phrases": [
-        { "words": [1, 7], "id": "(Yang demikian itu) merupakan ketetapan (bagi) para rasul Kami yang benar-benar Kami utus sebelum engkau" },
+        { "words": [1, 4], "id": "(Yang demikian itu) merupakan ketetapan (bagi) yang benar-benar Kami utus" },
+        { "words": [5, 7], "id": "para rasul Kami sebelum engkau" },
         { "words": [8, 11], "id": "dan tidak akan engkau dapati perubahan atas ketetapan Kami" }
       ],
       "full": { "id": "(Yang demikian itu) merupakan ketetapan (bagi) para rasul Kami yang benar-benar Kami utus sebelum engkau dan tidak akan engkau dapati perubahan atas ketetapan Kami." },
@@ -959,7 +973,8 @@
       "phrases": [
         { "words": [1, 1], "id": "Mereka berkata" },
         { "words": [2, 4], "id": "Kami tidak akan percaya kepadamu (Nabi Muhammad)" },
-        { "words": [5, 10], "id": "sebelum engkau membuat mata air yang memancar dari bumi untuk kami" }
+        { "words": [5, 6], "id": "sebelum engkau membuat memancar" },
+        { "words": [7, 10], "id": "mata air dari bumi untuk kami" }
       ],
       "full": { "id": "Mereka berkata, “Kami tidak akan percaya kepadamu (Nabi Muhammad) sebelum engkau membuat mata air yang memancar dari bumi untuk kami," },
       "source": "kemenag-2019-adapted",
@@ -976,7 +991,8 @@
     },
     "92": {
       "phrases": [
-        { "words": [1, 7], "id": "atau engkau jatuhkan langit berkeping-keping kepada kami, sebagaimana engkau telah katakan" },
+        { "words": [1, 3], "id": "atau engkau jatuhkan langit" },
+        { "words": [4, 7], "id": "berkeping-keping kepada kami, sebagaimana engkau telah katakan" },
         { "words": [8, 12], "id": ["atau engkau datangkan Allah dan para malaikat", "berhadapan muka dengan kami"] }
       ],
       "full": { "id": "atau engkau jatuhkan langit berkeping-keping kepada kami, sebagaimana engkau telah katakan, atau engkau datangkan Allah dan para malaikat berhadapan muka dengan kami," },
@@ -1090,7 +1106,8 @@
     "102": {
       "phrases": [
         { "words": [1, 1], "id": "Dia (Musa) menjawab" },
-        { "words": [2, 10], "id": "Sungguh, engkau benar-benar telah mengetahui bahwa tidak ada yang menurunkan (mukjizat-mukjizat) itu kecuali Tuhan langit dan bumi" },
+        { "words": [2, 5], "id": "Sungguh, engkau benar-benar telah mengetahui bahwa tidak ada yang menurunkan" },
+        { "words": [6, 10], "id": "(mukjizat-mukjizat) itu kecuali Tuhan langit dan bumi" },
         { "words": [11, 11], "id": "sebagai bukti-bukti yang nyata" },
         { "words": [12, 15], "id": ["Sesungguhnya aku benar-benar yakin bahwa", "engkau, wahai Fir'aun, terlaknat"] }
       ],

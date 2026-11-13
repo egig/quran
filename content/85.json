@@ -45,7 +45,8 @@
     },
     "6": {
       "phrases": [
-        { "words": [1, 4], "id": "Ketika (itu) mereka (hanya) duduk di sekitarnya" }
+        { "words": [1, 3], "id": "Ketika (itu) mereka (hanya) di sekitarnya" },
+        { "words": [4, 4], "id": "duduk" }
       ],
       "full": { "id": "Ketika (itu) mereka (hanya) duduk di sekitarnya." },
       "source": "kemenag-2019-adapted",

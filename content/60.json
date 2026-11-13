@@ -58,7 +58,8 @@
         { "words": [29, 32], "id": ["sampai kamu beriman", "kepada Allah saja"] },
         { "words": [33, 36], "id": "Akan tetapi, (janganlah engkau teladani) perkataan Ibrahim kepada ayahnya" },
         { "words": [37, 38], "id": "Sungguh, aku akan memohonkan ampunan bagimu" },
-        { "words": [39, 45], "id": "tetapi aku sama sekali tidak dapat menolak (siksaan) Allah terhadapmu" },
+        { "words": [39, 42], "id": "tetapi aku tidak dapat menolak terhadapmu" },
+        { "words": [43, 45], "id": "(siksaan) Allah sama sekali" },
         { "words": [46, 48], "id": "(Ibrahim berkata,) Ya Tuhan kami, hanya kepada Engkau kami bertawakal" },
         { "words": [49, 50], "id": "hanya kepada Engkau kami bertobat" },
         { "words": [51, 52], "id": "dan hanya kepada Engkaulah kami kembali" }
@@ -97,7 +98,8 @@
     "7": {
       "phrases": [
         { "words": [1, 2], "id": "Mudah-mudahan Allah" },
-        { "words": [3, 10], "id": "menimbulkan kasih sayang di antara kamu dengan orang-orang yang pernah kamu musuhi di antara mereka" },
+        { "words": [3, 5], "id": "menimbulkan di antara kamu" },
+        { "words": [6, 10], "id": "dengan orang-orang yang pernah kamu musuhi di antara mereka kasih sayang" },
         { "words": [11, 12], "id": "Allah Maha Kuasa" },
         { "words": [13, 14], "id": "dan Allah Maha Pengampun" },
         { "words": [15, 15], "id": "Maha Penyayang" }
@@ -160,7 +162,8 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 7], "id": "Jika ada sesuatu (pengembalian mahar) yang belum kamu selesaikan dari istri-istrimu yang lari kepada orang-orang kafir" },
+        { "words": [1, 2], "id": "Jika ada yang belum kamu selesaikan" },
+        { "words": [3, 7], "id": "sesuatu (pengembalian mahar) dari istri-istrimu yang lari kepada orang-orang kafir" },
         { "words": [8, 8], "id": "lalu kamu dapat mengalahkan mereka" },
         { "words": [9, 12], "id": "berikanlah (dari harta rampasan) kepada orang-orang yang istrinya lari itu" },
         { "words": [13, 15], "id": "sebanyak mahar yang telah mereka berikan" },
@@ -176,7 +179,8 @@
         { "words": [1, 2], "id": "Wahai Nabi" },
         { "words": [3, 5], "id": "apabila perempuan-perempuan mukmin datang kepadamu" },
         { "words": [6, 6], "id": "untuk mengadakan baiat (janji setia)" },
-        { "words": [7, 12], "id": "bahwa mereka tidak akan mempersekutukan sesuatu apa pun dengan Allah" },
+        { "words": [7, 11], "id": "bahwa mereka tidak akan mempersekutukan dengan Allah" },
+        { "words": [12, 12], "id": "sesuatu apa pun" },
         { "words": [13, 14], "id": "tidak akan mencuri" },
         { "words": [15, 16], "id": "tidak akan berzina" },
         { "words": [17, 19], "id": "tidak akan membunuh anak-anaknya" },

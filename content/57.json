@@ -46,7 +46,8 @@
         { "words": [25, 27], "id": "dan apa yang naik ke sana" },
         { "words": [28, 29], "id": "Dia bersamamu" },
         { "words": [30, 32], "id": "di mana saja kamu berada" },
-        { "words": [33, 36], "id": "Allah Maha Melihat apa yang kamu kerjakan" }
+        { "words": [33, 35], "id": "Allah apa yang kamu kerjakan" },
+        { "words": [36, 36], "id": "Maha Melihat" }
       ],
       "full": { "id": "Dialah yang menciptakan langit dan bumi dalam enam masa. Kemudian, Dia bersemayam di atas ʻArasy. Dia mengetahui apa yang masuk ke dalam bumi dan apa yang keluar darinya serta apa yang turun dari langit dan apa yang naik ke sana. Dia bersamamu di mana saja kamu berada. Allah Maha Melihat apa yang kamu kerjakan." },
       "source": "kemenag-2019-adapted",
@@ -65,7 +66,8 @@
       "phrases": [
         { "words": [1, 4], "id": "Dia memasukkan malam ke dalam siang" },
         { "words": [5, 8], "id": "dan memasukkan siang ke dalam malam" },
-        { "words": [9, 12], "id": "Dia Maha Mengetahui segala isi hati" }
+        { "words": [9, 11], "id": "Dia Maha Mengetahui segala isi" },
+        { "words": [12, 12], "id": "hati" }
       ],
       "full": { "id": "Dia memasukkan malam ke dalam siang dan memasukkan siang ke dalam malam. Dia Maha Mengetahui segala isi hati." },
       "source": "kemenag-2019-adapted",
@@ -99,7 +101,8 @@
         { "words": [4, 5], "id": "kepada hamba-Nya (Nabi Muhammad)" },
         { "words": [6, 7], "id": "ayat-ayat yang terang (Al-Qur’an)" },
         { "words": [8, 12], "id": "untuk mengeluarkanmu dari kegelapan kepada cahaya" },
-        { "words": [13, 16], "id": "Sesungguhnya Allah benar-benar Maha Penyantun kepadamu" },
+        { "words": [13, 15], "id": "Sesungguhnya Allah kepadamu" },
+        { "words": [16, 16], "id": "benar-benar Maha Penyantun" },
         { "words": [17, 17], "id": "Maha Penyayang" }
       ],
       "full": { "id": "Dialah yang menurunkan ayat-ayat yang terang (Al-Qur’an) kepada hamba-Nya (Nabi Muhammad) untuk mengeluarkanmu dari kegelapan kepada cahaya. Sesungguhnya Allah benar-benar Maha Penyantun lagi Maha Penyayang kepadamu." },
@@ -180,7 +183,8 @@
     },
     "15": {
       "phrases": [
-        { "words": [1, 5], "id": "Pada hari ini tidak akan diterima tebusan darimu" },
+        { "words": [1, 4], "id": "Pada hari ini tidak akan diterima darimu" },
+        { "words": [5, 5], "id": "tebusan" },
         { "words": [6, 9], "id": "maupun dari orang-orang yang kufur" },
         { "words": [10, 11], "id": "Tempatmu adalah neraka" },
         { "words": [12, 13], "id": "Ia adalah tempat berlindungmu" },
@@ -193,7 +197,8 @@
     "16": {
       "phrases": [
         { "words": [1, 4], "id": "Apakah belum tiba waktunya bagi orang-orang yang beriman" },
-        { "words": [5, 9], "id": "agar hati mereka khusyuk mengingat Allah" },
+        { "words": [5, 6], "id": "agar khusyuk" },
+        { "words": [7, 9], "id": "hati mereka mengingat Allah" },
         { "words": [10, 13], "id": "dan apa yang turun dari kebenaran (Al-Qur’an)" },
         { "words": [14, 18], "id": ["Janganlah mereka (berlaku) seperti orang-orang", "yang telah menerima kitab"] },
         { "words": [19, 20], "id": "sebelum itu" },
@@ -275,7 +280,8 @@
     },
     "22": {
       "phrases": [
-        { "words": [1, 6], "id": "Tidak ada bencana (apa pun) yang menimpa di bumi" },
+        { "words": [1, 2], "id": "Tidak ada yang menimpa" },
+        { "words": [3, 6], "id": "bencana (apa pun) di bumi" },
         { "words": [7, 9], "id": "dan tidak (juga yang menimpa) dirimu" },
         { "words": [10, 12], "id": "kecuali telah tertulis dalam Kitab (Lauhulmahfuz)" },
         { "words": [13, 16], "id": "sebelum Kami mewujudkannya" },
@@ -342,8 +348,10 @@
         { "words": [1, 5], "id": ["Kemudian, Kami meneruskan jejak mereka", "dengan (mengutus) rasul-rasul Kami"] },
         { "words": [6, 9], "id": "dan Kami meneruskan (pula dengan mengutus) Isa putra Maryam" },
         { "words": [10, 11], "id": "serta Kami memberikan Injil kepadanya" },
-        { "words": [12, 18], "id": "Kami menjadikan kesantunan dan kasih sayang dalam hati orang-orang yang mengikutinya" },
-        { "words": [19, 20], "id": "Mereka mengada-adakan rahbaniah (berlebih-lebihan dalam beribadah)" },
+        { "words": [12, 12], "id": "Kami menjadikan" },
+        { "words": [13, 18], "id": "kesantunan dan kasih sayang dalam hati orang-orang yang mengikutinya" },
+        { "words": [19, 19], "id": "Rahbaniah (berlebih-lebihan dalam beribadah)" },
+        { "words": [20, 20], "id": "mereka mengada-adakan" },
         { "words": [21, 23], "id": "Padahal, Kami tidak mewajibkannya kepada mereka" },
         { "words": [24, 27], "id": "Akan tetapi, (mereka mengada-adakannya dengan tujuan) mencari keridaan Allah" },
         { "words": [28, 31], "id": "lalu mereka tidak memeliharanya dengan sebaik-baiknya" },
@@ -371,7 +379,8 @@
     },
     "29": {
       "phrases": [
-        { "words": [1, 4], "id": "(Allah menganugerahkan itu) agar Ahlulkitab (yang tidak beriman kepada Nabi Muhammad) mengetahui" },
+        { "words": [1, 2], "id": "(Allah menganugerahkan itu) agar mengetahui" },
+        { "words": [3, 4], "id": "Ahlulkitab (yang tidak beriman kepada Nabi Muhammad)" },
         { "words": [5, 11], "id": "bahwa mereka sedikit pun tidak akan mendapat karunia Allah" },
         { "words": [12, 15], "id": ["dan bahwa", "karunia itu ada di tangan Allah"] },
         { "words": [16, 18], "id": "Dia menganugerahkannya kepada siapa yang dikehendaki-Nya" },

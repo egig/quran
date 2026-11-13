@@ -46,7 +46,8 @@
     },
     "5": {
       "phrases": [
-        { "words": [1, 6], "id": "Sesungguhnya bagi Allah tidak ada sesuatu pun yang tersembunyi" },
+        { "words": [1, 4], "id": "Sesungguhnya bagi Allah tidak ada yang tersembunyi" },
+        { "words": [5, 6], "id": "sesuatu pun" },
         { "words": [7, 8], "id": "di bumi" },
         { "words": [9, 11], "id": "dan tidak pula di langit" }
       ],
@@ -91,7 +92,8 @@
       "phrases": [
         { "words": [1, 1], "id": "(Mereka berdoa,) Wahai Tuhan kami" },
         { "words": [2, 4], "id": "janganlah Engkau jadikan hati kami berpaling" },
-        { "words": [5, 7], "id": "setelah Engkau berikan petunjuk kepada kami" },
+        { "words": [5, 5], "id": "setelah" },
+        { "words": [6, 7], "id": "Engkau berikan petunjuk kepada kami" },
         { "words": [8, 12], "id": "dan anugerahkanlah kepada kami rahmat dari hadirat-Mu" },
         { "words": [13, 15], "id": "Sesungguhnya Engkau Maha Pemberi" }
       ],
@@ -113,7 +115,8 @@
     "10": {
       "phrases": [
         { "words": [1, 3], "id": "Sesungguhnya orang-orang yang kufur" },
-        { "words": [4, 12], "id": "tidak akan berguna bagi mereka sedikit pun harta benda dan anak-anak mereka (untuk menyelamatkan diri) dari (azab) Allah" },
+        { "words": [4, 9], "id": "tidak akan berguna bagi mereka harta benda dan anak-anak mereka" },
+        { "words": [10, 12], "id": "sedikit pun (untuk menyelamatkan diri) dari (azab) Allah" },
         { "words": [13, 16], "id": "Mereka itulah bahan bakar api neraka" }
       ],
       "full": { "id": "Sesungguhnya orang-orang yang kufur, tidak akan berguna bagi mereka sedikit pun harta benda dan anak-anak mereka (untuk menyelamatkan diri) dari (azab) Allah. Mereka itulah bahan bakar api neraka." },
@@ -147,9 +150,11 @@
       "phrases": [
         { "words": [1, 4], "id": "Sungguh, telah ada tanda (bukti) bagimu" },
         { "words": [5, 7], "id": "pada dua golongan yang bertemu (dalam pertempuran)" },
-        { "words": [8, 12], "id": "Satu golongan berperang di jalan Allah" },
+        { "words": [8, 10], "id": "Satu golongan berperang" },
+        { "words": [11, 12], "id": "di jalan Allah" },
         { "words": [13, 14], "id": "dan (golongan) yang lain kafir" },
-        { "words": [15, 18], "id": "yang melihat dengan mata kepala bahwa mereka (golongan muslim) dua kali lipat jumlahnya" },
+        { "words": [15, 17], "id": "yang melihat bahwa mereka (golongan muslim) dua kali lipat jumlahnya" },
+        { "words": [18, 18], "id": "dengan mata kepala" },
         { "words": [19, 23], "id": "Allah menguatkan siapa yang Dia kehendaki dengan pertolongan-Nya" },
         { "words": [24, 29], "id": ["Sesungguhnya pada yang demikian itu benar-benar terdapat pelajaran", "bagi orang-orang yang mempunyai penglihatan (mata hati)"] }
       ],
@@ -263,7 +268,8 @@
     },
     "22": {
       "phrases": [
-        { "words": [1, 4], "id": "Mereka itulah orang-orang yang amalnya sia-sia" },
+        { "words": [1, 3], "id": "Mereka itulah orang-orang yang sia-sia" },
+        { "words": [4, 4], "id": "amalnya" },
         { "words": [5, 7], "id": "di dunia dan di akhirat" },
         { "words": [8, 11], "id": "dan tidak ada bagi mereka satu penolong pun" }
       ],
@@ -361,7 +367,8 @@
         { "words": [1, 9], "id": "(Ingatlah) pada hari (ketika) setiap jiwa mendapatkan (balasan) atas kebajikan yang telah dikerjakannya dihadirkan" },
         { "words": [10, 13], "id": "(begitu juga balasan) atas kejahatan yang telah dia kerjakan" },
         { "words": [14, 20], "id": "Dia berharap seandainya ada jarak yang jauh antara dia dan hari itu" },
-        { "words": [21, 23], "id": "Allah memperingatkan kamu akan (siksa)-Nya" },
+        { "words": [21, 22], "id": "Allah memperingatkan kamu" },
+        { "words": [23, 23], "id": "akan (siksa)-Nya" },
         { "words": [24, 26], "id": "Allah Maha Penyayang terhadap hamba-hamba-Nya" }
       ],
       "full": { "id": "(Ingatlah) pada hari (ketika) setiap jiwa mendapatkan (balasan) atas kebajikan yang telah dikerjakannya dihadirkan, (begitu juga balasan) atas kejahatan yang telah dia kerjakan. Dia berharap seandainya ada jarak yang jauh antara dia dan hari itu. Allah memperingatkan kamu akan (siksa)-Nya. Allah Maha Penyayang terhadap hamba-hamba-Nya." },
@@ -444,7 +451,8 @@
         { "words": [1, 4], "id": ["Dia (Allah) menerimanya (Maryam) dengan penerimaan", "yang baik"] },
         { "words": [5, 7], "id": "membesarkannya dengan pertumbuhan yang baik" },
         { "words": [8, 9], "id": "dan menyerahkan pemeliharaannya kepada Zakaria" },
-        { "words": [10, 14], "id": "Setiap kali Zakaria masuk menemui di mihrabnya" },
+        { "words": [10, 12], "id": "Setiap kali masuk menemui" },
+        { "words": [13, 14], "id": "Zakaria di mihrabnya" },
         { "words": [15, 17], "id": "dia mendapati makanan di sisinya" },
         { "words": [18, 19], "id": "Dia berkata, Wahai Maryam" },
         { "words": [20, 22], "id": "dari mana ini engkau peroleh" },
@@ -624,7 +632,8 @@
     },
     "52": {
       "phrases": [
-        { "words": [1, 5], "id": "Ketika Isa merasakan kekufuran mereka (Bani Israil)" },
+        { "words": [1, 4], "id": "Ketika Isa merasakan" },
+        { "words": [5, 5], "id": "kekufuran mereka (Bani Israil)" },
         { "words": [6, 6], "id": "dia berkata" },
         { "words": [7, 10], "id": "Siapakah yang akan menjadi penolongku untuk (menegakkan agama) Allah" },
         { "words": [11, 12], "id": "Para hawari (sahabat setianya) menjawab" },
@@ -662,7 +671,8 @@
         { "words": [1, 4], "id": "(Ingatlah) ketika Allah berfirman, Wahai Isa" },
         { "words": [5, 8], "id": "sesungguhnya Aku mengambilmu, mengangkatmu kepada-Ku" },
         { "words": [9, 12], "id": ["menyucikanmu", "dari orang-orang yang kufur"] },
-        { "words": [13, 18], "id": "dan menjadikan orang-orang yang mengikutimu lebih unggul daripada orang-orang yang kufur" },
+        { "words": [13, 17], "id": "dan menjadikan orang-orang yang mengikutimu lebih unggul daripada orang-orang yang" },
+        { "words": [18, 18], "id": "kufur" },
         { "words": [19, 21], "id": "hingga hari Kiamat" },
         { "words": [22, 24], "id": "Kemudian, kepada-Kulah kamu kembali" },
         { "words": [25, 30], "id": ["lalu Aku beri keputusan", "tentang apa yang selalu kamu perselisihkan"] }
@@ -761,7 +771,8 @@
         { "words": [4, 9], "id": ["marilah (kita) menuju pada satu kalimat (pegangan) yang sama antara kami", "dan kamu"] },
         { "words": [10, 13], "id": "(yakni) kita tidak menyembah selain Allah" },
         { "words": [14, 17], "id": "kita tidak mempersekutukan-Nya dengan sesuatu apa pun" },
-        { "words": [18, 25], "id": "dan tidak (pula) sebagian kita menjadikan sebagian yang lain sebagai tuhan-tuhan selain Allah" },
+        { "words": [18, 19], "id": "dan tidak (pula) menjadikan" },
+        { "words": [20, 25], "id": "sebagian kita sebagian yang lain sebagai tuhan-tuhan selain Allah" },
         { "words": [26, 27], "id": "Jika mereka berpaling" },
         { "words": [28, 31], "id": ["katakanlah (kepada mereka), Saksikanlah", "bahwa sesungguhnya kami adalah orang-orang muslim"] }
       ],
@@ -860,7 +871,8 @@
       "phrases": [
         { "words": [1, 6], "id": "Janganlah kamu percaya selain kepada orang yang mengikuti agamamu" },
         { "words": [7, 7], "id": "Katakanlah (Nabi Muhammad)" },
-        { "words": [8, 11], "id": "Sesungguhnya petunjuk (yang sempurna) itu hanyalah petunjuk Allah" },
+        { "words": [8, 8], "id": "Sesungguhnya" },
+        { "words": [9, 11], "id": "petunjuk (yang sempurna) itu hanyalah petunjuk Allah" },
         { "words": [12, 17], "id": "(Janganlah kamu percaya) bahwa seseorang akan diberi seperti apa yang diberikan kepada kamu" },
         { "words": [18, 21], "id": ["atau mereka akan menyanggah kamu", "di hadapan Tuhanmu"] },
         { "words": [22, 22], "id": "Katakanlah (Nabi Muhammad)" },
@@ -889,7 +901,8 @@
         { "words": [15, 17], "id": "dia tidak mengembalikannya kepadamu" },
         { "words": [18, 22], "id": "kecuali jika engkau selalu menagihnya" },
         { "words": [23, 25], "id": "Yang demikian itu disebabkan mereka berkata" },
-        { "words": [26, 30], "id": "Tidak ada dosa bagi kami terhadap orang-orang umi" },
+        { "words": [26, 28], "id": "Tidak ada dosa bagi kami" },
+        { "words": [29, 30], "id": "terhadap orang-orang umi" },
         { "words": [31, 34], "id": "Mereka mengatakan hal yang dusta terhadap Allah" },
         { "words": [35, 36], "id": "padahal mereka mengetahui" }
       ],
@@ -966,7 +979,8 @@
         { "words": [21, 25], "id": ["Apakah kamu mengakui dan menerima", "perjanjian dengan-Ku atas yang demikian itu"] },
         { "words": [26, 27], "id": "Mereka menjawab, Kami mengakui" },
         { "words": [28, 29], "id": "Allah berfirman, Kalau begitu, bersaksilah kamu (para nabi)" },
-        { "words": [30, 33], "id": "dan Aku menjadi saksi (pula) bersama kamu" }
+        { "words": [30, 31], "id": "dan Aku bersama kamu" },
+        { "words": [32, 33], "id": "menjadi saksi (pula)" }
       ],
       "full": { "id": "(Ingatlah) ketika Allah mengambil perjanjian dari para nabi, “Manakala Aku memberikan kitab dan hikmah kepadamu, lalu datang kepada kamu seorang rasul yang membenarkan apa yang ada pada kamu, niscaya kamu akan sungguh-sungguh beriman kepadanya dan menolongnya.” Allah berfirman, “Apakah kamu mengakui dan menerima perjanjian dengan-Ku atas yang demikian itu?” Mereka menjawab, “Kami mengakui.” Allah berfirman, “Kalau begitu, bersaksilah kamu (para nabi) dan Aku menjadi saksi (pula) bersama kamu.”" },
       "source": "kemenag-2019-adapted",
@@ -984,7 +998,8 @@
     "83": {
       "phrases": [
         { "words": [1, 4], "id": "Mengapa mereka mencari agama selain agama Allah" },
-        { "words": [5, 10], "id": "Padahal, hanya kepada-Nya apa yang ada di langit dan di bumi berserah diri" },
+        { "words": [5, 8], "id": "Padahal, hanya kepada-Nya berserah diri apa yang ada" },
+        { "words": [9, 10], "id": "di langit dan di bumi" },
         { "words": [11, 12], "id": "baik dengan suka maupun terpaksa" },
         { "words": [13, 14], "id": "dan hanya kepada-Nya mereka dikembalikan" }
       ],
@@ -1068,7 +1083,8 @@
     },
     "91": {
       "phrases": [
-        { "words": [1, 6], "id": "Sesungguhnya orang-orang yang kufur dan mati sebagai orang-orang kafir" },
+        { "words": [1, 5], "id": "Sesungguhnya orang-orang yang kufur dan mati" },
+        { "words": [6, 6], "id": "sebagai orang-orang kafir" },
         { "words": [7, 13], "id": "tidak akan diterima (tebusan) dari seseorang di antara mereka sekalipun (berupa) emas sepenuh bumi" },
         { "words": [14, 16], "id": ["sekiranya", "dia hendak menebus diri dengannya"] },
         { "words": [17, 20], "id": "Mereka itulah orang-orang yang mendapat azab yang pedih" },
@@ -1158,7 +1174,8 @@
     "99": {
       "phrases": [
         { "words": [1, 3], "id": "Katakanlah (Nabi Muhammad), Wahai Ahlulkitab" },
-        { "words": [4, 10], "id": "mengapa kamu terus-menerus menghalang-halangi orang-orang yang beriman dari jalan Allah" },
+        { "words": [4, 6], "id": "mengapa kamu terus-menerus menghalang-halangi" },
+        { "words": [7, 10], "id": "orang-orang yang beriman dari jalan Allah" },
         { "words": [11, 12], "id": "Kamu (memang) menghendakinya (jalan Allah itu) menjadi bengkok" },
         { "words": [13, 14], "id": "sedangkan kamu menyaksikan" },
         { "words": [15, 19], "id": ["Allah", "tidak lengah terhadap apa yang kamu kerjakan"] }
@@ -1181,7 +1198,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Bagaimana kamu (sampai) menjadi kafir" },
         { "words": [3, 7], "id": "padahal ayat-ayat Allah dibacakan kepada kamu" },
-        { "words": [8, 9], "id": "dan Rasul-Nya (Nabi Muhammad) pun berada di tengah-tengah kamu" },
+        { "words": [8, 8], "id": "dan di tengah-tengah kamu pun berada" },
+        { "words": [9, 9], "id": "Rasul-Nya (Nabi Muhammad)" },
         { "words": [10, 12], "id": "Siapa yang berpegang teguh pada (agama) Allah" },
         { "words": [13, 17], "id": "sungguh dia telah diberi petunjuk ke jalan yang lurus" }
       ],
@@ -1240,7 +1258,8 @@
     "106": {
       "phrases": [
         { "words": [1, 3], "id": "(Azab itu terjadi) pada hari ketika ada wajah yang putih berseri" },
-        { "words": [4, 5], "id": "dan ada pula wajah yang hitam kusam" },
+        { "words": [4, 4], "id": "dan ada pula yang hitam kusam" },
+        { "words": [5, 5], "id": "wajah" },
         { "words": [6, 9], "id": "Adapun orang-orang yang berwajah hitam kusam (kepada mereka dikatakan)" },
         { "words": [10, 12], "id": "Mengapa kamu kafir setelah beriman" },
         { "words": [13, 17], "id": "Oleh karena itu, rasakanlah azab yang disebabkan kekafiranmu" }
@@ -1356,7 +1375,8 @@
     "116": {
       "phrases": [
         { "words": [1, 3], "id": "Sesungguhnya orang-orang yang kufur" },
-        { "words": [4, 12], "id": "baik harta maupun anak-anaknya, sedikit pun tidak dapat menolak (azab) Allah" },
+        { "words": [4, 10], "id": "baik harta maupun anak-anaknya, tidak dapat menolak" },
+        { "words": [11, 12], "id": "sedikit pun (azab) Allah" },
         { "words": [13, 15], "id": "Mereka itu penghuni neraka" },
         { "words": [16, 18], "id": "Mereka kekal di dalamnya" }
       ],
@@ -1370,7 +1390,8 @@
         { "words": [8, 11], "id": ["adalah ibarat angin yang mengandung", "hawa sangat dingin"] },
         { "words": [12, 16], "id": "yang menimpa tanaman (milik) suatu kaum yang menzalimi diri sendiri" },
         { "words": [17, 17], "id": "lalu (angin itu) merusaknya" },
-        { "words": [18, 20], "id": "Allah tidak menzalimi mereka" },
+        { "words": [18, 18], "id": "Tidak" },
+        { "words": [19, 20], "id": "Allah menzalimi mereka" },
         { "words": [21, 23], "id": "tetapi mereka yang menzalimi diri sendiri" }
       ],
       "full": { "id": "Perumpamaan harta yang mereka infakkan di dalam kehidupan dunia ini adalah ibarat angin yang mengandung hawa sangat dingin yang menimpa tanaman (milik) suatu kaum yang menzalimi diri sendiri, lalu (angin itu) merusaknya. Allah tidak menzalimi mereka, tetapi mereka yang menzalimi diri sendiri." },
@@ -1647,7 +1668,8 @@
     },
     "143": {
       "phrases": [
-        { "words": [1, 8], "id": "Sungguh, kamu benar-benar mengharapkan mati (syahid) sebelum kamu menghadapinya (peperangan)" },
+        { "words": [1, 5], "id": "Sungguh, kamu benar-benar mengharapkan mati (syahid)" },
+        { "words": [6, 8], "id": "sebelum kamu menghadapinya (peperangan)" },
         { "words": [9, 10], "id": "Maka, (sekarang) kamu sungguh telah melihat (peperangan itu)" },
         { "words": [11, 12], "id": "dan menyaksikan (kematian)" }
       ],
@@ -1782,7 +1804,8 @@
       "phrases": [
         { "words": [1, 11], "id": ["Setelah kamu ditimpa kesedihan, kemudian Dia menurunkan rasa aman kepadamu (berupa) kantuk yang meliputi segolongan", "dari kamu"] },
         { "words": [12, 15], "id": "sedangkan segolongan lagi telah mencemaskan diri mereka sendiri" },
-        { "words": [16, 21], "id": "Mereka berprasangka yang tidak benar terhadap Allah seperti sangkaan jahiliah" },
+        { "words": [16, 18], "id": "Mereka berprasangka terhadap Allah yang tidak" },
+        { "words": [19, 21], "id": "benar seperti sangkaan jahiliah" },
         { "words": [22, 28], "id": "Mereka berkata, Adakah sesuatu yang dapat kita perbuat dalam urusan ini" },
         { "words": [29, 33], "id": "Katakanlah (Nabi Muhammad), Sesungguhnya segala urusan itu di tangan Allah" },
         { "words": [34, 40], "id": "Mereka menyembunyikan dalam hatinya apa yang tidak mereka terangkan kepadamu" },
@@ -1973,7 +1996,8 @@
     "170": {
       "phrases": [
         { "words": [1, 6], "id": ["Mereka bergembira dengan karunia yang", "Allah anugerahkan kepadanya"] },
-        { "words": [7, 13], "id": "dan bergirang hati atas (keadaan) orang-orang yang berada di belakang yang belum menyusul mereka" },
+        { "words": [7, 11], "id": "dan bergirang hati atas (keadaan) orang-orang yang belum menyusul mereka" },
+        { "words": [12, 13], "id": "yang berada di belakang" },
         { "words": [14, 16], "id": "yaitu bahwa tidak ada rasa takut pada mereka" },
         { "words": [17, 19], "id": "dan mereka tidak bersedih hati" }
       ],
@@ -2039,7 +2063,8 @@
     "176": {
       "phrases": [
         { "words": [1, 6], "id": "Janganlah engkau (Nabi Muhammad) dirisaukan oleh orang-orang yang dengan cepat melakukan kekufuran" },
-        { "words": [7, 11], "id": "Sesungguhnya sedikit pun mereka tidak merugikan Allah" },
+        { "words": [7, 10], "id": "Sesungguhnya mereka tidak merugikan Allah" },
+        { "words": [11, 11], "id": "sedikit pun" },
         { "words": [12, 19], "id": "Allah tidak akan memberi bagian (pahala) kepada mereka di akhirat" },
         { "words": [20, 22], "id": ["dan mereka akan mendapat azab", "yang sangat besar"] }
       ],
@@ -2050,7 +2075,8 @@
     "177": {
       "phrases": [
         { "words": [1, 5], "id": "Sesungguhnya orang-orang yang membeli kekufuran dengan iman" },
-        { "words": [6, 9], "id": "sedikit pun tidak merugikan Allah" },
+        { "words": [6, 8], "id": "tidak merugikan Allah" },
+        { "words": [9, 9], "id": "sedikit pun" },
         { "words": [10, 12], "id": "dan akan mendapat azab yang sangat pedih" }
       ],
       "full": { "id": "Sesungguhnya orang-orang yang membeli kekufuran dengan iman sedikit pun tidak merugikan Allah dan akan mendapat azab yang sangat pedih." },
@@ -2223,7 +2249,8 @@
         { "words": [1, 1], "id": "Ya Tuhan kami" },
         { "words": [2, 5], "id": "sesungguhnya orang yang Engkau masukkan ke dalam neraka" },
         { "words": [6, 7], "id": "maka Engkau benar-benar telah menghinakannya" },
-        { "words": [8, 11], "id": "dan tidak ada seorang penolong pun bagi orang yang zalim" }
+        { "words": [8, 10], "id": "dan tidak ada bagi orang yang zalim" },
+        { "words": [11, 11], "id": "seorang penolong pun" }
       ],
       "full": { "id": "Ya Tuhan kami, sesungguhnya orang yang Engkau masukkan ke dalam neraka, maka Engkau benar-benar telah menghinakannya dan tidak ada seorang penolong pun bagi orang yang zalim." },
       "source": "kemenag-2019-adapted",
@@ -2233,11 +2260,13 @@
       "phrases": [
         { "words": [1, 1], "id": "Ya Tuhan kami" },
         { "words": [2, 6], "id": "sesungguhnya kami mendengar orang yang menyeru pada keimanan" },
-        { "words": [7, 9], "id": "yaitu Berimanlah kamu kepada Tuhanmu" },
+        { "words": [7, 7], "id": "yaitu" },
+        { "words": [8, 9], "id": "Berimanlah kamu kepada Tuhanmu" },
         { "words": [10, 10], "id": "maka kami pun beriman" },
         { "words": [11, 11], "id": "Ya Tuhan kami" },
         { "words": [12, 14], "id": "ampunilah dosa-dosa kami" },
-        { "words": [15, 17], "id": "hapuskanlah kesalahan-kesalahan kami" },
+        { "words": [15, 16], "id": "hapuskanlah" },
+        { "words": [17, 17], "id": "kesalahan-kesalahan kami" },
         { "words": [18, 20], "id": "dan wafatkanlah kami beserta orang-orang yang selalu berbuat kebaikan" }
       ],
       "full": { "id": "Ya Tuhan kami, sesungguhnya kami mendengar orang yang menyeru pada keimanan, yaitu ‘Berimanlah kamu kepada Tuhanmu,’ maka kami pun beriman. Ya Tuhan kami, ampunilah dosa-dosa kami, hapuskanlah kesalahan-kesalahan kami, dan wafatkanlah kami beserta orang-orang yang selalu berbuat kebaikan." },

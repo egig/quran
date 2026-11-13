@@ -73,7 +73,8 @@
     },
     "7": {
       "phrases": [
-        { "words": [1, 3], "id": "Orang-orang yang kufur mengira" },
+        { "words": [1, 2], "id": "Mengira orang-orang yang" },
+        { "words": [3, 3], "id": "kufur" },
         { "words": [4, 6], "id": "bahwa sesungguhnya mereka tidak akan dibangkitkan" },
         { "words": [7, 7], "id": "Katakanlah (Nabi Muhammad)" },
         { "words": [8, 8], "id": "Tidak demikian" },
@@ -148,7 +149,8 @@
       "phrases": [
         { "words": [1, 1], "id": "(Dialah) Allah" },
         { "words": [2, 5], "id": "Tidak ada tuhan selain Dia" },
-        { "words": [6, 9], "id": "Kepada Allahlah hendaknya orang-orang mukmin itu bertawakal" }
+        { "words": [6, 8], "id": "Kepada Allahlah hendaknya bertawakal" },
+        { "words": [9, 9], "id": "orang-orang mukmin itu" }
       ],
       "full": { "id": "(Dialah) Allah. Tidak ada tuhan selain Dia. Kepada Allahlah hendaknya orang-orang mukmin itu bertawakal." },
       "source": "kemenag-2019-adapted",

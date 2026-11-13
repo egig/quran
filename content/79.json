@@ -370,7 +370,8 @@
     },
     "43": {
       "phrases": [
-        { "words": [1, 4], "id": "Untuk apa engkau perlu menyebutkan (waktu)-nya" }
+        { "words": [1, 3], "id": "Untuk apa engkau perlu" },
+        { "words": [4, 4], "id": "menyebutkan (waktu)-nya" }
       ],
       "full": { "id": "Untuk apa engkau perlu menyebutkan (waktu)-nya?" },
       "source": "kemenag-2019-adapted",

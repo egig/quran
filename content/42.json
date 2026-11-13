@@ -209,7 +209,8 @@
     },
     "18": {
       "phrases": [
-        { "words": [1, 6], "id": "Orang-orang yang tidak percaya kepadanya (hari Kiamat) meminta agar ia (hari Kiamat) segera terjadi" },
+        { "words": [1, 5], "id": "Orang-orang yang tidak percaya meminta agar ia (hari Kiamat) segera terjadi" },
+        { "words": [6, 6], "id": "kepadanya (hari Kiamat)" },
         { "words": [7, 10], "id": "dan orang-orang yang beriman merasa takut kepadanya" },
         { "words": [11, 13], "id": "serta yakin bahwa ia adalah benar (akan terjadi)" },
         { "words": [14, 19], "id": "Ketahuilah, sesungguhnya orang-orang yang membantah tentang (terjadinya) kiamat itu" },
@@ -401,7 +402,8 @@
     },
     "35": {
       "phrases": [
-        { "words": [1, 5], "id": "(Yang demikian itu) agar orang-orang yang membantah tanda-tanda (kekuasaan) Kami mengetahui" },
+        { "words": [1, 2], "id": "(Yang demikian itu) agar mengetahui orang-orang yang" },
+        { "words": [3, 5], "id": "membantah tanda-tanda (kekuasaan) Kami" },
         { "words": [6, 9], "id": "bahwa mereka tidak akan memperoleh jalan keluar (dari siksaan)" }
       ],
       "full": { "id": "(Yang demikian itu) agar orang-orang yang membantah tanda-tanda (kekuasaan) Kami mengetahui bahwa mereka tidak akan memperoleh jalan keluar (dari siksaan)." },

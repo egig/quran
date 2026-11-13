@@ -21,7 +21,8 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 2], "id": "dan manusia bertanya" },
+        { "words": [1, 1], "id": "dan bertanya" },
+        { "words": [2, 2], "id": "manusia" },
         { "words": [3, 4], "id": "Apa yang terjadi dengannya (bumi)" }
       ],
       "full": { "id": "dan manusia bertanya, “Apa yang terjadi dengannya (bumi)?”" },

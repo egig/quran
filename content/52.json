@@ -179,9 +179,11 @@
       "phrases": [
         { "words": [1, 2], "id": "Orang-orang yang beriman" },
         { "words": [3, 5], "id": "dan anak cucunya mengikuti mereka dalam keimanan" },
-        { "words": [6, 8], "id": "Kami akan mengumpulkan anak cucunya itu dengan mereka (di dalam surga)" },
+        { "words": [6, 6], "id": "Kami akan mengumpulkan" },
+        { "words": [7, 8], "id": "anak cucunya itu dengan mereka (di dalam surga)" },
         { "words": [9, 14], "id": "Kami tidak mengurangi sedikit pun pahala amal (kebajikan) mereka" },
-        { "words": [15, 19], "id": "Setiap orang terikat dengan apa yang dikerjakannya" }
+        { "words": [15, 17], "id": "Setiap orang dengan apa yang" },
+        { "words": [18, 19], "id": "dikerjakannya terikat" }
       ],
       "full": { "id": "Orang-orang yang beriman dan anak cucunya mengikuti mereka dalam keimanan, Kami akan mengumpulkan anak cucunya itu dengan mereka (di dalam surga). Kami tidak mengurangi sedikit pun pahala amal (kebajikan) mereka. Setiap orang terikat dengan apa yang dikerjakannya." },
       "source": "kemenag-2019-adapted",
@@ -209,7 +211,8 @@
     },
     "24": {
       "phrases": [
-        { "words": [1, 4], "id": "Di sekitar mereka ada anak-anak muda belia berkeliling untuk (melayani) mereka" },
+        { "words": [1, 2], "id": "Di sekitar mereka berkeliling" },
+        { "words": [3, 4], "id": "anak-anak muda belia untuk (melayani) mereka" },
         { "words": [5, 7], "id": "seakan-akan (anak muda belia) itu bagaikan mutiara yang tersimpan" }
       ],
       "full": { "id": "Di sekitar mereka ada anak-anak muda belia berkeliling untuk (melayani) mereka, seakan-akan (anak muda belia) itu bagaikan mutiara yang tersimpan." },
@@ -247,7 +250,8 @@
     },
     "28": {
       "phrases": [
-        { "words": [1, 5], "id": "Sesungguhnya kami menyembah-Nya sejak dahulu" },
+        { "words": [1, 2], "id": "Sesungguhnya kami" },
+        { "words": [3, 5], "id": "menyembah-Nya sejak dahulu" },
         { "words": [6, 7], "id": "Sesungguhnya hanya Dialah" },
         { "words": [8, 8], "id": "Yang Maha Luas kebajikan-Nya" },
         { "words": [9, 9], "id": "Maha Penyayang" }
@@ -362,7 +366,8 @@
     "40": {
       "phrases": [
         { "words": [1, 3], "id": "Apakah engkau (Nabi Muhammad) meminta imbalan kepada mereka" },
-        { "words": [4, 7], "id": "sehingga mereka dibebani dengan utang" }
+        { "words": [4, 6], "id": "sehingga mereka dengan utang" },
+        { "words": [7, 7], "id": "dibebani" }
       ],
       "full": { "id": "Apakah engkau (Nabi Muhammad) meminta imbalan kepada mereka sehingga mereka dibebani dengan utang?" },
       "source": "kemenag-2019-adapted",

@@ -170,7 +170,8 @@
     },
     "20": {
       "phrases": [
-        { "words": [1, 2], "id": "Gunung-gunung pun dijalankan" },
+        { "words": [1, 1], "id": "Dijalankan" },
+        { "words": [2, 2], "id": "gunung-gunung pun" },
         { "words": [3, 4], "id": "Maka, ia menjadi (seperti) fatamorgana" }
       ],
       "full": { "id": "Gunung-gunung pun dijalankan. Maka, ia menjadi (seperti) fatamorgana." },
@@ -188,7 +189,8 @@
     },
     "22": {
       "phrases": [
-        { "words": [1, 2], "id": "(dan) menjadi tempat kembali bagi orang-orang yang melampaui batas" }
+        { "words": [1, 1], "id": "(dan) bagi orang-orang yang melampaui batas" },
+        { "words": [2, 2], "id": "menjadi tempat kembali" }
       ],
       "full": { "id": "(dan) menjadi tempat kembali bagi orang-orang yang melampaui batas." },
       "source": "kemenag-2019-adapted",
@@ -351,7 +353,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Sesungguhnya Kami telah memperingatkan kamu" },
         { "words": [3, 4], "id": "akan azab yang dekat" },
-        { "words": [5, 7], "id": "pada hari (ketika) manusia melihat" },
+        { "words": [5, 6], "id": "pada hari (ketika) melihat" },
+        { "words": [7, 7], "id": "manusia" },
         { "words": [8, 10], "id": "apa yang telah diperbuat oleh kedua tangannya" },
         { "words": [11, 12], "id": "dan orang kafir berkata" },
         { "words": [13, 15], "id": "Oh, seandainya saja aku menjadi tanah" }

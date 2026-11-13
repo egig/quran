@@ -154,7 +154,8 @@
     "15": {
       "phrases": [
         { "words": [1, 6], "id": "Jika keduanya memaksamu untuk mempersekutukan-Ku" },
-        { "words": [7, 11], "id": "dengan sesuatu yang engkau tidak punya ilmu tentang itu" },
+        { "words": [7, 8], "id": "dengan sesuatu yang tidak" },
+        { "words": [9, 11], "id": "engkau punya ilmu tentang itu" },
         { "words": [12, 13], "id": "janganlah patuhi keduanya" },
         { "words": [14, 17], "id": "(tetapi) pergaulilah keduanya di dunia dengan baik" },
         { "words": [18, 22], "id": "dan ikutilah jalan orang yang kembali kepada-Ku" },
@@ -171,7 +172,8 @@
         { "words": [2, 8], "id": ["sesungguhnya jika ada (suatu perbuatan) seberat biji", "sawi"] },
         { "words": [9, 11], "id": "dan berada dalam batu" },
         { "words": [12, 17], "id": "di langit, atau di bumi" },
-        { "words": [18, 20], "id": "niscaya Allah akan menghadirkannya (untuk diberi balasan)" },
+        { "words": [18, 18], "id": "niscaya akan menghadirkannya (untuk diberi balasan)" },
+        { "words": [19, 20], "id": "Allah" },
         { "words": [21, 23], "id": "Sesungguhnya Allah Maha Lembut" },
         { "words": [24, 24], "id": "Maha Teliti" }
       ],
@@ -296,7 +298,8 @@
     },
     "27": {
       "phrases": [
-        { "words": [1, 7], "id": "Seandainya pohon-pohon di bumi menjadi pena" },
+        { "words": [1, 4], "id": "Seandainya di bumi" },
+        { "words": [5, 7], "id": "pohon-pohon menjadi pena" },
         { "words": [8, 9], "id": "dan lautan (menjadi tinta)" },
         { "words": [10, 13], "id": "ditambah tujuh lautan lagi setelah (kering)-nya" },
         { "words": [14, 17], "id": "niscaya tidak akan pernah habis kalimatullah (ditulis dengannya)" },

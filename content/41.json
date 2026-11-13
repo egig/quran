@@ -217,7 +217,8 @@
     "20": {
       "phrases": [
         { "words": [1, 4], "id": "Ketika mereka sampai ke neraka" },
-        { "words": [5, 9], "id": "pendengaran, penglihatan, dan kulit mereka menjadi saksi" },
+        { "words": [5, 6], "id": "menjadi saksi" },
+        { "words": [7, 9], "id": "pendengaran, penglihatan, dan kulit mereka" },
         { "words": [10, 12], "id": "terhadap apa yang telah mereka lakukan" }
       ],
       "full": { "id": "Ketika mereka sampai ke neraka, pendengaran, penglihatan, dan kulit mereka menjadi saksi terhadap apa yang telah mereka lakukan." },
@@ -229,7 +230,8 @@
         { "words": [1, 2], "id": "Mereka berkata kepada kulit mereka" },
         { "words": [3, 5], "id": "Mengapa kamu menjadi saksi terhadap kami" },
         { "words": [6, 6], "id": "(Kulit) mereka menjawab" },
-        { "words": [7, 12], "id": "Allah yang menjadikan segala sesuatu dapat berbicara telah menjadikan kami dapat berbicara" },
+        { "words": [7, 9], "id": "telah menjadikan kami dapat berbicara, Allah yang" },
+        { "words": [10, 12], "id": "menjadikan segala sesuatu dapat berbicara" },
         { "words": [13, 16], "id": "Dialah yang menciptakan kamu pertama kali" },
         { "words": [17, 18], "id": "dan hanya kepada-Nya kamu dikembalikan" }
       ],
@@ -274,7 +276,8 @@
         { "words": [1, 3], "id": "Kami menetapkan bagi mereka teman-teman (dari setan)" },
         { "words": [4, 10], "id": ["yang memuji-muji", "apa saja yang ada di hadapan (nafsu dan kelezatan dunia) dan di belakang (angan-angan) mereka"] },
         { "words": [11, 13], "id": "Tetaplah atas mereka putusan (azab)" },
-        { "words": [14, 19], "id": "bersama umat-umat yang terdahulu sebelum mereka" },
+        { "words": [14, 16], "id": "bersama umat-umat yang" },
+        { "words": [17, 19], "id": "terdahulu sebelum mereka" },
         { "words": [20, 22], "id": "dari (golongan) jin dan manusia" },
         { "words": [23, 25], "id": "Sesungguhnya mereka adalah orang-orang yang rugi" }
       ],
@@ -577,7 +580,8 @@
         { "words": [5, 5], "id": "niscaya dia berpaling (tidak mensyukuri nikmat-Nya)" },
         { "words": [6, 7], "id": "dan menjauhkan diri (dari Allah dengan sombong)" },
         { "words": [8, 10], "id": "namun apabila kesusahan menimpanya" },
-        { "words": [11, 13], "id": "dia akan banyak berdoa" }
+        { "words": [11, 12], "id": "dia akan berdoa" },
+        { "words": [13, 13], "id": "banyak" }
       ],
       "full": { "id": "Apabila Kami menganugerahkan kenikmatan kepada manusia, niscaya dia berpaling (tidak mensyukuri nikmat-Nya) dan menjauhkan diri (dari Allah dengan sombong), namun apabila kesusahan menimpanya, dia akan banyak berdoa." },
       "source": "kemenag-2019-adapted",

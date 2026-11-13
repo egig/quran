@@ -14,7 +14,8 @@
     },
     "2": {
       "phrases": [
-        { "words": [1, 4], "id": "Orang-orang yang kufur itu sering kali (nanti di akhirat) menginginkan" },
+        { "words": [1, 2], "id": "Sering kali (nanti di akhirat) menginginkan" },
+        { "words": [3, 4], "id": "orang-orang yang kufur itu" },
         { "words": [5, 7], "id": "sekiranya mereka dahulu (di dunia) menjadi orang-orang muslim" }
       ],
       "full": { "id": "Orang-orang yang kufur itu sering kali (nanti di akhirat) menginginkan, sekiranya mereka dahulu (di dunia) menjadi orang-orang muslim." },
@@ -97,7 +98,8 @@
     },
     "11": {
       "phrases": [
-        { "words": [1, 4], "id": "Tidaklah datang seorang rasul kepada mereka" },
+        { "words": [1, 2], "id": "Tidaklah datang kepada mereka" },
+        { "words": [3, 4], "id": "seorang rasul" },
         { "words": [5, 8], "id": "kecuali selalu memperolok-olokkannya" }
       ],
       "full": { "id": "Tidaklah datang seorang rasul kepada mereka, kecuali selalu memperolok-olokkannya." },
@@ -177,7 +179,8 @@
     },
     "20": {
       "phrases": [
-        { "words": [1, 4], "id": "Kami telah menjadikan di sana sumber-sumber kehidupan untukmu" },
+        { "words": [1, 2], "id": "Kami telah menjadikan untukmu" },
+        { "words": [3, 4], "id": "di sana sumber-sumber kehidupan" },
         { "words": [5, 8], "id": "dan (menjadikan pula) makhluk hidup yang bukan kamu pemberi rezekinya" }
       ],
       "full": { "id": "Kami telah menjadikan di sana sumber-sumber kehidupan untukmu dan (menjadikan pula) makhluk hidup yang bukan kamu pemberi rezekinya." },
@@ -242,7 +245,8 @@
     },
     "27": {
       "phrases": [
-        { "words": [1, 4], "id": "Sebelumnya Kami telah menciptakan jin" },
+        { "words": [1, 3], "id": "Kami telah menciptakan jin" },
+        { "words": [4, 4], "id": "sebelumnya" },
         { "words": [5, 7], "id": "dari api yang sangat panas" }
       ],
       "full": { "id": "Sebelumnya Kami telah menciptakan jin dari api yang sangat panas." },
@@ -261,7 +265,8 @@
     "29": {
       "phrases": [
         { "words": [1, 2], "id": "Maka, apabila Aku telah menyempurnakan (kejadian)-nya" },
-        { "words": [3, 6], "id": "dan telah meniupkan roh (ciptaan)-Ku ke dalamnya" },
+        { "words": [3, 4], "id": "dan telah meniupkan ke dalamnya" },
+        { "words": [5, 6], "id": "roh (ciptaan)-Ku" },
         { "words": [7, 9], "id": "menyungkurlah kamu kepadanya dengan bersujud" }
       ],
       "full": { "id": "Maka, apabila Aku telah menyempurnakan (kejadian)-nya dan telah meniupkan roh (ciptaan)-Ku ke dalamnya, menyungkurlah kamu kepadanya dengan bersujud.”" },
@@ -365,7 +370,8 @@
     },
     "41": {
       "phrases": [
-        { "words": [1, 5], "id": "Dia (Allah) berfirman, Ini adalah jalan lurus yang Aku jamin (ditunjukkan kepada hamba-hamba-Ku itu)" }
+        { "words": [1, 4], "id": "Dia (Allah) berfirman, Ini adalah jalan yang Aku jamin (ditunjukkan kepada hamba-hamba-Ku itu)" },
+        { "words": [5, 5], "id": "lurus" }
       ],
       "full": { "id": "Dia (Allah) berfirman, “Ini adalah jalan lurus yang Aku jamin (ditunjukkan kepada hamba-hamba-Ku itu)." },
       "source": "kemenag-2019-adapted",
@@ -636,7 +642,8 @@
     "72": {
       "phrases": [
         { "words": [1, 1], "id": "(Allah berfirman,) Demi umurmu (Nabi Muhammad)" },
-        { "words": [2, 5], "id": "sungguh, mereka terombang-ambing dalam kemabukan (demi melampiaskan hawa nafsu)" }
+        { "words": [2, 4], "id": "sungguh, mereka dalam kemabukan (demi melampiaskan hawa nafsu)" },
+        { "words": [5, 5], "id": "terombang-ambing" }
       ],
       "full": { "id": "(Allah berfirman,) “Demi umurmu (Nabi Muhammad), sungguh, mereka terombang-ambing dalam kemabukan (demi melampiaskan hawa nafsu).”" },
       "source": "kemenag-2019-adapted",
@@ -703,7 +710,8 @@
     },
     "80": {
       "phrases": [
-        { "words": [1, 5], "id": "Sesungguhnya penduduk (negeri) Hijr benar-benar telah mendustakan para rasul (mereka)" }
+        { "words": [1, 3], "id": "Sesungguhnya benar-benar telah mendustakan penduduk (negeri)" },
+        { "words": [4, 5], "id": "Hijr para rasul (mereka)" }
       ],
       "full": { "id": "Sesungguhnya penduduk (negeri) Hijr benar-benar telah mendustakan para rasul (mereka)," },
       "source": "kemenag-2019-adapted",

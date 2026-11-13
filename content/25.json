@@ -16,7 +16,8 @@
       "phrases": [
         { "words": [1, 5], "id": "(Yaitu Zat) yang milik-Nyalah kerajaan langit dan bumi" },
         { "words": [6, 8], "id": "(Dia) tidak mempunyai anak" },
-        { "words": [9, 14], "id": "dan tidak ada satu sekutu pun dalam kekuasaan(-Nya)" },
+        { "words": [9, 10], "id": "dan tidak ada" },
+        { "words": [11, 14], "id": "satu sekutu pun dalam kekuasaan(-Nya)" },
         { "words": [15, 17], "id": "Dia telah menciptakan segala sesuatu" },
         { "words": [18, 19], "id": "lalu menetapkan ukuran-ukurannya dengan tepat" }
       ],
@@ -52,7 +53,8 @@
       "phrases": [
         { "words": [1, 1], "id": "Mereka berkata" },
         { "words": [2, 4], "id": "(Itu) dongeng-dongeng orang-orang dahulu yang diminta (oleh Nabi Muhammad) agar (dongeng) itu dituliskan" },
-        { "words": [5, 9], "id": "Lalu dibacakanlah dongeng itu kepadanya setiap pagi dan petang" }
+        { "words": [5, 6], "id": "Lalu dibacakanlah dongeng itu" },
+        { "words": [7, 9], "id": "kepadanya setiap pagi dan petang" }
       ],
       "full": { "id": "Mereka berkata, “(Itu) dongeng-dongeng orang-orang dahulu yang diminta (oleh Nabi Muhammad) agar (dongeng) itu dituliskan. Lalu dibacakanlah dongeng itu kepadanya setiap pagi dan petang.”" },
       "source": "kemenag-2019-adapted",
@@ -86,7 +88,8 @@
         { "words": [1, 4], "id": "atau (mengapa tidak) diturunkan kepadanya harta kekayaan" },
         { "words": [5, 8], "id": "atau kebun baginya" },
         { "words": [9, 10], "id": "sehingga dia dapat makan dari (hasil)-nya" },
-        { "words": [11, 12], "id": "Orang-orang zalim itu berkata" },
+        { "words": [11, 11], "id": "Berkata" },
+        { "words": [12, 12], "id": "orang-orang zalim itu" },
         { "words": [13, 17], "id": "Kamu tidak lain hanyalah mengikuti seorang laki-laki yang kena sihir" }
       ],
       "full": { "id": "atau (mengapa tidak) diturunkan kepadanya harta kekayaan atau kebun baginya, sehingga dia dapat makan dari (hasil)-nya?” Orang-orang zalim itu berkata, “Kamu tidak lain hanyalah mengikuti seorang laki-laki yang kena sihir.”" },
@@ -186,7 +189,8 @@
       "phrases": [
         { "words": [1, 1], "id": "Mereka (yang disembah itu) menjawab" },
         { "words": [2, 2], "id": "Maha Suci Engkau" },
-        { "words": [3, 12], "id": "Tidaklah pantas bagi kami mengambil pelindung selain Engkau" },
+        { "words": [3, 4], "id": "Tidaklah" },
+        { "words": [5, 12], "id": "pantas bagi kami mengambil pelindung selain Engkau" },
         { "words": [13, 15], "id": ["tetapi Engkau telah memberi mereka", "dan nenek moyang mereka kenikmatan hidup"] },
         { "words": [16, 18], "id": "sehingga mereka melupakan peringatan" },
         { "words": [19, 21], "id": "dan mereka kaum yang binasa" }
@@ -272,7 +276,8 @@
     "26": {
       "phrases": [
         { "words": [1, 4], "id": "Kerajaan yang hak pada hari itu adalah milik Yang Maha Pengasih" },
-        { "words": [5, 9], "id": "Itu adalah hari yang sangat sulit bagi orang-orang kafir" }
+        { "words": [5, 7], "id": "Itu adalah hari yang" },
+        { "words": [8, 9], "id": "sangat sulit bagi orang-orang kafir" }
       ],
       "full": { "id": "Kerajaan yang hak pada hari itu adalah milik Yang Maha Pengasih. Itu adalah hari yang sangat sulit bagi orang-orang kafir." },
       "source": "kemenag-2019-adapted",
@@ -378,7 +383,8 @@
       "phrases": [
         { "words": [1, 5], "id": "(Kami telah membinasakan) kaum Nuh ketika mereka mendustakan para rasul" },
         { "words": [6, 6], "id": "Kami menenggelamkan mereka" },
-        { "words": [7, 9], "id": "dan menjadikan (kisahnya) sebagai pelajaran bagi manusia" },
+        { "words": [7, 8], "id": "dan menjadikan (kisahnya) bagi manusia" },
+        { "words": [9, 9], "id": "sebagai pelajaran" },
         { "words": [10, 13], "id": "Kami telah menyediakan untuk orang-orang zalim azab yang sangat pedih" }
       ],
       "full": { "id": "(Kami telah membinasakan) kaum Nuh ketika mereka mendustakan para rasul. Kami menenggelamkan mereka dan menjadikan (kisahnya) sebagai pelajaran bagi manusia. Kami telah menyediakan untuk orang-orang zalim azab yang sangat pedih." },
@@ -476,7 +482,8 @@
     },
     "47": {
       "phrases": [
-        { "words": [1, 6], "id": "Dialah yang menjadikan malam untukmu (sebagai) pakaian" },
+        { "words": [1, 4], "id": "Dialah yang menjadikan untukmu" },
+        { "words": [5, 6], "id": "malam (sebagai) pakaian" },
         { "words": [7, 8], "id": "dan tidur untuk istirahat" },
         { "words": [9, 11], "id": "Dia menjadikan siang untuk bangkit berusaha" }
       ],
@@ -572,7 +579,8 @@
     "57": {
       "phrases": [
         { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
-        { "words": [2, 6], "id": "Aku tidak meminta imbalan apa pun dari kamu (dalam menyampaikan risalah itu)" },
+        { "words": [2, 4], "id": "Aku tidak meminta dari kamu (dalam menyampaikan risalah itu)" },
+        { "words": [5, 6], "id": "imbalan apa pun" },
         { "words": [7, 14], "id": "kecuali (mengharapkan agar) orang mau mengambil jalan kepada Tuhannya" }
       ],
       "full": { "id": "Katakanlah (Nabi Muhammad), “Aku tidak meminta imbalan apa pun dari kamu (dalam menyampaikan risalah itu), kecuali (mengharapkan agar) orang mau mengambil jalan kepada Tuhannya.”" },
@@ -583,7 +591,8 @@
       "phrases": [
         { "words": [1, 6], "id": ["Bertawakallah", "kepada (Allah) Yang Maha Hidup yang tidak mati"] },
         { "words": [7, 8], "id": "dan bertasbihlah dengan memuji-Nya" },
-        { "words": [9, 13], "id": "Cukuplah Dia Maha Mengetahui dosa hamba-hamba-Nya" }
+        { "words": [9, 10], "id": "Cukuplah Dia" },
+        { "words": [11, 13], "id": "Maha Mengetahui dosa hamba-hamba-Nya" }
       ],
       "full": { "id": "Bertawakallah kepada (Allah) Yang Maha Hidup yang tidak mati dan bertasbihlah dengan memuji-Nya. Cukuplah Dia Maha Mengetahui dosa hamba-hamba-Nya." },
       "source": "kemenag-2019-adapted",
@@ -740,8 +749,10 @@
     "74": {
       "phrases": [
         { "words": [1, 3], "id": "Dan, orang-orang yang berkata, Wahai Tuhan kami" },
-        { "words": [4, 10], "id": "anugerahkanlah kepada kami penyejuk mata dari pasangan dan keturunan kami" },
-        { "words": [11, 13], "id": "serta jadikanlah kami sebagai pemimpin bagi orang-orang yang bertakwa" }
+        { "words": [4, 5], "id": "anugerahkanlah kepada kami" },
+        { "words": [6, 10], "id": "penyejuk mata dari pasangan dan keturunan kami" },
+        { "words": [11, 12], "id": "serta jadikanlah kami bagi orang-orang yang bertakwa" },
+        { "words": [13, 13], "id": "sebagai pemimpin" }
       ],
       "full": { "id": "Dan, orang-orang yang berkata, “Wahai Tuhan kami, anugerahkanlah kepada kami penyejuk mata dari pasangan dan keturunan kami serta jadikanlah kami sebagai pemimpin bagi orang-orang yang bertakwa.”" },
       "source": "kemenag-2019-adapted",

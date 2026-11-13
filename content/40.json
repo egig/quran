@@ -132,7 +132,8 @@
     },
     "12": {
       "phrases": [
-        { "words": [1, 7], "id": "(Dikatakan kepada mereka,) Itu (terjadi) karena kamu benar-benar kufur apabila diseru untuk menyembah Allah semata" },
+        { "words": [1, 5], "id": "(Dikatakan kepada mereka,) Itu (terjadi) karena apabila diseru untuk menyembah Allah" },
+        { "words": [6, 7], "id": "semata kamu benar-benar kufur" },
         { "words": [8, 11], "id": "(Namun,) jika Dia dipersekutukan, kamu (langsung) percaya" },
         { "words": [12, 13], "id": "Maka, keputusan (saat ini) ada pada Allah" },
         { "words": [14, 14], "id": "Yang Maha Tinggi" },
@@ -145,7 +146,8 @@
     "13": {
       "phrases": [
         { "words": [1, 4], "id": "Dialah yang memperlihatkan tanda-tanda (kekuasaan)-Nya kepadamu" },
-        { "words": [5, 9], "id": "dan menurunkan rezeki dari langit untukmu" },
+        { "words": [5, 7], "id": "dan menurunkan untukmu" },
+        { "words": [8, 9], "id": "rezeki dari langit" },
         { "words": [10, 14], "id": "Yang mendapat pelajaran tidak lain, kecuali orang-orang yang kembali (kepada Allah)" }
       ],
       "full": { "id": "Dialah yang memperlihatkan tanda-tanda (kekuasaan)-Nya kepadamu dan menurunkan rezeki dari langit untukmu. Yang mendapat pelajaran tidak lain, kecuali orang-orang yang kembali (kepada Allah)." },
@@ -177,7 +179,8 @@
     "16": {
       "phrases": [
         { "words": [1, 3], "id": "(Yaitu) pada hari (ketika) mereka tampak dengan jelas (di hadapan Tuhan-Nya)" },
-        { "words": [4, 9], "id": "tidak (ada) satu (keadaan) pun dari mereka yang tersembunyi di sisi Allah" },
+        { "words": [4, 5], "id": "tidak (ada) yang tersembunyi" },
+        { "words": [6, 9], "id": "di sisi Allah satu (keadaan) pun dari mereka" },
         { "words": [10, 12], "id": "(Allah berfirman,) Milik siapakah kerajaan pada hari ini" },
         { "words": [13, 13], "id": "(Lalu, dijawab,) Milik Allah" },
         { "words": [14, 14], "id": "Yang Maha Esa" },
@@ -331,7 +334,8 @@
     "29": {
       "phrases": [
         { "words": [1, 1], "id": "Wahai kaumku" },
-        { "words": [2, 7], "id": "pada hari ini kerajaan ada padamu dengan berkuasa di bumi" },
+        { "words": [2, 2], "id": "ada padamu" },
+        { "words": [3, 7], "id": "pada hari ini kerajaan dengan berkuasa di bumi" },
         { "words": [8, 14], "id": ["Akan tetapi, siapa yang akan menolong kita dari azab Allah", "jika (azab itu) menimpa kita"] },
         { "words": [15, 16], "id": "Fir'aun berkata" },
         { "words": [17, 21], "id": "Aku hanya mengemukakan kepadamu apa yang aku pandang baik" },
@@ -542,7 +546,8 @@
     },
     "48": {
       "phrases": [
-        { "words": [1, 3], "id": "Orang-orang yang menyombongkan diri menjawab" },
+        { "words": [1, 1], "id": "Menjawab" },
+        { "words": [2, 3], "id": "orang-orang yang menyombongkan diri" },
         { "words": [4, 6], "id": "Sesungguhnya kita semua sama-sama di dalamnya (neraka)" },
         { "words": [7, 12], "id": ["Sesungguhnya Allah telah menetapkan keputusan", "di antara hamba-hamba(-Nya)"] }
       ],
@@ -791,7 +796,8 @@
     },
     "71": {
       "phrases": [
-        { "words": [1, 6], "id": "ketika belenggu dan rantai (dipasang) di leher mereka, seraya mereka diseret" }
+        { "words": [1, 2], "id": "ketika belenggu" },
+        { "words": [3, 6], "id": "(dipasang) di leher mereka dan rantai, seraya mereka diseret" }
       ],
       "full": { "id": "ketika belenggu dan rantai (dipasang) di leher mereka, seraya mereka diseret" },
       "source": "kemenag-2019-adapted",

@@ -46,7 +46,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Jika mereka mendustakan engkau (Nabi Muhammad)" },
         { "words": [3, 7], "id": "sungguh rasul-rasul sebelum engkau telah didustakan pula" },
-        { "words": [8, 11], "id": "Hanya kepada Allah segala urusan dikembalikan" }
+        { "words": [8, 10], "id": "Hanya kepada Allah dikembalikan" },
+        { "words": [11, 11], "id": "segala urusan" }
       ],
       "full": { "id": "Jika mereka mendustakan engkau (Nabi Muhammad), sungguh rasul-rasul sebelum engkau telah didustakan pula. Hanya kepada Allah segala urusan dikembalikan." },
       "source": "kemenag-2019-adapted",
@@ -56,7 +57,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Wahai manusia" },
         { "words": [3, 6], "id": "sesungguhnya janji Allah itu benar" },
-        { "words": [7, 10], "id": "Maka, janganlah sekali-kali kehidupan dunia memperdayakan kamu" },
+        { "words": [7, 9], "id": "Maka, janganlah sekali-kali kehidupan memperdayakan kamu" },
+        { "words": [10, 10], "id": "dunia" },
         { "words": [11, 14], "id": "dan janganlah (setan) yang pandai menipu memperdayakan kamu tentang Allah" }
       ],
       "full": { "id": "Wahai manusia, sesungguhnya janji Allah itu benar. Maka, janganlah sekali-kali kehidupan dunia memperdayakan kamu dan janganlah (setan) yang pandai menipu memperdayakan kamu tentang Allah." },
@@ -91,7 +93,8 @@
         { "words": [6, 7], "id": "lalu menganggap baik perbuatannya itu (sama dengan yang mendapat petunjuk)" },
         { "words": [8, 12], "id": ["Sesungguhnya", "Allah menyesatkan siapa yang Dia kehendaki (berdasarkan pilihannya)"] },
         { "words": [13, 15], "id": "dan memberi petunjuk kepada siapa yang Dia kehendaki (berdasarkan kesiapannya untuk menerima petunjuk)" },
-        { "words": [16, 20], "id": "Maka, jangan engkau (Nabi Muhammad) biarkan dirimu binasa karena kesedihan terhadap (sikap) mereka" },
+        { "words": [16, 19], "id": "Maka, jangan engkau (Nabi Muhammad) biarkan dirimu binasa terhadap (sikap) mereka" },
+        { "words": [20, 20], "id": "karena kesedihan" },
         { "words": [21, 25], "id": "Sesungguhnya Allah Maha Mengetahui apa yang mereka perbuat" }
       ],
       "full": { "id": "Maka, apakah pantas orang yang dijadikan terasa indah perbuatan buruknya (oleh setan), lalu menganggap baik perbuatannya itu (sama dengan yang mendapat petunjuk)? Sesungguhnya Allah menyesatkan siapa yang Dia kehendaki (berdasarkan pilihannya) dan memberi petunjuk kepada siapa yang Dia kehendaki (berdasarkan kesiapannya untuk menerima petunjuk). Maka, jangan engkau (Nabi Muhammad) biarkan dirimu binasa karena kesedihan terhadap (sikap) mereka. Sesungguhnya Allah Maha Mengetahui apa yang mereka perbuat." },
@@ -254,7 +257,8 @@
       "phrases": [
         { "words": [1, 5], "id": ["Tidak (pula) sama orang yang hidup dengan", "orang yang mati"] },
         { "words": [6, 10], "id": "Sesungguhnya Allah memberikan pendengaran kepada siapa yang Dia kehendaki" },
-        { "words": [11, 16], "id": "dan engkau (Nabi Muhammad) tidak akan sanggup menjadikan orang yang di dalam kubur dapat mendengar" }
+        { "words": [11, 15], "id": "dan engkau (Nabi Muhammad) tidak akan sanggup menjadikan orang yang dapat mendengar" },
+        { "words": [16, 16], "id": "di dalam kubur" }
       ],
       "full": { "id": "Tidak (pula) sama orang yang hidup dengan orang yang mati. Sesungguhnya Allah memberikan pendengaran kepada siapa yang Dia kehendaki dan engkau (Nabi Muhammad) tidak akan sanggup menjadikan orang yang di dalam kubur dapat mendengar." },
       "source": "kemenag-2019-adapted",
@@ -395,7 +399,8 @@
       "phrases": [
         { "words": [1, 4], "id": "(Dia) yang menempatkan kami di tempat yang kekal (surga)" },
         { "words": [5, 6], "id": "dengan karunia-Nya" },
-        { "words": [7, 14], "id": "Di dalamnya kami tidak lelah dan lesu" }
+        { "words": [7, 8], "id": "Kami tidak" },
+        { "words": [9, 14], "id": "di dalamnya lelah dan lesu" }
       ],
       "full": { "id": "(Dia) yang menempatkan kami di tempat yang kekal (surga) dengan karunia-Nya. Di dalamnya kami tidak lelah dan lesu.”" },
       "source": "kemenag-2019-adapted",
@@ -455,7 +460,8 @@
         { "words": [14, 18], "id": "ataukah mereka mempunyai peran serta dalam (penciptaan) langit" },
         { "words": [19, 21], "id": "atau adakah Kami menganugerahkan kitab kepada mereka" },
         { "words": [22, 25], "id": "sehingga mereka mendapat keterangan-keterangan yang jelas darinya" },
-        { "words": [26, 33], "id": "Sebenarnya orang-orang zalim itu, sebagian mereka, hanya menjanjikan tipuan belaka kepada sebagian yang lain" }
+        { "words": [26, 29], "id": "Sebenarnya orang-orang zalim itu hanya menjanjikan" },
+        { "words": [30, 33], "id": "sebagian mereka kepada sebagian yang lain tipuan belaka" }
       ],
       "full": { "id": "Katakanlah, “Terangkanlah (perihal) sesembahanmu yang kamu seru selain Allah. Perlihatkanlah kepada-Ku (bagian) manakah dari bumi ini yang telah mereka ciptakan ataukah mereka mempunyai peran serta dalam (penciptaan) langit atau adakah Kami menganugerahkan kitab kepada mereka sehingga mereka mendapat keterangan-keterangan yang jelas darinya?” Sebenarnya orang-orang zalim itu, sebagian mereka, hanya menjanjikan tipuan belaka kepada sebagian yang lain." },
       "source": "kemenag-2019-adapted",

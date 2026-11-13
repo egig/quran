@@ -722,7 +722,8 @@
     "72": {
       "phrases": [
         { "words": [1, 2], "id": "Apabila Aku telah menyempurnakan (penciptaan)-nya" },
-        { "words": [3, 6], "id": "dan meniupkan roh (ciptaan)-Ku ke dalamnya" },
+        { "words": [3, 3], "id": "dan meniupkan" },
+        { "words": [4, 6], "id": "roh (ciptaan)-Ku ke dalamnya" },
         { "words": [7, 9], "id": "tunduklah kamu kepadanya dalam keadaan bersujud" }
       ],
       "full": { "id": "Apabila Aku telah menyempurnakan (penciptaan)-nya dan meniupkan roh (ciptaan)-Ku ke dalamnya, tunduklah kamu kepadanya dalam keadaan bersujud.”" },

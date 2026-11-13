@@ -255,7 +255,8 @@
     },
     "29": {
       "phrases": [
-        { "words": [1, 5], "id": "Langit dan bumi tidak menangisi mereka" },
+        { "words": [1, 1], "id": "Tidak" },
+        { "words": [2, 5], "id": "langit dan bumi menangisi mereka" },
         { "words": [6, 8], "id": "dan mereka pun tidak diberi penangguhan waktu" }
       ],
       "full": { "id": "Langit dan bumi tidak menangisi mereka dan mereka pun tidak diberi penangguhan waktu." },
@@ -365,7 +366,8 @@
     },
     "41": {
       "phrases": [
-        { "words": [1, 7], "id": "(yaitu) hari (ketika) seorang teman setia sama sekali tidak dapat memberi manfaat sedikit pun kepada teman lainnya" },
+        { "words": [1, 3], "id": "(yaitu) hari (ketika) sama sekali tidak dapat memberi manfaat" },
+        { "words": [4, 7], "id": "seorang teman setia sedikit pun kepada teman lainnya" },
         { "words": [8, 10], "id": "dan mereka tidak akan mendapat pertolongan" }
       ],
       "full": { "id": "(yaitu) hari (ketika) seorang teman setia sama sekali tidak dapat memberi manfaat sedikit pun kepada teman lainnya dan mereka tidak akan mendapat pertolongan," },

@@ -40,7 +40,8 @@
     "5": {
       "phrases": [
         { "words": [1, 1], "id": "Apakah dia (manusia) itu mengira" },
-        { "words": [2, 6], "id": "bahwa tidak ada seorang pun yang berkuasa atasnya" }
+        { "words": [2, 5], "id": "bahwa tidak ada yang berkuasa atasnya" },
+        { "words": [6, 6], "id": "seorang pun" }
       ],
       "full": { "id": "Apakah dia (manusia) itu mengira bahwa tidak ada seorang pun yang berkuasa atasnya?" },
       "source": "kemenag-2019-adapted",

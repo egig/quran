@@ -254,7 +254,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Nuh berkata" },
         { "words": [3, 3], "id": "Ya Tuhanku" },
-        { "words": [4, 10], "id": "janganlah Engkau biarkan seorang pun di antara orang-orang kafir itu tinggal di atas bumi" }
+        { "words": [4, 9], "id": "janganlah Engkau biarkan di antara orang-orang kafir itu tinggal di atas bumi" },
+        { "words": [10, 10], "id": "seorang pun" }
       ],
       "full": { "id": "Nuh berkata, “Ya Tuhanku, janganlah Engkau biarkan seorang pun di antara orang-orang kafir itu tinggal di atas bumi." },
       "source": "kemenag-2019-adapted",

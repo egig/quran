@@ -22,7 +22,8 @@
         { "words": [11, 12], "id": "pada saat pengusiran yang pertama" },
         { "words": [13, 16], "id": "Kamu tidak menyangka bahwa mereka akan keluar" },
         { "words": [17, 18], "id": "Mereka pun yakin bahwa" },
-        { "words": [19, 22], "id": "benteng-benteng mereka akan dapat menjaganya dari (azab) Allah" },
+        { "words": [19, 19], "id": "akan dapat menjaganya" },
+        { "words": [20, 22], "id": "benteng-benteng mereka dari (azab) Allah" },
         { "words": [23, 24], "id": "Maka, (azab) Allah datang kepada mereka" },
         { "words": [25, 28], "id": "dari arah yang tidak mereka sangka" },
         { "words": [29, 32], "id": ["Dia menanamkan", "rasa takut di dalam hati mereka"] },
@@ -37,7 +38,8 @@
     },
     "3": {
       "phrases": [
-        { "words": [1, 6], "id": "Sekiranya tidak karena Allah telah menetapkan pengusiran terhadap mereka" },
+        { "words": [1, 5], "id": "Sekiranya tidak karena Allah telah menetapkan terhadap mereka" },
+        { "words": [6, 6], "id": "pengusiran" },
         { "words": [7, 9], "id": "Dia pasti mengazab mereka di dunia" },
         { "words": [10, 14], "id": "Di akhirat mereka akan mendapat azab neraka" }
       ],
@@ -72,7 +74,8 @@
         { "words": [7, 13], "id": "tidak (perlu) kamu memacu kuda atau unta (untuk mendapatkannya)" },
         { "words": [14, 17], "id": "Akan tetapi, Allah memberikan kekuasaan kepada rasul-rasul-Nya" },
         { "words": [18, 20], "id": "terhadap siapa yang Dia kehendaki" },
-        { "words": [21, 25], "id": "Allah Maha Kuasa atas segala sesuatu" }
+        { "words": [21, 24], "id": "Allah atas segala sesuatu" },
+        { "words": [25, 25], "id": "Maha Kuasa" }
       ],
       "full": { "id": "Apa saja (harta yang diperoleh tanpa peperangan) yang dianugerahkan Allah kepada Rasul-Nya dari mereka tidak (perlu) kamu memacu kuda atau unta (untuk mendapatkannya). Akan tetapi, Allah memberikan kekuasaan kepada rasul-rasul-Nya terhadap siapa yang Dia kehendaki. Allah Maha Kuasa atas segala sesuatu." },
       "source": "kemenag-2019-adapted",
@@ -116,7 +119,8 @@
         { "words": [1, 4], "id": "Orang-orang (Ansar) yang telah menempati kota (Madinah) dan beriman" },
         { "words": [5, 6], "id": ["sebelum", "(kedatangan) mereka (Muhajirin)"] },
         { "words": [7, 10], "id": "mencintai orang yang berhijrah ke (tempat) mereka" },
-        { "words": [11, 15], "id": "Mereka tidak mendapatkan keinginan di dalam hatinya" },
+        { "words": [11, 14], "id": "Mereka tidak mendapatkan di dalam hatinya" },
+        { "words": [15, 15], "id": "keinginan" },
         { "words": [16, 17], "id": "terhadap apa yang diberikan (kepada Muhajirin)" },
         { "words": [18, 20], "id": "Mereka mengutamakan (Muhajirin) daripada dirinya sendiri" },
         { "words": [21, 24], "id": "meskipun mempunyai keperluan yang mendesak" },

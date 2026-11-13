@@ -62,7 +62,8 @@
     },
     "8": {
       "phrases": [
-        { "words": [1, 4], "id": "Apabila sangkakala ditiup" }
+        { "words": [1, 2], "id": "Apabila ditiup" },
+        { "words": [3, 4], "id": "sangkakala" }
       ],
       "full": { "id": "Apabila sangkakala ditiup," },
       "source": "kemenag-2019-adapted",
@@ -264,7 +265,8 @@
         { "words": [10, 13], "id": "kecuali sebagai cobaan bagi orang-orang kafir" },
         { "words": [14, 17], "id": "(Yang demikian itu) agar orang-orang yang diberi kitab menjadi yakin" },
         { "words": [18, 21], "id": "orang yang beriman bertambah imannya" },
-        { "words": [22, 27], "id": "orang-orang yang diberi kitab dan orang-orang mukmin itu tidak ragu-ragu" },
+        { "words": [22, 23], "id": "tidak ragu-ragu" },
+        { "words": [24, 27], "id": "orang-orang yang diberi kitab dan orang-orang mukmin itu" },
         { "words": [28, 32], "id": "serta orang-orang yang di dalam hatinya ada penyakit" },
         { "words": [33, 33], "id": "dan orang-orang kafir (berkata,)" },
         { "words": [34, 38], "id": "Apakah yang dikehendaki Allah dengan (bilangan) ini sebagai suatu perumpamaan" },
@@ -426,7 +428,8 @@
     "49": {
       "phrases": [
         { "words": [1, 2], "id": "Lalu, mengapa mereka (orang-orang kafir)" },
-        { "words": [3, 5], "id": "berpaling dari peringatan (Allah)" }
+        { "words": [3, 4], "id": "dari peringatan (Allah)" },
+        { "words": [5, 5], "id": "berpaling" }
       ],
       "full": { "id": "Lalu, mengapa mereka (orang-orang kafir) berpaling dari peringatan (Allah)" },
       "source": "kemenag-2019-adapted",

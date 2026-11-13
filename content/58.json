@@ -96,7 +96,8 @@
         { "words": [25, 30], "id": ["Tidak kurang", "dari itu atau lebih banyak"] },
         { "words": [31, 33], "id": "kecuali Dia bersama mereka" },
         { "words": [34, 36], "id": "di mana pun mereka berada" },
-        { "words": [37, 40], "id": "Kemudian, Dia memberitakan apa yang telah mereka kerjakan kepada mereka" },
+        { "words": [37, 39], "id": "Kemudian, Dia memberitakan kepada mereka apa yang" },
+        { "words": [40, 40], "id": "telah mereka kerjakan" },
         { "words": [41, 42], "id": "pada hari Kiamat" },
         { "words": [43, 47], "id": "Sesungguhnya Allah Maha Mengetahui segala sesuatu" }
       ],
@@ -139,7 +140,8 @@
       "phrases": [
         { "words": [1, 4], "id": ["Sesungguhnya", "pembicaraan rahasia itu hanyalah dari setan"] },
         { "words": [5, 7], "id": "agar orang-orang yang beriman itu bersedih hati" },
-        { "words": [8, 10], "id": "sedangkan (pembicaraan) itu tidaklah memberi mudarat sedikit pun kepada mereka" },
+        { "words": [8, 9], "id": "sedangkan (pembicaraan) itu tidaklah memberi mudarat kepada mereka" },
+        { "words": [10, 10], "id": "sedikit pun" },
         { "words": [11, 13], "id": "kecuali dengan izin Allah" },
         { "words": [14, 17], "id": "Hanya kepada Allah hendaknya orang-orang mukmin bertawakal" }
       ],
@@ -153,7 +155,8 @@
         { "words": [4, 6], "id": "apabila dikatakan kepadamu" },
         { "words": [7, 9], "id": "Berilah kelapangan di dalam majelis-majelis" },
         { "words": [10, 10], "id": "lapangkanlah" },
-        { "words": [11, 13], "id": "niscaya Allah akan memberi kelapangan untukmu" },
+        { "words": [11, 11], "id": "niscaya akan memberi kelapangan" },
+        { "words": [12, 13], "id": "Allah untukmu" },
         { "words": [14, 16], "id": "Apabila dikatakan, Berdirilah" },
         { "words": [17, 17], "id": "(kamu) berdirilah" },
         { "words": [18, 22], "id": "Allah niscaya akan mengangkat orang-orang yang beriman di antaramu" },
@@ -169,7 +172,8 @@
       "phrases": [
         { "words": [1, 3], "id": "Wahai orang-orang yang beriman" },
         { "words": [4, 6], "id": "apabila kamu (ingin) melakukan pembicaraan rahasia dengan Rasul" },
-        { "words": [7, 11], "id": "hendaklah kamu mengeluarkan sedekah (kepada orang miskin) sebelum (melakukan) pembicaraan itu" },
+        { "words": [7, 10], "id": "hendaklah kamu mengeluarkan sebelum (melakukan) pembicaraan itu" },
+        { "words": [11, 11], "id": "sedekah (kepada orang miskin)" },
         { "words": [12, 15], "id": "Hal itu lebih baik bagimu dan lebih bersih" },
         { "words": [16, 18], "id": "Akan tetapi, jika kamu tidak mendapatkan (apa yang akan disedekahkan)" },
         { "words": [19, 20], "id": "sesungguhnya Allah" },
@@ -198,7 +202,8 @@
     "14": {
       "phrases": [
         { "words": [1, 2], "id": "Tidakkah engkau memperhatikan" },
-        { "words": [3, 9], "id": "orang-orang (munafik) yang menjadikan suatu kaum yang dimurkai Allah sebagai sahabat" },
+        { "words": [3, 5], "id": "orang-orang (munafik) yang menjadikan sebagai sahabat" },
+        { "words": [6, 9], "id": "suatu kaum yang dimurkai Allah" },
         { "words": [10, 12], "id": "Orang-orang itu bukan dari (kaum)-mu" },
         { "words": [13, 14], "id": "dan bukan dari (kaum) mereka" },
         { "words": [15, 17], "id": "Mereka bersumpah secara dusta (mengaku mukmin)" },
@@ -231,7 +236,8 @@
     "17": {
       "phrases": [
         { "words": [1, 6], "id": "Harta benda dan anak-anak mereka tidak berguna" },
-        { "words": [7, 9], "id": "sedikit pun (untuk menolong mereka) dari (azab) Allah" },
+        { "words": [7, 8], "id": "dari (azab) Allah" },
+        { "words": [9, 9], "id": "sedikit pun (untuk menolong mereka)" },
         { "words": [10, 12], "id": "Mereka itulah penghuni neraka" },
         { "words": [13, 15], "id": "Mereka kekal di dalamnya" }
       ],
@@ -241,7 +247,8 @@
     },
     "18": {
       "phrases": [
-        { "words": [1, 4], "id": "(Ingatlah) pada hari (ketika) Allah membangkitkan mereka semuanya" },
+        { "words": [1, 2], "id": "(Ingatlah) pada hari (ketika) membangkitkan mereka" },
+        { "words": [3, 4], "id": "Allah semuanya" },
         { "words": [5, 6], "id": "Lalu, mereka bersumpah kepada-Nya (bahwa mereka mukmin)" },
         { "words": [7, 9], "id": "sebagaimana mereka bersumpah kepadamu" },
         { "words": [10, 13], "id": ["Mereka menyangka bahwa mereka", "akan memperoleh sesuatu (manfaat dari dustanya)"] },

@@ -48,7 +48,8 @@
     "6": {
       "phrases": [
         { "words": [1, 2], "id": "sedangkan (kaum) 'Ad" },
-        { "words": [3, 6], "id": "telah dibinasakan dengan angin topan yang sangat dingin" }
+        { "words": [3, 4], "id": "telah dibinasakan dengan angin topan" },
+        { "words": [5, 6], "id": "yang sangat dingin" }
       ],
       "full": { "id": "sedangkan (kaum) 'Ad telah dibinasakan dengan angin topan yang sangat dingin." },
       "source": "kemenag-2019-adapted",
@@ -113,7 +114,8 @@
     },
     "13": {
       "phrases": [
-        { "words": [1, 4], "id": "Apabila sangkakala ditiup" },
+        { "words": [1, 2], "id": "Apabila ditiup" },
+        { "words": [3, 4], "id": "sangkakala" },
         { "words": [5, 6], "id": "dengan sekali tiupan" }
       ],
       "full": { "id": "Apabila sangkakala ditiup dengan sekali tiupan" },
@@ -123,7 +125,8 @@
     "14": {
       "phrases": [
         { "words": [1, 3], "id": "dan bumi serta gunung-gunung diangkat" },
-        { "words": [4, 6], "id": "lalu dibenturkan dengan sekali benturan" }
+        { "words": [4, 5], "id": "lalu dibenturkan dengan benturan" },
+        { "words": [6, 6], "id": "sekali" }
       ],
       "full": { "id": "dan bumi serta gunung-gunung diangkat lalu dibenturkan dengan sekali benturan," },
       "source": "kemenag-2019-adapted",
@@ -255,7 +258,8 @@
     },
     "29": {
       "phrases": [
-        { "words": [1, 3], "id": "Kekuasaanku telah hilang dariku" }
+        { "words": [1, 1], "id": "Telah hilang" },
+        { "words": [2, 3], "id": "kekuasaanku dariku" }
       ],
       "full": { "id": "Kekuasaanku telah hilang dariku.”" },
       "source": "kemenag-2019-adapted",
@@ -280,7 +284,8 @@
     },
     "32": {
       "phrases": [
-        { "words": [1, 7], "id": "Kemudian, belit dia dengan rantai yang panjangnya tujuh puluh hasta" }
+        { "words": [1, 3], "id": "Kemudian, dengan rantai" },
+        { "words": [4, 7], "id": "yang panjangnya tujuh puluh hasta, belit dia" }
       ],
       "full": { "id": "Kemudian, belit dia dengan rantai yang panjangnya tujuh puluh hasta." },
       "source": "kemenag-2019-adapted",
@@ -413,7 +418,8 @@
     },
     "47": {
       "phrases": [
-        { "words": [1, 6], "id": "Maka, tidak ada seorang pun dari kamu yang dapat menghalangi (Kami) darinya (pemotongan urat nadi itu)" }
+        { "words": [1, 2], "id": "Maka, tidak ada dari kamu" },
+        { "words": [3, 6], "id": "seorang pun yang dapat menghalangi (Kami) darinya (pemotongan urat nadi itu)" }
       ],
       "full": { "id": "Maka, tidak ada seorang pun dari kamu yang dapat menghalangi (Kami) darinya (pemotongan urat nadi itu)." },
       "source": "kemenag-2019-adapted",

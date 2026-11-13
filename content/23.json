@@ -32,7 +32,8 @@
     "4": {
       "phrases": [
         { "words": [1, 2], "id": "orang-orang yang" },
-        { "words": [3, 4], "id": "menunaikan zakat" }
+        { "words": [3, 3], "id": "zakat" },
+        { "words": [4, 4], "id": "menunaikan" }
       ],
       "full": { "id": "orang-orang yang menunaikan zakat," },
       "source": "kemenag-2019-adapted",
@@ -120,7 +121,8 @@
     "14": {
       "phrases": [
         { "words": [1, 4], "id": "Kemudian, air mani itu Kami jadikan sesuatu yang menggantung (darah)" },
-        { "words": [5, 7], "id": "Lalu, sesuatu yang menggantung itu Kami jadikan segumpal daging" },
+        { "words": [5, 6], "id": "Lalu, sesuatu yang menggantung itu Kami jadikan" },
+        { "words": [7, 7], "id": "segumpal daging" },
         { "words": [8, 10], "id": "Lalu, segumpal daging itu Kami jadikan tulang belulang" },
         { "words": [11, 13], "id": "Lalu, tulang belulang itu Kami bungkus dengan daging" },
         { "words": [14, 17], "id": ["Kemudian", "Kami menjadikannya makhluk yang (berbentuk) lain"] },
@@ -162,7 +164,8 @@
       "phrases": [
         { "words": [1, 5], "id": "Kami turunkan air dari langit dengan suatu ukuran" },
         { "words": [6, 8], "id": "Lalu, Kami jadikan air itu menetap di bumi" },
-        { "words": [9, 13], "id": "dan sesungguhnya Kami Maha Kuasa melenyapkannya" }
+        { "words": [9, 10], "id": "dan sesungguhnya Kami" },
+        { "words": [11, 13], "id": "Maha Kuasa melenyapkannya" }
       ],
       "full": { "id": "Kami turunkan air dari langit dengan suatu ukuran. Lalu, Kami jadikan air itu menetap di bumi dan sesungguhnya Kami Maha Kuasa melenyapkannya." },
       "source": "kemenag-2019-adapted",
@@ -191,7 +194,8 @@
       "phrases": [
         { "words": [1, 5], "id": "Sesungguhnya pada hewan-hewan ternak benar-benar terdapat pelajaran bagimu" },
         { "words": [6, 9], "id": "Kami memberi minum kamu dari sebagian apa yang ada dalam perutnya (air susu)" },
-        { "words": [10, 13], "id": "padanya terdapat banyak manfaat untukmu" },
+        { "words": [10, 11], "id": "padanya untukmu" },
+        { "words": [12, 13], "id": "terdapat banyak manfaat" },
         { "words": [14, 15], "id": "dan sebagian darinya kamu makan" }
       ],
       "full": { "id": "Sesungguhnya pada hewan-hewan ternak benar-benar terdapat pelajaran bagimu. Kami memberi minum kamu dari sebagian apa yang ada dalam perutnya (air susu), padanya terdapat banyak manfaat untukmu, dan sebagian darinya kamu makan." },
@@ -220,7 +224,8 @@
     },
     "24": {
       "phrases": [
-        { "words": [1, 6], "id": "Maka, para pemuka orang-orang yang kufur dari kaumnya berkata" },
+        { "words": [1, 3], "id": "Maka, berkata para pemuka orang-orang yang" },
+        { "words": [4, 6], "id": "kufur dari kaumnya" },
         { "words": [7, 11], "id": "Orang ini tidak lain hanyalah manusia seperti kamu" },
         { "words": [12, 15], "id": "Dia ingin menjadi orang yang lebih mulia daripada kamu" },
         { "words": [16, 20], "id": "Seandainya Allah berkehendak, tentu Dia akan mengutus malaikat" },
@@ -486,7 +491,8 @@
         { "words": [1, 2], "id": "Allah berfirman, Wahai para rasul" },
         { "words": [3, 5], "id": "makanlah dari (makanan) yang baik-baik" },
         { "words": [6, 7], "id": "dan beramal salehlah" },
-        { "words": [8, 11], "id": "Sesungguhnya Aku Maha Mengetahui apa yang kamu kerjakan" }
+        { "words": [8, 9], "id": "Sesungguhnya Aku" },
+        { "words": [10, 11], "id": "Maha Mengetahui apa yang kamu kerjakan" }
       ],
       "full": { "id": "Allah berfirman, “Wahai para rasul, makanlah dari (makanan) yang baik-baik dan beramal salehlah. Sesungguhnya Aku Maha Mengetahui apa yang kamu kerjakan." },
       "source": "kemenag-2019-adapted",
@@ -505,7 +511,8 @@
     "53": {
       "phrases": [
         { "words": [1, 4], "id": "Lalu mereka (para pengikut rasul) terpecah belah dalam urusan (agama)-nya menjadi beberapa golongan" },
-        { "words": [5, 9], "id": "Setiap golongan bangga dengan apa yang ada pada mereka (masing-masing)" }
+        { "words": [5, 8], "id": "Setiap golongan dengan apa yang ada pada mereka (masing-masing)" },
+        { "words": [9, 9], "id": "bangga" }
       ],
       "full": { "id": "Lalu mereka (para pengikut rasul) terpecah belah dalam urusan (agama)-nya menjadi beberapa golongan. Setiap golongan bangga dengan apa yang ada pada mereka (masing-masing)." },
       "source": "kemenag-2019-adapted",
@@ -708,7 +715,8 @@
     "75": {
       "phrases": [
         { "words": [1, 7], "id": "Seandainya Kami rahmati mereka dan Kami lenyapkan kemudaratan yang menimpanya" },
-        { "words": [8, 11], "id": "niscaya mereka akan terus terombang-ambing dalam kesesatannya" }
+        { "words": [8, 10], "id": "niscaya mereka akan terus dalam kesesatannya" },
+        { "words": [11, 11], "id": "terombang-ambing" }
       ],
       "full": { "id": "Seandainya Kami rahmati mereka dan Kami lenyapkan kemudaratan yang menimpanya, niscaya mereka akan terus terombang-ambing dalam kesesatannya." },
       "source": "kemenag-2019-adapted",
@@ -801,7 +809,8 @@
     "85": {
       "phrases": [
         { "words": [1, 2], "id": "Mereka akan menjawab, Milik Allah" },
-        { "words": [3, 5], "id": "Katakanlah, Apakah kamu tidak ingat" }
+        { "words": [3, 4], "id": "Katakanlah, Apakah tidak" },
+        { "words": [5, 5], "id": "kamu ingat" }
       ],
       "full": { "id": "Mereka akan menjawab, “Milik Allah.” Katakanlah, “Apakah kamu tidak ingat?”" },
       "source": "kemenag-2019-adapted",
@@ -904,7 +913,8 @@
     },
     "96": {
       "phrases": [
-        { "words": [1, 5], "id": "Tolaklah keburukan (mereka) dengan (perbuatan) yang lebih baik" },
+        { "words": [1, 2], "id": "Tolaklah dengan (perbuatan)" },
+        { "words": [3, 5], "id": "yang lebih baik keburukan (mereka)" },
         { "words": [6, 9], "id": "Kami lebih mengetahui apa yang mereka sifatkan" }
       ],
       "full": { "id": "Tolaklah keburukan (mereka) dengan (perbuatan) yang lebih baik. Kami lebih mengetahui apa yang mereka sifatkan." },
@@ -921,7 +931,8 @@
     },
     "98": {
       "phrases": [
-        { "words": [1, 5], "id": "dan aku berlindung (pula) kepada-Mu, ya Tuhanku, dari kedatangan mereka kepadaku" }
+        { "words": [1, 4], "id": "dan aku berlindung (pula) kepada-Mu, ya Tuhanku, dari" },
+        { "words": [5, 5], "id": "kedatangan mereka kepadaku" }
       ],
       "full": { "id": "dan aku berlindung (pula) kepada-Mu, ya Tuhanku, dari kedatangan mereka kepadaku.”" },
       "source": "kemenag-2019-adapted",
@@ -970,7 +981,8 @@
       "phrases": [
         { "words": [1, 3], "id": ["Siapa yang", "ringan timbangan (kebaikan)-nya"] },
         { "words": [4, 7], "id": "mereka itulah orang-orang yang merugikan dirinya sendiri" },
-        { "words": [8, 10], "id": "Mereka kekal di dalam (neraka) Jahanam" }
+        { "words": [8, 9], "id": "Di dalam (neraka) Jahanam" },
+        { "words": [10, 10], "id": "mereka kekal" }
       ],
       "full": { "id": "Siapa yang ringan timbangan (kebaikan)-nya, mereka itulah orang-orang yang merugikan dirinya sendiri. Mereka kekal di dalam (neraka) Jahanam." },
       "source": "kemenag-2019-adapted",

@@ -150,7 +150,8 @@
     },
     "17": {
       "phrases": [
-        { "words": [1, 5], "id": "Lepaskanlah Bani Israil (pergi) bersama kami (menuju Baitulmaqdis)" }
+        { "words": [1, 3], "id": "Lepaskanlah (pergi) bersama kami (menuju Baitulmaqdis)" },
+        { "words": [4, 5], "id": "Bani Israil" }
       ],
       "full": { "id": "Lepaskanlah Bani Israil (pergi) bersama kami (menuju Baitulmaqdis).’”" },
       "source": "kemenag-2019-adapted",
@@ -159,7 +160,8 @@
     "18": {
       "phrases": [
         { "words": [1, 5], "id": "Dia (Fir'aun) berkata, Bukankah kami telah mengasuhmu dalam lingkungan (keluarga) kami, waktu engkau masih bayi" },
-        { "words": [6, 10], "id": "dan engkau tinggal bersama kami beberapa tahun dari umurmu" }
+        { "words": [6, 9], "id": "dan engkau tinggal bersama kami dari umurmu" },
+        { "words": [10, 10], "id": "beberapa tahun" }
       ],
       "full": { "id": "Dia (Fir'aun) berkata, “Bukankah kami telah mengasuhmu dalam lingkungan (keluarga) kami, waktu engkau masih bayi dan engkau tinggal bersama kami beberapa tahun dari umurmu." },
       "source": "kemenag-2019-adapted",
@@ -598,7 +600,8 @@
     "67": {
       "phrases": [
         { "words": [1, 4], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah)" },
-        { "words": [5, 8], "id": "tetapi kebanyakan mereka tidak beriman" }
+        { "words": [5, 6], "id": "tetapi tidak" },
+        { "words": [7, 8], "id": "kebanyakan mereka beriman" }
       ],
       "full": { "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah), tetapi kebanyakan mereka tidak beriman." },
       "source": "kemenag-2019-adapted",
@@ -903,7 +906,8 @@
     "103": {
       "phrases": [
         { "words": [1, 4], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah)" },
-        { "words": [5, 8], "id": "tetapi kebanyakan mereka tidak beriman" }
+        { "words": [5, 6], "id": "tetapi tidak" },
+        { "words": [7, 8], "id": "kebanyakan mereka beriman" }
       ],
       "full": { "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah), tetapi kebanyakan mereka tidak beriman." },
       "source": "kemenag-2019-adapted",
@@ -921,7 +925,8 @@
     },
     "105": {
       "phrases": [
-        { "words": [1, 4], "id": "Kaum Nuh telah mendustakan para rasul" }
+        { "words": [1, 1], "id": "Telah mendustakan" },
+        { "words": [2, 4], "id": "kaum Nuh para rasul" }
       ],
       "full": { "id": "Kaum Nuh telah mendustakan para rasul." },
       "source": "kemenag-2019-adapted",
@@ -955,7 +960,8 @@
     },
     "109": {
       "phrases": [
-        { "words": [1, 5], "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu" },
+        { "words": [1, 2], "id": "Aku tidak meminta kepadamu" },
+        { "words": [3, 5], "id": "imbalan atas (ajakan) itu" },
         { "words": [6, 11], "id": "Imbalanku tidak lain, kecuali dari Tuhan semesta alam" }
       ],
       "full": { "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu. Imbalanku tidak lain, kecuali dari Tuhan semesta alam." },
@@ -1061,7 +1067,8 @@
     "121": {
       "phrases": [
         { "words": [1, 4], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah)" },
-        { "words": [5, 8], "id": "tetapi kebanyakan mereka tidak beriman" }
+        { "words": [5, 6], "id": "tetapi tidak" },
+        { "words": [7, 8], "id": "kebanyakan mereka beriman" }
       ],
       "full": { "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah), tetapi kebanyakan mereka tidak beriman." },
       "source": "kemenag-2019-adapted",
@@ -1079,7 +1086,8 @@
     },
     "123": {
       "phrases": [
-        { "words": [1, 3], "id": "(Kaum) 'Ad telah mendustakan para rasul" }
+        { "words": [1, 1], "id": "Telah mendustakan" },
+        { "words": [2, 3], "id": "(kaum) 'Ad para rasul" }
       ],
       "full": { "id": "(Kaum) 'Ad telah mendustakan para rasul." },
       "source": "kemenag-2019-adapted",
@@ -1096,7 +1104,8 @@
     },
     "125": {
       "phrases": [
-        { "words": [1, 4], "id": "Sesungguhnya aku adalah seorang rasul tepercaya (yang diutus) kepadamu" }
+        { "words": [1, 2], "id": "Sesungguhnya aku (yang diutus) kepadamu" },
+        { "words": [3, 4], "id": "adalah seorang rasul tepercaya" }
       ],
       "full": { "id": "Sesungguhnya aku adalah seorang rasul tepercaya (yang diutus) kepadamu." },
       "source": "kemenag-2019-adapted",
@@ -1113,7 +1122,8 @@
     },
     "127": {
       "phrases": [
-        { "words": [1, 5], "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu" },
+        { "words": [1, 3], "id": "Aku tidak meminta kepadamu atas (ajakan) itu" },
+        { "words": [4, 5], "id": "imbalan" },
         { "words": [6, 11], "id": "Imbalanku tidak lain, kecuali dari Tuhan semesta alam" }
       ],
       "full": { "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu. Imbalanku tidak lain, kecuali dari Tuhan semesta alam." },
@@ -1122,7 +1132,8 @@
     },
     "128": {
       "phrases": [
-        { "words": [1, 5], "id": "Apakah kamu mendirikan istana di setiap tanah yang tinggi untuk kemegahan tanpa ditempati" }
+        { "words": [1, 3], "id": "Apakah kamu mendirikan di setiap tanah yang tinggi" },
+        { "words": [4, 5], "id": "istana untuk kemegahan tanpa ditempati" }
       ],
       "full": { "id": "Apakah kamu mendirikan istana di setiap tanah yang tinggi untuk kemegahan tanpa ditempati?" },
       "source": "kemenag-2019-adapted",
@@ -1385,7 +1396,8 @@
       "phrases": [
         { "words": [1, 2], "id": "Mereka ditimpa azab" },
         { "words": [3, 6], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah)" },
-        { "words": [7, 10], "id": "tetapi kebanyakan mereka tidak beriman" }
+        { "words": [7, 8], "id": "tetapi tidak" },
+        { "words": [9, 10], "id": "kebanyakan mereka beriman" }
       ],
       "full": { "id": "Mereka ditimpa azab. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah), tetapi kebanyakan mereka tidak beriman." },
       "source": "kemenag-2019-adapted",
@@ -1412,7 +1424,8 @@
     "161": {
       "phrases": [
         { "words": [1, 5], "id": "Ketika saudara mereka, Lut, berkata kepada mereka" },
-        { "words": [6, 7], "id": "Mengapa kamu tidak bertakwa" }
+        { "words": [6, 6], "id": "Mengapa tidak" },
+        { "words": [7, 7], "id": "kamu bertakwa" }
       ],
       "full": { "id": "Ketika saudara mereka, Lut, berkata kepada mereka, “Mengapa kamu tidak bertakwa?”" },
       "source": "kemenag-2019-adapted",
@@ -1437,7 +1450,8 @@
     },
     "164": {
       "phrases": [
-        { "words": [1, 5], "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu" },
+        { "words": [1, 1], "id": "Tidak" },
+        { "words": [2, 5], "id": "aku meminta imbalan kepadamu atas (ajakan) itu" },
         { "words": [6, 11], "id": "Imbalanku tidak lain hanyalah dari Tuhan semesta alam" }
       ],
       "full": { "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu. Imbalanku tidak lain hanyalah dari Tuhan semesta alam." },
@@ -1525,7 +1539,8 @@
     "174": {
       "phrases": [
         { "words": [1, 4], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah)" },
-        { "words": [5, 8], "id": "tetapi kebanyakan mereka tidak beriman" }
+        { "words": [5, 7], "id": "tetapi kebanyakan mereka tidak" },
+        { "words": [8, 8], "id": "beriman" }
       ],
       "full": { "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Allah), tetapi kebanyakan mereka tidak beriman." },
       "source": "kemenag-2019-adapted",
@@ -1543,7 +1558,8 @@
     },
     "176": {
       "phrases": [
-        { "words": [1, 4], "id": "Penduduk Aikah (Madyan) telah mendustakan para rasul" }
+        { "words": [1, 2], "id": "Telah mendustakan penduduk" },
+        { "words": [3, 4], "id": "Aikah (Madyan) para rasul" }
       ],
       "full": { "id": "Penduduk Aikah (Madyan) telah mendustakan para rasul." },
       "source": "kemenag-2019-adapted",
@@ -1560,7 +1576,8 @@
     },
     "178": {
       "phrases": [
-        { "words": [1, 4], "id": "Sesungguhnya aku adalah seorang rasul tepercaya (yang diutus) kepadamu" }
+        { "words": [1, 2], "id": "Sesungguhnya aku (yang diutus) kepadamu" },
+        { "words": [3, 4], "id": "adalah seorang rasul tepercaya" }
       ],
       "full": { "id": "Sesungguhnya aku adalah seorang rasul tepercaya (yang diutus) kepadamu." },
       "source": "kemenag-2019-adapted",
@@ -1577,7 +1594,8 @@
     },
     "180": {
       "phrases": [
-        { "words": [1, 5], "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu" },
+        { "words": [1, 3], "id": "Aku tidak meminta kepadamu atas (ajakan) itu" },
+        { "words": [4, 5], "id": "imbalan" },
         { "words": [6, 11], "id": "Imbalanku tidak lain, kecuali dari Tuhan semesta alam" }
       ],
       "full": { "id": "Aku tidak meminta imbalan kepadamu atas (ajakan) itu. Imbalanku tidak lain, kecuali dari Tuhan semesta alam." },
@@ -1964,7 +1982,8 @@
     },
     "225": {
       "phrases": [
-        { "words": [1, 7], "id": "Tidakkah engkau melihat bahwa mereka merambah setiap lembah kepalsuan" }
+        { "words": [1, 6], "id": "Tidakkah engkau melihat bahwa mereka di setiap lembah kepalsuan" },
+        { "words": [7, 7], "id": "merambah" }
       ],
       "full": { "id": "Tidakkah engkau melihat bahwa mereka merambah setiap lembah kepalsuan" },
       "source": "kemenag-2019-adapted",

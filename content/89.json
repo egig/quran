@@ -126,7 +126,8 @@
     "15": {
       "phrases": [
         { "words": [1, 2], "id": "Adapun manusia" },
-        { "words": [3, 6], "id": "apabila Tuhan mengujinya" },
+        { "words": [3, 5], "id": "apabila mengujinya" },
+        { "words": [6, 6], "id": "Tuhan" },
         { "words": [7, 8], "id": "lalu memuliakannya dan memberinya kenikmatan" },
         { "words": [9, 9], "id": "berkatalah dia" },
         { "words": [10, 11], "id": "Tuhanku telah memuliakanku" }

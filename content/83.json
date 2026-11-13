@@ -131,7 +131,8 @@
     "15": {
       "phrases": [
         { "words": [1, 1], "id": "Sekali-kali tidak" },
-        { "words": [2, 6], "id": "Sesungguhnya mereka pada hari itu benar-benar terhalang dari (rahmat) Tuhannya" }
+        { "words": [2, 4], "id": "Sesungguhnya mereka dari (rahmat) Tuhannya" },
+        { "words": [5, 6], "id": "pada hari itu benar-benar terhalang" }
       ],
       "full": { "id": "Sekali-kali tidak! Sesungguhnya mereka pada hari itu benar-benar terhalang dari (rahmat) Tuhannya." },
       "source": "kemenag-2019-adapted",

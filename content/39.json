@@ -69,7 +69,8 @@
       "phrases": [
         { "words": [1, 4], "id": "Dia menciptakanmu dari jiwa yang satu (Adam)" },
         { "words": [5, 8], "id": "kemudian darinya Dia menjadikan pasangannya" },
-        { "words": [9, 14], "id": "dan Dia menurunkan delapan pasang hewan ternak untukmu" },
+        { "words": [9, 10], "id": "dan Dia menurunkan untukmu" },
+        { "words": [11, 14], "id": "delapan pasang hewan ternak" },
         { "words": [15, 18], "id": "Dia menciptakanmu dalam perut ibumu" },
         { "words": [19, 22], "id": "kejadian demi kejadian" },
         { "words": [23, 25], "id": "dalam tiga kegelapan" },
@@ -284,8 +285,10 @@
       "phrases": [
         { "words": [1, 4], "id": "Allah telah menurunkan perkataan yang terbaik" },
         { "words": [5, 7], "id": "(yaitu) Kitab (Al-Qur’an) yang serupa (ayat-ayatnya) lagi berulang-ulang" },
-        { "words": [8, 13], "id": "Oleh karena itu, kulit orang yang takut kepada Tuhannya gemetar" },
-        { "words": [14, 20], "id": "Kemudian, kulit dan hati mereka menjadi lunak ketika mengingat Allah" },
+        { "words": [8, 9], "id": "Oleh karena itu, gemetar" },
+        { "words": [10, 13], "id": "kulit orang yang takut kepada Tuhannya" },
+        { "words": [14, 17], "id": "Kemudian, kulit dan hati mereka menjadi lunak" },
+        { "words": [18, 20], "id": "ketika mengingat Allah" },
         { "words": [21, 23], "id": "Itulah petunjuk Allah" },
         { "words": [24, 27], "id": "yang dengannya Dia memberi petunjuk kepada siapa yang Dia kehendaki" },
         { "words": [28, 30], "id": ["Siapa yang", "dibiarkan sesat oleh Allah"] },
@@ -297,7 +300,8 @@
     },
     "24": {
       "phrases": [
-        { "words": [1, 5], "id": "Apakah orang yang menghindari azab yang buruk dengan wajahnya" },
+        { "words": [1, 4], "id": "Apakah orang yang menghindari dengan wajahnya" },
+        { "words": [5, 5], "id": "azab yang buruk" },
         { "words": [6, 7], "id": "pada hari Kiamat (sama dengan orang mukmin yang tidak kena azab)" },
         { "words": [8, 9], "id": "Dikatakan kepada orang-orang yang zalim" },
         { "words": [10, 13], "id": "Rasakanlah balasan apa yang telah kamu kerjakan" }
@@ -528,8 +532,10 @@
     "45": {
       "phrases": [
         { "words": [1, 4], "id": "Apabila hanya (nama) Allah yang disebut" },
-        { "words": [5, 10], "id": "hati orang-orang yang tidak beriman kepada akhirat kesal" },
-        { "words": [11, 15], "id": "Namun, apabila (nama-nama sembahan) selain Allah disebut" },
+        { "words": [5, 5], "id": "kesal" },
+        { "words": [6, 10], "id": "hati orang-orang yang tidak beriman kepada akhirat" },
+        { "words": [11, 14], "id": "Namun, apabila (nama-nama sembahan) disebut" },
+        { "words": [15, 15], "id": "selain Allah" },
         { "words": [16, 18], "id": "tiba-tiba mereka bergembira" }
       ],
       "full": { "id": "Apabila hanya (nama) Allah yang disebut, hati orang-orang yang tidak beriman kepada akhirat kesal. Namun, apabila (nama-nama sembahan) selain Allah disebut, tiba-tiba mereka bergembira." },
@@ -795,7 +801,8 @@
       "phrases": [
         { "words": [1, 4], "id": "Bumi (padang Mahsyar) menjadi terang benderang dengan cahaya Tuhannya" },
         { "words": [5, 6], "id": "buku (catatan amal) diberikan (kepada setiap orang)" },
-        { "words": [7, 9], "id": "para nabi dan para saksi pun dihadirkan" },
+        { "words": [7, 7], "id": "dihadirkan" },
+        { "words": [8, 9], "id": "para nabi dan para saksi pun" },
         { "words": [10, 12], "id": "lalu diberikan keputusan di antara mereka secara adil" },
         { "words": [13, 15], "id": "dan mereka tidak dizalimi" }
       ],

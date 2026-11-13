@@ -565,7 +565,8 @@
     "51": {
       "phrases": [
         { "words": [1, 5], "id": ["Perhatikanlah", "bagaimana akibat tipu daya mereka"] },
-        { "words": [6, 9], "id": "bahwa sesungguhnya Kami membinasakan mereka dan semua kaumnya" }
+        { "words": [6, 8], "id": "bahwa sesungguhnya Kami membinasakan mereka dan kaumnya" },
+        { "words": [9, 9], "id": "semua" }
       ],
       "full": { "id": "Perhatikanlah bagaimana akibat tipu daya mereka bahwa sesungguhnya Kami membinasakan mereka dan semua kaumnya." },
       "source": "kemenag-2019-adapted",
@@ -655,7 +656,8 @@
     "60": {
       "phrases": [
         { "words": [1, 4], "id": "Apakah (yang kamu sekutukan itu lebih baik ataukah) Zat yang menciptakan langit dan bumi" },
-        { "words": [5, 9], "id": "serta yang menurunkan air dari langit untukmu" },
+        { "words": [5, 8], "id": "serta yang menurunkan dari langit untukmu" },
+        { "words": [9, 9], "id": "air" },
         { "words": [10, 14], "id": "lalu Kami menumbuhkan dengan air itu kebun-kebun yang berpemandangan indah" },
         { "words": [15, 20], "id": ["(yang) kamu tidak akan mampu", "menumbuhkan pohon-pohonnya"] },
         { "words": [21, 23], "id": "Apakah ada tuhan (lain) bersama Allah" },
@@ -880,7 +882,8 @@
     },
     "82": {
       "phrases": [
-        { "words": [1, 4], "id": "Apabila perkataan (ketentuan masa kehancuran alam) telah berlaku atas mereka" },
+        { "words": [1, 2], "id": "Apabila telah berlaku" },
+        { "words": [3, 4], "id": "perkataan (ketentuan masa kehancuran alam) atas mereka" },
         { "words": [5, 9], "id": "Kami mengeluarkan makhluk bergerak dari bumi" },
         { "words": [10, 10], "id": "yang akan mengatakan kepada mereka" },
         { "words": [11, 16], "id": ["bahwa", "manusia selama ini tidak yakin pada ayat-ayat Kami"] }
@@ -891,7 +894,8 @@
     },
     "83": {
       "phrases": [
-        { "words": [1, 6], "id": "(Ingatlah) pada hari (ketika) Kami mengumpulkan segolongan orang dari setiap umat" },
+        { "words": [1, 5], "id": "(Ingatlah) pada hari (ketika) Kami mengumpulkan dari setiap umat" },
+        { "words": [6, 6], "id": "segolongan orang" },
         { "words": [7, 9], "id": "yaitu mereka yang mendustakan ayat-ayat Kami" },
         { "words": [10, 11], "id": "lalu mereka dibagi-bagi (dalam kelompok)" }
       ],

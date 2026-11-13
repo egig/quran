@@ -105,7 +105,8 @@
     },
     "13": {
       "phrases": [
-        { "words": [1, 4], "id": "Rasul Allah (Saleh) lalu berkata kepada mereka" },
+        { "words": [1, 2], "id": "lalu berkata kepada mereka" },
+        { "words": [3, 4], "id": "Rasul Allah (Saleh)" },
         { "words": [5, 7], "id": "(Biarkanlah) unta betina Allah ini beserta minumannya" }
       ],
       "full": { "id": "Rasul Allah (Saleh) lalu berkata kepada mereka, “(Biarkanlah) unta betina Allah ini beserta minumannya.”" },

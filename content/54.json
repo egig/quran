@@ -43,7 +43,8 @@
     "5": {
       "phrases": [
         { "words": [1, 2], "id": "(Berita-berita itu adalah) hikmah yang sempurna" },
-        { "words": [3, 5], "id": "tetapi peringatan-peringatan itu tidak berguna (bagi mereka)" }
+        { "words": [3, 4], "id": "tetapi tidak berguna (bagi mereka)" },
+        { "words": [5, 5], "id": "peringatan-peringatan itu" }
       ],
       "full": { "id": "(Berita-berita itu adalah) hikmah yang sempurna, tetapi peringatan-peringatan itu tidak berguna (bagi mereka)." },
       "source": "kemenag-2019-adapted",
@@ -81,7 +82,8 @@
     },
     "9": {
       "phrases": [
-        { "words": [1, 4], "id": "Sebelum mereka, kaum Nuh juga telah mendustakan (rasul)" },
+        { "words": [1, 1], "id": "Telah mendustakan (rasul)" },
+        { "words": [2, 4], "id": "sebelum mereka, kaum Nuh juga" },
         { "words": [5, 6], "id": "Mereka mendustakan hamba Kami (Nuh)" },
         { "words": [7, 8], "id": "dan mengatakan, (Dia) orang gila" },
         { "words": [9, 9], "id": "Dia pun dibentak (dengan cacian dan lainnya)" }
@@ -174,7 +176,8 @@
     },
     "19": {
       "phrases": [
-        { "words": [1, 5], "id": "Sesungguhnya Kami telah mengembuskan angin yang sangat kencang kepada mereka" },
+        { "words": [1, 4], "id": "Sesungguhnya Kami telah mengembuskan angin kepada mereka" },
+        { "words": [5, 5], "id": "yang sangat kencang" },
         { "words": [6, 9], "id": "pada hari nahas yang terus-menerus" }
       ],
       "full": { "id": "Sesungguhnya Kami telah mengembuskan angin yang sangat kencang kepada mereka pada hari nahas yang terus-menerus," },

@@ -93,7 +93,8 @@
       "phrases": [
         { "words": [1, 5], "id": "(Ingatlah) ketika pemuda-pemuda itu berlindung ke dalam gua" },
         { "words": [6, 7], "id": "lalu berdoa, Ya Tuhan kami" },
-        { "words": [8, 11], "id": "anugerahkanlah kepada kami rahmat dari sisi-Mu" },
+        { "words": [8, 10], "id": "anugerahkanlah kepada kami dari sisi-Mu" },
+        { "words": [11, 11], "id": "rahmat" },
         { "words": [12, 16], "id": "dan mudahkanlah bagi kami petunjuk untuk segala urusan kami" }
       ],
       "full": { "id": "(Ingatlah) ketika pemuda-pemuda itu berlindung ke dalam gua lalu berdoa, “Ya Tuhan kami, anugerahkanlah kepada kami rahmat dari sisi-Mu dan mudahkanlah bagi kami petunjuk untuk segala urusan kami.”" },
@@ -165,7 +166,8 @@
     "17": {
       "phrases": [
         { "words": [1, 4], "id": "Engkau akan melihat matahari yang ketika terbit" },
-        { "words": [5, 9], "id": "condong ke sebelah kanan dari gua mereka" },
+        { "words": [5, 8], "id": "condong dari gua mereka" },
+        { "words": [9, 9], "id": "ke sebelah kanan" },
         { "words": [10, 14], "id": "dan yang ketika terbenam menjauhi mereka ke sebelah kiri" },
         { "words": [15, 18], "id": ["sedang mereka berada di tempat yang luas", "di dalamnya (gua itu)"] },
         { "words": [19, 22], "id": "Itu adalah sebagian dari tanda-tanda (kebesaran) Allah" },
@@ -183,7 +185,8 @@
         { "words": [5, 9], "id": "Kami membolak-balikkan mereka ke kanan dan ke kiri" },
         { "words": [10, 13], "id": ["sedangkan anjing mereka", "membentangkan kedua kaki depannya di muka pintu gua"] },
         { "words": [14, 16], "id": "Seandainya menyaksikan mereka" },
-        { "words": [17, 19], "id": "tentu engkau akan berpaling melarikan (diri) dari mereka" },
+        { "words": [17, 18], "id": "tentu engkau akan berpaling dari mereka" },
+        { "words": [19, 19], "id": "melarikan (diri)" },
         { "words": [20, 22], "id": "dan pasti akan dipenuhi rasa takut terhadap mereka" }
       ],
       "full": { "id": "Engkau mengira mereka terjaga, padahal mereka tidur. Kami membolak-balikkan mereka ke kanan dan ke kiri, sedangkan anjing mereka membentangkan kedua kaki depannya di muka pintu gua. Seandainya menyaksikan mereka, tentu engkau akan berpaling melarikan (diri) dari mereka dan pasti akan dipenuhi rasa takut terhadap mereka." },
@@ -197,7 +200,8 @@
         { "words": [10, 15], "id": ["Mereka menjawab, Kita berada (di sini)", "sehari atau setengah hari"] },
         { "words": [16, 20], "id": "Mereka (yang lain lagi) berkata, Tuhanmu lebih mengetahui berapa lama kamu berada (di sini)" },
         { "words": [21, 26], "id": ["Maka, utuslah", "salah seorang di antara kamu pergi ke kota dengan membawa uang perakmu ini"] },
-        { "words": [27, 30], "id": "Hendaklah dia melihat manakah makanan yang lebih baik" },
+        { "words": [27, 29], "id": "Hendaklah dia melihat manakah yang lebih baik" },
+        { "words": [30, 30], "id": "makanan" },
         { "words": [31, 33], "id": "lalu membawa sebagian makanan itu untukmu" },
         { "words": [34, 34], "id": "Hendaklah pula dia berlaku lemah lembut" },
         { "words": [35, 38], "id": ["dan jangan sekali-kali memberitahukan", "keadaanmu kepada siapa pun"] }
@@ -224,7 +228,8 @@
         { "words": [14, 17], "id": "(Hal itu terjadi) ketika mereka (penduduk negeri) berselisih tentang urusan (penghuni gua)" },
         { "words": [18, 21], "id": ["Kemudian mereka berkata", "Dirikanlah sebuah bangunan di atas (gua itu)"] },
         { "words": [22, 24], "id": "Tuhannya lebih mengetahui (keadaan) mereka (penghuni gua)" },
-        { "words": [25, 29], "id": "Orang-orang yang berkuasa atas urusan mereka berkata" },
+        { "words": [25, 28], "id": "Berkata orang-orang yang berkuasa atas" },
+        { "words": [29, 29], "id": "urusan mereka" },
         { "words": [30, 32], "id": "Kami pasti akan mendirikan sebuah masjid di atasnya" }
       ],
       "full": { "id": "Demikian (pula) Kami perlihatkan (penduduk negeri) kepada mereka agar mengetahui bahwa janji Allah benar dan bahwa (kedatangan) hari Kiamat tidak ada keraguan padanya. (Hal itu terjadi) ketika mereka (penduduk negeri) berselisih tentang urusan (penghuni gua). Kemudian mereka berkata, “Dirikanlah sebuah bangunan di atas (gua itu). Tuhannya lebih mengetahui (keadaan) mereka (penghuni gua).” Orang-orang yang berkuasa atas urusan mereka berkata, “Kami pasti akan mendirikan sebuah masjid di atasnya.”" },
@@ -281,7 +286,8 @@
         { "words": [6, 9], "id": "Milik-Nya semua yang tersembunyi di langit dan di bumi" },
         { "words": [10, 12], "id": "Alangkah terang penglihatan-Nya dan alangkah tajam pendengaran-Nya" },
         { "words": [13, 18], "id": "Tidak ada seorang pelindung pun bagi mereka selain Dia" },
-        { "words": [19, 23], "id": "dan Dia tidak mengambil seorang pun menjadi sekutu-Nya dalam menetapkan keputusan" }
+        { "words": [19, 20], "id": "dan Dia tidak mengambil menjadi sekutu-Nya" },
+        { "words": [21, 23], "id": "seorang pun dalam menetapkan keputusan" }
       ],
       "full": { "id": "Katakanlah, “Allah lebih mengetahui berapa lamanya mereka tinggal (di gua). Milik-Nya semua yang tersembunyi di langit dan di bumi. Alangkah terang penglihatan-Nya dan alangkah tajam pendengaran-Nya. Tidak ada seorang pelindung pun bagi mereka selain Dia dan Dia tidak mengambil seorang pun menjadi sekutu-Nya dalam menetapkan keputusan.”" },
       "source": "kemenag-2019-adapted",
@@ -428,7 +434,8 @@
         { "words": [1, 5], "id": ["Mengapa ketika engkau memasuki", "kebunmu tidak mengucapkan"] },
         { "words": [6, 8], "id": "Mā syā’allāh" },
         { "words": [9, 12], "id": "lā quwwata illā billāh (sungguh, ini semua kehendak Allah. Tidak ada kekuatan apa pun kecuali dengan [pertolongan] Allah)" },
-        { "words": [13, 19], "id": "Jika engkau anggap harta dan keturunanku lebih sedikit daripadamu" }
+        { "words": [13, 17], "id": "Jika engkau anggap lebih sedikit daripadamu" },
+        { "words": [18, 19], "id": "harta dan keturunanku" }
       ],
       "full": { "id": "Mengapa ketika engkau memasuki kebunmu tidak mengucapkan, “Mā syā’allāh, lā quwwata illā billāh” (sungguh, ini semua kehendak Allah. Tidak ada kekuatan apa pun kecuali dengan [pertolongan] Allah). Jika engkau anggap harta dan keturunanku lebih sedikit daripadamu," },
       "source": "kemenag-2019-adapted",
@@ -446,7 +453,8 @@
     },
     "41": {
       "phrases": [
-        { "words": [1, 4], "id": "atau airnya menjadi surut ke dalam tanah" },
+        { "words": [1, 2], "id": "atau menjadi" },
+        { "words": [3, 4], "id": "airnya surut ke dalam tanah" },
         { "words": [5, 8], "id": "sehingga engkau tidak akan dapat menemukannya lagi" }
       ],
       "full": { "id": "atau airnya menjadi surut ke dalam tanah sehingga engkau tidak akan dapat menemukannya lagi.”" },
@@ -579,7 +587,8 @@
     },
     "53": {
       "phrases": [
-        { "words": [1, 3], "id": "Orang yang berdosa itu melihat neraka" },
+        { "words": [1, 2], "id": "Orang yang berdosa itu melihat" },
+        { "words": [3, 3], "id": "neraka" },
         { "words": [4, 6], "id": "lalu merasa yakin akan jatuh ke dalamnya (seketika itu juga)" },
         { "words": [7, 10], "id": "Mereka tidak menemukan tempat berpaling darinya" }
       ],
@@ -640,7 +649,8 @@
         { "words": [5, 8], "id": "Seandainya Dia hendak menyiksa mereka karena perbuatan mereka" },
         { "words": [9, 11], "id": "tentu Dia akan menyegerakan siksa bagi mereka" },
         { "words": [12, 14], "id": "Akan tetapi, bagi mereka ada waktu (untuk mendapat siksa)" },
-        { "words": [15, 19], "id": "yang mereka tidak akan menemukan tempat berlindung selain-Nya" }
+        { "words": [15, 18], "id": "yang mereka tidak akan menemukan selain-Nya" },
+        { "words": [19, 19], "id": "tempat berlindung" }
       ],
       "full": { "id": "Tuhanmu Maha Pengampun lagi Maha Pemilik rahmat. Seandainya Dia hendak menyiksa mereka karena perbuatan mereka, tentu Dia akan menyegerakan siksa bagi mereka. Akan tetapi, bagi mereka ada waktu (untuk mendapat siksa) yang mereka tidak akan menemukan tempat berlindung selain-Nya." },
       "source": "kemenag-2019-adapted",
@@ -824,7 +834,8 @@
         { "words": [1, 1], "id": "Dia (Musa) berkata" },
         { "words": [2, 6], "id": ["Jika", "aku bertanya kepadamu tentang sesuatu setelah ini"] },
         { "words": [7, 8], "id": "jangan lagi engkau memperbolehkan aku menyertaimu" },
-        { "words": [9, 13], "id": "Sungguh engkau telah mencapai batas (yang wajar dalam) memberikan uzur (maaf) kepadaku" }
+        { "words": [9, 12], "id": "Sungguh engkau telah mencapai batas kepadaku" },
+        { "words": [13, 13], "id": "(yang wajar dalam) memberikan uzur (maaf)" }
       ],
       "full": { "id": "Dia (Musa) berkata, “Jika aku bertanya kepadamu tentang sesuatu setelah ini, jangan lagi engkau memperbolehkan aku menyertaimu. Sungguh engkau telah mencapai batas (yang wajar dalam) memberikan uzur (maaf) kepadaku.”" },
       "source": "kemenag-2019-adapted",
@@ -930,7 +941,8 @@
         { "words": [11, 13], "id": "Di sana dia menemukan suatu kaum (yang tidak mengenal agama)" },
         { "words": [14, 16], "id": "Kami berfirman, Wahai Zulqarnain" },
         { "words": [17, 19], "id": "engkau boleh menghukum" },
-        { "words": [20, 24], "id": "atau berbuat kebaikan kepada mereka (dengan mengajak mereka beriman)" }
+        { "words": [20, 22], "id": "atau berbuat" },
+        { "words": [23, 24], "id": "kebaikan kepada mereka (dengan mengajak mereka beriman)" }
       ],
       "full": { "id": "Hingga ketika telah sampai ke tempat terbenamnya matahari, dia mendapatinya terbenam di dalam mata air panas lagi berlumpur hitam. Di sana dia menemukan suatu kaum (yang tidak mengenal agama). Kami berfirman, “Wahai Zulqarnain, engkau boleh menghukum atau berbuat kebaikan kepada mereka (dengan mengajak mereka beriman).”" },
       "source": "kemenag-2019-adapted",
@@ -950,7 +962,8 @@
     "88": {
       "phrases": [
         { "words": [1, 5], "id": "Adapun orang yang beriman dan beramal saleh" },
-        { "words": [6, 8], "id": "mendapat (pahala) yang terbaik sebagai balasan" },
+        { "words": [6, 7], "id": "mendapat sebagai balasan" },
+        { "words": [8, 8], "id": "(pahala) yang terbaik" },
         { "words": [9, 13], "id": "dan akan kami sampaikan kepadanya perintah kami yang mudah-mudah" }
       ],
       "full": { "id": "Adapun orang yang beriman dan beramal saleh mendapat (pahala) yang terbaik sebagai balasan dan akan kami sampaikan kepadanya perintah kami yang mudah-mudah.”" },
@@ -969,7 +982,8 @@
       "phrases": [
         { "words": [1, 5], "id": ["Hingga", "ketika sampai di posisi terbitnya matahari (arah timur)"] },
         { "words": [6, 9], "id": "dia mendapatinya terbit pada suatu kaum" },
-        { "words": [10, 15], "id": "yang tidak Kami buatkan suatu pelindung bagi mereka dari (cahaya) matahari itu" }
+        { "words": [10, 13], "id": "yang tidak Kami buatkan bagi mereka" },
+        { "words": [14, 15], "id": "suatu pelindung dari (cahaya) matahari itu" }
       ],
       "full": { "id": "Hingga ketika sampai di posisi terbitnya matahari (arah timur), dia mendapatinya terbit pada suatu kaum yang tidak Kami buatkan suatu pelindung bagi mereka dari (cahaya) matahari itu." },
       "source": "kemenag-2019-adapted",
@@ -1031,7 +1045,8 @@
         { "words": [9, 10], "id": "dia (Zulqarnain) berkata, Tiuplah (api itu)" },
         { "words": [11, 14], "id": "Ketika (besi) itu sudah menjadi (merah seperti) api" },
         { "words": [15, 16], "id": "dia pun berkata, Berilah aku" },
-        { "words": [17, 19], "id": "tembaga (yang mendidih) agar kutuangkan ke atasnya (besi panas itu)" }
+        { "words": [17, 18], "id": "agar kutuangkan ke atasnya (besi panas itu)" },
+        { "words": [19, 19], "id": "tembaga (yang mendidih)" }
       ],
       "full": { "id": "Berilah aku potongan-potongan besi.” Hingga ketika (potongan besi) itu telah (terpasang) sama rata dengan kedua (puncak) gunung itu, dia (Zulqarnain) berkata, “Tiuplah (api itu).” Ketika (besi) itu sudah menjadi (merah seperti) api, dia pun berkata, “Berilah aku tembaga (yang mendidih) agar kutuangkan ke atasnya (besi panas itu).”" },
       "source": "kemenag-2019-adapted",
@@ -1116,7 +1131,8 @@
       "phrases": [
         { "words": [1, 5], "id": "Mereka itu adalah orang-orang yang kufur terhadap ayat-ayat Tuhannya" },
         { "words": [6, 6], "id": "dan (kufur pula terhadap) pertemuan dengan-Nya" },
-        { "words": [7, 8], "id": "Maka, amal mereka sia-sia" },
+        { "words": [7, 7], "id": "Maka, sia-sia" },
+        { "words": [8, 8], "id": "amal mereka" },
         { "words": [9, 14], "id": "dan Kami tidak memberikan penimbangan terhadap (amal) mereka pada hari Kiamat" }
       ],
       "full": { "id": "Mereka itu adalah orang-orang yang kufur terhadap ayat-ayat Tuhannya dan (kufur pula terhadap) pertemuan dengan-Nya. Maka, amal mereka sia-sia dan Kami tidak memberikan penimbangan terhadap (amal) mereka pada hari Kiamat." },

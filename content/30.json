@@ -97,7 +97,8 @@
     },
     "10": {
       "phrases": [
-        { "words": [1, 6], "id": "Kemudian, kesudahan orang-orang yang berbuat jahat adalah (balasan) yang paling buruk" },
+        { "words": [1, 2], "id": "Kemudian" },
+        { "words": [3, 6], "id": "kesudahan orang-orang yang berbuat jahat adalah (balasan) yang paling buruk" },
         { "words": [7, 10], "id": "karena mereka mendustakan ayat-ayat Allah" },
         { "words": [11, 13], "id": ["dan selalu", "memperolok-olokkannya"] }
       ],
@@ -204,7 +205,8 @@
     "21": {
       "phrases": [
         { "words": [1, 2], "id": "Di antara tanda-tanda (kebesaran)-Nya" },
-        { "words": [3, 8], "id": "ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri" },
+        { "words": [3, 7], "id": "ialah bahwa Dia menciptakan untukmu dari (jenis) dirimu sendiri" },
+        { "words": [8, 8], "id": "pasangan-pasangan" },
         { "words": [9, 10], "id": "agar kamu merasa tenteram kepadanya" },
         { "words": [11, 14], "id": "Dia menjadikan di antaramu rasa cinta dan kasih sayang" },
         { "words": [15, 18], "id": "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah)" },
@@ -287,7 +289,8 @@
     "28": {
       "phrases": [
         { "words": [1, 5], "id": ["Dia membuat perumpamaan bagimu", "dari dirimu sendiri"] },
-        { "words": [6, 13], "id": "Apakah (kamu rela jika) ada di antara hamba sahaya yang kamu miliki menjadi sekutu bagimu" },
+        { "words": [6, 12], "id": "Apakah (kamu rela jika) ada di antara hamba sahaya yang kamu miliki" },
+        { "words": [13, 13], "id": "menjadi sekutu bagimu" },
         { "words": [14, 16], "id": "dalam (kepemilikan) rezeki yang telah Kami anugerahkan kepadamu" },
         { "words": [17, 19], "id": "sehingga kamu menjadi setara dengan mereka dalam hal ini" },
         { "words": [20, 22], "id": ["Kamu takut kepada mereka", "sebagaimana kamu takut kepada sesamamu"] },
@@ -578,7 +581,8 @@
       "phrases": [
         { "words": [1, 5], "id": ["Allah adalah Zat yang menciptakanmu", "dari keadaan lemah"] },
         { "words": [6, 11], "id": "kemudian Dia menjadikan(-mu) kuat setelah keadaan lemah" },
-        { "words": [12, 18], "id": "Lalu, Dia menjadikan(-mu) lemah (kembali) setelah keadaan kuat dan beruban" },
+        { "words": [12, 15], "id": "Lalu, Dia menjadikan(-mu) setelah" },
+        { "words": [16, 18], "id": "keadaan kuat lemah (kembali) dan beruban" },
         { "words": [19, 21], "id": "Dia menciptakan apa yang Dia kehendaki" },
         { "words": [22, 23], "id": "Dia Maha Mengetahui" },
         { "words": [24, 24], "id": "Maha Kuasa" }
