@@ -54,7 +54,7 @@ const PAGE_JUMP = 20;
  * pages would hold 14 or 16. In each case the last ayahs run onto the top of
  * the next page (e.g. 80:41-42 is line 1 of page 586, drawn with even-page
  * margins).
- * Juz 15-29 (surahs 17-77, pages 282-581) need no override: with the
+ * Surahs 8-77 (pages 177-581) need no override: with the
  * list's spans every page already holds 15 lines.
  */
 const PAGE_SPAN_OVERRIDES: Record<number, [number, number]> = {
@@ -319,14 +319,25 @@ function parsePlate(svgs: string[], surah: number, pageCount: number) {
   const pages = Array.from({ length: pageTotal }, (_, p) => {
     const idx = glyphs.flatMap((_, i) => (pageIdx[i] === p ? [i] : []));
     const lines = lineOf[idx[idx.length - 1]] + 1;
-    // Sanity: every glyph's vertical centre sits near its line's median.
+    // Sanity: every glyph's vertical centre sits near its line's median, or
+    // at least inside the ink of the line's other glyphs. A word with no
+    // ascender and a mark below has its centre low (14:25 حِينٍۭ, page 259,
+    // 12 units under the median while sitting on the baseline); a glyph from
+    // a neighbouring line falls outside its line's ink.
     for (let l = 0; l < lines; l++) {
       const own = idx.filter((i) => lineOf[i] === l);
       const ys = own.map((i) => (glyphs[i].y0 + glyphs[i].y1) / 2).sort((a, b) => a - b);
       const median = ys[Math.floor(ys.length / 2)];
-      for (const i of own)
-        if (Math.abs((glyphs[i].y0 + glyphs[i].y1) / 2 - median) > 12)
-          throw new Error(`${glyphs[i].key}: off its detected line ${l + 1}; line detection failed`);
+      for (const i of own) {
+        const mid = (glyphs[i].y0 + glyphs[i].y1) / 2;
+        if (Math.abs(mid - median) <= 12) continue;
+        const others = own.filter((j) => j !== i);
+        const inside =
+          others.length > 0 &&
+          mid > Math.min(...others.map((j) => glyphs[j].y0)) &&
+          mid < Math.max(...others.map((j) => glyphs[j].y1));
+        if (!inside) throw new Error(`${glyphs[i].key}: off its detected line ${l + 1}; line detection failed`);
+      }
     }
     // Line centres from the ayah-end ornaments (same glyph, same height on every line).
     const centres: (number | null)[] = Array.from({ length: lines }, () => null);
