@@ -88,12 +88,14 @@ Madinah mushaf prints it, with an Indonesian translation under each
 
 - The source is Terjemahan Al-Qur'an Kemenag RI 2019, adapted to phrases.
   Use `"source": "kemenag-2019-adapted"`.
-- The full sentences for surahs 51–114 come from the `quran-pack` npm package
+- The full sentences for surahs 41–114 come from the `quran-pack` npm package
   (text scraped from quran.kemenag.go.id, 2019 edition), with its footnote
   markers ("761)") removed and runs of whitespace collapsed. Scraping typos
-  (missing spaces) are fixed: 52:16, 53:54, 56:38, 56:45, 56:47 and 58:3
-  (e.g. "wajibmemerdekakan" → "wajib memerdekakan"), and the stray leading
-  "." of 55:18 is dropped. It matches the reviewed Al-Fātiḥah word for word.
+  (missing spaces) are fixed: 46:1, 46:10, 50:19, 52:16, 53:54, 56:38, 56:45,
+  56:47 and 58:3 (e.g. "wajibmemerdekakan" → "wajib memerdekakan"); the
+  truncated "wakyang" of 46:3 is "waktu yang"; the stray leading "." of 47:31
+  and 55:18 and the stray "[" of 48:20 are dropped. It matches the reviewed
+  Al-Fātiḥah word for word.
   Do not write Kemenag wording from memory: take it from a source.
 - A phrase is a meaningful unit, not a word-by-word gloss. Each divine name
   can be its own phrase (e.g. ٱلرَّحْمَٰنِ → "Yang Maha Pengasih").
