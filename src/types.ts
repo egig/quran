@@ -49,7 +49,11 @@ export interface GlyphPath {
 export interface Glyph {
   /** Mushaf page number. */
   page: number;
-  /** 1-based printed line within this surah's part of that page. */
+  /**
+   * 1-based printed line within this surah's part of that page. 0 on a page
+   * whose artwork is broken upstream (`MushafPageInfo.broken`); such a glyph
+   * has no paths and is not drawn.
+   */
   line: number;
   x0: number;
   x1: number;
@@ -78,7 +82,7 @@ export interface Phrase {
 }
 
 export interface AyahData {
-  version: 4;
+  version: 5;
   key: string;
   surah: number;
   ayah: number;
@@ -97,10 +101,15 @@ export interface AyahData {
 export interface MushafPageInfo {
   /** Mushaf page number. */
   page: number;
-  /** Number of printed lines of this surah on the page. */
+  /** Number of printed lines of this surah on the page (0 when broken). */
   lines: number;
   /** First and last ayah with artwork on this page. */
   ayahs: [number, number];
+  /**
+   * Set when png.quran.ws draws this page broken: its glyphs have no paths,
+   * and the page shows a notice instead of its lines.
+   */
+  broken?: true;
 }
 
 export interface MushafLayout {
@@ -120,7 +129,7 @@ export interface MushafLayout {
 }
 
 export interface SurahIndex {
-  version: 4;
+  version: 5;
   surah: number;
   name: { ar: string; latin: string };
   /** Ayah numbers that have generated data. */
