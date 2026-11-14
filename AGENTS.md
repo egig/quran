@@ -68,17 +68,28 @@ Madinah mushaf prints it, with an Indonesian translation under each
   bertanya"), keep one string: the translation sits under the first part and
   a muted "…" under each continuation. The build checks the part count.
 - No bracket or underline under the Arabic.
-- The surah header is plain text (Arabic name plus Latin name). The API has
-  no artwork for the decorative header.
+- The surah header is the surah's name as printed in the header's cartouche,
+  drawn from the artwork in `currentColor`, centred, at the same scale as the
+  text, with a thin rule on each side (no band, no cartouche). It also
+  separates one surah from the next on a page. png.quran.ws has no artwork
+  for it, so `scripts/surah-headers.ts` takes it from the vector edition
+  (same mirror and pinning as `VECTOR_PAGES`, one SHA-256 per page in
+  `HEADER_PAGES`): the printed band (the "Ornament" path one line wide) only
+  locates the name; the name is the text pieces inside it, without the
+  cartouche outline and duplicates (pages 50 and 77 draw the name twice),
+  cropped to its own ink. The build fails when a page prints a different
+  number of headers than surahs start there. Pages 1 and 2 frame the surah
+  with a full-page ornament instead, so Al-Fātiḥah and Al-Baqarah keep a
+  plain-text header (Arabic name plus Latin name).
 - The reading view is one mushaf page: `/{page}` (1–604). It shows every
   surah printed on that page, in order, each starting with its header where
   it starts on the page. There is no per-surah or single-ayah view. A page is
   shown only when every surah on it is built. Like a printed page, each page
   has its own header (its surah names, and the juz of its first ayah) and
-  footer (a thin rule and its page number), in the space the fixed bars
+  footer (its page number in Arabic-Indic digits, ٥٠, with no rule), in the space the fixed bars
   cover, so hiding the bars leaves no empty space.
 - The reading view has a fixed header (back to "Daftar isi", the surah
-  names, the "Draf" badge, the theme button) and a fixed footer (links to
+  names, the "Draf" badge, the ⋮ menu) and a fixed footer (links to
   the neighbouring built pages, next page on the left as in the mushaf, and
   the page number). A tap on the page shows or hides both. Swiping turns
   the page (`src/components/usePager.ts`): the neighbouring pages are drawn
@@ -226,8 +237,12 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - Vite + React + TypeScript. The data script is TypeScript, run directly by
   Node 24 (`node scripts/build-data.ts`). Imports use `.ts` extensions.
 - Fonts: Plus Jakarta Sans, self-hosted via `@fontsource` (OFL).
+- The ⋮ menu (top right, `src/components/Menu.tsx`) holds the switches:
+  "Mode gelap" everywhere, and "Terjemahan" in the reading view. With
+  translations off, the translation rows and the "Draf" badge are not
+  rendered; the choice is stored in `localStorage` (`translation`).
 - Light and dark themes follow `prefers-color-scheme` until the reader uses
-  the theme button (top right). The choice is stored in `localStorage`
+  the "Mode gelap" switch. The choice is stored in `localStorage`
   (`theme`) and set as `data-theme` on `<html>` before first paint. Colours
   are CSS tokens on `:root`.
 - UI text is in Indonesian.

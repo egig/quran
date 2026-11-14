@@ -37,7 +37,7 @@ const MIRROR = "https://raw.githubusercontent.com/MushafAlMadinahVector/MushafAl
 const TEXT = "Quran Text";
 const NUMBERS = "Aya No.";
 
-type Box = [number, number, number, number];
+export type Box = [number, number, number, number];
 interface Piece {
   /** One closed subpath, in png.quran.ws printed-page coordinates. */
   d: string;
@@ -47,7 +47,8 @@ interface Piece {
   bb: Box;
 }
 
-async function vectorFile(page: number, cacheDir: string): Promise<Uint8Array> {
+/** The Illustrator file of mushaf `page`, from the cache or the pinned mirror, checked against `sha256`. */
+export async function vectorFile(page: number, sha256: string, cacheDir: string): Promise<Uint8Array> {
   const file = join(cacheDir, `kfgqpc_hafs1441_${page}.ai`);
   const name = `${String(page).padStart(3, "0")}___Hafs39__DM.ai`;
   let buf: Buffer;
@@ -58,7 +59,7 @@ async function vectorFile(page: number, cacheDir: string): Promise<Uint8Array> {
     buf = Buffer.from(await res.arrayBuffer());
   }
   const sha = createHash("sha256").update(buf).digest("hex");
-  if (sha !== VECTOR_PAGES[page]) throw new Error(`${name}: SHA-256 ${sha}, expected ${VECTOR_PAGES[page]}`);
+  if (sha !== sha256) throw new Error(`${name}: SHA-256 ${sha}, expected ${sha256}`);
   if (!existsSync(file)) {
     await mkdir(cacheDir, { recursive: true });
     await writeFile(file, buf);
@@ -66,15 +67,18 @@ async function vectorFile(page: number, cacheDir: string): Promise<Uint8Array> {
   return new Uint8Array(buf);
 }
 
-type Matrix = [number, number, number, number, number, number];
+export type Matrix = [number, number, number, number, number, number];
 const mul = (a: Matrix, b: Matrix): Matrix => [
   a[0] * b[0] + a[2] * b[1], a[1] * b[0] + a[3] * b[1],
   a[0] * b[2] + a[2] * b[3], a[1] * b[2] + a[3] * b[3],
   a[0] * b[4] + a[2] * b[5] + a[4], a[1] * b[4] + a[3] * b[5] + a[5],
 ];
 
-/** Filled pieces of the text and number layers, placed with png.quran.ws's page matrix. */
-async function pieces(data: Uint8Array, pageMatrix: Matrix): Promise<Piece[]> {
+/**
+ * Every filled piece (closed subpath) of the file, with its layer and fill
+ * rule, placed with `pageMatrix` (PDF coordinates to png.quran.ws's).
+ */
+export async function filledPieces(data: Uint8Array, pageMatrix: Matrix): Promise<(Piece & { rule: "evenodd" | "nonzero" })[]> {
   const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
   const OPS = pdfjs.OPS;
   const doc = await pdfjs.getDocument({ data, verbosity: 0 }).promise;
@@ -86,7 +90,7 @@ async function pieces(data: Uint8Array, pageMatrix: Matrix): Promise<Piece[]> {
   let ctm: Matrix = [1, 0, 0, 1, 0, 0];
   const saved: Matrix[] = [];
   const layers: (string | null)[] = [];
-  const out: Piece[] = [];
+  const out: (Piece & { rule: "evenodd" | "nonzero" })[] = [];
   let pathNo = 0;
   const f = (n: number) => n.toFixed(3);
   for (let i = 0; i < ops.fnArray.length; i++) {
@@ -103,15 +107,15 @@ async function pieces(data: Uint8Array, pageMatrix: Matrix): Promise<Piece[]> {
     else if (fn === OPS.endMarkedContent) layers.pop();
     else if (fn === OPS.constructPath) {
       const layer = layers.filter(Boolean).at(-1) ?? "";
-      if ((layer !== TEXT && layer !== NUMBERS) || (args[0] !== OPS.fill && args[0] !== OPS.eoFill)) continue;
-      if (args[0] !== OPS.eoFill) throw new Error(`vector page: non-even-odd fill in layer ${layer}`);
+      if (args[0] !== OPS.fill && args[0] !== OPS.eoFill) continue;
+      const rule = args[0] === OPS.eoFill ? "evenodd" : "nonzero";
       const m = mul(pageMatrix, ctm);
       const pt = (x: number, y: number) => `${f(m[0] * x + m[2] * y + m[4])} ${f(m[1] * x + m[3] * y + m[5])}`;
       const path = pathNo++;
       const data = args[1][0] as Float32Array;
       let d = "";
       const flush = () => {
-        if (d) out.push({ d, path, layer, bb: svgPathBbox(d) as Box });
+        if (d) out.push({ d, path, layer, rule, bb: svgPathBbox(d) as Box });
         d = "";
       };
       for (let j = 0; j < data.length; ) {
@@ -125,6 +129,14 @@ async function pieces(data: Uint8Array, pageMatrix: Matrix): Promise<Piece[]> {
       flush();
     }
   }
+  return out;
+}
+
+/** Filled pieces of the text and number layers, placed with png.quran.ws's page matrix. */
+async function pieces(data: Uint8Array, pageMatrix: Matrix): Promise<Piece[]> {
+  const out = (await filledPieces(data, pageMatrix)).filter((p) => p.layer === TEXT || p.layer === NUMBERS);
+  const bad = out.find((p) => p.rule !== "evenodd");
+  if (bad) throw new Error(`vector page: non-even-odd fill in layer ${bad.layer}`);
   return out;
 }
 
@@ -176,7 +188,7 @@ export async function vectorArtwork(
   cacheDir: string,
   log: (msg: string) => void,
 ): Promise<Map<string, VectorArtwork>> {
-  return artworkFromFile(await vectorFile(page, cacheDir), page, glyphs, pageMatrix, log);
+  return artworkFromFile(await vectorFile(page, VECTOR_PAGES[page], cacheDir), page, glyphs, pageMatrix, log);
 }
 
 /** As vectorArtwork, from the Illustrator file's bytes (no pinning or hash check). */

@@ -104,8 +104,15 @@ a {
   stroke-linejoin: round;
 }
 
-.theme-toggle {
+/* ---------- Menu (⋮) ---------- */
+
+.menu {
+  position: relative;
   margin-left: auto;
+  flex: none;
+}
+
+.menu-button {
   display: grid;
   place-items: center;
   width: 40px;
@@ -118,24 +125,88 @@ a {
   cursor: pointer;
 }
 
-.theme-toggle:hover {
+.menu-button:hover,
+.menu-button[aria-expanded="true"] {
   color: var(--ink);
   background: var(--line);
 }
 
-.theme-toggle:focus-visible {
+.menu-button:focus-visible,
+.menu-item:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
-.theme-toggle svg {
+.menu-button svg {
   width: 20px;
   height: 20px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  fill: currentColor;
+}
+
+.menu-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 20;
+  min-width: 200px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.14);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: var(--line);
+}
+
+/* On/off switch drawn after the label. */
+.switch {
+  position: relative;
+  flex: none;
+  width: 32px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--faint);
+  transition: background 150ms ease;
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg);
+  transition: transform 150ms ease;
+}
+
+.menu-item[aria-checked="true"] .switch {
+  background: var(--accent);
+}
+
+.menu-item[aria-checked="true"] .switch::after {
+  transform: translateX(14px);
 }
 
 .status {
@@ -308,13 +379,35 @@ a {
   font-weight: 600;
 }
 
+/* The surah's printed name, from the mushaf's artwork, between two thin rules. */
+.surah-banner {
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.surah-banner svg {
+  display: block;
+  flex: none;
+  max-width: none;
+  height: auto;
+  color: var(--ink);
+}
+
+.banner-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--muted);
+  opacity: 0.5;
+}
+
 /* Keep a surah reached by #s{n} clear of the fixed header. */
 .surah-section {
   scroll-margin-top: calc(var(--bar-h) + env(safe-area-inset-top, 0px) + 8px);
 }
 
 .surah-section + .surah-section .surah-title {
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 /*
@@ -374,22 +467,13 @@ a {
   color: var(--faint);
 }
 
-/* Printed page number closing each page. */
+/* Printed page number closing each page, in Arabic-Indic digits as in the mushaf. */
 .page-no {
-  display: flex;
-  align-items: center;
-  gap: 12px;
   margin: 20px 0 28px;
-  font-size: 0.75rem;
+  font-family: "Geeza Pro", "Noto Naskh Arabic", serif;
+  font-size: 0.95rem;
   color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-
-.page-no::before,
-.page-no::after {
-  content: "";
-  flex: 1;
-  border-top: 1px solid var(--line);
+  text-align: center;
 }
 
 .sr-only {
@@ -521,9 +605,8 @@ a {
   flex: none;
 }
 
-.bar-top .theme-toggle {
+.bar-top .menu {
   margin-left: 0;
-  flex: none;
 }
 
 .bar-title {

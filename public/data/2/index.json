@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 6,
   "surah": 2,
   "name": {
     "ar": "البقرة",
@@ -697,6 +697,7 @@
           "rule": "evenodd"
         }
       ]
-    }
+    },
+    "header": null
   }
 }

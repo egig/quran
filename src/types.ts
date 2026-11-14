@@ -117,10 +117,23 @@ export interface MushafLayout {
   pages: MushafPageInfo[];
   /** The basmalah line that opens the surah, if printed separately. */
   basmalah: Glyph | null;
+  /** The printed surah header; null on pages 1 and 2, which frame the surah instead. */
+  header: SurahHeader | null;
+}
+
+/**
+ * The surah's name as printed in its header, from the mushaf's artwork, in
+ * artwork units and cropped to its ink. x is centred on 0 and y starts at 0,
+ * so it is drawn with viewBox `${-width / 2} 0 ${width} ${height}`.
+ */
+export interface SurahHeader {
+  width: number;
+  height: number;
+  name: GlyphPath[];
 }
 
 export interface SurahIndex {
-  version: 4;
+  version: 6;
   surah: number;
   name: { ar: string; latin: string };
   /** Ayah numbers that have generated data. */

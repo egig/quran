@@ -19,6 +19,7 @@ import { DOMParser, type Element } from "@xmldom/xmldom";
 import svgpath from "svgpath";
 import { svgPathBbox } from "svg-path-bbox";
 import { VECTOR_PAGES, vectorArtwork } from "./vector-pages.ts";
+import { surahHeaders } from "./surah-headers.ts";
 import type {
   AyahData,
   AyahSource,
@@ -30,6 +31,7 @@ import type {
   Phrase,
   RootIndex,
   SurahListEntry,
+  SurahHeader,
   SurahIndex,
   SurahSource,
   Word,
@@ -176,6 +178,22 @@ async function writeRootIndex() {
     juz: juzList(entries.map((e) => e.entry), entries.map((e) => e.index)),
   };
   await writeFile(join(OUT_DIR, "index.json"), JSON.stringify(root));
+}
+
+/**
+ * The surah's printed header, from the vector edition of the page it starts
+ * on. A page can start several surahs; their headers are printed in order,
+ * top to bottom. Pages 1 and 2 have none (see surah-headers.ts).
+ */
+async function surahHeader(surah: number, firstPage: number): Promise<SurahHeader | null> {
+  if (firstPage <= 2) return null;
+  const startingHere = (await allSurahs())
+    .filter((s) => (PAGE_SPAN_OVERRIDES[s.number] ?? s.pages)[0] === firstPage)
+    .map((s) => s.number);
+  const headers = await surahHeaders(firstPage, CACHE_DIR);
+  if (headers.length !== startingHere.length)
+    throw new Error(`${surah}: page ${firstPage} prints ${headers.length} surah headers, ${startingHere.length} surahs start there`);
+  return headers[startingHere.indexOf(surah)];
 }
 
 async function surahMeta(surah: number): Promise<SurahMeta> {
@@ -579,9 +597,10 @@ async function buildSurah(file: string): Promise<void> {
     band: plate.band,
     pages: plate.pageLines.map((lines, i) => ({ page: firstPage + i, lines, ayahs: pageAyahs(firstPage + i) })),
     basmalah: basmalah ? toGlyph(basmalah) : null,
+    header: await surahHeader(src.surah, firstPage),
   };
   const index: SurahIndex = {
-    version: 4,
+    version: 6,
     surah: src.surah,
     name: src.name,
     ayahs: Array.from({ length: meta.ayahs }, (_, i) => i + 1),

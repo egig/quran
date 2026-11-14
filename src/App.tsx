@@ -6,6 +6,7 @@ import type { PageSection } from "./data.ts";
 import { MushafPage } from "./components/MushafPage.tsx";
 import { SurahList } from "./components/SurahList.tsx";
 import { usePager } from "./components/usePager.ts";
+import { Menu, useTranslations } from "./components/Menu.tsx";
 
 export function App() {
   return (
@@ -18,7 +19,7 @@ export function App() {
           <div className="page">
             <nav className="topbar">
               <HomeLink />
-              <ThemeToggle />
+              <Menu />
             </nav>
             <p className="status">Halaman tidak ditemukan.</p>
           </div>
@@ -33,7 +34,7 @@ function Home() {
   return (
     <div className="page">
       <nav className="topbar">
-        <ThemeToggle />
+        <Menu />
       </nav>
       <SurahList />
       <footer className="credits">
@@ -83,6 +84,8 @@ function PageView() {
   const { hash } = useLocation();
   const pager = usePager({ page, next, prev });
   const [bars, setBars] = useState(true);
+  const translations = useTranslations();
+  const showTr = translations[0];
 
   useEffect(() => {
     if (sections.status === "ok" && hash) document.getElementById(hash.slice(1))?.scrollIntoView();
@@ -113,7 +116,7 @@ function PageView() {
   else if (!shown) body = <p className="status">Halaman {page} belum tersedia.</p>;
   else if (sections.status === "error") body = <p className="status">Gagal memuat: {sections.error}</p>;
   else if (sections.status === "loading") body = <p className="status">Memuat…</p>;
-  else body = <MushafPage page={page} sections={sections.data} />;
+  else body = <MushafPage page={page} sections={sections.data} translations={showTr} />;
 
   // Panels are keyed by page, so the neighbour that slides in stays mounted as the new page.
   const juzOf = (data: PageSection[]) => {
@@ -136,11 +139,11 @@ function PageView() {
         offset,
         ready: s.status === "ok",
         head: headOf(s),
-        content: s.status === "ok" ? <MushafPage page={n} sections={s.data} anchors={false} /> : <p className="status">Memuat…</p>,
+        content: s.status === "ok" ? <MushafPage page={n} sections={s.data} anchors={false} translations={showTr} /> : <p className="status">Memuat…</p>,
       });
   }
 
-  const draft = sections.status === "ok" && sections.data.some((s) => s.ayahs.some((a) => a.phrases.length && !a.reviewed));
+  const draft = showTr && sections.status === "ok" && sections.data.some((s) => s.ayahs.some((a) => a.phrases.length && !a.reviewed));
   const names = sections.status === "ok" ? sections.data.map((s) => s.surah.name.latin).join(" · ") : "";
   return (
     <div className="reader">
@@ -155,7 +158,7 @@ function PageView() {
               </span>
             )}
           </div>
-          <ThemeToggle />
+          <Menu translations={translations} />
         </div>
       </header>
       <div className="reader-track" ref={pager.ref} onClick={onTap} {...pager.touch}>
@@ -247,9 +250,8 @@ function Panel({
       {children}
       {n > 0 && (
         <footer className="page-foot">
-          <p className="page-no" lang="id">
-            <span className="sr-only">Halaman </span>
-            {n}
+          <p className="page-no" lang="ar" aria-label={`Halaman ${n}`}>
+            {arabicDigits(n)}
           </p>
         </footer>
       )}
@@ -257,61 +259,5 @@ function Panel({
   );
 }
 
-type Theme = "light" | "dark";
-
-const systemTheme = (): Theme => (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-
-/**
- * Light/dark switch. Follows the system until the reader picks one; the
- * choice is remembered in this browser and stamped as data-theme on <html>
- * (index.html applies it before first paint).
- */
-function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    const stamped = document.documentElement.dataset.theme;
-    return stamped === "light" || stamped === "dark" ? stamped : systemTheme();
-  });
-
-  useEffect(() => {
-    // Track the system setting while the reader has not chosen.
-    const mq = matchMedia("(prefers-color-scheme: dark)");
-    const onChange = () => {
-      if (!document.documentElement.dataset.theme) setTheme(systemTheme());
-    };
-    mq.addEventListener("change", onChange);
-    return () => mq.removeEventListener("change", onChange);
-  }, []);
-
-  const toggle = () => {
-    const next: Theme = theme === "dark" ? "light" : "dark";
-    setTheme(next);
-    document.documentElement.dataset.theme = next;
-    try {
-      localStorage.setItem("theme", next);
-    } catch {
-      /* storage unavailable: keep for this visit only */
-    }
-  };
-
-  const dark = theme === "dark";
-  return (
-    <button
-      type="button"
-      className="theme-toggle"
-      onClick={toggle}
-      aria-label={dark ? "Ganti ke mode terang" : "Ganti ke mode gelap"}
-      title={dark ? "Mode terang" : "Mode gelap"}
-    >
-      {dark ? (
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="12" cy="12" r="4.5" />
-          <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" />
-        </svg>
-      ) : (
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" />
-        </svg>
-      )}
-    </button>
-  );
-}
+/** A number in Arabic-Indic digits, as the mushaf prints its page numbers. */
+const arabicDigits = (n: number) => String(n).replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[Number(d)]);

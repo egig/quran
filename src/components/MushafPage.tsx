@@ -66,11 +66,14 @@ export function MushafPage({
   page,
   sections,
   anchors = true,
+  translations = true,
 }: {
   page: number;
   sections: PageSection[];
   /** Give each surah its #s{n} id. Off for neighbouring pages drawn beside the current one. */
   anchors?: boolean;
+  /** Show the translation row under each printed line. */
+  translations?: boolean;
 }) {
   const scale = markWidth(page, sections) / REF_MARK;
   // Ink of the page, in the shared frame. A regular page uses each surah's
@@ -99,7 +102,7 @@ export function MushafPage({
       alive = false;
       ro.disconnect();
     };
-  }, [page, sections]);
+  }, [page, sections, translations]);
 
   return (
     <div className="mushaf-page" lang="ar" ref={ref}>
@@ -109,16 +112,37 @@ export function MushafPage({
         const starts = layout.pages[0].page === page;
         return (
           <section key={surah.surah} className="surah-section" id={anchors ? `s${surah.surah}` : undefined}>
-            {starts && (
-              <h2 className="surah-title">
-                <span className="surah-ar" lang="ar">
-                  {surah.name.ar}
-                </span>
-                <span className="surah-latin" lang="id">
-                  {surah.surah}. {surah.name.latin}
-                </span>
-              </h2>
-            )}
+            {starts &&
+              (layout.header ? (
+                // The surah's printed name, from the mushaf's artwork, between two thin rules.
+                // It also marks where the previous surah ends.
+                <h2 className="surah-title surah-banner">
+                  <span className="banner-rule" aria-hidden="true" />
+                  <svg
+                    viewBox={`${-layout.header.width / 2} 0 ${layout.header.width} ${layout.header.height}`}
+                    style={{ width: pct(layout.header.width) }}
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    {layout.header.name.map((p, i) => (
+                      <path key={i} d={p.d} fillRule={p.rule} />
+                    ))}
+                  </svg>
+                  <span className="banner-rule" aria-hidden="true" />
+                  <span className="sr-only" lang="id">
+                    {surah.surah}. {surah.name.latin}
+                  </span>
+                </h2>
+              ) : (
+                <h2 className="surah-title">
+                  <span className="surah-ar" lang="ar">
+                    {surah.name.ar}
+                  </span>
+                  <span className="surah-latin" lang="id">
+                    {surah.surah}. {surah.name.latin}
+                  </span>
+                </h2>
+              ))}
             {linesOf(page, ayahs, layout.basmalah?.page === page ? layout.basmalah : null).map((line) => {
               let edge = width; // left edge of the previous segment; RTL starts at the right
               // Neighbouring phrases split the space between them at the midpoint:
@@ -141,22 +165,24 @@ export function MushafPage({
                       ))}
                     </g>
                   </svg>
-                  <div className="mtr" dir="rtl">
-                    {segments.map((s) => {
-                      const style = { width: pct(s.x1 - s.x0), marginRight: pct(edge - s.x1) };
-                      const slot = { "data-l": s.x0 / width, "data-w": (s.x1 - s.x0) / width };
-                      edge = s.x0;
-                      return s.text === null ? (
-                        <span key={s.x1} className="seg cont" style={style} {...slot} aria-hidden="true">
-                          …
-                        </span>
-                      ) : (
-                        <span key={s.x1} className="seg" style={style} {...slot} lang={LANG} dir="ltr">
-                          <span>{wholeWords(s.text)}</span>
-                        </span>
-                      );
-                    })}
-                  </div>
+                  {translations && (
+                    <div className="mtr" dir="rtl">
+                      {segments.map((s) => {
+                        const style = { width: pct(s.x1 - s.x0), marginRight: pct(edge - s.x1) };
+                        const slot = { "data-l": s.x0 / width, "data-w": (s.x1 - s.x0) / width };
+                        edge = s.x0;
+                        return s.text === null ? (
+                          <span key={s.x1} className="seg cont" style={style} {...slot} aria-hidden="true">
+                            …
+                          </span>
+                        ) : (
+                          <span key={s.x1} className="seg" style={style} {...slot} lang={LANG} dir="ltr">
+                            <span>{wholeWords(s.text)}</span>
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
               );
             })}

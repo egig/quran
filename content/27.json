@@ -873,7 +873,8 @@
     "81": {
       "phrases": [
         { "words": [1, 6], "id": "Engkau bukanlah pemberi petunjuk bagi orang-orang yang buta (mata hatinya) dari kesesatannya" },
-        { "words": [7, 12], "id": "Engkau tidak dapat menjadikan (seorang pun) mendengar, kecuali orang yang beriman pada ayat-ayat Kami" },
+        { "words": [7, 7], "id": "Tidak dapat" },
+        { "words": [8, 12], "id": "Engkau menjadikan (seorang pun) mendengar, kecuali orang yang beriman pada ayat-ayat Kami" },
         { "words": [13, 14], "id": "dan mereka berserah diri" }
       ],
       "full": { "id": "Engkau bukanlah pemberi petunjuk bagi orang-orang yang buta (mata hatinya) dari kesesatannya. Engkau tidak dapat menjadikan (seorang pun) mendengar, kecuali orang yang beriman pada ayat-ayat Kami dan mereka berserah diri." },

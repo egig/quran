@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 6,
   "surah": 1,
   "name": {
     "ar": "الفاتحة",
@@ -31,6 +31,7 @@
         ]
       }
     ],
-    "basmalah": null
+    "basmalah": null,
+    "header": null
   }
 }
