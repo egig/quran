@@ -32,7 +32,12 @@ Madinah mushaf prints it, with an Indonesian translation under each
   screens. Every page shows the Arabic at one size: it is drawn in a frame one
   full printed line wide (`FRAME_WIDTH`), centred on its ink. The API draws
   some pages at another scale (page 1 at 0.68×), so the frame is scaled by
-  that page's ayah-end ornament width, the same glyph on every page. On large screens a full line is at most
+  that page's ayah-end ornament width, the same glyph on every page. Such a
+  page is centred on its own ink, not on its surah's (page 2 is drawn
+  smaller than the rest of Al-Baqarah). Every printed line is drawn in one
+  fixed band (`BAND`, -29 to 25 units around its centre, scaled the same
+  way), which covers the ink of all 604 pages, so line spacing does not
+  depend on the surah. On large screens a full line is at most
   `--mushaf-max` (560px) wide, which caps the Arabic size.
 - The ayah-end ornament (with its number) stays inline, as printed.
 - Each line is one SVG. Under it sits one row of translations. Each

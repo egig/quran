@@ -24,13 +24,20 @@ function wholeWords(text: string) {
 /**
  * Width of a full printed line, in artwork units of a regular page (pages
  * 602–604 measure 325–327.5), and the width of the ayah-end ornament on such
- * a page. The API draws some pages at another scale (page 1: ornament 12.48
- * instead of 18.31 units), so each page's frame is FRAME_WIDTH scaled by its
- * own ornament width. Every page then shows the Arabic at the same size,
- * centred on its ink. The pixel cap is the container's max-width.
+ * a page. The API draws pages 1–2 at another scale (ornament 12.48 instead of
+ * 18.31 units), so each page's frame is scaled by its own ornament width.
+ * Every page then shows the Arabic at the same size. The pixel cap is the
+ * container's max-width.
  */
 const FRAME_WIDTH = 328;
 const REF_MARK = 18.31;
+/**
+ * Vertical extent of every printed line around its centre, in the same
+ * units, on every page. It covers the ink of every built page (measured over
+ * all 604 pages: highest ink -28.0, lowest 24.7), so line spacing is the same
+ * on every page instead of following each surah's own ink.
+ */
+const BAND = { top: -29, bottom: 25 };
 
 interface Segment {
   x0: number;
@@ -65,13 +72,15 @@ export function MushafPage({
   /** Give each surah its #s{n} id. Off for neighbouring pages drawn beside the current one. */
   anchors?: boolean;
 }) {
-  const layouts = sections.map((s) => s.surah.layout);
-  const inkLeft = Math.min(...layouts.map((l) => l.left));
-  const inkRight = Math.max(...layouts.map((l) => l.left + l.width));
-  const width = Math.max((FRAME_WIDTH * markWidth(page, sections)) / REF_MARK, inkRight - inkLeft);
+  const scale = markWidth(page, sections) / REF_MARK;
+  // Ink of the page, in the shared frame. A regular page uses each surah's
+  // ink, the same on all its pages. A page drawn at another scale (pages 1–2)
+  // uses its own ink: the surah's ink comes from its regular pages.
+  const [inkLeft, inkRight] = Math.abs(scale - 1) < 0.01 ? surahInk(sections) : pageInk(page, sections);
+  const width = Math.max(FRAME_WIDTH * scale, inkRight - inkLeft);
   const left = (inkLeft + inkRight - width) / 2;
-  const top = Math.min(...layouts.map((l) => l.band.top));
-  const bottom = Math.max(...layouts.map((l) => l.band.bottom));
+  const top = BAND.top * scale;
+  const bottom = BAND.bottom * scale;
   const pct = (v: number) => `${(v / width) * 100}%`;
 
   // Translations that do not fit their slot get room from their neighbours
@@ -161,6 +170,29 @@ export function MushafPage({
       })}
     </div>
   );
+}
+
+/** Left and right edge of the surahs' ink over all their pages. */
+function surahInk(sections: PageSection[]): [number, number] {
+  const layouts = sections.map((s) => s.surah.layout);
+  return [Math.min(...layouts.map((l) => l.left)), Math.max(...layouts.map((l) => l.left + l.width))];
+}
+
+/** Left and right edge of the ink printed on `page`. */
+function pageInk(page: number, sections: PageSection[]): [number, number] {
+  let x0 = Infinity;
+  let x1 = -Infinity;
+  for (const { surah, ayahs } of sections) {
+    const { left, basmalah } = surah.layout;
+    const glyphs = ayahs.flatMap((a) => [...a.words, a.mark]);
+    if (basmalah) glyphs.push(basmalah);
+    for (const g of glyphs) {
+      if (g.page !== page) continue;
+      x0 = Math.min(x0, left + g.x0);
+      x1 = Math.max(x1, left + g.x1);
+    }
+  }
+  return x0 < x1 ? [x0, x1] : surahInk(sections);
 }
 
 /** Median ayah-end ornament width on `page` (or of any loaded ayah, if none ends there). */
