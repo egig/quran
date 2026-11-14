@@ -9,6 +9,9 @@
   /* px per artwork unit; a 1-line ayah band is ~25 units tall. */
   --u: clamp(1.7px, 1.25px + 0.35vw, 2.8px);
   --sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  /* Height of the reader's fixed header and footer, without safe-area insets. */
+  --bar-h: 52px;
+  --bar-bg: rgb(247 243 234 / 0.9);
 
   color-scheme: light;
 }
@@ -21,6 +24,7 @@
     --faint: #5c5448;
     --line: #2c2820;
     --accent: #d2b072;
+    --bar-bg: rgb(21 19 15 / 0.9);
     color-scheme: dark;
   }
 }
@@ -32,6 +36,7 @@
   --faint: #5c5448;
   --line: #2c2820;
   --accent: #d2b072;
+  --bar-bg: rgb(21 19 15 / 0.9);
   color-scheme: dark;
 }
 
@@ -293,12 +298,6 @@ a {
   padding: 2px 8px;
 }
 
-.page-tools {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
 /* Surah title where a surah starts on the page (the printed header has no artwork). */
 .surah-title {
   margin: 0 0 14px;
@@ -309,28 +308,13 @@ a {
   font-weight: 600;
 }
 
+/* Keep a surah reached by #s{n} clear of the fixed header. */
+.surah-section {
+  scroll-margin-top: calc(var(--bar-h) + env(safe-area-inset-top, 0px) + 8px);
+}
+
 .surah-section + .surah-section .surah-title {
   margin-top: 32px;
-}
-
-.page-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  max-width: var(--mushaf-max);
-  margin: 0 auto;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.page-nav a {
-  color: var(--muted);
-  text-decoration: none;
-  padding: 8px 4px;
-}
-
-.page-nav a:hover {
-  color: var(--ink);
 }
 
 /*
@@ -423,4 +407,163 @@ a {
   line-height: 1.6;
   color: var(--muted);
   text-align: center;
+}
+
+/* ---------- Reader: fixed header and footer, swipeable page ---------- */
+
+/* The reader fills the screen; each page scrolls on its own, so the
+ * neighbouring pages beside it always show from their top. */
+.reader {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* The strip of pages: current at 0, next one screen to the left, previous to the right. */
+.reader-track {
+  position: absolute;
+  inset: 0;
+  /* Vertical scroll and pinch-zoom stay with the browser; horizontal drags turn the page. */
+  touch-action: pan-y pinch-zoom;
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.reader-page {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: calc(var(--bar-h) + env(safe-area-inset-top, 0px) + 16px) 16px
+    calc(var(--bar-h) + env(safe-area-inset-bottom, 0px) + 16px);
+  background: var(--bg);
+}
+
+.bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: var(--bar-bg);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition:
+    transform 200ms ease,
+    visibility 200ms;
+}
+
+.bar-top {
+  top: 0;
+  padding-top: env(safe-area-inset-top, 0px);
+  border-bottom: 1px solid var(--line);
+}
+
+.bar-bottom {
+  bottom: 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  border-top: 1px solid var(--line);
+}
+
+.bar-top[data-hidden] {
+  transform: translateY(-100%);
+  visibility: hidden;
+}
+
+.bar-bottom[data-hidden] {
+  transform: translateY(100%);
+  visibility: hidden;
+}
+
+.bar-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 960px;
+  height: var(--bar-h);
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.bar-top .home-link {
+  margin-left: 0;
+  flex: none;
+}
+
+.bar-top .theme-toggle {
+  margin-left: 0;
+  flex: none;
+}
+
+.bar-title {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bar-names {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.bar-bottom .bar-inner {
+  justify-content: space-between;
+}
+
+.bar-page {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.turn {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-width: 72px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+a.turn:last-child,
+span.turn:last-child {
+  justify-content: flex-end;
+}
+
+a.turn:hover {
+  color: var(--ink);
+  background: var(--line);
+}
+
+.turn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.turn svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    transition: none;
+  }
 }

@@ -8,7 +8,7 @@
       ],
       "full": { "id": "Katakanlah (Nabi Muhammad), “Wahai orang-orang kafir," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "2": {
       "phrases": [
@@ -17,7 +17,7 @@
       ],
       "full": { "id": "aku tidak akan menyembah apa yang kamu sembah." },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "3": {
       "phrases": [
@@ -26,7 +26,7 @@
       ],
       "full": { "id": "Kamu juga bukan penyembah apa yang aku sembah." },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "4": {
       "phrases": [
@@ -35,7 +35,7 @@
       ],
       "full": { "id": "Aku juga tidak pernah menjadi penyembah apa yang kamu sembah." },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "5": {
       "phrases": [
@@ -44,7 +44,7 @@
       ],
       "full": { "id": "Kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah." },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "6": {
       "phrases": [
@@ -53,7 +53,7 @@
       ],
       "full": { "id": "Untukmu agamamu dan untukku agamaku.”" },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     }
   }
 }

@@ -20,7 +20,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
   restyled, recoloured per word, or partially drawn. Every word of an ayah is
   always shown. Ink colour is `currentColor`, so it follows the theme.
 - Always request a pinned renderer (`v=3`), so the output never changes.
-- Keep the attribution in the README and the page footer: KFGQPC Madani V4,
+- Keep the attribution in the README and the footer of `/`: KFGQPC Madani V4,
   png.quran.ws (CC BY 4.0), and the Kemenag RI 2019 translation.
 
 ## Layout (Madinah mushaf)
@@ -69,8 +69,17 @@ Madinah mushaf prints it, with an Indonesian translation under each
   surah printed on that page, in order, each starting with its header where
   it starts on the page. There is no per-surah or single-ayah view. A page is
   shown only when every surah on it is built. The page ends with a thin rule
-  and its printed page number, then links to the neighbouring built pages
-  (next page on the left, as in the mushaf). A phrase that crosses a page
+  and its printed page number.
+- The reading view has a fixed header (back to "Daftar isi", the surah
+  names, the "Draf" badge, the theme button) and a fixed footer (links to
+  the neighbouring built pages, next page on the left as in the mushaf, and
+  the page number). A tap on the page shows or hides both. Swiping turns
+  the page (`src/components/usePager.ts`): the neighbouring pages are drawn
+  beside the current one (next on the left), each scrolling on its own, so
+  the strip moves as one, continuous slide. Each page keeps its scroll
+  position for the visit, so turning back shows it where it was left. Drag right for the next page,
+  left for the previous; ArrowLeft/ArrowRight do the same. The attribution footer
+  is shown only on `/`. A phrase that crosses a page
   break shows "…" on the next page, like a line break.
 - Surahs on one page share one frame: each is moved by its `layout.left`
   offset, never scaled to fit.
@@ -86,8 +95,7 @@ Madinah mushaf prints it, with an Indonesian translation under each
   clickable. The Juz tab lists all 30 juz (first and last ayah, mushaf
   pages). A juz links to the page it starts on once every surah it touches
   is built; its pages come only from the artwork, so they show only when
-  the surahs at both ends are built. Mushaf pages have a "Daftar isi" link
-  back at the top left.
+  the surahs at both ends are built.
 - Juz boundaries are ayah numbers (`JUZ_STARTS` in the build script, from
   quran-meta 7.0.0 `HafsLists.JuzList`). Never take juz or page numbers
   from another mushaf's page table: the V4 artwork breaks some pages

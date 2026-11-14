@@ -9,7 +9,7 @@
       ],
       "full": { "id": "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang (menjaga) fajar (subuh)" },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "2": {
       "phrases": [
@@ -18,7 +18,7 @@
       ],
       "full": { "id": "dari kejahatan (makhluk yang) Dia ciptakan," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "3": {
       "phrases": [
@@ -28,7 +28,7 @@
       ],
       "full": { "id": "dari kejahatan malam apabila telah gelap gulita," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "4": {
       "phrases": [
@@ -38,7 +38,7 @@
       ],
       "full": { "id": "dari kejahatan perempuan-perempuan (penyihir) yang meniup pada buhul-buhul (talinya)," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "5": {
       "phrases": [
@@ -48,7 +48,7 @@
       ],
       "full": { "id": "dan dari kejahatan orang yang dengki apabila dia dengki.”" },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     }
   }
 }

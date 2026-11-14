@@ -55,7 +55,16 @@ interface Line {
  * page) shows its translation under its first part and "…" under the rest,
  * unless the content splits its translation per line (`parts`).
  */
-export function MushafPage({ page, sections }: { page: number; sections: PageSection[] }) {
+export function MushafPage({
+  page,
+  sections,
+  anchors = true,
+}: {
+  page: number;
+  sections: PageSection[];
+  /** Give each surah its #s{n} id. Off for neighbouring pages drawn beside the current one. */
+  anchors?: boolean;
+}) {
   const layouts = sections.map((s) => s.surah.layout);
   const inkLeft = Math.min(...layouts.map((l) => l.left));
   const inkRight = Math.max(...layouts.map((l) => l.left + l.width));
@@ -90,7 +99,7 @@ export function MushafPage({ page, sections }: { page: number; sections: PageSec
         const dx = layout.left - left;
         const starts = layout.pages[0].page === page;
         return (
-          <section key={surah.surah} className="surah-section" id={`s${surah.surah}`}>
+          <section key={surah.surah} className="surah-section" id={anchors ? `s${surah.surah}` : undefined}>
             {starts && (
               <h2 className="surah-title">
                 <span className="surah-ar" lang="ar">

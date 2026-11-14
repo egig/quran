@@ -9,7 +9,7 @@
       ],
       "full": { "id": "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan manusia," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "2": {
       "phrases": [
@@ -17,7 +17,7 @@
       ],
       "full": { "id": "raja manusia," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "3": {
       "phrases": [
@@ -25,7 +25,7 @@
       ],
       "full": { "id": "sembahan manusia" },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "4": {
       "phrases": [
@@ -34,7 +34,7 @@
       ],
       "full": { "id": "dari kejahatan (setan) pembisik yang bersembunyi" },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "5": {
       "phrases": [
@@ -43,7 +43,7 @@
       ],
       "full": { "id": "yang membisikkan (kejahatan) ke dalam dada manusia," },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     },
     "6": {
       "phrases": [
@@ -52,7 +52,7 @@
       ],
       "full": { "id": "dari (golongan) jin dan manusia.”" },
       "source": "kemenag-2019-adapted",
-      "reviewed": false
+      "reviewed": true
     }
   }
 }

@@ -1,29 +1,40 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import type { MouseEvent, ReactNode } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router";
 import { usePage, useRootIndex } from "./data.ts";
 import { MushafPage } from "./components/MushafPage.tsx";
 import { SurahList } from "./components/SurahList.tsx";
+import { usePager } from "./components/usePager.ts";
 
 export function App() {
-  const home = useLocation().pathname === "/";
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/:page" element={<PageView />} />
+      <Route
+        path="*"
+        element={
+          <div className="page">
+            <nav className="topbar">
+              <HomeLink />
+              <ThemeToggle />
+            </nav>
+            <p className="status">Halaman tidak ditemukan.</p>
+          </div>
+        }
+      />
+    </Routes>
+  );
+}
+
+/** Table of contents, with the attribution footer. */
+function Home() {
   return (
     <div className="page">
       <nav className="topbar">
-        {!home && (
-          <Link className="home-link" to="/">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M15 5l-7 7 7 7" />
-            </svg>
-            Daftar isi
-          </Link>
-        )}
         <ThemeToggle />
       </nav>
-      <Routes>
-        <Route path="/" element={<SurahList />} />
-        <Route path="/:page" element={<PageView />} />
-        <Route path="*" element={<p className="status">Halaman tidak ditemukan.</p>} />
-      </Routes>
+      <SurahList />
       <footer className="credits">
         Teks Al-Qur'an: Mushaf Madinah V4 (1441H), Kompleks Percetakan Al-Qur'an Raja Fahd. Gambar per kata dari{" "}
         <a href="https://png.quran.ws/about/">png.quran.ws</a> (CC BY 4.0). Terjemahan disadur dari Terjemahan
@@ -33,9 +44,25 @@ export function App() {
   );
 }
 
+function HomeLink() {
+  return (
+    <Link className="home-link" to="/">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7" />
+      </svg>
+      Daftar isi
+    </Link>
+  );
+}
+
 const PAGES = 604;
 
-/** One printed mushaf page, with every surah (or part of one) printed on it. */
+/**
+ * One printed mushaf page, with every surah (or part of one) printed on it.
+ * A fixed header (back to the contents, theme) and footer (page turning) sit
+ * over it; a tap on the page shows or hides them. The neighbouring pages lie
+ * beside it (next on the left), so a swipe drags the next page in with it.
+ */
 function PageView() {
   const page = Number(useParams().page);
   const valid = Number.isInteger(page) && page >= 1 && page <= PAGES;
@@ -47,41 +74,142 @@ function PageView() {
     return surahs.length > 0 && surahs.every((s) => s.available);
   };
   const shown = valid && ready(page);
+  const prev = valid && page > 1 && ready(page - 1) ? page - 1 : null;
+  const next = valid && page < PAGES && ready(page + 1) ? page + 1 : null;
   const sections = usePage(page, shown ? on(page).map((s) => s.surah) : null);
+  const nextSections = usePage(next ?? 0, next ? on(next).map((s) => s.surah) : null);
+  const prevSections = usePage(prev ?? 0, prev ? on(prev).map((s) => s.surah) : null);
   const { hash } = useLocation();
+  const pager = usePager({ page, next, prev });
+  const [bars, setBars] = useState(true);
 
   useEffect(() => {
     if (sections.status === "ok" && hash) document.getElementById(hash.slice(1))?.scrollIntoView();
-  }, [sections.status, hash]);
+  }, [sections.status, hash, page]);
 
-  if (!valid) return <p className="status">Halaman tidak valid.</p>;
-  if (root.status === "error") return <p className="status">Gagal memuat: {root.error}</p>;
-  if (root.status === "loading") return <p className="status">Memuat…</p>;
-  if (!shown) return <p className="status">Halaman {page} belum tersedia.</p>;
-  if (sections.status === "error") return <p className="status">Gagal memuat: {sections.error}</p>;
-  if (sections.status === "loading") return <p className="status">Memuat…</p>;
+  // Keyboard users always see the bars.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === "Tab" && setBars(true);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
 
-  const draft = sections.data.some((s) => s.ayahs.some((a) => a.phrases.length && !a.reviewed));
-  const prev = page > 1 && ready(page - 1) ? page - 1 : null;
-  const next = page < PAGES && ready(page + 1) ? page + 1 : null;
+  const onTap = (e: MouseEvent) => {
+    if ((e.target as Element).closest("a, button") || pager.wasDrag()) return;
+    if (window.getSelection()?.toString()) return;
+    setBars((b) => !b);
+  };
+
+  const turn = (dir: 1 | -1) => (e: MouseEvent) => {
+    e.preventDefault();
+    pager.go(dir);
+  };
+
+  let body;
+  if (!valid) body = <p className="status">Halaman tidak valid.</p>;
+  else if (root.status === "error") body = <p className="status">Gagal memuat: {root.error}</p>;
+  else if (root.status === "loading") body = <p className="status">Memuat…</p>;
+  else if (!shown) body = <p className="status">Halaman {page} belum tersedia.</p>;
+  else if (sections.status === "error") body = <p className="status">Gagal memuat: {sections.error}</p>;
+  else if (sections.status === "loading") body = <p className="status">Memuat…</p>;
+  else body = <MushafPage page={page} sections={sections.data} />;
+
+  // Panels are keyed by page, so the neighbour that slides in stays mounted as the new page.
+  const panels = [{ n: valid ? page : 0, offset: 0, ready: sections.status === "ok", content: body }];
+  for (const [n, s, offset] of [
+    [next, nextSections, -1],
+    [prev, prevSections, 1],
+  ] as const) {
+    if (n)
+      panels.push({
+        n,
+        offset,
+        ready: s.status === "ok",
+        content: s.status === "ok" ? <MushafPage page={n} sections={s.data} anchors={false} /> : <p className="status">Memuat…</p>,
+      });
+  }
+
+  const draft = sections.status === "ok" && sections.data.some((s) => s.ayahs.some((a) => a.phrases.length && !a.reviewed));
+  const names = sections.status === "ok" ? sections.data.map((s) => s.surah.name.latin).join(" · ") : "";
   return (
-    <main>
-      <h1 className="sr-only">Halaman {page}</h1>
-      {draft && (
-        <div className="page-tools">
-          <span className="draft" title="Terjemahan per frasa belum diperiksa">
-            Draf
-          </span>
+    <div className="reader">
+      <header className="bar bar-top" data-hidden={!bars || undefined}>
+        <div className="bar-inner">
+          <HomeLink />
+          <div className="bar-title">
+            {names && <span className="bar-names">{names}</span>}
+            {draft && (
+              <span className="draft" title="Terjemahan per frasa belum diperiksa">
+                Draf
+              </span>
+            )}
+          </div>
+          <ThemeToggle />
         </div>
-      )}
-      <MushafPage page={page} sections={sections.data} />
-      {(prev || next) && (
-        // Mushaf order: the next page lies to the left.
-        <nav className="page-nav" aria-label="Halaman lain">
-          {next ? <Link to={`/${next}`} rel="next">‹ Halaman {next}</Link> : <span />}
-          {prev ? <Link to={`/${prev}`} rel="prev">Halaman {prev} ›</Link> : <span />}
+      </header>
+      <div className="reader-track" ref={pager.ref} onClick={onTap} {...pager.touch}>
+        {panels.map(({ n, offset, ready, content }) => (
+          <Panel key={n} n={n} offset={offset} ready={ready}>
+            {offset === 0 && <h1 className="sr-only">Halaman {page}</h1>}
+            {content}
+          </Panel>
+        ))}
+      </div>
+      <footer className="bar bar-bottom" data-hidden={!bars || undefined}>
+        {/* Mushaf order: the next page lies to the left. */}
+        <nav className="bar-inner" aria-label="Halaman lain">
+          {next ? (
+            <Link className="turn" to={`/${next}`} rel="next" onClick={turn(1)} aria-label={`Halaman berikutnya, ${next}`}>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 5l-7 7 7 7" />
+              </svg>
+              {next}
+            </Link>
+          ) : (
+            <span className="turn" />
+          )}
+          <span className="bar-page">Halaman {valid ? page : "–"}</span>
+          {prev ? (
+            <Link className="turn" to={`/${prev}`} rel="prev" onClick={turn(-1)} aria-label={`Halaman sebelumnya, ${prev}`}>
+              {prev}
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          ) : (
+            <span className="turn" />
+          )}
         </nav>
-      )}
+      </footer>
+    </div>
+  );
+}
+
+/** Scroll position of each page read during this visit, so turning back shows it where it was left. */
+const scrolls = new Map<number, number>();
+
+/**
+ * One page in the swipe strip, `offset` screens from the centre (-1: next,
+ * on the left; 1: previous). It scrolls on its own and remembers where: a
+ * page comes back at that position once its content is drawn.
+ */
+function Panel({ n, offset, ready, children }: { n: number; offset: number; ready: boolean; children: ReactNode }) {
+  const ref = useRef<HTMLElement>(null);
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (el && ready) el.scrollTop = scrolls.get(n) ?? 0;
+  }, [n, ready]);
+  return (
+    <main
+      ref={ref}
+      className="reader-page"
+      style={offset ? { transform: `translateX(${offset * 100}%)` } : undefined}
+      data-current={offset === 0 || undefined}
+      aria-hidden={offset !== 0 || undefined}
+      inert={offset !== 0}
+      onScroll={(e) => scrolls.set(n, e.currentTarget.scrollTop)}
+    >
+      {children}
     </main>
   );
 }
