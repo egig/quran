@@ -434,7 +434,8 @@
     "48": {
       "phrases": [
         { "words": [1, 1], "id": "Di sisi mereka" },
-        { "words": [2, 4], "id": "ada (bidadari-bidadari) yang bermata indah dan membatasi pandangannya (dari selain pasangan mereka)" }
+        { "words": [2, 2], "id": "ada (bidadari-bidadari) yang bermata indah dan membatasi" },
+        { "words": [3, 4], "id": "pandangannya (dari selain pasangan mereka)" }
       ],
       "full": { "id": "Di sisi mereka ada (bidadari-bidadari) yang bermata indah dan membatasi pandangannya (dari selain pasangan mereka)." },
       "source": "kemenag-2019-adapted",

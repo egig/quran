@@ -434,9 +434,41 @@ a {
   inset: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
-  padding: calc(var(--bar-h) + env(safe-area-inset-top, 0px) + 16px) 16px
-    calc(var(--bar-h) + env(safe-area-inset-bottom, 0px) + 16px);
+  padding: env(safe-area-inset-top, 0px) 16px env(safe-area-inset-bottom, 0px);
   background: var(--bg);
+}
+
+/* The page's own header and footer fill the space under the fixed bars. */
+.page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: var(--mushaf-max);
+  height: var(--bar-h);
+  margin: 0 auto 16px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.page-head-names {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-foot {
+  display: flex;
+  align-items: center;
+  max-width: var(--mushaf-max);
+  min-height: var(--bar-h);
+  margin: 16px auto 0;
+}
+
+.page-foot .page-no {
+  flex: 1;
+  margin: 0;
 }
 
 .bar {

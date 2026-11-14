@@ -445,8 +445,11 @@
       "phrases": [
         { "words": [1, 6], "id": "Dialah yang menjadikan kamu sebagai khalifah-khalifah di bumi" },
         { "words": [7, 10], "id": "Siapa yang kufur, (akibat) kekufurannya akan menimpa dirinya sendiri" },
-        { "words": [11, 18], "id": "Kekufuran orang-orang kafir itu hanya akan menambah kemurkaan di sisi Tuhan mereka" },
-        { "words": [19, 24], "id": "Kekufuran orang-orang kafir itu juga hanya akan menambah kerugian mereka" }
+        { "words": [11, 11], "id": "Dan Tidak" },
+        { "words": [12, 12], "id": "Menambah (apapun)," },
+        { "words": [13, 18], "id": "Kekufuran orang-orang kafir itu, selain kemurkaan di sisi Tuhan mereka" },
+        { "words": [19, 21], "id": "Dan tidak menambah (apapun), orang-orang kafir itu" },
+        { "words": [22, 24], "id": "Kekufuran mereka, selain menambah kerugian mereka" }
       ],
       "full": { "id": "Dialah yang menjadikan kamu sebagai khalifah-khalifah di bumi. Siapa yang kufur, (akibat) kekufurannya akan menimpa dirinya sendiri. Kekufuran orang-orang kafir itu hanya akan menambah kemurkaan di sisi Tuhan mereka. Kekufuran orang-orang kafir itu juga hanya akan menambah kerugian mereka." },
       "source": "kemenag-2019-adapted",

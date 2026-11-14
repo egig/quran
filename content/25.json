@@ -157,8 +157,10 @@
       "phrases": [
         { "words": [1, 1], "id": "Katakanlah (Nabi Muhammad)" },
         { "words": [2, 3], "id": "Apakah (azab) seperti itu yang baik" },
-        { "words": [4, 9], "id": "atau surga yang kekal yang dijanjikan kepada orang-orang yang bertakwa" },
-        { "words": [10, 13], "id": "sebagai balasan dan tempat kembali bagi mereka" }
+        { "words": [4, 5], "id": "atau surga yang kekal" },
+        { "words": [6, 9], "id": "yang dijanjikan kepada orang-orang yang bertakwa" },
+        { "words": [10, 10], "id": "sebagai " },
+        { "words": [11, 13], "id": "balasan dan tempat kembali bagi mereka" }
       ],
       "full": { "id": "Katakanlah (Nabi Muhammad), “Apakah (azab) seperti itu yang baik atau surga yang kekal yang dijanjikan kepada orang-orang yang bertakwa sebagai balasan dan tempat kembali bagi mereka?”" },
       "source": "kemenag-2019-adapted",

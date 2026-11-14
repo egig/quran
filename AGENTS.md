@@ -68,8 +68,10 @@ Madinah mushaf prints it, with an Indonesian translation under each
 - The reading view is one mushaf page: `/{page}` (1–604). It shows every
   surah printed on that page, in order, each starting with its header where
   it starts on the page. There is no per-surah or single-ayah view. A page is
-  shown only when every surah on it is built. The page ends with a thin rule
-  and its printed page number.
+  shown only when every surah on it is built. Like a printed page, each page
+  has its own header (its surah names, and the juz of its first ayah) and
+  footer (a thin rule and its page number), in the space the fixed bars
+  cover, so hiding the bars leaves no empty space.
 - The reading view has a fixed header (back to "Daftar isi", the surah
   names, the "Draf" badge, the theme button) and a fixed footer (links to
   the neighbouring built pages, next page on the left as in the mushaf, and

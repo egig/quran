@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { MouseEvent, ReactNode } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router";
 import { usePage, useRootIndex } from "./data.ts";
+import type { PageSection } from "./data.ts";
 import { MushafPage } from "./components/MushafPage.tsx";
 import { SurahList } from "./components/SurahList.tsx";
 import { usePager } from "./components/usePager.ts";
@@ -115,7 +116,16 @@ function PageView() {
   else body = <MushafPage page={page} sections={sections.data} />;
 
   // Panels are keyed by page, so the neighbour that slides in stays mounted as the new page.
-  const panels = [{ n: valid ? page : 0, offset: 0, ready: sections.status === "ok", content: body }];
+  const juzOf = (data: PageSection[]) => {
+    const [s, a] = [data[0].surah.surah, data[0].ayahs[0].ayah];
+    const at = (p: [number, number]) => p[0] * 1000 + p[1];
+    return root.status === "ok" ? root.data.juz.find((j) => at(j.start) <= at([s, a]) && at([s, a]) <= at(j.end))?.juz : undefined;
+  };
+  const headOf = (s: typeof sections) =>
+    s.status === "ok" ? { names: s.data.map((x) => x.surah.name.latin).join(" · "), juz: juzOf(s.data) } : undefined;
+  const panels = [
+    { n: valid ? page : 0, offset: 0, ready: sections.status === "ok", head: headOf(sections), content: body },
+  ];
   for (const [n, s, offset] of [
     [next, nextSections, -1],
     [prev, prevSections, 1],
@@ -125,6 +135,7 @@ function PageView() {
         n,
         offset,
         ready: s.status === "ok",
+        head: headOf(s),
         content: s.status === "ok" ? <MushafPage page={n} sections={s.data} anchors={false} /> : <p className="status">Memuat…</p>,
       });
   }
@@ -148,8 +159,8 @@ function PageView() {
         </div>
       </header>
       <div className="reader-track" ref={pager.ref} onClick={onTap} {...pager.touch}>
-        {panels.map(({ n, offset, ready, content }) => (
-          <Panel key={n} n={n} offset={offset} ready={ready}>
+        {panels.map(({ n, offset, ready, head, content }) => (
+          <Panel key={n} n={n} offset={offset} ready={ready} head={head}>
             {offset === 0 && <h1 className="sr-only">Halaman {page}</h1>}
             {content}
           </Panel>
@@ -192,8 +203,24 @@ const scrolls = new Map<number, number>();
  * One page in the swipe strip, `offset` screens from the centre (-1: next,
  * on the left; 1: previous). It scrolls on its own and remembers where: a
  * page comes back at that position once its content is drawn.
+ *
+ * Like a printed page it has its own header (surah names, juz) and footer
+ * (a thin rule and the page number), in the space the fixed bars cover, so
+ * hiding the bars shows them instead of blank space.
  */
-function Panel({ n, offset, ready, children }: { n: number; offset: number; ready: boolean; children: ReactNode }) {
+function Panel({
+  n,
+  offset,
+  ready,
+  head,
+  children,
+}: {
+  n: number;
+  offset: number;
+  ready: boolean;
+  head?: { names: string; juz?: number };
+  children: ReactNode;
+}) {
   const ref = useRef<HTMLElement>(null);
   useLayoutEffect(() => {
     const el = ref.current;
@@ -209,7 +236,23 @@ function Panel({ n, offset, ready, children }: { n: number; offset: number; read
       inert={offset !== 0}
       onScroll={(e) => scrolls.set(n, e.currentTarget.scrollTop)}
     >
+      <div className="page-head" aria-hidden="true">
+        {head && (
+          <>
+            <span className="page-head-names">{head.names}</span>
+            {head.juz && <span>Juz {head.juz}</span>}
+          </>
+        )}
+      </div>
       {children}
+      {n > 0 && (
+        <footer className="page-foot">
+          <p className="page-no" lang="id">
+            <span className="sr-only">Halaman </span>
+            {n}
+          </p>
+        </footer>
+      )}
     </main>
   );
 }

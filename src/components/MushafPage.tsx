@@ -159,10 +159,6 @@ export function MushafPage({
           </section>
         );
       })}
-      <p className="page-no" lang="id">
-        <span className="sr-only">Halaman </span>
-        {page}
-      </p>
     </div>
   );
 }
