@@ -972,7 +972,9 @@
       "phrases": [
         { "words": [1, 5], "id": ["(Ingatlah) ketika Kami mengambil", "perjanjian dari Bani Israil"] },
         { "words": [6, 9], "id": "Janganlah kamu menyembah selain Allah" },
-        { "words": [10, 15], "id": "dan berbuat baiklah kepada kedua orang tua kerabat, anak-anak yatim, dan orang-orang miskin" },
+        { "words": [10, 10], "id": "dan kepada kedua orang tua" },
+        { "words": [11, 11], "id": "berbuat baiklah" },
+        { "words": [12, 15], "id": "serta kerabat, anak-anak yatim, dan orang-orang miskin" },
         { "words": [16, 16], "id": "Selain itu, bertutur katalah" },
         { "words": [17, 18], "id": "yang baik kepada manusia" },
         { "words": [19, 20], "id": "laksanakanlah salat" },
@@ -2662,7 +2664,8 @@
         { "words": [32, 35], "id": "sampai kamu murtad (keluar) dari agamamu" },
         { "words": [36, 37], "id": "jika mereka sanggup" },
         { "words": [38, 45], "id": ["Siapa", "di antara kamu yang murtad dari agamanya lalu dia mati dalam kekafiran"] },
-        { "words": [46, 51], "id": "sia-sialah amal mereka di dunia dan akhirat" },
+        { "words": [46, 46], "id": "maka (mereka itulah)" },
+        { "words": [47, 51], "id": "sia-sialah amal mereka di dunia dan akhirat" },
         { "words": [52, 54], "id": ["Mereka itulah penghuni", "neraka"] },
         { "words": [55, 57], "id": "Mereka kekal di dalamnya" }
       ],

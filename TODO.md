@@ -5,11 +5,6 @@
 Phrases split at a printed line break, using only the Kemenag words,
 reordered to follow the Arabic lines. These read stiffly; check the wording.
 
-- 72:7 "bahwa tidak akan membangkitkan kembali" | "Allah siapa pun (pada hari
-  Kiamat)": subject and object side by side.
-- 69:32 "Kemudian, dengan rantai" | "yang panjangnya tujuh puluh hasta belit
-  dia": the verb comes last.
-- 64:7 "Mengira orang-orang yang" | "kufur".
 - 65:10 "Sungguh, telah menurunkan" | "Allah peringatan kepadamu".
 - 63:6 "tidak akan" | "Allah mengampuni mereka".
 - 63:11 "Tidak akan menunda" | "Allah (kematian) seseorang".
