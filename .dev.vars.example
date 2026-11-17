@@ -1,0 +1,2 @@
+# Copy to .dev.vars for `npm run dev`. Generate with: openssl rand -base64 32
+BETTER_AUTH_SECRET=change-me-to-a-long-random-string

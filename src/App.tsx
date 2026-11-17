@@ -7,11 +7,16 @@ import { MushafPage } from "./components/MushafPage.tsx";
 import { SurahList } from "./components/SurahList.tsx";
 import { usePager } from "./components/usePager.ts";
 import { Menu, useTranslations } from "./components/Menu.tsx";
+import { AyahMenu, BookmarkIcon, useAyahPress } from "./components/AyahMenu.tsx";
+import { Bookmarks, SignIn } from "./components/AccountPages.tsx";
+import { useBookmarks } from "./account.ts";
 
 export function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/masuk" element={<Simple><SignIn /></Simple>} />
+      <Route path="/tanda" element={<Simple><Bookmarks /></Simple>} />
       <Route path="/:page" element={<PageView />} />
       <Route
         path="*"
@@ -42,6 +47,19 @@ function Home() {
         <a href="https://png.quran.ws/about/">png.quran.ws</a> (CC BY 4.0). Terjemahan disadur dari Terjemahan
         Kemenag RI 2019.
       </footer>
+    </div>
+  );
+}
+
+/** A plain page with the top bar (back to the contents, menu). */
+function Simple({ children }: { children: ReactNode }) {
+  return (
+    <div className="page">
+      <nav className="topbar">
+        <HomeLink />
+        <Menu />
+      </nav>
+      <main>{children}</main>
     </div>
   );
 }
@@ -86,6 +104,13 @@ function PageView() {
   const [bars, setBars] = useState(true);
   const translations = useTranslations();
   const showTr = translations[0];
+  const surahName = (n: number) =>
+    (root.status === "ok" ? root.data.surahs[n - 1]?.name.latin : undefined) ?? `Surah ${n}`;
+  const press = useAyahPress(surahName);
+  const marks = useBookmarks();
+  // Close the ayah menu when the page changes.
+  const { close } = press;
+  useEffect(close, [page, close]);
 
   useEffect(() => {
     if (sections.status === "ok" && hash) document.getElementById(hash.slice(1))?.scrollIntoView();
@@ -99,7 +124,7 @@ function PageView() {
   }, []);
 
   const onTap = (e: MouseEvent) => {
-    if ((e.target as Element).closest("a, button") || pager.wasDrag()) return;
+    if ((e.target as Element).closest("a, button") || pager.wasDrag() || press.consumed()) return;
     if (window.getSelection()?.toString()) return;
     setBars((b) => !b);
   };
@@ -124,8 +149,17 @@ function PageView() {
     const at = (p: [number, number]) => p[0] * 1000 + p[1];
     return root.status === "ok" ? root.data.juz.find((j) => at(j.start) <= at([s, a]) && at([s, a]) <= at(j.end))?.juz : undefined;
   };
+  // Bookmarked ayahs printed on a page, shown in its header ("2:255"): the
+  // artwork itself is never marked.
+  const marksOf = (data: PageSection[]) =>
+    (marks ?? [])
+      .filter((b) => data.some((x) => x.surah.surah === b.surah && x.ayahs.some((a) => a.ayah === b.ayah)))
+      .sort((a, b) => a.surah - b.surah || a.ayah - b.ayah)
+      .map((b) => `${b.surah}:${b.ayah}`);
   const headOf = (s: typeof sections) =>
-    s.status === "ok" ? { names: s.data.map((x) => x.surah.name.latin).join(" · "), juz: juzOf(s.data) } : undefined;
+    s.status === "ok"
+      ? { names: s.data.map((x) => x.surah.name.latin).join(" · "), juz: juzOf(s.data), marks: marksOf(s.data) }
+      : undefined;
   const panels = [
     { n: valid ? page : 0, offset: 0, ready: sections.status === "ok", head: headOf(sections), content: body },
   ];
@@ -161,7 +195,16 @@ function PageView() {
           <Menu translations={translations} />
         </div>
       </header>
-      <div className="reader-track" ref={pager.ref} onClick={onTap} {...pager.touch}>
+      <div
+        className="reader-track"
+        ref={pager.ref}
+        onClick={onTap}
+        onContextMenu={press.handlers.onContextMenu}
+        onTouchStart={(e) => (pager.touch.onTouchStart(e), press.handlers.onTouchStart(e))}
+        onTouchMove={(e) => (pager.touch.onTouchMove(e), press.handlers.onTouchMove(e))}
+        onTouchEnd={(e) => (pager.touch.onTouchEnd(e), press.handlers.onTouchEnd())}
+        onTouchCancel={() => (pager.touch.onTouchCancel(), press.handlers.onTouchCancel())}
+      >
         {panels.map(({ n, offset, ready, head, content }) => (
           <Panel key={n} n={n} offset={offset} ready={ready} head={head}>
             {offset === 0 && <h1 className="sr-only">Halaman {page}</h1>}
@@ -169,6 +212,7 @@ function PageView() {
           </Panel>
         ))}
       </div>
+      {press.target && <AyahMenu target={press.target} page={page} close={press.close} />}
       <footer className="bar bar-bottom" data-hidden={!bars || undefined}>
         {/* Mushaf order: the next page lies to the left. */}
         <nav className="bar-inner" aria-label="Halaman lain">
@@ -221,7 +265,7 @@ function Panel({
   n: number;
   offset: number;
   ready: boolean;
-  head?: { names: string; juz?: number };
+  head?: { names: string; juz?: number; marks: string[] };
   children: ReactNode;
 }) {
   const ref = useRef<HTMLElement>(null);
@@ -243,6 +287,12 @@ function Panel({
         {head && (
           <>
             <span className="page-head-names">{head.names}</span>
+            {head.marks.length > 0 && (
+              <span className="page-head-marks">
+                <BookmarkIcon filled />
+                {head.marks.join(", ")}
+              </span>
+            )}
             {head.juz && <span>Juz {head.juz}</span>}
           </>
         )}

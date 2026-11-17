@@ -1,0 +1,32 @@
+// Cloudflare Workers deployment: the built site as static assets, plus a
+// Worker for /api/* (better-auth email-link sign-in and bookmarks, in D1).
+// See README "Deploy" for the one-time setup.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "quran-terjemah",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    // Deep links (/602, /masuk) get index.html; the router takes over.
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "quran-terjemah",
+      // From `npx wrangler d1 create quran-terjemah`.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Cloudflare Email Service: sends the sign-in link to any address. The
+  // sender domain (EMAIL_FROM) must be onboarded in Email Service.
+  "send_email": [{ "name": "EMAIL" }],
+  "vars": {
+    "EMAIL_FROM": "masuk@example.com"
+  },
+  "observability": { "enabled": true }
+}

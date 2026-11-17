@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import { Link, useLocation } from "react-router";
+import { signOut, useAccount } from "../account.ts";
 
 type Theme = "light" | "dark";
 
@@ -59,12 +61,16 @@ export function useTranslations(): [boolean, () => void] {
 }
 
 /**
- * The "more" menu (⋮) at the right of the top bar: dark mode and, in the
- * reader, translations on or off.
+ * The "more" menu (⋮) at the right of the top bar: dark mode, in the reader
+ * translations on or off, the reader's bookmarks, and signing in or out.
  */
 export function Menu({ translations }: { translations?: [boolean, () => void] }) {
   const [open, setOpen] = useState(false);
   const [theme, toggleTheme] = useTheme();
+  const { user, pending } = useAccount();
+  const { pathname } = useLocation();
+  // Close after following a link.
+  useEffect(() => setOpen(false), [pathname]);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -106,6 +112,28 @@ export function Menu({ translations }: { translations?: [boolean, () => void] })
         <div className="menu-list" role="menu">
           <Switch label="Mode gelap" on={theme === "dark"} toggle={toggleTheme} />
           {translations && <Switch label="Terjemahan" on={translations[0]} toggle={translations[1]} />}
+          <hr className="menu-sep" />
+          <Link role="menuitem" className="menu-item" to="/tanda">
+            Tanda ayat
+          </Link>
+          {pending ? null : user ? (
+            <>
+              <p className="menu-note" title={user.email}>
+                {user.email}
+              </p>
+              <button type="button" role="menuitem" className="menu-item" onClick={() => void signOut().then(() => setOpen(false))}>
+                Keluar
+              </button>
+            </>
+          ) : (
+            <Link
+              role="menuitem"
+              className="menu-item"
+              to={pathname === "/masuk" ? "/masuk" : `/masuk?kembali=${encodeURIComponent(pathname)}`}
+            >
+              Masuk
+            </Link>
+          )}
         </div>
       )}
     </div>

@@ -48,7 +48,8 @@ interface Segment {
 
 interface Line {
   n: number;
-  glyphs: Glyph[];
+  /** Each glyph with its ayah (null: the basmalah). */
+  glyphs: { glyph: Glyph; ayah: number | null }[];
   segments: Segment[];
 }
 
@@ -111,7 +112,12 @@ export function MushafPage({
         const dx = layout.left - left;
         const starts = layout.pages[0].page === page;
         return (
-          <section key={surah.surah} className="surah-section" id={anchors ? `s${surah.surah}` : undefined}>
+          <section
+            key={surah.surah}
+            className="surah-section"
+            id={anchors ? `s${surah.surah}` : undefined}
+            data-s={surah.surah}
+          >
             {starts &&
               (layout.header ? (
                 // The surah's printed name, from the mushaf's artwork, between two thin rules.
@@ -160,8 +166,13 @@ export function MushafPage({
                 <div className="mline" key={line.n}>
                   <svg viewBox={`0 ${top} ${width} ${bottom - top}`} fill="currentColor" aria-hidden="true">
                     <g transform={`translate(${dx} 0)`}>
-                      {line.glyphs.flatMap((g) => g.paths).map((p, i) => (
-                        <path key={i} d={p.d} fillRule={p.rule} />
+                      {line.glyphs.map(({ glyph, ayah }, i) => (
+                        // data-a lets a right click or long press find the ayah (see ayahAt).
+                        <g key={i} data-a={ayah ?? undefined}>
+                          {glyph.paths.map((p, j) => (
+                            <path key={j} d={p.d} fillRule={p.rule} />
+                          ))}
+                        </g>
                       ))}
                     </g>
                   </svg>
@@ -237,9 +248,9 @@ function linesOf(page: number, ayahs: AyahData[], basmalah: Glyph | null): Line[
     if (!l) lines.set(n, (l = { n, glyphs: [], segments: [] }));
     return l;
   };
-  if (basmalah) lineAt(basmalah.line).glyphs.push(basmalah);
+  if (basmalah) lineAt(basmalah.line).glyphs.push({ glyph: basmalah, ayah: null });
   for (const a of ayahs) {
-    for (const g of [...a.words, a.mark]) if (g.page === page) lineAt(g.line).glyphs.push(g);
+    for (const g of [...a.words, a.mark]) if (g.page === page) lineAt(g.line).glyphs.push({ glyph: g, ayah: a.ayah });
     for (const p of a.phrases) {
       const words = a.words.slice(p.from - 1, p.to);
       const keys = [...new Set(words.map((w) => `${w.page}:${w.line}`))];
@@ -255,4 +266,22 @@ function linesOf(page: number, ayahs: AyahData[], basmalah: Glyph | null): Line[
     }
   }
   return [...lines.values()].sort((a, b) => a.n - b.n);
+}
+
+/**
+ * The ayah under a point on a mushaf page: the glyph of the printed line
+ * (its Arabic or its translation row) nearest to `x` horizontally, so a
+ * press between two words or on a translation still finds an ayah.
+ */
+export function ayahAt(target: Element, x: number): { surah: number; ayah: number } | null {
+  const line = target.closest(".mline");
+  const surah = Number(target.closest<HTMLElement>("[data-s]")?.dataset.s);
+  if (!line || !surah) return null;
+  let best: { ayah: number; d: number } | null = null;
+  for (const g of line.querySelectorAll<SVGGElement>("g[data-a]")) {
+    const r = g.getBoundingClientRect();
+    const d = x < r.left ? r.left - x : x > r.right ? x - r.right : 0;
+    if (!best || d < best.d) best = { ayah: Number(g.dataset.a), d };
+  }
+  return best && { surah, ayah: best.ayah };
 }
